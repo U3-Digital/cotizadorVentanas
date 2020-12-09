@@ -10,7 +10,7 @@
 	  <link href="views/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	  <link href="views/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="views/css/sb-admin.css" rel="stylesheet">
-    <link href="views/css//style.css" rel="stylesheet">
+    <link href="views/css/style.css" rel="stylesheet">
 
 	<title>Cotizador Online</title>
 
@@ -52,12 +52,12 @@
     <script src="views/vendor/jquery/jquery.min.js"></script>
     <script src="views/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="views/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="views/vendor/chart.js/Chart.min.js"></script>
+    <!-- <script src="views/vendor/chart.js/Chart.min.js"></script> -->
     <script src="views/vendor/datatables/jquery.dataTables.js"></script>
     <script src="views/vendor/datatables/dataTables.bootstrap4.js"></script>
     <script src="views/js/sb-admin.min.js"></script>
     <script src="views/js/sb-admin-datatables.min.js"></script>
-    <script src="views/js/sb-admin-charts.min.js"></script>
+    <!-- <script src="views/js/sb-admin-charts.min.js"></script> -->
     <script src="views/js/validarIngreso.js"></script>
     <!-- Scripts para wizzard -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>

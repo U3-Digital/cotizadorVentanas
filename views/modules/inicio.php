@@ -75,8 +75,8 @@ else {
                 </div>
               </div>
               <!--form panels-->
-              <div class="row">
-                <div class="col-12 col-lg-8 m-auto">
+              <div class="row col-12">
+                <div class="col-12 col-lg-12 m-auto">
                   <form class="multisteps-form__form">
                     <!--single form panel-->
                     <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
