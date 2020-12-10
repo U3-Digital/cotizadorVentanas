@@ -1,12 +1,20 @@
 <?php
 
-class Conexion{
+class Conexion {
+    public static function conectar() {
 
-	public function conectar(){
+        $servername = "127.0.0.1";
+        $username = "root";
+        $password = "";
+        $dbname = "cotizador";
 
-		$link = new PDO("mysql:host=localhost;dbname=sistema","root","12345678");
-		return $link;
+        try {
+            $conexion = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+            
+            $conexion -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $exception) {
 
-	}
-
+        }
+        return $conexion;
+    }
 }
