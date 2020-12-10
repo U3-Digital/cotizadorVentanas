@@ -2,7 +2,7 @@
 
 require_once "conexion.php";
 
-class IngresoModel {
+class ModelIngreso {
     public static function mdlIngresar($datosModel) {
         $statement = Conexion::conectar() -> prepare("SELECT * FROM `usuarios` WHERE `usuario` = :nombreUsuario");
 

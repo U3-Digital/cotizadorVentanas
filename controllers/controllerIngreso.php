@@ -3,7 +3,24 @@
 class ControllerIngreso {
     public function ctrIngresar() {
         if (isset($_POST["nombreUsuario"])) {
-            header("location:views/components/inicio.php");
+            $datosController = array(
+                "nombreUsuario" => $_POST["nombreUsuario"],
+                "passwordUsuario" => $_POST["passwordUsuario"]
+            );
+        
+
+            $respuesta = ModelIngreso::mdlIngresar($datosController);
+
+            if ($_POST["nombreUsuario"] === $respuesta["usuario"] && password_verify($_POST["passwordUsuario"], $respuesta["password"]) && $respuesta["activo"] === "S") {
+                session_start();
+
+                $_SESSION["validar"] = true;
+                $_SESSION["email"] = $respuesta["email"];
+                $_SESSION["nombre"] = $respuesta["nombre"];
+                $_SESSION["rol"] = $respuesta["rol"];
+
+                header("location:views/components/inicio.php");
+            }
         }
     }
 }
