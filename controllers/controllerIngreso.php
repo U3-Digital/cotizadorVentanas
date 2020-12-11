@@ -1,7 +1,7 @@
 <?php
 
 class ControllerIngreso {
-    public function ctrIngresar() {
+    public static function ctrIngresar() {
         if (isset($_POST["nombreUsuario"])) {
             $datosController = array(
                 "nombreUsuario" => $_POST["nombreUsuario"],
