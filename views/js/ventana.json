@@ -12,7 +12,7 @@
 	"tipos": [
 		{
 			"nombre": "Básica",
-			"ceja": [ { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
+			"ceja": [  {"nombre" : "Sin ceja"},  { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio sencillo",
@@ -245,7 +245,7 @@
 		},
 		{
 			"nombre": "Premium",
-			"ceja": [ { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
+			"ceja": [  {"nombre" : "Sin ceja"},  { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio Doble",
@@ -448,7 +448,7 @@
 		},
 		{
 			"nombre": "Plus",
-			"ceja": [ { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
+			"ceja": [  {"nombre" : "Sin ceja"},  { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio sencillo",
@@ -729,7 +729,7 @@
 		},
 		{
 			"nombre": "PD10",
-			"ceja": [ { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
+			"ceja": [  {"nombre" : "Sin ceja"},  { "nombre": "Ceja" }, { "nombre": "Ceja enfrente" } ],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio sencillo",

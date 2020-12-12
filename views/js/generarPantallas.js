@@ -1,5 +1,5 @@
 const arreglo = [];
-setSteps(["serie", "Tipo", "Subtipo", "Dimensión","Tipo"]);
+setSteps(["serie", "Tipo", "Subtipo", "Dimensión","Tipo vidrio","tipos","Ceja"]);
 setLayouts([""]);
 
 generateStepper();
@@ -22,7 +22,7 @@ function cargarSeries(ventana) {
     ventana.tipos.forEach((serie) => {
         temporal += `<div class="col-3 borde text-center">
         <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
-        <input   type="radio" name="cosa" id="cosa${i}" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie)})'>
+        <input type="radio" name="cosa" id="cosa${i}" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie)})'>
         <label for="cosa${i}">${serie.nombre}</label>
       </div>`;
       i++;
@@ -54,7 +54,6 @@ function cargarTipo(serie){
 } 
 
 function cargarSubTipo(tipo,serie){
-    console.log(serie);
     let temporal = '';
     agregarARuta(tipo.nombre,true);
     let i = 0;
@@ -92,7 +91,7 @@ function cargarDimension(subtipo,serie){
     <input class="col-4" type="text" placeholder="Ancho"/>
     <button onClick = 'cargarTipoVidrio(${JSON.stringify(serie)})' class="col-3" type="button" title="Next">Siguiente</button>
     </div>`;
-
+    
     arreglo.push(tableString);
     setLayouts(arreglo);
     generateStepper();
@@ -101,9 +100,53 @@ function cargarDimension(subtipo,serie){
 }
 
 function cargarTipoVidrio(serie){
-    console.log(serie);
+    let temporal = '';
+    let i = 0;
+    serie.tipoVidrio.forEach((tipoVidrio) => {
+        temporal += `<div class="col-3 borde text-center">
+        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <input type="radio" name="cosa" id="cosa${i}" value="${tipoVidrio.nombre}" onChange='cargarSubTipoVidrio(${JSON.stringify(tipoVidrio)},${JSON.stringify(serie)});'>
+        <label for="cosa${i}">${tipoVidrio.nombre}</label>
+      </div>`;
+      i++;
+    });
+    arreglo.push(temporal);
+    setLayouts(arreglo);
+    generateStepper();
 }
 
+function cargarSubTipoVidrio(tipoVidrio, serie){
+    let temporal = '';
+    let i = 0;
+    tipoVidrio.tipos.forEach((subtipo) => {
+        temporal += `<div class="col-3 borde text-center">
+        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <input type="radio" name="cosa" id="cosa${i}" value="${subtipo.nombre}" onChange='cargarCeja(${JSON.stringify(serie)});'>
+        <label for="cosa${i}">${subtipo.nombre}</label>
+      </div>`;
+      i++;
+    });
+    arreglo.push(temporal);
+    setLayouts(arreglo);
+    generateStepper();
+}
+
+
+function cargarCeja(serie){
+    let temporal = '';
+    let i = 0;
+    serie.ceja.forEach((ceja) => {
+        temporal += `<div class="col-3 borde text-center">
+        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <input type="radio" name="cosa" id="cosa${i}" value="${ceja.nombre}" onChange='cargarCeja(${JSON.stringify(serie)});'>
+        <label for="cosa${i}">${ceja.nombre}</label>
+      </div>`;
+      i++;    
+    });
+    arreglo.push(temporal);
+    setLayouts(arreglo);
+    generateStepper();
+}
 
 
 
