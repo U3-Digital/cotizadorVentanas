@@ -28,7 +28,7 @@ session_start();
   <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="../../lib/vendor/sweetalert2/sweetalert2.min.css">
-  <!-- <link rel="stylesheet" href="../css/styleStepper.css"> -->
+  <link rel="stylesheet" href="../css/styleStepper.css">
   <script src="../../lib/vendor/sweetalert2/sweetalert2.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -43,23 +43,14 @@ session_start();
 </head>
 
 <body>
-  <div class="row borde p-1" style="background-color: #FAFAFA;">
-    <div class="col-8 borde">
-      <div class="card">
-        <div class="card-body">
-          <div id="main" class="row">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php
+    include './stepper.php';
+  ?>
 
-  <!-- <script src="../js/script.js"></script> -->
   <script src="../../lib/vendor/bootstrap/js/bootstrap.js"></script>
   <!-- <script type="text/javascript" src="../../lib/vendor/adminlte/dist/js/adminlte.js"></script> -->
   <script type="text/javascript" src="../js/sb-admin.min.js"></script>
-  <script src="../js/generarPantallas.js"></script>
+  <!-- <script src="../js/generarPantallas.js"></script> -->
 
 </body>
 
