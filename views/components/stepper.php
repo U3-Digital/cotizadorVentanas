@@ -27,12 +27,7 @@
 
 <script src="../js/stepper.js"></script>
 
-<script>
-  setSteps(["Paso 1", "Paso 2", "Paso 3", "Color bien vergas"]);
-  setLayouts(["<h3>1asdas</h3>"]);
-
-  generateStepper();
-</script>
+<script src="../js/generarPantallas.js"></script>
 
 
 
