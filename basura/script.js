@@ -1,4 +1,4 @@
-//DOM elements
+/* //DOM elements
 const DOMstrings = {
   stepsBtnClass: 'multisteps-form__progress-btn',
   stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
@@ -181,4 +181,4 @@ animationSelect.addEventListener('change', () => {
   const newAnimationType = animationSelect.value;
 
   setAnimationType(newAnimationType);
-});
+}); */

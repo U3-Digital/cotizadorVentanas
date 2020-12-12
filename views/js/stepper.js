@@ -18,11 +18,11 @@ function setLayouts(fLayouts) {
   });
 }
 
-function generateSteps() {
+function generateSteps(selected) {
   progress.innerHTML = '';
   let i = 0;
   steps.forEach((text) => {
-    if (i === 0) {
+    if (i === selected) {
       progress.innerHTML += `<button class="multisteps-form__progress-btn js-active" type="button" title="${text}">${text}</button>`;
     } else {
       progress.innerHTML += `<button class="multisteps-form__progress-btn" type="button" title="${text}">${text}</button>`;
@@ -31,11 +31,11 @@ function generateSteps() {
   });
 }
 
-function generateStepsLayout() {
+function generateStepsLayout(selected) {
   container.innerHTML = '';
   let i = 0;
   layouts.forEach((layout) => {
-    if (i === 0) {
+    if (i === selected) {
       container.innerHTML += `<div class="multisteps-form__panel shadow p-4 rounded bg-white js-active">${layout}</div>`;
     } else {
       container.innerHTML += `<div class="multisteps-form__panel shadow p-4 rounded bg-white">${layout}</div>`;
@@ -44,13 +44,13 @@ function generateStepsLayout() {
   });
 }
 
-function generateStepper() {
+function generateStepper(selected) {
   if (steps.length > 0 && layouts.length > 0) {
     if (progress) {
-      generateSteps();
+      generateSteps(selected);
 
       if (container) {
-        generateStepsLayout();
+        generateStepsLayout(selected);
           //DOM elements
           const DOMstrings = {
             stepsBtnClass: 'multisteps-form__progress-btn',
@@ -219,7 +219,7 @@ function generateStepper() {
           //SETTING PROPER FORM HEIGHT ONRESIZE
           window.addEventListener('resize', setFormHeight, false);
         
-
+          setActiveStep(selected);
       } else {
         console.log('El elemento multisteps-form__form');
       }
