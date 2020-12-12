@@ -31,7 +31,7 @@ session_start();
   <link rel="stylesheet" href="../css/styleStepper.css">
   <script src="../../lib/vendor/sweetalert2/sweetalert2.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
@@ -50,7 +50,7 @@ session_start();
   <script src="../../lib/vendor/bootstrap/js/bootstrap.js"></script>
   <!-- <script type="text/javascript" src="../../lib/vendor/adminlte/dist/js/adminlte.js"></script> -->
   <script type="text/javascript" src="../js/sb-admin.min.js"></script>
-  <!-- <script src="../js/generarPantallas.js"></script> -->
+  
 
 </body>
 
