@@ -116,3 +116,24 @@ select {
 .f-right {
     float: right;
 }
+
+.selectable {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    transition: all 0.2s;
+    margin-top: 0.8em;
+}
+
+.selectable:hover {
+    border-color: #CCCCCC;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.selectable img {
+    margin-top: 10px;
+}
+
+.selectable .form-check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
