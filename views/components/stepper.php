@@ -22,6 +22,33 @@
       </div>
     </div>
   </div>
+  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+    <h3>Detalles</h3>
+    <div class="row" id="details-container-serie">
+      <p>Serie: <span>Aún no se selecciona una Serie</span></p>
+    </div>
+    <div class="row" id="details-container-tipo-ventana">
+      <p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>
+    </div>
+    <div class="row" id="details-container-subtipo-ventana">
+      <p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>
+    </div>
+    <div class="row" id="details-container-dimensiones">
+      <p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>
+    </div>
+    <div class="row" id="details-container-tipo-vidrio">
+      <p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>
+    </div>
+    <div class="row" id="details-container-subtipo-vidrio">
+      <p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>
+    </div>
+    <div class="row" id="details-container-ceja">
+      <p>Ceja: <span>Aún no se selecciona una ceja</span></p>
+    </div>
+    <div class="row" id="details-container-color">
+      <p>Color: <span>Aún no se selecciona un color</span></p>
+    </div>
+  </div>
 </div>
 
 

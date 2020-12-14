@@ -23,11 +23,14 @@ let ruta  = {
 
 const rutaVentana = Object.create(ruta);
 
-const mainContainerSerie = document.getElementById('main-serie');
-const mainContainerTipo = document.getElementById('main-tipo');
-const maincontainerSubTipo = document.getElementById('main-subtipo');
-const maincontainerDimension = document.getElementById('main-dimension');
-
+const detailsContainerSerie = document.getElementById('details-container-serie');
+const detailsContainerTipoVentana = document.getElementById('details-container-tipo-ventana');
+const detailsContainerSubtipoVentana = document.getElementById('details-container-subtipo-ventana');
+const detailsContainerDimensiones = document.getElementById('details-container-dimensiones');
+const detailsContainerTipoVidrio  = document.getElementById('details-container-tipo-vidrio');
+const detailsContainerSubtipoVidrio = document.getElementById('details-container-subtipo-vidrio');
+const detailsContainerCejas = document.getElementById('details-container-ceja');
+const detailsContainerColor = document.getElementById('details-container-color');
 
 
 function requestListener() {
@@ -278,11 +281,22 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
                 
+
+                detailsContainerSerie.innerHTML = `<p>Serie: <span>Aún no se selecciona una Serie</span></p>`;
+                detailsContainerTipoVentana.innerHTML = `<p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>`;
+                detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>`;
+                detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
+                detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 1; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
             rutaVentana.serie = text;
+            detailsContainerSerie.innerHTML = `<p>Serie: <span>${text}</span></p>`;
             break;
         case "tipoVentana":
 
@@ -295,12 +309,21 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerTipoVentana.innerHTML = `<p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>`;
+                detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>`;
+                detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
+                detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 2; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
             rutaVentana.tipoVentana = text;
+            detailsContainerTipoVentana.innerHTML = `<p>Tipo ventana: <span>${text}</span></p>`;
             break;
         case "subtipoVentana":
             
@@ -312,12 +335,21 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>`;
+                detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
+                detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 3; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
             rutaVentana.subtipoVentana = text;
+            detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>${text}</span></p>`
+            break;
         case "dimension":
 
             if (rutaVentana.dimension) {
@@ -327,6 +359,12 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
+                detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 4; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
@@ -334,6 +372,7 @@ function agregarARuta(text, propiedad) {
 
             rutaVentana.dimension.ancho = "10";
             rutaVentana.dimension.alto = "45";
+            detailsContainerDimensiones.innerHTML = `<p>Ancho: <span>${text}</span> Alto: <span>${text}</span></p>`;
             break;
         case "tipoVidrio":
 
@@ -343,12 +382,18 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 5; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
             rutaVentana.tipoVidrio = text;
+            detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>${text}</span></p>`;
             break;
         case "subtipoVidrio":
 
@@ -357,12 +402,17 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 for (let i = 6; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
             rutaVentana.subtipoVidrio = text;
+            detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>${text}</span></p>`
             break;
         case "ceja":
 
@@ -370,11 +420,15 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.ceja;
                 delete rutaVentana.color;
 
+                detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
+                detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+
                 arreglo[7] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 
             }
 
             rutaVentana.ceja = text;
+            detailsContainerCejas.innerHTML = `<p>Ceja: <span>${text}</span></p>`
             break;
         case "colorPrincipal":
 
