@@ -8,20 +8,17 @@ let ruta  = {
     serie: "",
     tipoVentana: "",
     subTipoVentana: "",
-    dimension: {
-        ancho: "",
-        alto: ""
-    },
+    dimensionAncho: "",
+    dimensionAlto: "",
     tipoVidrio: "",
     subTipoVidrio: "",
     ceja: "",
-    color: {
-        principal: "",
-        subColor: ""
-    }
+    colorPrincipal: "",
+    colorSecundario: ""
 };
 
 const rutaVentana = Object.create(ruta);
+const prueba = Object.create(ruta);
 
 const detailsContainerSerie = document.getElementById('details-container-serie');
 const detailsContainerTipoVentana = document.getElementById('details-container-tipo-ventana');
@@ -31,7 +28,8 @@ const detailsContainerTipoVidrio  = document.getElementById('details-container-t
 const detailsContainerSubtipoVidrio = document.getElementById('details-container-subtipo-vidrio');
 const detailsContainerCejas = document.getElementById('details-container-ceja');
 const detailsContainerColor = document.getElementById('details-container-color');
-
+const detailContainerSubColor = document.getElementById('details-container-subcolor');
+const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 
 function requestListener() {
     let ventana = JSON.parse(this.responseText);
@@ -124,7 +122,6 @@ function cargarDimension(subtipo, serie, ventana){
             <tbody>`;
     subtipo.dimensiones.forEach((dimension) => {
         tableString += `<tr><td>${dimension.nombre}</td><td>${dimension.ancho}</td><td>${dimension.alto}</td></tr>`;
-        console.log(dimension);
     });
 
     tableString += `</tbody></table></div></div>`;
@@ -132,14 +129,14 @@ function cargarDimension(subtipo, serie, ventana){
     tableString += `</br>
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-4 col-lg-3">
-            <input class="form-control" type="text" placeholder="Alto"/>
+            <input class="form-control" type="text" id="text-field-alto" placeholder="Alto"/>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-3">
-            <input class="form-control" type="text" placeholder="Ancho"/>
+            <input class="form-control" type="text" id="text-field-ancho" placeholder="Ancho"/>
         </div>
         <br>
         <div class="col-sm-12 col-md-4 col-lg-3">
-            <button onClick='cargarTipoVidrio(${JSON.stringify(serie)},${JSON.stringify(ventana)})' class="btn btn-block btn-primary" type="button" title="Next">Siguiente</button>
+            <button onClick='verificarDimensiones(${JSON.stringify(serie)},${JSON.stringify(ventana)})' class="btn btn-block btn-primary" type="button" title="Next">Siguiente</button>
         </div>
     </div>`;
     
@@ -148,6 +145,16 @@ function cargarDimension(subtipo, serie, ventana){
     generateStepper(3);
 
 
+}
+
+function verificarDimensiones(serie,ventana){
+    const textFieldAncho = document.getElementById('text-field-ancho');
+    const textFieldAlto = document.getElementById('text-field-alto');
+
+    const dimension = `${textFieldAlto.value}/-/${textFieldAncho.value}`
+    agregarARuta(dimension,"dimension");
+
+    cargarTipoVidrio(serie,ventana);
 }
 
 function cargarTipoVidrio(serie, ventana){
@@ -263,6 +270,11 @@ function cargarSubcolores(color) {
         });
         temporal += '</div>';
         containerColores.innerHTML += temporal;
+        detailContainerSubColor.innerHTML = `<p>Subcolor: <span>Aún no se selecciona un subcolor</span></p>`;
+   }else{
+       detailContainerSubColor.innerHTML = ``;
+       containerColores.innerHTML = ``;
+       agregarARuta("","eliminaSubcolor")
    }
 }
 
@@ -275,12 +287,14 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.serie;
                 delete rutaVentana.tipoVentana;
                 delete rutaVentana.subtipoVentana;
-                delete rutaVentana.dimension;
+                delete rutaVentana.dimensionAlto;
+                delete rutaVentana.dimensionAncho;
                 delete rutaVentana.tipoVidrio;
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
-                
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerSerie.innerHTML = `<p>Serie: <span>Aún no se selecciona una Serie</span></p>`;
                 detailsContainerTipoVentana.innerHTML = `<p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>`;
@@ -290,6 +304,7 @@ function agregarARuta(text, propiedad) {
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 1; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
@@ -303,11 +318,14 @@ function agregarARuta(text, propiedad) {
             if (rutaVentana.tipoVentana) {
                 delete rutaVentana.tipoVentana;
                 delete rutaVentana.subtipoVentana;
-                delete rutaVentana.dimension;
+                delete rutaVentana.dimensionAlto;
+                delete rutaVentana.dimensionAncho;
                 delete rutaVentana.tipoVidrio;
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerTipoVentana.innerHTML = `<p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>`;
                 detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>`;
@@ -316,6 +334,7 @@ function agregarARuta(text, propiedad) {
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 2; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
@@ -329,11 +348,14 @@ function agregarARuta(text, propiedad) {
             
             if (rutaVentana.subtipoVentana) {
                 delete rutaVentana.subtipoVentana;
-                delete rutaVentana.dimension;
+                delete rutaVentana.dimensionAlto;
+                delete rutaVentana.dimensionAncho;
                 delete rutaVentana.tipoVidrio;
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerSubtipoVentana.innerHTML = `<p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>`;
                 detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
@@ -341,6 +363,7 @@ function agregarARuta(text, propiedad) {
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 3; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
@@ -353,26 +376,32 @@ function agregarARuta(text, propiedad) {
         case "dimension":
 
             if (rutaVentana.dimension) {
-                delete rutaVentana.dimension;
+                delete rutaVentana.dimensionAlto;
+                delete rutaVentana.dimensionAncho;
                 delete rutaVentana.tipoVidrio;
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerDimensiones.innerHTML = `<p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>`;
                 detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 4; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
-            rutaVentana.dimension.ancho = "10";
-            rutaVentana.dimension.alto = "45";
-            detailsContainerDimensiones.innerHTML = `<p>Ancho: <span>${text}</span> Alto: <span>${text}</span></p>`;
+            const dimensiones = text.split("/-/");
+
+            rutaVentana.dimensionAncho = dimensiones[1];
+            rutaVentana.dimensionAlto = dimensiones[0];
+            detailsContainerDimensiones.innerHTML = `<p>Ancho: <span>${dimensiones[1]}</span> Alto: <span>${dimensiones[0]}</span></p>`;
             break;
         case "tipoVidrio":
 
@@ -380,12 +409,15 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.tipoVidrio;
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerTipoVidrio.innerHTML = `<p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>`;
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 5; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
@@ -400,11 +432,15 @@ function agregarARuta(text, propiedad) {
             if (rutaVentana.subtipoVidrio) {
                 delete rutaVentana.subtipoVdrio;
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
 
                 detailsContainerSubtipoVidrio.innerHTML = `<p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>`;
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
+                containerAddNumeroVentana.hidden = true
+
 
                 for (let i = 6; i < 8; i++) {
                     arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
@@ -418,10 +454,13 @@ function agregarARuta(text, propiedad) {
 
             if (rutaVentana.ceja) {
                 delete rutaVentana.ceja;
-                delete rutaVentana.color;
+                delete rutaVentana.colorPrincipal;
+                delete rutaVentana.colorSecundario;
+                containerAddNumeroVentana.hidden = true
 
                 detailsContainerCejas.innerHTML = `<p>Ceja: <span>Aún no se selecciona una ceja</span></p>`;
                 detailsContainerColor.innerHTML = `<p>Color: <span>Aún no se selecciona un color</span></p>`;
+                detailContainerSubColor.innerHTML = ``;
 
                 arreglo[7] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
                 
@@ -429,6 +468,7 @@ function agregarARuta(text, propiedad) {
 
             rutaVentana.ceja = text;
             detailsContainerCejas.innerHTML = `<p>Ceja: <span>${text}</span></p>`
+
             break;
         case "colorPrincipal":
 
@@ -436,10 +476,16 @@ function agregarARuta(text, propiedad) {
                 delete rutaVentana.color;
             }
 
-            rutaVentana.color.principal = text;
+            rutaVentana.colorPrincipal = text;
+            detailsContainerColor.innerHTML = `<p>Color: <span>${text}</span></p>`
+            containerAddNumeroVentana.hidden = false
             break;
         case "subcolor":
-            rutaVentana.color.subcolor = text;
+            rutaVentana.colorSubcolor = text;
+            detailContainerSubColor.innerHTML = `<p>Subcolor: <span>${text}</span></p>`
+            break;
+        case "eliminaSubcolor":
+            delete rutaVentana.colorSubcolor;
             break;
         default:
             break;

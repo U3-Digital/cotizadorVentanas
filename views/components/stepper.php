@@ -37,7 +37,7 @@
       <p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>
     </div>
     <div class="row" id="details-container-tipo-vidrio">
-      <p>Tipo Vidirio: <span>Aún no se selecciona un tipo de vidrio</span></p>
+      <p>Tipo Vidrio: <span>Aún no se selecciona un tipo de vidrio</span></p>
     </div>
     <div class="row" id="details-container-subtipo-vidrio">
       <p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>
@@ -47,6 +47,17 @@
     </div>
     <div class="row" id="details-container-color">
       <p>Color: <span>Aún no se selecciona un color</span></p>
+    </div>
+    <div class="row" id="details-container-subcolor">
+    </div>
+    <div class="row" id="container-total">
+      <p>Total: <span>$0</span></p>
+    </div>
+    <br>
+    <div class="row" hidden id="container-add-numero-ventanas">
+      <input type="numbrer" class="col-1"/>
+      <p class="mt-2">Numero de ventanas</p>
+      <button class="btn btn-block btn-primary col-3 ml-2 " type="button" title="Next">Agregar a cotización</button>
     </div>
   </div>
 </div>
