@@ -2,8 +2,8 @@
 <br>
 <br>
 <div class="row">
-  <div class="col-sm-12 col-md-8 col-lg-8 col-12">
-    <div class="multisteps-form ">
+  <div class="col-md-8 col-lg-8 col-12">
+    <div class="multisteps-form">
       <!--progress bar-->
       <div class="row">
         <div class="col-12 col-lg-12 ml-auto mr-auto mb-4">
@@ -22,51 +22,92 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-    <h3>Detalles</h3>
-    <div class="row" id="details-container-serie">
-      <p>Serie: <span>Aún no se selecciona una Serie</span></p>
-    </div>
-    <div class="row" id="details-container-tipo-ventana">
-      <p>Tipo ventana: <span>Aún no se selecciona un tipo</span></p>
-    </div>
-    <div class="row" id="details-container-subtipo-ventana">
-      <p>Subtipo ventana: <span>Aún no se selecciona un subtipo</span></p>
-    </div>
-    <div class="row" id="details-container-dimensiones">
-      <p>Dimensiones: <span>Aún no se asignan dimensiones</span></p>
-    </div>
-    <div class="row" id="details-container-tipo-vidrio">
-      <p>Tipo Vidrio: <span>Aún no se selecciona un tipo de vidrio</span></p>
-    </div>
-    <div class="row" id="details-container-subtipo-vidrio">
-      <p>Subtipo: <span>Aún no se selecciona un subtipo de vidrio</span></p>
-    </div>
-    <div class="row" id="details-container-ceja">
-      <p>Ceja: <span>Aún no se selecciona una ceja</span></p>
-    </div>
-    <div class="row" id="details-container-color">
-      <p>Color: <span>Aún no se selecciona un color</span></p>
-    </div>
-    <div class="row" id="details-container-subcolor">
-    </div>
-    <div class="row" id="container-total">
-      <p>Total: <span>$0</span></p>
-    </div>
-    <br>
-    <div class="row" hidden id="container-add-numero-ventanas">
-      <input type="numbrer" class="col-1"/>
-      <p class="mt-2">Numero de ventanas</p>
-      <button class="btn btn-block btn-primary col-3 ml-2 " type="button" title="Next">Agregar a cotización</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-md-4 col-lg-4 col-12">
+    <div class="card">
+      <div class="card-header border-0">
+        <h4>Detalles</h4>
+      </div>
+      <div class="card-body">
+        <table class="table table-bordered table-hover">
+          <tbody>
+            <tr>
+              <td style="width: 200px;" class="pl-3 pt-1 pb-1">Serie</td>
+              <td id="details-container-serie" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Tipo de ventana</td>
+              <td id="details-container-tipo-ventana" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Subtipo de ventana</td>
+              <td id="details-container-subtipo-ventana" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Dimensiones</td>
+              <td id="details-container-dimensiones" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Tipo de vidrio</td>
+              <td id="details-container-tipo-vidrio" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Subtipo de vidrio</td>
+              <td id="details-container-subtipo-vidrio" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Ceja</td>
+              <td id="details-container-ceja" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr>
+              <td class="pl-3 pt-1 pb-1">Color</td>
+              <td id="details-container-color" class="pl-3 pt-1 pb-1"></td>
+            </tr>
+            <tr id="details-container-subcolor">
+            </tr>
+          </tbody>
+        </table>
+        <div class="row ml-3 mt-3">
+          <div class="col-6 text-center"><h5>Total</h5></div> 
+          <div class="col-6 text-center"><h5>$0</h5></div> 
+        </div>
+        <br>
+        <div class="row" id="container-add-numero-ventanas" hidden>
+          <div class="col-6">
+            <input type="number" name="input-no-ventanas" min="1" id="input-no-ventanas" class="form-control" placeholder="No. de ventanas" value="1">
+          </div>
+          <div class="col-6">
+            <button class="btn btn-block btn-primary" onclick="agregarCotizacion()">Agregar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-
 <script src="../js/stepper.js"></script>
-
 <script src="../js/generarPantallas.js"></script>
-
-
-
 <script src="../js/script.js"></script>

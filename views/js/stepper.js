@@ -220,6 +220,7 @@ function generateStepper(selected) {
           window.addEventListener('resize', setFormHeight, false);
         
           setActiveStep(selected);
+          setActivePanel(selected);
       } else {
         console.log('El elemento multisteps-form__form');
       }
