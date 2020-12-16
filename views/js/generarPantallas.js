@@ -32,8 +32,6 @@ const detailContainerSubColor = document.getElementById('details-container-subco
 const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 const inputNumeroDeVentanas = document.getElementById('input-no-ventanas');
 
-
-
 function requestListener() {
     let ventana = JSON.parse(this.responseText);
     cargarSeries(ventana);
@@ -46,9 +44,9 @@ function cargarSeries(ventana) {
     ventana.tipos.forEach((serie) => {
         
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${serie.img}" alt="placeholder">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${serie.nombre}</label>
         </div>
       </div>`;
@@ -69,9 +67,9 @@ function cargarTipo(serie,ventana){
     temporal = '<div class="row">';
     serie.tipo.forEach((tipo) =>{
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${tipo.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${tipo.nombre}" onChange='cargarSubtipo(${JSON.stringify(tipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${tipo.nombre}" onChange='cargarSubtipo(${JSON.stringify(tipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${tipo.nombre}</label>
         </div>
       </div>`;
@@ -90,9 +88,9 @@ function cargarSubtipo(tipo,serie,ventana){
     temporal = '<div class="row">';
     tipo.subtipo.forEach((subtipo) => {
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${subtipo.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${subtipo.nombre}" onChange='cargarDimension(${JSON.stringify(subtipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${subtipo.nombre}" onChange='cargarDimension(${JSON.stringify(subtipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${subtipo.nombre}</label>
         </div>
       </div>`;
@@ -166,9 +164,9 @@ function cargarTipoVidrio(serie, ventana){
     temporal = '<div class="row">';
     serie.tipoVidrio.forEach((tipoVidrio) => {
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${tipoVidrio.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${tipoVidrio.nombre}" onChange='cargarSubtipoVidrio(${JSON.stringify(tipoVidrio)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${tipoVidrio.nombre}" onChange='cargarSubtipoVidrio(${JSON.stringify(tipoVidrio)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${tipoVidrio.nombre}</label>
         </div>
       </div>`;
@@ -187,9 +185,9 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
     temporal = '<div class="row">';
     tipoVidrio.tipos.forEach((subtipo) => {
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${subtipo.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${subtipo.nombre}" onChange='cargarCeja(${JSON.stringify(serie)}, ${JSON.stringify(subtipo)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${subtipo.nombre}" onChange='cargarCeja(${JSON.stringify(serie)}, ${JSON.stringify(subtipo)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${subtipo.nombre}</label>
         </div>
       </div>`;
@@ -209,9 +207,9 @@ function cargarCeja(serie, subtipo, ventana){
     temporal = '<div class="row">';
     serie.ceja.forEach((ceja) => {
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${ceja.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${ceja.nombre}" onChange='cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${ceja.nombre}" onChange='cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
             <label class="form-check-label" for="cosa${i}">${ceja.nombre}</label>
         </div>
       </div>`;
@@ -233,9 +231,9 @@ function cargarColores(serie, ceja, ventana){
     temporal = '<div class="row justify-content-center">';
     ventana.colores.forEach((color)=>{
         temporal += `<div class="col-3 text-center selectable">
-        <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+        <img src="${color.img}" alt="placeholder" style="width: 100%">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${color.nombre}" onChange='agregarARuta("${color.nombre}", "colorPrincipal");'>
+            <input class="form-check-input" type="radio" value="${color.nombre}" onChange='agregarARuta("${color.nombre}", "colorPrincipal");'>
             <label class="form-check-label" for="cosa${i}">${color.nombre}</label>
         </div>
       </div>`;
@@ -252,9 +250,9 @@ function cargarColores(serie, ceja, ventana){
     temporal += '<div class="row justify-content-center" id="container-colores">'; 
     ventana.colores[0].color.forEach((subcolor)=>{
         temporal += `<div class="col-2 text-center selectable">
-            <img src="https://via.placeholder.com/300" alt="placeholder" style="width: 100%">
+            <img src="../../img/${subcolor}" alt="placeholder" style="width: 100%">
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="cosa" id="cosa${i}" value="${subcolor}" onChange='agregarARuta("${subcolor}", "subcolor");'>
+                <input class="form-check-input" type="radio" value="${subcolor}" onChange='agregarARuta("${subcolor}", "subcolor");'>
                 <label class="form-check-label" for="cosa${i}">${subcolor}</label>
             </div>
         </div>`;

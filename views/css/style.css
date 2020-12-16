@@ -131,9 +131,43 @@ select {
 
 .selectable img {
     margin-top: 10px;
+    width: 100%;
+    height: 250px;
 }
 
 .selectable .form-check {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* { "nombre": "Low-E / Claro / Baño con Marginal",
+						"img": "../../img/vidrio_tri_bano_lowe_marginal.png" },
+
+						{ "nombre": "Low-E con Marginal",
+						"img": "../../img/vidrio_tri_lowe_marginal.png" },
+
+						{ "nombre": "Low-E / Claro / FiltraSol con Marginal",
+						"img": "../../img/vidrio_tri_lowe_marginal.png" },
+
+						{ "nombre": "Low-E / FiltraSol / Claro con Marginal",
+						"img": "../../img/vidrio_tri_lowe_marginal.png" },
+
+						{ "nombre": "Low-E / FiltraSol / FiltraSol con Marginal",
+						"img": "../../img/vidrio_tri_lowe_marginal.png" },
+						
+						{ "nombre": "Low-E / FiltraSol / Baño con Marginal",
+						"img": "../../img/vidrio_tri_bano_lowe_marginal.png" },
+						
+						{ "nombre": "Low-E / Low-E / Claro con Marginal",
+						"img": "../../img/vidrio_tri_lowe_marginal.png" },
+						
+						{ "nombre": "ReflecteSol / Claro / Claro con Marginal",
+						"img": "../../img/vidrio_tri_marginal.png" },
+						
+						{ "nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
+						"img": "../../img/vidrio_tri_marginal.png" },
+						
+						{ "nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
+						"img": "../../img/vidrio_tri_marginal.png" },
+						
+						{ "nombre": "ReflecteSol / Claro / Baño UF con Marginal" } */
