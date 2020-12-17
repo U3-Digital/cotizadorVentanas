@@ -22,31 +22,7 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="col-md-4 col-lg-4 col-12">
+  <div class="col-md-4 col-lg-4 col-12" style="margin-top: 4.3rem!important;">
     <div class="card">
       <div class="card-header border-0">
         <h4>Detalles</h4>

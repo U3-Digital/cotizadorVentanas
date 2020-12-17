@@ -5,7 +5,7 @@ class Conexion {
 
         $servername = "127.0.0.1";
         $username = "root";
-        $password = "";
+        $password = "123456789";
         $dbname = "cotizador";
 
         try {

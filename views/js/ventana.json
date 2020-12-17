@@ -33,7 +33,7 @@
 				},
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_doble.png",
+					"img": "../../img/vidrio_dob.png",
 					"tipos": [
 						{ "nombre": "Claro", "img": "../../img/vidrio_dob.png" },
 						{ "nombre": "Low-E", "img": "../../img/vidrio_dob_lowe.png" },
@@ -441,7 +441,7 @@
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio Doble",
-					"img": "../../img/vidrio_doble.png",
+					"img": "../../img/vidrio_dob.png",
 					"tipos": [
 						{
 							"nombre": "Claro",
@@ -591,7 +591,7 @@
 				},
 				{
 					"nombre": "Vidrio Triple ",
-					"img": "../../img/vidrio_triple.png",
+					"img": "../../img/vidrio_tri.png",
 					"tipos": [
 						{
 							"nombre": "Low-E / Claro / Baño",
@@ -912,7 +912,7 @@
 				},
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_doble.png",
+					"img": "../../img/vidrio_dob.png",
 					"tipos": [
 						{
 							"nombre": "Claro",
@@ -1483,7 +1483,7 @@
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_doble.png",
+					"img": "../../img/vidrio_dob.png",
 					"tipos": [
 						{ "nombre": "templado claro", "img": "../../img/vidrio_dob_templado_ingles.png" },
 						{ "nombre": "templado Low-E", "img": "../../img/vidrio_dob_templado_lowe_ingles.png" },

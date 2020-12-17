@@ -36,9 +36,9 @@ function generateStepsLayout(selected) {
   let i = 0;
   layouts.forEach((layout) => {
     if (i === selected) {
-      container.innerHTML += `<div class="multisteps-form__panel shadow p-4 rounded bg-white js-active">${layout}</div>`;
+      container.innerHTML += `<div class="multisteps-form__panel p-4 bg-white js-active" style="box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,0.2);">${layout}</div>`;
     } else {
-      container.innerHTML += `<div class="multisteps-form__panel shadow p-4 rounded bg-white">${layout}</div>`;
+      container.innerHTML += `<div class="multisteps-form__panel p-4 bg-white" style="box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,0.2);">${layout}</div>`;
     }
     i++;
   });

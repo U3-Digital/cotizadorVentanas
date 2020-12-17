@@ -23,7 +23,6 @@ session_start();
 	============================================= -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="../../lib/vendor/bootstrap/css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="../css/style.css" type="text/css" />
   <link rel="stylesheet" type="text/css" href="../../lib\vendor\adminlte\dist\css\adminlte.min.css">
   <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -39,16 +38,23 @@ session_start();
   <script src="../../lib/vendor/datatables/dataTables.bootstrap4.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+
 
   <title>Cotizador</title>
 </head>
 
-<body>
+<body class="">
+  <?
+    include './topbar.php';
+  ?>
   <div class="container-fluid">
+    
     <?php
     include './stepper.php';
     ?>
-    <br>  
+    <br>
+    <br><br><br>
     <div class="row justify-content-center">
       <div class="col-md-8 col-lg-8 col-12">
         <div class="card">
@@ -58,9 +64,11 @@ session_start();
           <div class="card-body">
             <table class="table bg-white table-bordered table-hover">
               <thead>
-                <th scope="col">Serie</th>
-                <th scope="col">Dimensiones</th>
+                <th scope="col">Tamaño</th>
+                <th scope="col">Vidrio</th>
+                <th scope="col">Tipo</th>
                 <th scope="col">Cantidad</th>
+                <th scope="col">Precio</th>
                 <th scope="col">Total</th>
                 <th scope="col" style="width: 7em;" class="text-center">Borrar</th>
               </thead>
@@ -86,9 +94,11 @@ session_start();
       cotizaciones.forEach((cotizacion) => {
         cuerpoTabla.innerHTML += 
         `<tr>
-            <td>${cotizacion.serie}</td>
             <td>${cotizacion.dimensionAlto}" x ${cotizacion.dimensionAncho}"</td>
+            <td>${cotizacion.tipoVidrio} ${cotizacion.subTipoVidrio}</td>
+            <td>${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}</td>
             <td>${cotizacion.numeroVentanas}</td>
+            <td>$0</td>
             <td>$0</td>
             <td class="text-center"><button class="btn btn-danger" onclick="borrarCotizacion(${i});"><i class="fas fa-trash"></i></button></td>
         </tr>
