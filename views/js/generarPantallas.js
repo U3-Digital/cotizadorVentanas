@@ -276,7 +276,7 @@ function cargarColores(serie, ceja, ventana){
     temporal += '<div class="row justify-content-center" id="container-colores">'; 
     ventana.colores[0].color.forEach((subcolor) => {
         temporal += `<div class="col-md-1 col-lg-1 col-3 text-center subcolor">
-            <img src="../../img/${subcolor}" alt="placeholder"  style="width: 100%;">
+            <img src="../../img/${subcolor}.png" alt="placeholder"  style="width: 100%;">
             <div class="form-check">
                 <input class="form-check-input" type="radio" value="${subcolor}" onChange='agregarARuta("${subcolor}", "subcolor");'>
                 <label class="form-check-label" for="cosa${i}">${subcolor}</label>
