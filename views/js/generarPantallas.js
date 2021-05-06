@@ -32,9 +32,36 @@ const detailContainerSubColor = document.getElementById('details-container-subco
 const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 const inputNumeroDeVentanas = document.getElementById('input-no-ventanas');
 
+let serieBasica = {};
+let seriePremium = {};
+let seriePlus = {};
+let seriePD10 = {}
+
+
 function requestListener() {
     let ventana = JSON.parse(this.responseText);
     cargarSeries(ventana);
+}
+
+function requestListenerSeries(){
+    let series = JSON.parse(this.responseText);
+    cargarSeries(series);
+}
+
+function requestListenerBasica(){
+    serieBasica = JSON.parse(this.responseText);
+}
+
+function requestListenerPremium(){
+    seriePremium = JSON.parse(this.responseText);
+}
+
+function requestListenerPlus(){
+    seriePlus = JSON.parse(this.responseText);
+}
+
+function requestListenerPD10(){
+    seriePD10 = JSON.parse(this.responseText)
 }
 
 function cargarSeries(ventana) {
@@ -46,7 +73,7 @@ function cargarSeries(ventana) {
         temporal += `<div class="col-md-2 col-lg-2 col-10 text-center selectable">
         <img src="${serie.img}" alt="placeholder">
         <div class="form-check">
-            <input class="form-check-input" type="radio" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie.nombre === "Básica" ? (serieBasica) : (serie.nombre === "Plus" ? (seriePlus) : (serie.nombre === "Premium" ? (seriePremium) : (seriePD10))))});'>
             <label class="form-check-label" for="cosa${i}">${serie.nombre}</label>
         </div>
       </div>`;
@@ -60,7 +87,7 @@ function cargarSeries(ventana) {
 
 }
 
-function cargarTipo(serie,ventana){
+function cargarTipo(serie){
     let temporal = '';
     agregarARuta(serie.nombre, "serie");
     let i = 0;
@@ -69,7 +96,7 @@ function cargarTipo(serie,ventana){
         temporal += `<div class="col-md-2 col-lg-2 col-10 text-center selectable">
         <img src="${tipo.img}" alt="placeholder">
         <div class="form-check">
-            <input class="form-check-input" type="radio" value="${tipo.nombre}" onChange='cargarSubtipo(${JSON.stringify(tipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(ventana)});'>
+            <input class="form-check-input" type="radio" value="${tipo.nombre}" onChange='cargarSubtipo(${JSON.stringify(tipo)}, ${JSON.stringify(serie)}, ${JSON.stringify(serie)});'>
             <label class="form-check-label" for="cosa${i}">${tipo.nombre}</label>
         </div>
       </div>`;
@@ -227,6 +254,8 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
 
 
 function cargarCeja(serie, subtipo, ventana){
+    console.log(subtipo);
+    calcularTotal( { ancho: rutaVentana.dimensionAncho, alto: rutaVentana.dimensionAlto } , subtipo.precio[0]["fijo"]);
     agregarARuta(subtipo.nombre, "subtipoVidrio");
     let temporal = '';
     let i = 0;
@@ -276,10 +305,10 @@ function cargarColores(serie, ceja, ventana){
     temporal += '<div class="row justify-content-center" id="container-colores">'; 
     ventana.colores[0].color.forEach((subcolor) => {
         temporal += `<div class="col-md-1 col-lg-1 col-3 text-center subcolor">
-            <img src="../../img/${subcolor}.png" alt="placeholder"  style="width: 100%;">
+            <img src="../../img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">
             <div class="form-check">
-                <input class="form-check-input" type="radio" value="${subcolor}" onChange='agregarARuta("${subcolor}", "subcolor");'>
-                <label class="form-check-label" for="cosa${i}">${subcolor}</label>
+                <input class="form-check-input" type="radio" value="${subcolor.nombre}" onChange='agregarARuta("${subcolor.nombre}", "subcolor");'>
+                <label class="form-check-label" for="cosa${i}">${subcolor.nombre}</label>
             </div>
         </div>`;
         i++;      
@@ -306,7 +335,21 @@ function cargarSubcolores(color) {
     }
 }
 
-function agregarCotizacion(){
+
+
+function calcularTotal(dimensiones, precioPulgada) {
+    dimensiones.ancho = Number.parseFloat(dimensiones.ancho);
+    dimensiones.alto = Number.parseFloat(dimensiones.alto);
+    const totalPulgadas = dimensiones.ancho + dimensiones.alto;
+
+    const total = totalPulgadas * precioPulgada;
+
+    console.log(totalPulgadas, precioPulgada);
+    console.log(total);
+}
+
+function agregarCotizacion() {
+    console.log(rutaVentana);
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
     cotizaciones.push(rutaVentana);
     rutaVentana = Object.create(ruta);
@@ -550,7 +593,34 @@ function cargarPantalla(objeto) {
     console.log(objeto);
 }
 
-const request = new XMLHttpRequest();
+/*const request = new XMLHttpRequest();
 request.addEventListener("load", requestListener);
 request.open("GET", "../js/ventana.json");
-request.send();
+request.send();*/
+
+
+
+const requestBasica = new XMLHttpRequest();
+requestBasica.addEventListener("load",requestListenerBasica);
+requestBasica.open("GET","../js/basica.json");
+requestBasica.send();
+
+const requestPlus = new XMLHttpRequest();
+requestPlus.addEventListener("load",requestListenerPlus);
+requestPlus.open("GET","../js/plus.json");
+requestPlus.send();
+
+const requestPremium = new XMLHttpRequest();
+requestPremium.addEventListener("load",requestListenerPremium);
+requestPremium.open("GET","../js/premium.json");
+requestPremium.send();
+
+const requestPD10 = new XMLHttpRequest();
+requestPD10.addEventListener("load",requestListenerPD10);
+requestPD10.open("GET","../js/pd10.json");
+requestPD10.send();
+
+const requestSeries = new XMLHttpRequest();
+requestSeries.addEventListener("load",requestListenerSeries);
+requestSeries.open("GET","../js/series.json");
+requestSeries.send();

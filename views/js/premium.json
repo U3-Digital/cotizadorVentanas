@@ -1,0 +1,479 @@
+{
+    "nombre": "Premium",
+    "img": "../../img/PremiumAbatible.png",
+    "ceja": [
+        { "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
+        { "nombre": "Ceja", "img": "../../img/ceja.png" },
+        { "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+    ],
+    "tipoVidrio": [
+        {
+            "nombre": "Vidrio Doble",
+            "img": "../../img/vidrio_dob.png",
+            "tipos": [
+                {
+                    "nombre": "Claro",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "Low-E",
+                    "img": "../../img/vidrio_dob_lowe.png"
+                },
+                {
+                    "nombre": "Claro / Baño",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "Low-E / Baño",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol",
+                    "img": "../../img/vidrio_dob_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / ReflecteSol",
+                    "img": "../../img/vidrio_dob_lowe.png"
+                },
+                {
+                    "nombre": "FiltraSol / Claro",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "FiltraSol / Baño",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "ReflecteSol / FiltraSol",
+                    "img": "../../img/vidrio_dob.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Baño UF",
+                    "img": "../../img/vidrio_dob.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Vidrio Doble con Marginal",
+            "img": "../../img/vidrio_dob_marginal.png",
+            "tipos": [
+                {
+                    "nombre": "Claro con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "Low-E con Marginal",
+                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Claro / Baño con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / Baño con Marginal",
+                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol con Marginal",
+                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / ReflecteSol con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "FiltraSol / Claro con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "FiltraSol / Baño con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / FiltraSol con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Baño UF con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Vidrio Doble con Cuadricula",
+            "img": "../../img/vidrio_dob_cuadricula.png",
+            "tipos": [
+                {
+                    "nombre": "Claro con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "Low-E con Cuadricula",
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                },
+                {
+                    "nombre": "Claro / Baño con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "Low-E / Baño con Cuadricula",
+                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol con Cuadricula",
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                },
+                {
+                    "nombre": "Low-E / ReflecteSol con Cuadricula",
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                },
+                {
+                    "nombre": "FiltraSol / Claro con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "FiltraSol / Baño con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "ReflecteSol / FiltraSol con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Baño UF con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Vidrio Triple ",
+            "img": "../../img/vidrio_tri.png",
+            "tipos": [
+                {
+                    "nombre": "Low-E / Claro / Baño",
+                    "img": "../../img/vidrio_tri_bano_lowe.png"
+                },
+                {
+                    "nombre": "Low-E",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / Claro / FiltraSol",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Claro",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / FiltraSol",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Baño",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "Low-E / Low-E / Claro",
+                    "img": "../../img/vidrio_tri_lowe.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / Claro",
+                    "img": "../../img/vidrio_tri.png"
+                },
+                {
+                    "nombre": "ReflecteSol / FiltraSol / Claro",
+                    "img": "../../img/vidrio_tri.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / FiltraSol",
+                    "img": "../../img/vidrio_tri.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / Baño UF",
+                    "img": "../../img/vidrio_tri.png"
+                }
+            ]
+        },
+        {
+            "nombre": "Vidrio Triple con Marginal",
+            "img": "../../img/vidrio_tri_marginal.png",
+            "tipos": [
+                {
+                    "nombre": "Low-E / Claro / Baño con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E con Marginal",
+                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / Claro / FiltraSol con Marginal",
+                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Claro con Marginal",
+                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / FiltraSol con Marginal",
+                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Baño con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+                },
+                {
+                    "nombre": "Low-E / Low-E / Claro con Marginal",
+                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / Claro con Marginal",
+                    "img": "../../img/vidrio_tri_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
+                    "img": "../../img/vidrio_tri_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
+                    "img": "../../img/vidrio_tri_marginal.png"
+                },
+                {
+                    "nombre": "ReflecteSol / Claro / Baño UF con Marginal",
+                    "img": "../../img/vidrio_tri_marginal.png"
+                }
+            ]
+        }
+    ],
+    "tipo": [
+        {
+            "nombre": "Fijo",
+            "img": "../../img/Fijo.png",
+            "subtipo": [
+                {
+                    "nombre": "Abatible Fijo",
+                    "img": "../../img/AbatibleFijo.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatibles Fijos Apilados",
+                    "img": "../../img/AbatibleFijosApilados.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Doble Abatible Fijo",
+                    "img": "../../img/DobleAbatibleFijo.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Fija O-O-O",
+                    "img": "../../img/FijaO-O-O.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Fijo O-O-O",
+                    "img": "../../img/FijoO-O-O.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Abatible",
+            "img": "../../img/Abatible.png",
+            "subtipo": [
+                {
+                    "nombre": "Abatible",
+                    "img": "../../img/Abatible.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible con Abatible Fijo",
+                    "img": "../../img/AbatibleconAbatibleFijo.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible XOX",
+                    "img": "../../img/AbatibleXOX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible OXO",
+                    "img": "../../img/AbatibleOXO.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible X/O",
+                    "img": "../../img/AbatibleOXO.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible XX",
+                    "img": "../../img/AbatibleXX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatible XOO-OOX",
+                    "img": "../../img/AbatibleXOO-OOX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "Proyectante",
+            "img": "../../img/Proyectante.png",
+            "subtipo": [
+                {
+                    "nombre": "Abatiente",
+                    "img": "../../img/Abatiente.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatiente con Abatible Fijo",
+                    "img": "../../img/AbatienteconAbatienteFijo.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatiente con Abatible Fijo Apilado",
+                    "img": "../../img/AbatienteconAbatienteFijoAmpliado.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatiente XOX",
+                    "img": "../../img/AbatienteXOX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatiente OXO",
+                    "img": "../../img/AbatienteOXO.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Proyectante XXX",
+                    "img": "../../img/ProyectanteXXX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Abatiente XXX",
+                    "img": "../../img/AbatienteXXX.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Proyectante con 2 Fijos",
+                    "img": "../../img/Proyectantecon2Fijos.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                },
+                {
+                    "nombre": "Doble Proyectante con Uno Fijo",
+                    "img": "../../img/DobleProyectanteconunFijo.png",
+                    "dimensiones": [
+                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                    ]
+                }
+            ]
+        }
+    ],
+    "colores": [
+		{
+			"nombre": "Blanco",
+			"img": "../../img/Blanco.png",
+			"color": [ 
+				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+				{"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+			]
+		},
+		{
+			"nombre": "Clay",
+			"img": "../../img/Clay.png",
+			"color": [ 
+				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+				{"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+				{"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+			]
+		}
+	]
+}
