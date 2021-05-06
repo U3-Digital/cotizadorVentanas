@@ -13,47 +13,201 @@
             "tipos": [
                 {
                     "nombre": "Claro",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 52.59,"abatiblesfijosapilados": 52.59}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 55.99,"abatiblesfijosapilados": 55.99}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Claro / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 59.05}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 62.46}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 57.38}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / ReflecteSol",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 73.68}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Claro",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 53.98}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 60.44}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 70.28}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 71.67}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 0}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 }
             ]
         },
@@ -63,47 +217,201 @@
             "tipos": [
                 {
                     "nombre": "Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 56.88}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 60.37}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Claro / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 63.5}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 66.99}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 61.8}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / ReflecteSol con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 78.5}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 58.3}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 64.93}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 75.01}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 76.44}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 0}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 }
             ]
         },
@@ -113,47 +421,201 @@
             "tipos": [
                 {
                     "nombre": "Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 56.88}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 60.37}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Claro / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 63.5}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula"
+                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 66.99}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 61.8}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "Low-E / ReflecteSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 78.5}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 58.3}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 64.93}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 75.01}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 76.44}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                        {
+                            "tipo": "fijo",
+                            "tipos": [{"abatiblefijo": 0}]
+                        },
+                        {
+                            "tipo": "abatible",
+                            "tipos": [{}]
+                        },
+                        {
+                            "tipo": "proyectante",
+                            "tipos": [{}]
+                        }
+                    ]
                 }
             ]
         },
