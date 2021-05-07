@@ -16,11 +16,11 @@
                 "img": "../../img/vidrioSenci.png", 
                 "precio": [ 
                   { "tipo": "fijoserie40", 
-                    "tipos": [ { "fija": 23.98, "doblefijaapilada": 24.04, "triplefijapilada": 24.03, "doblefija": 61.17, "triplefija": 98.31 } ] 
+                    "tipos": [ { "fija": 23.98 }, { "doblefijaapilada": 24.04 } , { "triplefijapilada": 24.03 }, { "doblefija": 61.17 }, { "triplefija": 98.31  } ] 
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": []
+                    "tipos": [ { "corrediza": 33.27 }, { "corredizaxox": 39.5 } ]
                   },
                   {
                     "tipo": "guillotina",
@@ -35,15 +35,39 @@
               { "nombre": "Baño", "img": "../../img/vidrioSenciBano.png", 
                 "precio": [ 
                   { "tipo": "fijoserie40", 
-                    "tipos": [ { "fija" : 28.74, "doblefijaapilada": 28.82, "triplefijapilada": 28.81, "doblefija": 70.71, "triplefija": 112.64 } ] 
-                  } 
+                    "tipos": [ { "fija" : 28.74 }, { "doblefijaapilada": 28.82 }, { "triplefijapilada": 28.81 }, { "doblefija": 70.71 }, { "triplefija": 112.64 } ] 
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 37.56 }, { "corredizaxox": 43.54 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
                 ] 
               },
               { "nombre": "FiltraSol", "img": "../../img/vidrioSenci.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
-                    "tipos": [ { "fija": 33.34, "doblefijaapilada": 33.42, "triplefijapilada": 33.42, "doblefija": 79.92, "triplefija": 126.47 } ]
+                    "tipos": [ { "fija": 33.34 }, { "doblefijaapilada": 33.42 }, { "triplefijapilada": 33.42 }, { "doblefija": 79.92 }, { "triplefija": 126.47 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 45.60 }, { "corredizaxox": 53.82 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
                   }
                 ] 
               },
@@ -51,7 +75,19 @@
                 "precio": [
                   {
                     "tipo": "fijoserie40",
-                    "tipos": [ { "fija": 49.46, "doblefijaapilada": 49.60, "triplefijapilada": 49.56, "doblefija": 112.22, "triplefija": 174.91 } ]
+                    "tipos": [ { "fija": 49.46 }, {"doblefijaapilada": 49.60 }, { "triplefijapilada": 49.56 }, { "doblefija": 112.22 }, { "triplefija": 174.91 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 60.11 }, { "corredizaxox": 67.51 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
                   }
                 ] 
               }
@@ -61,51 +97,744 @@
             "nombre": "Vidrio doble",
             "img": "../../img/vidrio_dob.png",
             "tipos": [
-                { "nombre": "Claro", "img": "../../img/vidrio_dob.png","precio": [ { "fija": 38.00, "doblefijaapilada": 38.1, "triplefijapilada": 38.09, "doblefija": 89.26, "triplefija": 140.47 } ] },
-                { "nombre": "Low-E", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 42.47, "doblefijaapilada": 42.58, "triplefijapilada": 42.58, "doblefija": 98.21, "triplefija": 153.92 } ] },
-                { "nombre": "Claro / Baño", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 43.76, "doblefijaapilada": 43.88, "triplefijapilada": 43.85, "doblefija": 100.79, "triplefija": 157.75 } ]  },
-                { "nombre": "Low-E / Baño", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 48.83, "doblefijaapilada": 48.95, "triplefijapilada": 48.95, "doblefija": 110.96, "triplefija": 173.03 } ] },
-                { "nombre": "Low-E / FiltraSol", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 43.85, "doblefijaapilada": 43.97, "triplefijapilada": 43.95, "doblefija": 100.97, "triplefija": 158.04 } ] },
-                { "nombre": "Low-E / ReflecteSol", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 59.89, "doblefijaapilada": 60.07, "triplefijapilada": 60.04, "doblefija": 133.15, "triplefija": 206.31 } ]  },
-                { "nombre": "FiltraSol / Claro", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 40.50, "doblefijaapilada": 40.61, "triplefijapilada": 40.60, "doblefija": 94.26, "triplefija": 147.99 } ] },
-                { "nombre": "FiltraSol / Baño", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 46.86, "doblefijaapilada": 47.0, "triplefijapilada": 46.96, "doblefija": 107.01, "triplefija": 167.1 } ]  },
-                { "nombre": "ReflecteSol / Claro", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 189.65, "doblefijaapilada": 56.71, "triplefijapilada": 56.7, "doblefija": 126.44, "triplefija": 196.26 } ] },
-                { "nombre": "ReflecteSol / FiltraSol", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 57.92, "doblefijaapilada": 58.09, "triplefijapilada": 58.06, "doblefija": 129.18, "triplefija": 200.38 } ]  },
-                { "nombre": "ReflecteSol / Baño UF", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]  }
+                { 
+                  "nombre": "Claro", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 38.00 }, { "doblefijaapilada": 38.1 }, { "triplefijapilada": 38.09 }, { "doblefija": 89.26 }, { "triplefija": 140.47 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 46.25 }, { "corredizaxox": 56.09 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "Low-E", 
+                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 42.47 }, { "doblefijaapilada": 42.58 }, { "triplefijapilada": 42.58 }, { "doblefija": 98.21 }, { "triplefija": 153.92 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 55.72 }, { "corredizaxox": 63.95 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Claro / Baño", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 43.76 }, { "doblefijaapilada": 43.88 }, { "triplefijapilada": 43.85 }, { "doblefija": 100.79 }, { "triplefija": 157.75 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 53.67 }, { "corredizaxox": 66.42 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]  
+                },
+                { 
+                  "nombre": "Low-E / Baño", 
+                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 48.83 }, { "doblefijaapilada": 48.95 }, { "triplefijapilada": 48.95 }, { "doblefija": 110.96 } , { "triplefija": 173.03 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 61.44 }, { "corredizaxox": 69.35 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Low-E / FiltraSol", 
+                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 43.85 }, { "doblefijaapilada": 43.97 }, { "triplefijapilada": 43.95 }, { "doblefija": 100.97 }, { "triplefija": 158.04 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 56.95 }, { "corredizaxox": 65.12 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Low-E / ReflecteSol", 
+                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 59.89 }, { "doblefijaapilada": 60.07 }, { "triplefijapilada": 60.04 }, { "doblefija": 133.15 } , { "triplefija": 206.31 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 71.39 }, { "corredizaxox": 78.72 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "FiltraSol / Claro", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 40.50 }, { "doblefijaapilada": 40.61 }, { "triplefijapilada": 40.60 }, { "doblefija": 94.26 }, { "triplefija": 147.99 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 51.02 }, { "corredizaxox": 59.50 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "FiltraSol / Baño", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 46.86 }, { "doblefijaapilada": 47.0 }, { "triplefijapilada": 46.96 }, { "doblefija": 107.01 }, { "triplefija": 167.1 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 59.66 }, { "corredizaxox": 67.66 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "ReflecteSol / Claro", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 189.65 }, { "doblefijaapilada": 56.71 }, { "triplefijapilada": 56.7 }, { "doblefija": 126.44 }, { "triplefija": 196.26 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 68.38 }, { "corredizaxox": 75.87 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "ReflecteSol / FiltraSol", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 57.92 }, { "doblefijaapilada": 58.09 }, { "triplefijapilada": 58.06 }, { "doblefija": 129.18 }, { "triplefija": 200.38 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 69.61 }, { "corredizaxox": 77.03 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "ReflecteSol / Baño UF", 
+                  "img": "../../img/vidrio_dob.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 0 }, { "doblefijaapilada": 0 }, { "triplefijapilada": 0 }, { "doblefija": 0 }, { "triplefija": 0 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 0.0 }, { "corredizaxox": 0.0 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                }
             ]
         },
         {
             "nombre": "Vidrio doble con marginal",
             "img": "../../img/vidrio_dob_marginal.png",
             "tipos": [
-                { "nombre": "Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
-                { "nombre": "Low-E con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
-                { "nombre": "Claro / Baño con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
-                { "nombre": "Low-E / Baño con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
-                { "nombre": "Low-E / FiltraSol con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 47.80, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ] },
-                { "nombre": "Low-E / ReflecteSol con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 64.42, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
-                { "nombre": "FiltraSol / Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.50, "triplefijapilada": 44.48, "doblefija": 102.03, "triplefija": 159.64 } ] },
-                { "nombre": "FiltraSol / Baño con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
-                { "nombre": "ReflecteSol / Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 61.24, "doblefija": 135.0, "triplefija": 209.1 } ] },
-                { "nombre": "ReflecteSol / FiltraSol con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ] },
-                { "nombre": "ReflecteSol / Baño UF con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ] }
+                { 
+                  "nombre": "Claro con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 43.83 }, { "doblefijaapilada": 43.95 }, { "triplefijapilada": 43.93 }, { "doblefija": 100.93 }, { "triplefija": 158.0 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 50.97 }, { "corredizaxox": 62.1 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "Low-E con marginal", 
+                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 46.39 }, { "doblefijaapilada": 46.51 }, { "triplefijapilada": 46.5 }, { "doblefija": 106.08 }, { "triplefija": 165.7 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 59.38 }, { "corredizaxox": 67.31 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "Claro / Baño con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 49.74 }, { "doblefijaapilada": 49.87 }, { "triplefijapilada": 49.86 }, { "doblefija": 112.77 }, { "triplefija": 175.77 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 58.6 }, { "corredizaxox": 72.43 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Low-E / Baño con marginal", 
+                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 52.91 }, { "doblefijaapilada": 53.04 }, { "triplefijapilada": 53.03 }, { "doblefija": 119.12 }, { "triplefija": 185.29 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 65.25 }, { "corredizaxox": 72.85 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Low-E / FiltraSol con marginal", 
+                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 47.80 }, { "doblefijaapilada": 47.91 }, { "triplefijapilada": 47.92 }, { "doblefija": 108.89 }, { "triplefija": 169.94 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 60.64 }, { "corredizaxox": 68.5 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "Low-E / ReflecteSol con marginal", 
+                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 64.26 }, { "doblefijaapilada": 64.42 }, { "triplefijapilada": 64.41 }, { "doblefija": 141.85 }, { "triplefija": 219.41 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 75.45 }, { "corredizaxox": 82.44 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "FiltraSol / Claro con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 44.37 }, { "doblefijaapilada": 44.50 }, { "triplefijapilada": 44.48 }, { "doblefija": 102.03 }, { "triplefija": 159.64 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 54.56 }, { "corredizaxox": 62.76 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "FiltraSol / Baño con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 50.89 }, { "doblefijaapilada": 51.03 }, { "triplefijapilada": 51.01 }, { "doblefija": 115.07 }, { "triplefija": 179.22 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 63.43 }, { "corredizaxox": 71.12 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "ReflecteSol / Claro con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 60.83 }, { "doblefijaapilada": 61.0 }, { "triplefijapilada": 61.24 }, { "doblefija": 135.0 }, { "triplefija": 209.1 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 72.46 }, { "corredizaxox": 79.52 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                },
+                { 
+                  "nombre": "ReflecteSol / FiltraSol con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 62.24 }, { "doblefijaapilada": 62.41 }, { "triplefijapilada": 62.38 }, { "doblefija": 137.83 }, { "triplefija": 213.33 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 73.62 }, { "corredizaxox": 80.72 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ] 
+                },
+                { 
+                  "nombre": "ReflecteSol / Baño UF con marginal", 
+                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "precio": [
+                    {
+                      "tipo": "fijoserie40",
+                      "tipos": [ { "fija": 0 }, { "doblefijaapilada": 0 }, { "triplefijapilada": 0 }, { "doblefija": 0 }, { "triplefija": 0 } ]
+                    },
+                    {
+                      "tipo": "corrediza",
+                      "tipos": [ { "corrediza": 0 }, { "corredizaxox": 0 } ]
+                    },
+                    {
+                      "tipo": "guillotina",
+                      "tipos": []
+                    },
+                    {
+                      "tipo": "arcosyfiguras",
+                      "tipos": []
+                    }
+                  ]
+                }
             ]
         },
         {
             "nombre": "Vidrio doble con cuadrícula",
             "img": "../../img/vidrio_dob_cuadricula.png",
             "tipos": [
-                { "nombre": "Claro con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
-                { "nombre": "Low-E con cuadrícula", "img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
-                { "nombre": "Claro / Baño con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
-                { "nombre": "Low-E / Baño con cuadrícula", "img": "../../img/vidrio_dob_bano_lowe_cuadricula.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
-                {	"nombre": "Low-E / FiltraSol con cuadrícula", "img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 47.8, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ]	},
-                {	"nombre": "Low-E / ReflecteSol con cuadrícula",	"img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 53.23, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
-                { "nombre": "FiltraSol / Claro con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.5, "triplefijapilada": 53.03, "doblefija": 102.03, "triplefija": 159.64 } ] },
-                { "nombre": "FiltraSol / Baño con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
-                {	"nombre": "ReflecteSol / Claro con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 60.97, "doblefija": 135.0, "triplefija": 209.1 } ]	},
-                {	"nombre": "ReflecteSol / FiltraSol con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ]	},
-                {	"nombre": "ReflecteSol / Baño UF con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]	}
+              { 
+                "nombre": "Claro con cuadrícula", 
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 43.83 }, { "doblefijaapilada": 43.95 }, { "triplefijapilada": 43.93 }, { "doblefija": 100.93 }, { "triplefija": 158.0 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 50.97 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ] 
+              },
+              { 
+                "nombre": "Low-E con cuadrícula", 
+                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 46.39 }, { "doblefijaapilada": 46.51 }, { "triplefijapilada": 46.5 }, { "doblefija": 106.08 }, { "triplefija": 165.7 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 59.38 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ] 
+              },
+              { 
+                "nombre": "Claro / Baño con cuadrícula", 
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 49.74 }, { "doblefijaapilada": 49.87 }, { "triplefijapilada": 49.86 }, { "doblefija": 112.77 }, { "triplefija": 175.77 } ] 
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 58.6 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]
+              },
+              { 
+                "nombre": "Low-E / Baño con cuadrícula", 
+                "img": "../../img/vidrio_dob_bano_lowe_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 52.91 }, { "doblefijaapilada": 53.04 }, { "triplefijapilada": 53.03 }, { "doblefija": 119.12 }, { "triplefija": 185.29 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 65.25 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ] 
+              },
+              {	
+                "nombre": "Low-E / FiltraSol con cuadrícula", 
+                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 47.8 }, { "doblefijaapilada": 47.91 }, { "triplefijapilada": 47.92 }, { "doblefija": 108.89 }, { "triplefija": 169.94 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 60.64 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]	
+              },
+              {	
+                "nombre": "Low-E / ReflecteSol con cuadrícula",	
+                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 64.26 }, { "doblefijaapilada": 53.23 }, { "triplefijapilada": 64.41 }, { "doblefija": 141.85 }, { "triplefija": 219.41 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 75.45 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ] 
+              },
+              { 
+                "nombre": "FiltraSol / Claro con cuadrícula", 
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 44.37 }, { "doblefijaapilada": 44.5 }, { "triplefijapilada": 53.03 }, { "doblefija": 102.03 }, { "triplefija": 159.64 } ] 
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 54.56 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]
+              },
+              { 
+                "nombre": "FiltraSol / Baño con cuadrícula", 
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 50.89 }, { "doblefijaapilada": 51.03 }, { "triplefijapilada": 51.01 }, { "doblefija": 115.07 }, { "triplefija": 179.22 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 63.43 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ] 
+              },
+              {	
+                "nombre": "ReflecteSol / Claro con cuadrícula",	
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 60.83 }, { "doblefijaapilada": 61.0 }, { "triplefijapilada": 60.97 }, { "doblefija": 135.0 }, { "triplefija": 209.1 } ]	
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 72.36 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]
+              },
+              {	
+                "nombre": "ReflecteSol / FiltraSol con cuadrícula",	
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 62.24 }, { "doblefijaapilada": 62.41 }, { "triplefijapilada": 62.38 }, { "doblefija": 137.83 }, { "triplefija": 213.33 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 73.62 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]	
+              },
+              {	
+                "nombre": "ReflecteSol / Baño UF con cuadrícula",	
+                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijoserie40",
+                    "tipos": [ { "fija": 0 }, { "doblefijaapilada": 0 }, { "triplefijapilada": 0 }, { "doblefija": 0 }, { "triplefija": 0 } ]
+                  },
+                  {
+                    "tipo": "corrediza",
+                    "tipos": [ { "corrediza": 0 } ]
+                  },
+                  {
+                    "tipo": "guillotina",
+                    "tipos": []
+                  },
+                  {
+                    "tipo": "arcosyfiguras",
+                    "tipos": []
+                  }
+                ]	
+              }
             ]
         }	
     ],
