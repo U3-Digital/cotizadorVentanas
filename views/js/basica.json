@@ -20,11 +20,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 33.27 }, { "corredizaxox": 39.5 } ]
+                    "tipos": [ { "corrediza": 33.27 }, { "corredizaxox": 39.5 }, { "corredizaox-o": 33.27 }, { "corredizao-xo": 33.27 }, { "corredizao-xox": 39.5 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 33.27 }, { "dobleguillotina": 39.95 }, { "oxo": 107.55 }, { "xox": 116.78 }, { "orio": 33.17 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -39,11 +39,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 37.56 }, { "corredizaxox": 43.54 } ]
+                    "tipos": [ { "corrediza": 37.56 }, { "corredizaxox": 43.54 }, { "corredizaox-o": 37.56 }, { "corredizao-xo": 37.56 }, { "corredizao-xox": 43.55 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 37.56 }, { "dobleguillotina": 45.88 }, { "oxo": 121.4 }, { "xox": 130.15 }, { "orio": 37.45 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -59,11 +59,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 45.60 }, { "corredizaxox": 53.82 } ]
+                    "tipos": [ { "corrediza": 45.60 }, { "corredizaxox": 53.82 }, { "corredizaox-o": 45.6 }, { "corredizao-xo": 45.6 }, { "corredizao-xox": 53.82 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 45.6 }, { "dobleguillotina": 54.96 }, { "oxo": 138.64 }, { "xox": 150.8 }, { "orio": 45.46 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -79,11 +79,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 60.11 }, { "corredizaxox": 67.51 } ]
+                    "tipos": [ { "corrediza": 60.11 }, { "corredizaxox": 67.51 }, { "corredizaox-o": 60.11 }, { "corredizao-xo": 60.11 }, { "corredizao-xox": 67.52 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 60.11 }, { "dobleguillotina": 75.07 }, { "oxo": 185.45 }, { "xox": 195.98 }, { "orio": 59.93 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -107,11 +107,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 46.25 }, { "corredizaxox": 56.09 } ]
+                      "tipos": [ { "corrediza": 46.25 }, { "corredizaxox": 56.09 }, { "corredizaox-o": 46.25 }, { "corredizao-xo": 46.24 }, { "corredizao-xox": 56.09 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 46.96 }, { "dobleguillotina": 55.87 }, { "oxo": 149.33 }, { "xox": 158.19 }, { "orio": 46.82 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -129,11 +129,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 55.72 }, { "corredizaxox": 63.95 } ]
+                      "tipos": [ { "corrediza": 55.72 }, { "corredizaxox": 63.95 }, { "corredizaox-o": 55.72 }, { "corredizao-xo": 55.71 }, { "corredizao-xox": 63.95 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 55.71 }, { "dobleguillotina": 67.87 }, { "oxo": 167.04 }, { "xox": 180.2 }, { "orio": 55.55 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -151,11 +151,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 53.67 }, { "corredizaxox": 66.42 } ]
+                      "tipos": [ { "corrediza": 53.67 }, { "corredizaxox": 66.42 }, { "corredizaox-o": 53.67 }, { "corredizao-xo": 53.67 }, { "corredizao-xox": 66.42 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 54.38 }, { "dobleguillotina": 66.05 }, { "oxo": 168.28 }, { "xox": 178.8 }, { "orio": 54.75 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -173,11 +173,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 61.44 }, { "corredizaxox": 69.35 } ]
+                      "tipos": [ { "corrediza": 61.44 }, { "corredizaxox": 69.35 }, { "corredizaox-o": 61.44 }, { "corredizao-xo": 61.45 }, { "corredizao-xox": 69.35 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 61.45 }, { "dobleguillotina": 75.79 }, { "oxo": 185.52 }, { "xox": 198.0 }, { "orio": 61.86 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -195,11 +195,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 56.95 }, { "corredizaxox": 65.12 } ]
+                      "tipos": [ { "corrediza": 56.95 }, { "corredizaxox": 65.12 }, { "corredizaox-o": 56.96 }, { "corredizao-xo": 56.96 }, { "corredizao-xox": 65.11 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 56.96 }, { "dobleguillotina": 69.58 }, { "oxo": 171.04 }, { "xox": 184.05 }, { "orio": 57.34 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -217,11 +217,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 71.39 }, { "corredizaxox": 78.72 } ]
+                      "tipos": [ { "corrediza": 71.39 }, { "corredizaxox": 78.72 }, { "corredizaox-o": 71.39 }, { "corredizao-xo": 60.45 }, { "corredizao-xox": 78.71 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 71.39 }, { "dobleguillotina": 89.57 }, { "oxo": 217.66 }, { "xox": 229.0 }, { "orio": 71.88 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -239,11 +239,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 51.02 }, { "corredizaxox": 59.50 } ]
+                      "tipos": [ { "corrediza": 51.02 }, { "corredizaxox": 59.50 }, { "corredizaox-o": 51.01 }, { "corredizao-xo": 51.02 }, { "corredizao-xox": 59.5 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 51.01 }, { "dobleguillotina": 61.37 }, { "oxo": 158.41 }, { "xox": 168.82 }, { "orio": 51.37 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -261,11 +261,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 59.66 }, { "corredizaxox": 67.66 } ]
+                      "tipos": [ { "corrediza": 59.66 }, { "corredizaxox": 67.66 }, { "corredizaox-o": 59.66 }, { "corredizao-xo": 59.67 }, { "corredizao-xox": 66.85 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 59.67 }, { "dobleguillotina": 73.35 }, { "oxo": 179.8 }, { "xox": 192.47 }, { "orio": 60.07 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -283,11 +283,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 68.38 }, { "corredizaxox": 75.87 } ]
+                      "tipos": [ { "corrediza": 68.38 }, { "corredizaxox": 75.87 }, { "corredizaox-o": 68.38 }, { "corredizao-xo": 69.38 }, { "corredizao-xox": 75.86 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 68.38 }, { "dobleguillotina": 85.41 }, { "oxo": 207.94 }, { "xox": 219.62 }, { "orio": 68.85 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -305,11 +305,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 69.61 }, { "corredizaxox": 77.03 } ]
+                      "tipos": [ { "corrediza": 69.61 }, { "corredizaxox": 77.03 }, { "corredizaox-o": 69.61 }, { "corredizao-xo": 69.61 }, { "corredizao-xox": 77.03 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 69.61 }, { "dobleguillotina": 87.13 }, { "oxo": 211.94 }, { "xox": 223.47 }, { "orio": 70.09 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -327,11 +327,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 0.0 }, { "corredizaxox": 0.0 } ]
+                      "tipos": [ { "corrediza": 0.0 }, { "corredizaxox": 0.0 }, { "corredizaox-o": 0 }, { "corredizao-xo": 0 }, { "corredizao-xox": 0 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 0 }, { "dobleguillotina": 0 }, { "oxo": 0 }, { "xox": 0 }, { "orio": 0 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -355,11 +355,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 50.97 }, { "corredizaxox": 62.1 } ]
+                      "tipos": [ { "corrediza": 50.97 }, { "corredizaxox": 62.1 }, { "corredizaox-o": 50.46 }, { "corredizao-xo": 50.96 }, { "corredizao-xox": 62.09 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 52.94 }, { "dobleguillotina": 62.78 }, { "oxo": 166.99 }, { "xox": 175.99 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -377,11 +377,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 59.38 }, { "corredizaxox": 67.31 } ]
+                      "tipos": [ { "corrediza": 59.38 }, { "corredizaxox": 67.31 }, { "corredizaox-o": 58.8 }, { "corredizao-xo": 59.38 }, { "corredizao-xox": 67.31 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 59.38 }, { "dobleguillotina": 72.71 }, { "oxo": 178.58 }, { "xox": 191.44 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -399,11 +399,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 58.6 }, { "corredizaxox": 72.43 } ]
+                      "tipos": [ { "corrediza": 58.6 }, { "corredizaxox": 72.43 }, { "corredizaox-o": 58.02 }, { "corredizao-xo": 58.59 }, { "corredizao-xox": 72.43 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 65.36 }, { "dobleguillotina": 73.24 }, { "oxo": 191.27 }, { "xox": 206.77 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -421,11 +421,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 65.25 }, { "corredizaxox": 72.85 } ]
+                      "tipos": [ { "corrediza": 65.25 }, { "corredizaxox": 72.85 }, { "corredizaox-o": 64.61 }, { "corredizao-xo": 65.25 }, { "corredizao-xox": 72.85 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 65.25 }, { "dobleguillotina": 80.84 }, { "oxo": 197.5 }, { "xox": 209.7 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -443,11 +443,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 60.64 }, { "corredizaxox": 68.5 } ]
+                      "tipos": [ { "corrediza": 60.64 }, { "corredizaxox": 68.5 }, { "corredizaox-o": 60.06 }, { "corredizao-xo": 60.65 }, { "corredizao-xox": 68.5 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 60.65 }, { "dobleguillotina": 74.48 }, { "oxo": 182.67 }, { "xox": 195.39 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -465,11 +465,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 75.45 }, { "corredizaxox": 82.44 } ]
+                      "tipos": [ { "corrediza": 75.45 }, { "corredizaxox": 82.44 }, { "corredizaox-o": 74.71 }, { "corredizao-xo": 75.45 }, { "corredizao-xox": 82.44 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 75.45 }, { "dobleguillotina": 94.97 }, { "oxo": 230.45 }, { "xox": 241.48 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -487,11 +487,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 54.56 }, { "corredizaxox": 62.76 } ]
+                      "tipos": [ { "corrediza": 54.56 }, { "corredizaxox": 62.76 }, { "corredizaox-o": 54.03 }, { "corredizao-xo": 54.56 }, { "corredizao-xox": 62.75 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 54.57 }, { "dobleguillotina": 66.06 }, { "oxo": 169.71 }, { "xox": 179.79 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -509,11 +509,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 63.43 }, { "corredizaxox": 71.12 } ]
+                      "tipos": [ { "corrediza": 63.43 }, { "corredizaxox": 71.12 }, { "corredizaox-o": 62.81 }, { "corredizao-xo": 63.43 }, { "corredizao-xox": 71.12 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 63.43 }, { "dobleguillotina": 78.34 }, { "oxo": 191.63 }, { "xox": 204.05 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -531,11 +531,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 72.46 }, { "corredizaxox": 79.52 } ]
+                      "tipos": [ { "corrediza": 72.46 }, { "corredizaxox": 79.52 }, { "corredizaox-o": 71.66 }, { "corredizao-xo": 72.36 }, { "corredizao-xox": 79.52 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 72.36 }, { "dobleguillotina": 90.71 }, { "oxo": 220.49 }, { "xox": 231.88 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -553,11 +553,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 73.62 }, { "corredizaxox": 80.72 } ]
+                      "tipos": [ { "corrediza": 73.62 }, { "corredizaxox": 80.72 }, { "corredizaox-o": 72.91 }, { "corredizao-xo": 73.63 }, { "corredizao-xox": 80.72 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 73.63 }, { "dobleguillotina": 92.47 }, { "oxo": 224.57 }, { "xox": 235.8 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -575,11 +575,11 @@
                     },
                     {
                       "tipo": "corrediza",
-                      "tipos": [ { "corrediza": 0 }, { "corredizaxox": 0 } ]
+                      "tipos": [ { "corrediza": 0 }, { "corredizaxox": 0 }, { "corredizaox-o": 0 }, { "corredizao-xo": 0 }, { "corredizao-xox": 0 } ]
                     },
                     {
                       "tipo": "guillotina",
-                      "tipos": []
+                      "tipos": [ { "guillotina": 0 }, { "dobleguillotina": 0 }, { "oxo": 0 }, { "xox": 0 } ]
                     },
                     {
                       "tipo": "arcosyfiguras",
@@ -603,11 +603,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 50.97 } ]
+                    "tipos": [ { "corrediza": 50.97 }, { "corredizaxox": 62.1 }, { "corredizaox-o": 50.46 }, { "corredizao-xo": 50.96 }, { "corredizao-xox": 62.09 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 52.94 }, { "dobleguillotina": 62.78 }, { "oxo": 166.99 }, { "xox": 175.99 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -625,11 +625,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 59.38 } ]
+                    "tipos": [ { "corrediza": 59.38 }, { "corredizaxox": 67.31 }, { "corredizaox-o": 58.8 }, { "corredizao-xo": 59.38 }, { "corredizao-xox": 67.31 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 59.38 }, { "dobleguillotina": 72.71 }, { "oxo": 178.58 }, { "xox": 191.44 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -647,11 +647,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 58.6 } ]
+                    "tipos": [ { "corrediza": 58.6 }, { "corredizaxox": 72.43 }, { "corredizaox-o": 58.02 }, { "corredizao-xo": 58.59 }, { "corredizao-xox": 72.43 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 65.36 }, { "dobleguillotina": 73.24 }, { "oxo": 191.27 }, { "xox": 206.77 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -669,11 +669,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 65.25 } ]
+                    "tipos": [ { "corrediza": 65.25 }, { "corredizaxox": 72.85 }, { "corredizaox-o": 64.61 }, { "corredizao-xo": 65.25 }, { "corredizao-xox": 72.85 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 65.25 }, { "dobleguillotina": 80.84 }, { "oxo": 197.5 }, { "xox": 209.7 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -691,11 +691,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 60.64 } ]
+                    "tipos": [ { "corrediza": 60.64 }, { "corredizaxox": 68.5 }, { "corredizaox-o": 60.06 }, { "corredizao-xo": 60.65 }, { "corredizao-xox": 68.5 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 60.65 }, { "dobleguillotina": 74.48 }, { "oxo": 182.67 }, { "xox": 195.39 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -713,11 +713,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 75.45 } ]
+                    "tipos": [ { "corrediza": 75.45 }, { "corredizaxox": 82.44 }, { "corredizaox-o": 74.71 }, { "corredizao-xo": 75.45 }, { "corredizao-xox": 82.44 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 75.45 }, { "dobleguillotina": 94.97 }, { "oxo": 230.45 }, { "xox": 241.48 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -735,11 +735,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 54.56 } ]
+                    "tipos": [ { "corrediza": 54.56 }, { "corredizaxox": 62.76 }, { "corredizaox-o": 54.03 }, { "corredizao-xo": 54.56 }, { "corredizao-xox": 62.75 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 54.57 }, { "dobleguillotina": 66.06 }, { "oxo": 169.71 }, { "xox": 179.79 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -757,11 +757,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 63.43 } ]
+                    "tipos": [ { "corrediza": 63.43 }, { "corredizaxox": 71.12 }, { "corredizaox-o": 62.84 }, { "corredizao-xo": 63.43 }, { "corredizao-xox": 71.12 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 63.43 }, { "dobleguillotina": 78.34 }, { "oxo": 191.63 }, { "xox": 204.05 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -779,11 +779,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 72.36 } ]
+                    "tipos": [ { "corrediza": 72.36 }, { "corredizaxox": 79.52 }, { "corredizaox-o": 71.66 }, { "corredizao-xo": 72.36 }, { "corredizao-xox": 79.52 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 72.36 }, { "dobleguillotina": 90.71 }, { "oxo": 220.49 }, { "xox": 231.88 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -801,11 +801,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 73.62 } ]
+                    "tipos": [ { "corrediza": 73.62 }, { "corredizaxox": 80.72 }, { "corredizaox-o": 72.91 }, { "corredizao-xo": 73.63 }, { "corredizao-xox": 80.72 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 73.63 }, { "dobleguillotina": 92.47 }, { "oxo": 224.57 }, { "xox": 235.8 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",
@@ -823,11 +823,11 @@
                   },
                   {
                     "tipo": "corrediza",
-                    "tipos": [ { "corrediza": 0 } ]
+                    "tipos": [ { "corrediza": 0 }, { "corredizaxox": 0 }, { "corredizaox-o": 0 }, { "corredizao-xo": 0 }, { "corredizao-xox": 0 } ]
                   },
                   {
                     "tipo": "guillotina",
-                    "tipos": []
+                    "tipos": [ { "guillotina": 0 }, { "dobleguillotina": 0 }, { "oxo": 0 }, { "xox": 0 } ]
                   },
                   {
                     "tipo": "arcosyfiguras",

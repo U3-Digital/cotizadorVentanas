@@ -13,47 +13,202 @@
             "tipos": [
                 {
                     "nombre": "Claro",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 57.79 }, {"abatiblefijoapilado": 57.80  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 60.33 } , {"abatiblefijoapilado": 60.63  }]
+                        }
+                      ]
                 },
                 {
-                    "nombre": "Claro / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                    "nombre": "Claro / Baño Tapis ",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 62.58 } , {"abatiblefijoapilado":  62.58 }]
+                        }
+                      ]
                 },
                 {
-                    "nombre": "Low-E / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                  "nombre": "Claro / Baño Ultra Fino",
+                  "img": "../../img/vidrio_dob.png",
+                 "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 64.17 } , {"abatiblefijoapilado":64.18   }]
+                    }
+                  ] 
+                },
+                {
+                    "nombre": "Low-E / Baño Tapis",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 65.11 }, {"abatiblefijoapilado": 65.10 } ]
+                        }
+                      ] 
+                
+                },
+                {
+                    "nombre": "Low-E / Baño Ultra Fino ",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 66.70 }, {"abatiblefijoapilado":  66.72 } ]
+                        }
+                      ] 
+                },
+                {
+                    "nombre": "Templado Claro ",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 92.05 }, {"abatiblefijoapilado":  83.68 } ]
+                        }
+                      ] 
+                },
+                {
+                    "nombre": "Templado Low-E ",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 114.65 }, {"abatiblefijoapilado": 103.70  } ]
+                        }
+                      ] 
                 },
                 {
                     "nombre": "Low-E / FiltraSol",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 61.35 }, {"abatiblefijoapilado":  61.34 } ]
+                        }
+                      ] 
                 },
                 {
                     "nombre": "Low-E / ReflecteSol",
-                    "img": "../../img/vidrio_dob_lowe.png"
+                    "img": "../../img/vidrio_dob_lowe.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 73.50 }, {"abatiblefijoapilado": 73.50 } ]
+                        }
+                      ] 
+                
                 },
                 {
                     "nombre": "FiltraSol / Claro",
                     "img": "../../img/vidrio_dob.png"
+                    ,
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 58.82 }, {"abatiblefijoapilado":  58.82 } ]
+                        }
+                      ] 
                 },
                 {
-                    "nombre": "FiltraSol / Baño",
-                    "img": "../../img/vidrio_dob.png"
+                    "nombre": "FiltraSol / Baño Tapis",
+                    "img": "../../img/vidrio_dob.png" ,
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 63.62 }, {"abatiblefijoapilado": 63.62  } ]
+                        }
+                      ] 
+                },
+                {
+                    "nombre": "FiltraSol / Baño Ultra Fino",
+                    "img": "../../img/vidrio_dob.png" ,
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 65.21 }, {"abatiblefijoapilado":  65.22 } ]
+                        }
+                      ] 
                 },
                 {
                     "nombre": "ReflecteSol / Claro",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 70.92 }, {"abatiblefijoapilado":  70.98 } ]
+                        }
+                      ] 
                 },
+               
                 {
                     "nombre": "ReflecteSol / FiltraSol",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 72.00 }, {"abatiblefijoapilado": 72.00  } ]
+                        }
+                      ] 
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF",
-                    "img": "../../img/vidrio_dob.png"
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 77.36}, {"abatiblefijoapilado":  77.36 } ]
+                        }
+                        
+                      ] 
+                },
+                {
+                    "nombre": "Templado Claro / Baño ",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 108.97}, {"abatiblefijoapilado":  99.02 } ]
+                        }
+                        
+                      ] 
+                },
+              
+                {
+                    "nombre": "Templado Low-E / Baño",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 125.76}, {"abatiblefijoapilado": 114.34  } ]
+                        }
+                        
+                      ] 
+                },
+                {
+                    "nombre": "Templado Low-E / Filtra Sol",
+                    "img": "../../img/vidrio_dob.png",
+                    "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 124.47}, {"abatiblefijoapilado": 113.16 } ]
+                        }
+                        
+                      ] 
                 }
             ]
         },
@@ -63,47 +218,144 @@
             "tipos": [
                 {
                     "nombre": "Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 61.33 }, {"abatiblefijoapilado":  61.34 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 63.93 }, {"abatiblefijoapilado": 63.92  } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Claro / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "nombre": "Claro / Baño Tapis con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 66.24 } , {"abatiblefijoapilado":  66.24 }]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Low-E / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "nombre": "Claro / Baño Ultra Fino con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 67.88 }, {"abatiblefijoapilado":  67.88 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "Low-E / Baño Tapis con Marginal",
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 68.84 }, {"abatiblefijoapilado":  68.84 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "Low-E / Baño Ultra Fino con Marginal",
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.47 }, {"abatiblefijoapilado":  70.48 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_dob_lowe_marginal.png"
+                    "img": "../../img/vidrio_dob_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 64.98 }, {"abatiblefijoapilado": 64.98  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / ReflecteSol con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 77.47 }, {"abatiblefijoapilado":  77.44 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 62.38 }, {"abatiblefijoapilado":  62.38 } ]
+                      }
+                    ]
+                
                 },
                 {
-                    "nombre": "FiltraSol / Baño con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "nombre": "FiltraSol / Baño Tapis con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 67.30 }, {"abatiblefijoapilado":  67.32 } ]
+                      }
+                    ]
+                }, 
+                {
+                    "nombre": "FiltraSol / Baño Ultra Fino  con Marginal",
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 68.94 }, {"abatiblefijoapilado": 68.96  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 74.86 }, {"abatiblefijoapilado":  74.86 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 75.91 }, {"abatiblefijoapilado": 75.90  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF con Marginal",
-                    "img": "../../img/vidrio_dob_marginal.png"
+                    "img": "../../img/vidrio_dob_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 81.40 }, {"abatiblefijoapilado":  81.40 } ]
+                      }
+                    ]
                 }
             ]
         },
@@ -113,47 +365,148 @@
             "tipos": [
                 {
                     "nombre": "Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 61.33} , {"abatiblefijoapilado":  61.34 }]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 63.93 }, {"abatiblefijoapilado": 63.92  } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Claro / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "nombre": "Claro / Baño Tapis con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 66.24 }, {"abatiblefijoapilado": 66.24  } ]
+                      }
+                    ]
+                },
+                 {
+                    "nombre": "Claro / Baño Ultra Fino con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 67.88 }, {"abatiblefijoapilado": 67.88 } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Low-E / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula"
+                    "nombre": "Low-E / Baño Tapis con Cuadricula",
+                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 68.84 }, {"abatiblefijoapilado": 68.84  } ]
+                      }
+                    ]
+
+                },
+                {
+                    "nombre": "Low-E / Baño Ultra Fino con Cuadricula",
+                    "img": "../../img/vidrio_dob_bano_lowe_cuadricula",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.47 }, {"abatiblefijoapilado": 70.48  } ]
+                      }
+                    ]
+
                 },
                 {
                     "nombre": "Low-E / FiltraSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [
+                             { "abatiblefijo": 64.98 } ,
+                             {"abatiblefijoapilado": 64.98  },
+                             {  "dobleabatiblefijo": -1  }]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / ReflecteSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+                    "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 77.45 }, {"abatiblefijoapilado": 77.44  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "FiltraSol / Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 62.38 }, {"abatiblefijoapilado":62.38   } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "FiltraSol / Baño con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "nombre": "FiltraSol / Baño Tapis con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 67.30 }, {"abatiblefijoapilado": 67.32 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "FiltraSol / Baño Filtra Sol con Cuadricula",
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 68.94 }, {"abatiblefijoapilado":  68.96 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 74.86 }, {"abatiblefijoapilado":  74.86 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 75.91 }, {"abatiblefijoapilado":  75.90 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Baño UF con Cuadricula",
-                    "img": "../../img/vidrio_dob_cuadricula.png"
+                    "img": "../../img/vidrio_dob_cuadricula.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 81.40 }, {"abatiblefijoapilado": 81.40 } ]
+                      }
+                    ]
                 }
             ]
         },
@@ -162,48 +515,134 @@
             "img": "../../img/vidrio_tri.png",
             "tipos": [
                 {
-                    "nombre": "Low-E / Claro / Baño",
-                    "img": "../../img/vidrio_tri_bano_lowe.png"
+                    "nombre": "Low-E / Claro / Baño Tapis",
+                    "img": "../../img/vidrio_tri_bano_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 69.08 } , {"abatiblefijoapilado": 69.10  }]
+                      }
+                    ]
+                },
+                 {
+                    "nombre": "Low-E / Claro / Baño Ultra Fino",
+                    "img": "../../img/vidrio_tri_bano_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.64 } , {"abatiblefijoapilado": 70.64  }]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 64.40 }, {"abatiblefijoapilado":  64.40 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Claro / FiltraSol",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 65.40}, {"abatiblefijoapilado":  65.42 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol / Claro",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 65.40 }, {"abatiblefijoapilado":  65.42 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol / FiltraSol",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo":66.42 }, {"abatiblefijoapilado":  66.42 } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Low-E / FiltraSol / Baño",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "nombre": "Low-E / FiltraSol / Baño Tapis ",
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.04 }, {"abatiblefijoapilado":  70.08 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Baño Ultra Fino ",
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 71.66 }, {"abatiblefijoapilado": 71.64 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Low-E / Claro",
-                    "img": "../../img/vidrio_tri_lowe.png"
+                    "img": "../../img/vidrio_tri_lowe.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo":66.85}, {"abatiblefijoapilado":  66.86 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / Claro",
-                    "img": "../../img/vidrio_tri.png"
+                    "img": "../../img/vidrio_tri.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 74.82 }, {"abatiblefijoapilado": 74.82  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol / Claro",
-                    "img": "../../img/vidrio_tri.png"
+                    "img": "../../img/vidrio_tri.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 75.83}, {"abatiblefijoapilado": 75.82  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / FiltraSol",
-                    "img": "../../img/vidrio_tri.png"
+                    "img": "../../img/vidrio_tri.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 75.83 } , {"abatiblefijoapilado": 75.82 }]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / Baño UF",
-                    "img": "../../img/vidrio_tri.png"
+                    "img": "../../img/vidrio_tri.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 81.06 }, {"abatiblefijoapilado":  81.06 } ]
+                      }
+                    ]
                 }
             ]
         },
@@ -212,48 +651,134 @@
             "img": "../../img/vidrio_tri_marginal.png",
             "tipos": [
                 {
-                    "nombre": "Low-E / Claro / Baño con Marginal",
-                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+                    "nombre": "Low-E / Claro / Baño Tapis con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 72.88 }, {"abatiblefijoapilado":  72.88 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "Low-E / Claro / Baño Ultra Fino con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E con Marginal",
-                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                    "img": "../../img/vidrio_tri_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Claro / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                    "img": "../../img/vidrio_tri_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol / Claro con Marginal",
-                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                    "img": "../../img/vidrio_tri_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 }]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / FiltraSol / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                    "img": "../../img/vidrio_tri_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ]
+                      }
+                    ]
                 },
                 {
-                    "nombre": "Low-E / FiltraSol / Baño con Marginal",
-                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+                    "nombre": "Low-E / FiltraSol / Baño Tapis con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 } ]
+                      }
+                    ]
+                },
+                {
+                    "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Marginal",
+                    "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "Low-E / Low-E / Claro con Marginal",
-                    "img": "../../img/vidrio_tri_lowe_marginal.png"
+                    "img": "../../img/vidrio_tri_lowe_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 70.58 }, {"abatiblefijoapilado":  70.60 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / Claro con Marginal",
-                    "img": "../../img/vidrio_tri_marginal.png"
+                    "img": "../../img/vidrio_tri_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
-                    "img": "../../img/vidrio_tri_marginal.png"
+                    "img": "../../img/vidrio_tri_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
-                    "img": "../../img/vidrio_tri_marginal.png"
+                    "img": "../../img/vidrio_tri_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado":  79.78 } ]
+                      }
+                    ]
                 },
                 {
                     "nombre": "ReflecteSol / Claro / Baño UF con Marginal",
-                    "img": "../../img/vidrio_tri_marginal.png"
+                    "img": "../../img/vidrio_tri_marginal.png",
+                    "precio": [
+                      {
+                        "tipo": "fijo",
+                        "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  }]
+                      }
+                    ]
                 }
             ]
         }
