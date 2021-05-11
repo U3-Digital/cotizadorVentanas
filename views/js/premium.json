@@ -17,7 +17,13 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 57.79 }, {"abatiblefijoapilado": 57.80  } ]
+                        "tipos": [ { "abatiblefijo": 57.79 },
+                                   {"abatiblefijoapilado": 57.80  },
+                                   {  "dobleabatiblefijo": 57.80  },
+                                   { }
+                               
+                                  
+                                  ]
                       }
                     ]
                 },
@@ -27,7 +33,12 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 60.33 } , {"abatiblefijoapilado": 60.63  }]
+                          "tipos": [ { "abatiblefijo": 60.33 } ,
+                                     {"abatiblefijoapilado": 60.63},
+                                     {  "dobleabatiblefijo": 60.32  }
+                                    
+                                    
+                                    ]
                         }
                       ]
                 },
@@ -37,7 +48,10 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 62.58 } , {"abatiblefijoapilado":  62.58 }]
+                          "tipos": [ { "abatiblefijo": 62.58 } ,
+                             {"abatiblefijoapilado":  62.58 },
+                             {  "dobleabatiblefijo":62.58   }
+                            ]
                         }
                       ]
                 },
@@ -47,7 +61,10 @@
                  "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 64.17 } , {"abatiblefijoapilado":64.18   }]
+                      "tipos": [ { "abatiblefijo": 64.17 } ,
+                         {"abatiblefijoapilado":64.18},
+                         {  "dobleabatiblefijo": 64.18  }
+                        ]
                     }
                   ] 
                 },
@@ -57,7 +74,10 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 65.11 }, {"abatiblefijoapilado": 65.10 } ]
+                          "tipos": [ { "abatiblefijo": 65.11 },
+                                     {"abatiblefijoapilado": 65.10 },
+                                     {  "dobleabatiblefijo": 65.10   }
+                          ]
                         }
                       ] 
                 
@@ -68,7 +88,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 66.70 }, {"abatiblefijoapilado":  66.72 } ]
+                          "tipos": [ { "abatiblefijo": 66.70 }, 
+                            {"abatiblefijoapilado":  66.72 },
+                                   {  "dobleabatiblefijo":  66.72 } ]
                         }
                       ] 
                 },
@@ -78,7 +100,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 92.05 }, {"abatiblefijoapilado":  83.68 } ]
+                          "tipos": [ { "abatiblefijo": 92.05 }, 
+                            {"abatiblefijoapilado":  83.68 },
+                                   {  "dobleabatiblefijo":  83.68  } ]
                         }
                       ] 
                 },
@@ -88,7 +112,11 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 114.65 }, {"abatiblefijoapilado": 103.70  } ]
+                          "tipos": [ { "abatiblefijo": 114.65 },
+                             {"abatiblefijoapilado": 103.70  }, 
+                             {  "dobleabatiblefijo":  103.70  } 
+                            
+                            ]
                         }
                       ] 
                 },
@@ -98,7 +126,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 61.35 }, {"abatiblefijoapilado":  61.34 } ]
+                          "tipos": [ { "abatiblefijo": 61.35 },
+                             {"abatiblefijoapilado":  61.34 } ,
+                                   {  "dobleabatiblefijo":  61.34  }]
                         }
                       ] 
                 },
@@ -108,7 +138,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 73.50 }, {"abatiblefijoapilado": 73.50 } ]
+                          "tipos": [ { "abatiblefijo": 73.50 },
+                             {"abatiblefijoapilado": 73.50 },
+                                   {  "dobleabatiblefijo": 73.50  } ]
                         }
                       ] 
                 
@@ -120,7 +152,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 58.82 }, {"abatiblefijoapilado":  58.82 } ]
+                          "tipos": [ { "abatiblefijo": 58.82 },
+                             {"abatiblefijoapilado":  58.82 },
+                                   {  "dobleabatiblefijo":  58.82 } ]
                         }
                       ] 
                 },
@@ -130,7 +164,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 63.62 }, {"abatiblefijoapilado": 63.62  } ]
+                          "tipos": [ { "abatiblefijo": 63.62 },
+                             {"abatiblefijoapilado": 63.62  } ,
+                                   {  "dobleabatiblefijo": 63.62  }]
                         }
                       ] 
                 },
@@ -140,7 +176,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 65.21 }, {"abatiblefijoapilado":  65.22 } ]
+                          "tipos": [ { "abatiblefijo": 65.21 }, 
+                            {"abatiblefijoapilado":  65.22 } ,
+                                   {  "dobleabatiblefijo": 65.22  }]
                         }
                       ] 
                 },
@@ -150,7 +188,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 70.92 }, {"abatiblefijoapilado":  70.98 } ]
+                          "tipos": [ { "abatiblefijo": 70.92 }, 
+                            {"abatiblefijoapilado":  70.98 },
+                                   {  "dobleabatiblefijo":   70.98 } ]
                         }
                       ] 
                 },
@@ -161,7 +201,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 72.00 }, {"abatiblefijoapilado": 72.00  } ]
+                          "tipos": [ { "abatiblefijo": 72.00 },
+                             {"abatiblefijoapilado": 72.00  },
+                                   {  "dobleabatiblefijo": 72.00  } ]
                         }
                       ] 
                 },
@@ -171,7 +213,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 77.36}, {"abatiblefijoapilado":  77.36 } ]
+                          "tipos": [ { "abatiblefijo": 77.36},
+                             {"abatiblefijoapilado":  77.36 },
+                                   {  "dobleabatiblefijo":   77.36 } ]
                         }
                         
                       ] 
@@ -182,7 +226,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 108.97}, {"abatiblefijoapilado":  99.02 } ]
+                          "tipos": [ { "abatiblefijo": 108.97}, 
+                            {"abatiblefijoapilado":  99.02 },
+                                   {  "dobleabatiblefijo": 99.06  } ]
                         }
                         
                       ] 
@@ -194,7 +240,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 125.76}, {"abatiblefijoapilado": 114.34  } ]
+                          "tipos": [ { "abatiblefijo": 125.76}, 
+                            {"abatiblefijoapilado": 114.34  },
+                                   {  "dobleabatiblefijo":  114.34 } ]
                         }
                         
                       ] 
@@ -205,7 +253,9 @@
                     "precio": [
                         {
                           "tipo": "fijo",
-                          "tipos": [ { "abatiblefijo": 124.47}, {"abatiblefijoapilado": 113.16 } ]
+                          "tipos": [ { "abatiblefijo": 124.47}, 
+                            {"abatiblefijoapilado": 113.16 },
+                                   {  "dobleabatiblefijo":  113.16 } ]
                         }
                         
                       ] 
@@ -222,7 +272,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 61.33 }, {"abatiblefijoapilado":  61.34 } ]
+                        "tipos": [ { "abatiblefijo": 61.33 },
+                           {"abatiblefijoapilado":  61.34 },
+                                   {  "dobleabatiblefijo": 61.34  } ]
                       }
                     ]
                 },
@@ -232,7 +284,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 63.93 }, {"abatiblefijoapilado": 63.92  } ]
+                        "tipos": [ { "abatiblefijo": 63.93 }, 
+                          {"abatiblefijoapilado": 63.92  },
+                                   {  "dobleabatiblefijo":  63.92  } ]
                       }
                     ]
                 },
@@ -242,7 +296,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 66.24 } , {"abatiblefijoapilado":  66.24 }]
+                        "tipos": [ { "abatiblefijo": 66.24 } ,
+                           {"abatiblefijoapilado":  66.24 },
+                                   {  "dobleabatiblefijo":  66.24  }]
                       }
                     ]
                 },
@@ -252,7 +308,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 67.88 }, {"abatiblefijoapilado":  67.88 } ]
+                        "tipos": [ { "abatiblefijo": 67.88 }, 
+                          {"abatiblefijoapilado":  67.88 } ,
+                                   {  "dobleabatiblefijo":  67.88 }]
                       }
                     ]
                 },
@@ -262,7 +320,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 68.84 }, {"abatiblefijoapilado":  68.84 } ]
+                        "tipos": [ { "abatiblefijo": 68.84 }, 
+                          {"abatiblefijoapilado":  68.84 } ,
+                                   {  "dobleabatiblefijo": 68.84 }]
                       }
                     ]
                 },
@@ -272,7 +332,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.47 }, {"abatiblefijoapilado":  70.48 } ]
+                        "tipos": [ { "abatiblefijo": 70.47 },
+                           {"abatiblefijoapilado":  70.48 } ,
+                                   {  "dobleabatiblefijo": 70.48  }]
                       }
                     ]
                 },
@@ -282,7 +344,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 64.98 }, {"abatiblefijoapilado": 64.98  } ]
+                        "tipos": [ { "abatiblefijo": 64.98 }, 
+                          {"abatiblefijoapilado": 64.98  } ,
+                                   {  "dobleabatiblefijo":  64.98 }]
                       }
                     ]
                 },
@@ -292,7 +356,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 77.47 }, {"abatiblefijoapilado":  77.44 } ]
+                        "tipos": [ { "abatiblefijo": 77.47 }, 
+                          {"abatiblefijoapilado":  77.44 },
+                                   {  "dobleabatiblefijo": 77.44  } ]
                       }
                     ]
                 },
@@ -302,7 +368,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 62.38 }, {"abatiblefijoapilado":  62.38 } ]
+                        "tipos": [ { "abatiblefijo": 62.38 }, 
+                          {"abatiblefijoapilado":  62.38 },
+                                   {  "dobleabatiblefijo": 62.38  } ]
                       }
                     ]
                 
@@ -313,7 +381,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 67.30 }, {"abatiblefijoapilado":  67.32 } ]
+                        "tipos": [ { "abatiblefijo": 67.30 }, 
+                          {"abatiblefijoapilado":  67.32 },
+                                   {  "dobleabatiblefijo":  67.32 } ]
                       }
                     ]
                 }, 
@@ -323,7 +393,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 68.94 }, {"abatiblefijoapilado": 68.96  } ]
+                        "tipos": [ { "abatiblefijo": 68.94 }, 
+                          {"abatiblefijoapilado": 68.96  },
+                                   {  "dobleabatiblefijo": 68.96  } ]
                       }
                     ]
                 },
@@ -333,7 +405,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 74.86 }, {"abatiblefijoapilado":  74.86 } ]
+                        "tipos": [ { "abatiblefijo": 74.86 }, 
+                          {"abatiblefijoapilado":  74.86 },
+                                   {  "dobleabatiblefijo":  74.86 } ]
                       }
                     ]
                 },
@@ -343,7 +417,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 75.91 }, {"abatiblefijoapilado": 75.90  } ]
+                        "tipos": [ { "abatiblefijo": 75.91 },
+                           {"abatiblefijoapilado": 75.90  },
+                                   {  "dobleabatiblefijo": 75.90   } ]
                       }
                     ]
                 },
@@ -353,7 +429,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 81.40 }, {"abatiblefijoapilado":  81.40 } ]
+                        "tipos": [ { "abatiblefijo": 81.40 }, 
+                          {"abatiblefijoapilado":  81.40 },
+                                   {  "dobleabatiblefijo":  81.40 } ]
                       }
                     ]
                 }
@@ -369,7 +447,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 61.33} , {"abatiblefijoapilado":  61.34 }]
+                        "tipos": [ { "abatiblefijo": 61.33} , 
+                          {"abatiblefijoapilado":  61.34 },
+                                   {  "dobleabatiblefijo":   61.34 }]
                       }
                     ]
                 },
@@ -379,7 +459,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 63.93 }, {"abatiblefijoapilado": 63.92  } ]
+                        "tipos": [ { "abatiblefijo": 63.93 }, 
+                          {"abatiblefijoapilado": 63.92  },
+                                   {  "dobleabatiblefijo":  63.92 } ]
                       }
                     ]
                 },
@@ -389,7 +471,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 66.24 }, {"abatiblefijoapilado": 66.24  } ]
+                        "tipos": [ { "abatiblefijo": 66.24 }, 
+                          {"abatiblefijoapilado": 66.24  } ,
+                                   {  "dobleabatiblefijo": 66.24  }]
                       }
                     ]
                 },
@@ -398,8 +482,12 @@
                     "img": "../../img/vidrio_dob_cuadricula.png",
                     "precio": [
                       {
+
+
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 67.88 }, {"abatiblefijoapilado": 67.88 } ]
+                        "tipos": [ { "abatiblefijo": 67.88 }, 
+                          {"abatiblefijoapilado": 67.88 },
+                                   {  "dobleabatiblefijo":   67.88 } ]
                       }
                     ]
                 },
@@ -409,8 +497,11 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 68.84 }, {"abatiblefijoapilado": 68.84  } ]
+                        "tipos": [ { "abatiblefijo": 68.84 }, 
+                          {"abatiblefijoapilado": 68.84  },
+                                   {  "dobleabatiblefijo":  68.84 } ]
                       }
+
                     ]
 
                 },
@@ -420,7 +511,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.47 }, {"abatiblefijoapilado": 70.48  } ]
+                        "tipos": [ { "abatiblefijo": 70.47 }, 
+                          
+                          {"abatiblefijoapilado": 70.48  },
+                                   {  "dobleabatiblefijo":  70.48 } ]
                       }
                     ]
 
@@ -434,7 +528,7 @@
                         "tipos": [
                              { "abatiblefijo": 64.98 } ,
                              {"abatiblefijoapilado": 64.98  },
-                             {  "dobleabatiblefijo": -1  }]
+                             {  "dobleabatiblefijo":   64.98 }]
                       }
                     ]
                 },
@@ -444,7 +538,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 77.45 }, {"abatiblefijoapilado": 77.44  } ]
+                        "tipos": [ { "abatiblefijo": 77.45 }, 
+                          
+                          {"abatiblefijoapilado": 77.44  },
+                                   {  "dobleabatiblefijo":  77.44} ]
                       }
                     ]
                 },
@@ -454,7 +551,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 62.38 }, {"abatiblefijoapilado":62.38   } ]
+                        "tipos": [ { "abatiblefijo": 62.38 }, 
+                          
+                          {"abatiblefijoapilado":62.38   },
+                                   {  "dobleabatiblefijo":  62.38 } ]
                       }
                     ]
                 },
@@ -464,7 +564,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 67.30 }, {"abatiblefijoapilado": 67.32 } ]
+                        "tipos": [ { "abatiblefijo": 67.30 }, 
+                          
+                          {"abatiblefijoapilado": 67.32 },
+                                   {  "dobleabatiblefijo": 67.32  } ]
                       }
                     ]
                 },
@@ -474,7 +577,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 68.94 }, {"abatiblefijoapilado":  68.96 } ]
+                        "tipos": [ { "abatiblefijo": 68.94 }, 
+                          
+                          {"abatiblefijoapilado":  68.96 } ,
+                                   {  "dobleabatiblefijo":  68.96 }]
                       }
                     ]
                 },
@@ -484,7 +590,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 74.86 }, {"abatiblefijoapilado":  74.86 } ]
+                        "tipos": [ { "abatiblefijo": 74.86 }, 
+                          
+                          {"abatiblefijoapilado":  74.86 },
+                                   {  "dobleabatiblefijo":  74.86 } ]
                       }
                     ]
                 },
@@ -494,7 +603,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 75.91 }, {"abatiblefijoapilado":  75.90 } ]
+                        "tipos": [ { "abatiblefijo": 75.91 }, 
+                          
+                          {"abatiblefijoapilado":  75.90 },
+                                   {  "dobleabatiblefijo": 75.90  } ]
                       }
                     ]
                 },
@@ -504,7 +616,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 81.40 }, {"abatiblefijoapilado": 81.40 } ]
+                        "tipos": [ { "abatiblefijo": 81.40 }, 
+                          
+                          {"abatiblefijoapilado": 81.40 },
+                                   {  "dobleabatiblefijo":  81.40 } ]
                       }
                     ]
                 }
@@ -520,7 +635,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 69.08 } , {"abatiblefijoapilado": 69.10  }]
+                        "tipos": [ { "abatiblefijo": 69.08 } , 
+                          
+                          {"abatiblefijoapilado": 69.10  },
+                                   {  "dobleabatiblefijo":  69.10 }]
                       }
                     ]
                 },
@@ -530,7 +648,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.64 } , {"abatiblefijoapilado": 70.64  }]
+                        "tipos": [ { "abatiblefijo": 70.64 } , 
+                          
+                          {"abatiblefijoapilado": 70.64  },
+                                   {  "dobleabatiblefijo":  70.64  }]
                       }
                     ]
                 },
@@ -540,7 +661,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 64.40 }, {"abatiblefijoapilado":  64.40 } ]
+                        "tipos": [ { "abatiblefijo": 64.40 }, 
+                          
+                          {"abatiblefijoapilado":  64.40 } ,
+                          {  "dobleabatiblefijo":  64.40 }]
                       }
                     ]
                 },
@@ -550,7 +674,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 65.40}, {"abatiblefijoapilado":  65.42 } ]
+                        "tipos": [ { "abatiblefijo": 65.40}, 
+                          
+                          {"abatiblefijoapilado":  65.42 },
+                                   {  "dobleabatiblefijo":   65.42 } ]
                       }
                     ]
                 },
@@ -560,7 +687,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 65.40 }, {"abatiblefijoapilado":  65.42 } ]
+                        "tipos": [ { "abatiblefijo": 65.40 }, 
+                          
+                          {"abatiblefijoapilado":  65.42 },
+                                   {  "dobleabatiblefijo":  65.42  } ]
                       }
                     ]
                 },
@@ -570,7 +700,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo":66.42 }, {"abatiblefijoapilado":  66.42 } ]
+                        "tipos": [ { "abatiblefijo":66.42 }, 
+                          
+                          {"abatiblefijoapilado":  66.42 },
+                                   {  "dobleabatiblefijo": 66.40  } ]
                       }
                     ]
                 },
@@ -580,7 +713,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.04 }, {"abatiblefijoapilado":  70.08 } ]
+                        "tipos": [ { "abatiblefijo": 70.04 }, 
+                          
+                          {"abatiblefijoapilado":  70.08 },
+                                   {  "dobleabatiblefijo":  70.08 } ]
                       }
                     ]
                 },
@@ -590,7 +726,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 71.66 }, {"abatiblefijoapilado": 71.64 } ]
+                        "tipos": [ { "abatiblefijo": 71.66 }, 
+                          
+                          {"abatiblefijoapilado": 71.64 } ,
+                                   {  "dobleabatiblefijo":  71.64 }]
                       }
                     ]
                 },
@@ -600,7 +739,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo":66.85}, {"abatiblefijoapilado":  66.86 } ]
+                        "tipos": [ { "abatiblefijo":66.85}, 
+                          
+                          {"abatiblefijoapilado":  66.86 },
+                                   {  "dobleabatiblefijo":  66.86 } ]
                       }
                     ]
                 },
@@ -610,8 +752,13 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 74.82 }, {"abatiblefijoapilado": 74.82  } ]
+                        "tipos": [ { "abatiblefijo": 74.82 },
+                          
+                          {"abatiblefijoapilado": 74.82  },
+                                   {  "dobleabatiblefijo": 74.82  } ]
                       }
+
+
                     ]
                 },
                 {
@@ -620,7 +767,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 75.83}, {"abatiblefijoapilado": 75.82  } ]
+                        "tipos": [ { "abatiblefijo": 75.83}, 
+                          
+                          {"abatiblefijoapilado": 75.82  } ,
+                                   {  "dobleabatiblefijo":  75.82 }]
                       }
                     ]
                 },
@@ -630,7 +780,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 75.83 } , {"abatiblefijoapilado": 75.82 }]
+                        "tipos": [ { "abatiblefijo": 75.83 } , 
+                          
+                          {"abatiblefijoapilado": 75.82 },
+                                   {  "dobleabatiblefijo": 75.82  }]
                       }
                     ]
                 },
@@ -640,7 +793,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 81.06 }, {"abatiblefijoapilado":  81.06 } ]
+                        "tipos": [ { "abatiblefijo": 81.06 }, 
+                          
+                          {"abatiblefijoapilado":  81.06 },
+                                   {  "dobleabatiblefijo": 81.06  } ]
                       }
                     ]
                 }
@@ -656,7 +812,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 72.88 }, {"abatiblefijoapilado":  72.88 } ]
+                        "tipos": [ { "abatiblefijo": 72.88 },
+                           {"abatiblefijoapilado":  72.88 },
+                                   {  "dobleabatiblefijo": 72.88  } ]
                       }
                     ]
                 },
@@ -666,7 +824,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 } ]
+                        "tipos": [ { "abatiblefijo": 74.47 }, 
+                          {"abatiblefijoapilado": 74.48 },
+                                   {  "dobleabatiblefijo":  74.48 } ]
                       }
                     ]
                 },
@@ -676,7 +836,10 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  } ]
+                          
+                        "tipos": [  { "abatiblefijo": 68.07 }, 
+                                    {"abatiblefijoapilado": 68.06  },
+                                    {  "dobleabatiblefijo": 68.06  } ]
                       }
                     ]
                 },
@@ -686,7 +849,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  } ]
+                        "tipos": [ { "abatiblefijo": 69.10 }, 
+                          {"abatiblefijoapilado": 69.10  },
+                                   {  "dobleabatiblefijo":69.10} ]
                       }
                     ]
                 },
@@ -696,7 +861,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 }]
+                        "tipos": [ { "abatiblefijo": 69.10 } , 
+                          {"abatiblefijoapilado": 69.10 },
+                                   {  "dobleabatiblefijo":  69.10 }]
                       }
                     ]
                 },
@@ -706,7 +873,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ]
+                        "tipos": [ { "abatiblefijo": 70.13}, 
+                          {"abatiblefijoapilado": 70.14  } ,
+                                   {  "dobleabatiblefijo":   70.14 }]
                       }
                     ]
                 },
@@ -716,7 +885,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 } ]
+                        "tipos": [ { "abatiblefijo": 73.91 }, 
+                          {"abatiblefijoapilado":73.90 },
+                                   {  "dobleabatiblefijo":  73.90 } ]
                       }
                     ]
                 },
@@ -726,7 +897,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ]
+                        "tipos": [ { "abatiblefijo": 75.51 }, 
+                          {"abatiblefijoapilado":  75.52 } ,
+                                   {  "dobleabatiblefijo":  75.52  }]
                       }
                     ]
                 },
@@ -736,7 +909,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 70.58 }, {"abatiblefijoapilado":  70.60 } ]
+                        "tipos": [ { "abatiblefijo": 70.58 },
+                           {"abatiblefijoapilado":  70.60 } ,
+                                   {  "dobleabatiblefijo":  70.60 }]
                       }
                     ]
                 },
@@ -746,7 +921,11 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ]
+                        "tipos": [ 
+                          { "abatiblefijo": 78.76 }, 
+                          {"abatiblefijoapilado":  78.76 } ,
+                                   {  "dobleabatiblefijo": 78.76  }
+                        ]
                       }
                     ]
                 },
@@ -756,7 +935,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  } ]
+                        "tipos": [ { "abatiblefijo": 79.80 }, 
+                          {"abatiblefijoapilado": 79.78  },
+                                   {  "dobleabatiblefijo":  79.78 } ]
                       }
                     ]
                 },
@@ -766,7 +947,9 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado":  79.78 } ]
+                        "tipos": [ { "abatiblefijo": 79.80 },
+                           {"abatiblefijoapilado":  79.78 } ,
+                                   {  "dobleabatiblefijo":  79.78 }]
                       }
                     ]
                 },
@@ -776,12 +959,179 @@
                     "precio": [
                       {
                         "tipo": "fijo",
-                        "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  }]
+                        "tipos": [ { "abatiblefijo": 85.17 } , 
+                          {"abatiblefijoapilado": 85.16  },
+                                   {  "dobleabatiblefijo":  85.16  }]
                       }
                     ]
                 }
             ]
-        }
+        },
+        {
+          "nombre": "Vidrio Triple con Cuadricula",
+          "img": "../../img/vidrio_tri_marginal.png",
+          "tipos": [
+              {
+                  "nombre": "Low-E / Claro / Baño Tapis con Cuadricula",
+                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 72.88 },
+                         {"abatiblefijoapilado":  72.88 },
+                                 {  "dobleabatiblefijo": 72.88  } ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Claro / Baño Ultra Fino con Cuadricula",
+                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 74.47 }, 
+                        {"abatiblefijoapilado": 74.48 },
+                                 {  "dobleabatiblefijo":  74.48 } ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E con Cuadricula",
+                  "img": "../../img/vidrio_tri_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                        
+                      "tipos": [  { "abatiblefijo": 68.07 }, 
+                                  {"abatiblefijoapilado": 68.06  },
+                                  {  "dobleabatiblefijo": 68.06  } ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Claro / FiltraSol con Cuadricula",
+                  "img": "../../img/vidrio_tri_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 69.10 }, 
+                        {"abatiblefijoapilado": 69.10  },
+                                 {  "dobleabatiblefijo":69.10} ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol / Claro con Cuadricula",
+                  "img": "../../img/vidrio_tri_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 69.10 } , 
+                        {"abatiblefijoapilado": 69.10 },
+                                 {  "dobleabatiblefijo":  69.10 }]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol / FiltraSol con Cuadricula",
+                  "img": "../../img/vidrio_tri_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 70.13}, 
+                        {"abatiblefijoapilado": 70.14  } ,
+                                 {  "dobleabatiblefijo":   70.14 }]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol / Baño Tapis con Cuadricula",
+                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 73.91 }, 
+                        {"abatiblefijoapilado":73.90 },
+                                 {  "dobleabatiblefijo":  73.90 } ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Cuadricula",
+                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 75.51 }, 
+                        {"abatiblefijoapilado":  75.52 } ,
+                                 {  "dobleabatiblefijo":  75.52  }]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Low-E / Claro con Cuadricula",
+                  "img": "../../img/vidrio_tri_lowe_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 70.58 },
+                         {"abatiblefijoapilado":  70.60 } ,
+                                 {  "dobleabatiblefijo":  70.60 }]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro / Claro con Cuadricula",
+                  "img": "../../img/vidrio_tri_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ 
+                        { "abatiblefijo": 78.76 }, 
+                        {"abatiblefijoapilado":  78.76 } ,
+                                 {  "dobleabatiblefijo": 78.76  }
+                      ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / FiltraSol / Claro con Cuadricula",
+                  "img": "../../img/vidrio_tri_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 79.80 }, 
+                        {"abatiblefijoapilado": 79.78  },
+                                 {  "dobleabatiblefijo":  79.78 } ]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro / FiltraSol con Cuadricula",
+                  "img": "../../img/vidrio_tri_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 79.80 },
+                         {"abatiblefijoapilado":  79.78 } ,
+                                 {  "dobleabatiblefijo":  79.78 }]
+                    }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro / Baño UF con Cuadricula",
+                  "img": "../../img/vidrio_tri_marginal.png",
+                  "precio": [
+                    {
+                      "tipo": "fijo",
+                      "tipos": [ { "abatiblefijo": 85.17 } , 
+                        {"abatiblefijoapilado": 85.16  },
+                                 {  "dobleabatiblefijo":  85.16  }]
+                    }
+                  ]
+              }
+          ]
+      }
     ],
     "tipo": [
         {
