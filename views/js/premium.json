@@ -19,11 +19,8 @@
                         "tipo": "fijo",
                         "tipos": [{ "abatiblefijo": 57.79 },{"abatiblefijoapilado": 57.80  },{  "dobleabatiblefijo": 57.80  },{ "fija0-0-0": 57.80 },{"fijo0-0-0":57.80}]
                       },
-                      {"tipo":"abatible ",
-                       "tipos":[{"abatible":92.40},{"abatibleconabatiblefijo":181.93},{"abatiblexox":306.08},{"abatibleoxo":266.24},{"abatibleo/x":56.68},{"abatiblexx":212.36},{"abatiblexoo-oox":266.24} ]
-                      
-                      }
-
+                      {"tipo":"abatible ", "tipos":[{"abatible":92.40},{"abatibleconabatiblefijo":181.93},{"abatiblexox":306.08},{"abatibleoxo":266.24},{"abatibleo/x":56.68},{"abatiblexx":212.36},{"abatiblexoo-oox":266.24} ] },
+                      {"tipo":"proyectante", "tipos":[{"abatiente":95.45},{"abatienteconabatiblefijo":222.04},{"abatienteconabatiblefijoapilador":56.68},{"abatientexox":309.85}]}
 
                     ]
                 },
@@ -35,11 +32,10 @@
                           "tipo": "fijo",
                           "tipos": [{ "abatiblefijo": 60.33 } ,{"abatiblefijoapilado": 60.63},{  "dobleabatiblefijo": 60.32  },{ "fija0-0-0":60.32  },{"fijo0-0-0": 60.32}]
                         },
-                        {"tipo":"abatible ",
-                         "tipos":[{"abatible":94.92},{"abatibleconabatiblefijo":186.98},{"abatiblexox":313.67},{"abatibleoxo":273.69},{"abatibleo/x":59.16},{"abatiblexx":217.34},{"abatiblexoo-oox":273.69} ]
-                        
-                        }
-                              ]
+                        {"tipo":"abatible ", "tipos":[{"abatible":94.92},{"abatibleconabatiblefijo":186.98},{"abatiblexox":313.67},{"abatibleoxo":273.69},{"abatibleo/x":59.16},{"abatiblexx":217.34},{"abatiblexoo-oox":273.69} ] },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":97.93},{"abatienteconabatiblefijo":226.99},{"abatienteconabatiblefijoapilador":59.16},{"abatientexox":317.29}]}
+                            
+                      ]
                 },
                 {
                     "nombre": "Claro / Baño Tapis ",
@@ -55,8 +51,8 @@
                         },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":97.18},{"abatibleconabatiblefijo":191.50},{"abatiblexox":320.45},{"abatibleoxo":280.35},{"abatibleo/x":61.38},{"abatiblexx":221.78},{"abatiblexoo-oox":280.35} ]
-                      }
+                       "tipos":[{"abatible":97.18},{"abatibleconabatiblefijo":191.50},{"abatiblexox":320.45},{"abatibleoxo":280.35},{"abatibleo/x":61.38},{"abatiblexx":221.78},{"abatiblexoo-oox":280.35} ]},
+                       {"tipo":"proyectante", "tipos":[{"abatiente":100.15},{"abatienteconabatiblefijo":231.44},{"abatienteconabatiblefijoapilador":61.37},{"abatientexox":323.94}]}
                       ]
                 },
                 {
@@ -74,8 +70,8 @@
                     },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":98.78},{"abatibleconabatiblefijo":194.69},{"abatiblexox":325.24},{"abatibleoxo":285.04},{"abatibleo/x":62.95},{"abatiblexx":224.90},{"abatiblexoo-oox":285.04} ]
-                      }
+                       "tipos":[{"abatible":98.78},{"abatibleconabatiblefijo":194.69},{"abatiblexox":325.24},{"abatibleoxo":285.04},{"abatibleo/x":62.95},{"abatiblexx":224.90},{"abatiblexoo-oox":285.04} ] },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":101.71},{"abatienteconabatiblefijo":234.56},{"abatienteconabatiblefijoapilador":62.94},{"abatientexox":328.65}]}
                   ] 
                 },
                 {
@@ -93,7 +89,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":99.71},{"abatibleconabatiblefijo":196.56},{"abatiblexox":328.04},{"abatibleoxo":287.79},{"abatibleo/x":63.86},{"abatiblexx":226.74},{"abatiblexoo-oox":287.79} ]
-                      }
+                      },
+                      {"tipo":"proyectante", "tipos":[{"abatiente":102.63},{"abatienteconabatiblefijo":236.39},{"abatienteconabatiblefijoapilador":63.86},{"abatientexox":331.39}]}
                       ] 
                 
                 },
@@ -107,8 +104,8 @@
                         },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":101.31},{"abatibleconabatiblefijo":199.76},{"abatiblexox":332.82},{"abatibleoxo":292.48},{"abatibleo/x":65.43},{"abatiblexx":229.86},{"abatiblexoo-oox":292.48} ]
-                      }
+                       "tipos":[{"abatible":101.31},{"abatibleconabatiblefijo":199.76},{"abatiblexox":332.82},{"abatibleoxo":292.48},{"abatibleo/x":65.43},{"abatiblexx":229.86},{"abatiblexoo-oox":292.48} ] },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":104.19},{"abatienteconabatiblefijo":239.52},{"abatienteconabatiblefijoapilador":65.42},{"abatientexox":336.07}]}
                       ] 
                 },
                 {
@@ -121,8 +118,8 @@
                         },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":110.21},{"abatibleconabatiblefijo":231.77},{"abatiblexox":379.87},{"abatibleoxo":340.53},{"abatibleo/x":82.07},{"abatiblexx":259.34},{"abatiblexoo-oox":340.53} ]
-                      }
+                       "tipos":[{"abatible":110.21},{"abatibleconabatiblefijo":231.77},{"abatiblexox":379.87},{"abatibleoxo":340.53},{"abatibleo/x":82.07},{"abatiblexx":259.34},{"abatiblexoo-oox":340.53} ]},
+                        {"tipo":"proyectante", "tipos":[{"abatiente":129.96},{"abatienteconabatiblefijo":267.42},{"abatienteconabatiblefijoapilador":82.08},{"abatientexox":380.64}]}
                       ] 
                 },
                 {
@@ -138,7 +135,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":130.35},{"abatibleconabatiblefijo":272.31},{"abatiblexox":440.94},{"abatibleoxo":399.91},{"abatibleo/x":101.69},{"abatiblexx":299.64},{"abatiblexoo-oox":399.91} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":152.12},{"abatienteconabatiblefijo":307.72},{"abatienteconabatiblefijoapilador":101.69},{"abatientexox":440.54}]}
                       ] 
                 },
                 {
@@ -152,7 +150,8 @@
                         {
                           "tipo":"abatible ",
                          "tipos":[{"abatible":95.95},{"abatibleconabatiblefijo":189.05},{"abatiblexox":316.75},{"abatibleoxo":276.73},{"abatibleo/x":60.17},{"abatiblexx":219.35},{"abatiblexoo-oox":276.73} ]
-                        }
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":98.94},{"abatienteconabatiblefijo":229.03},{"abatienteconabatiblefijoapilador":60.17},{"abatientexox":320.32}]}
                       ] 
                 },
                 {
@@ -166,7 +165,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":108.10},{"abatibleconabatiblefijo":213.34},{"abatiblexox":353.20},{"abatibleoxo":312.47},{"abatibleo/x":72.09},{"abatiblexx":243.18},{"abatiblexoo-oox":312.47} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":110.86},{"abatienteconabatiblefijo":252.86},{"abatienteconabatiblefijoapilador":72.09},{"abatientexox":356.08}]}
                       ] 
                 
                 },
@@ -182,7 +182,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":93.43},{"abatibleconabatiblefijo":183.98},{"abatiblexox":309.18},{"abatibleoxo":269.29},{"abatibleo/x":57.69},{"abatiblexx":214.40},{"abatiblexoo-oox":269.29} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":96.94},{"abatienteconabatiblefijo":224.06},{"abatienteconabatiblefijoapilador":57.69},{"abatientexox":313.70}]}
                       ] 
                 },
                 {
@@ -196,7 +197,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":98.21},{"abatibleconabatiblefijo":193.58},{"abatiblexox":323.55},{"abatibleoxo":283.37},{"abatibleo/x":62.39},{"abatiblexx":223.78},{"abatiblexoo-oox":283.37} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":101.16},{"abatienteconabatiblefijo":233.46},{"abatienteconabatiblefijoapilador":62.40},{"abatientexox":326.98}]}
                       ] 
                 },
                 {
@@ -210,7 +212,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":99.81},{"abatibleconabatiblefijo":196.76},{"abatiblexox":328.55},{"abatibleoxo":288.07},{"abatibleo/x":63.96},{"abatiblexx":226.92},{"abatiblexoo-oox":288.07} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":102.73},{"abatienteconabatiblefijo":236.59},{"abatienteconabatiblefijoapilador":63.95},{"abatientexox":331.67}]}
                       ] 
                 },
                 {
@@ -224,7 +227,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":105.57},{"abatibleconabatiblefijo":208.29},{"abatiblexox":345.63},{"abatibleoxo":305.03},{"abatibleo/x":69.61},{"abatiblexx":238.22},{"abatiblexoo-oox":305.03} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":108.37},{"abatienteconabatiblefijo":247.89},{"abatienteconabatiblefijoapilador":69.60},{"abatientexox":348.62}]}
                       ] 
                 },
                
@@ -239,7 +243,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":106.60},{"abatibleconabatiblefijo":210.36},{"abatiblexox":348.71},{"abatibleoxo":308.07},{"abatibleo/x":70.62},{"abatiblexx":240.25},{"abatiblexoo-oox":308.07} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":109.39},{"abatienteconabatiblefijo":249.91},{"abatienteconabatiblefijoapilador":70.62},{"abatientexox":351.66}]}
                       ] 
                 },
                 {
@@ -253,7 +258,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":111.96},{"abatibleconabatiblefijo":221.06},{"abatiblexox":364.78},{"abatibleoxo":323.83},{"abatibleo/x":75.87},{"abatiblexx":250.5},{"abatiblexoo-oox":323.83} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":114.64},{"abatienteconabatiblefijo":260.42},{"abatienteconabatiblefijoapilador":75.87},{"abatientexox":367.41}]}
                         
                       ] 
                 },
@@ -268,7 +274,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":125.24},{"abatibleconabatiblefijo":262.93},{"abatiblexox":426.82},{"abatibleoxo":386.18},{"abatibleo/x":97.16},{"abatiblexx":290.32},{"abatiblexoo-oox":386.18} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":147.00},{"abatienteconabatiblefijo":298.41},{"abatienteconabatiblefijoapilador":97.16},{"abatientexox":426.69}]}
                         
                       ] 
                 },
@@ -284,7 +291,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":140.19},{"abatibleconabatiblefijo":293.88},{"abatiblexox":473.45},{"abatibleoxo":431.49},{"abatibleo/x":112.13},{"abatiblexx":321.07},{"abatiblexoo-oox":431.49} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":163.91},{"abatienteconabatiblefijo":329.16},{"abatienteconabatiblefijoapilador":112.14},{"abatientexox":472.42}]}
                         
                       ] 
                 },
@@ -299,7 +307,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":139.73},{"abatibleconabatiblefijo":291.50},{"abatiblexox":469.86},{"abatibleoxo":428.01},{"abatibleo/x":110.98},{"abatiblexx":318.71},{"abatiblexoo-oox":428.01} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":162.62},{"abatienteconabatiblefijo":326.79},{"abatienteconabatiblefijoapilador":110.98},{"abatientexox":468.89}]}
                         
                       ] 
                 }
@@ -320,7 +329,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":96.83},{"abatibleconabatiblefijo":189.91},{"abatiblexox":318.51},{"abatibleoxo":277.54},{"abatibleo/x":60.15},{"abatiblexx":221.09},{"abatiblexoo-oox":277.54} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":99.94},{"abatienteconabatiblefijo":231.01},{"abatienteconabatiblefijoapilador":60.15},{"abatientexox":322.30}]}
                     ]
                 },
                 {
@@ -334,7 +344,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":99.44},{"abatibleconabatiblefijo":195.10},{"abatiblexox":320.02},{"abatibleoxo":285.19},{"abatibleo/x":62.69},{"abatiblexx":226.18},{"abatiblexoo-oox":285.19} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":102.48},{"abatienteconabatiblefijo":236.10},{"abatienteconabatiblefijoapilador":62.70},{"abatientexox":329.93}]}
                     ]
                 },
                 {
@@ -348,7 +359,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":101.76},{"abatibleconabatiblefijo":199.73},{"abatiblexox":326.84},{"abatibleoxo":292.01},{"abatibleo/x":64.97},{"abatiblexx":230.73},{"abatiblexoo-oox":292.01} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":104.76},{"abatienteconabatiblefijo":240.65},{"abatienteconabatiblefijoapilador":64.97},{"abatientexox":336.75}]}
                     ]
                 },
                 {
@@ -361,8 +373,8 @@
                       },
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":103.40},{"abatibleconabatiblefijo":203.01},{"abatiblexox":331.65},{"abatibleoxo":296.83},{"abatibleo/x":66.58},{"abatiblexx":233.96},{"abatiblexoo-oox":296.83} ]
-                      
-                      }
+                      },
+                      {"tipo":"proyectante", "tipos":[{"abatiente":106.37},{"abatienteconabatiblefijo":243.86},{"abatienteconabatiblefijoapilador":66.57},{"abatientexox":341.57}]}
                     ]
                 },
                 {
@@ -376,7 +388,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":104.35},{"abatibleconabatiblefijo":204.93},{"abatiblexox":334.46},{"abatibleoxo":299.65},{"abatibleo/x":67.52},{"abatiblexx":235.84},{"abatiblexoo-oox":299.65} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":107.31},{"abatienteconabatiblefijo":245.74},{"abatienteconabatiblefijoapilador":67.51},{"abatientexox":344.39}]}
                     ]
                 },
                 {
@@ -390,7 +403,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":105.99},{"abatibleconabatiblefijo":208.20},{"abatiblexox":339.29},{"abatibleoxo":304.47},{"abatibleo/x":69.12},{"abatiblexx":239.04},{"abatiblexoo-oox":304.47} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":108.91},{"abatienteconabatiblefijo":248.96},{"abatienteconabatiblefijoapilador":69.12},{"abatientexox":349.21}]}
                     ]
                 },
                 {
@@ -404,7 +418,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":100.49},{"abatibleconabatiblefijo":197.22},{"abatiblexox":323.12},{"abatibleoxo":288.30},{"abatibleo/x":63.74},{"abatiblexx":228.26},{"abatiblexoo-oox":288.30} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":103.52},{"abatienteconabatiblefijo":238.18},{"abatienteconabatiblefijoapilador":63.74},{"abatientexox":333.04}]}
                     ]
                 },
                 {
@@ -418,7 +433,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":112.96},{"abatibleconabatiblefijo":222.15},{"abatiblexox":359.81},{"abatibleoxo":324.97},{"abatibleo/x":75.96},{"abatiblexx":252.71},{"abatiblexoo-oox":324.97} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":115.74},{"abatienteconabatiblefijo":263.63},{"abatienteconabatiblefijoapilador":75.96},{"abatientexox":369.73}]}
                     ]
                 },
                 {
@@ -432,7 +448,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":97.89},{"abatibleconabatiblefijo":192.03},{"abatiblexox":315.49},{"abatibleoxo":280.67},{"abatibleo/x":61.19},{"abatiblexx":223.18},{"abatiblexoo-oox":280.67} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":100.97},{"abatienteconabatiblefijo":233.09},{"abatienteconabatiblefijoapilador":61.18},{"abatientexox":325.41}]}
                     ]
                 
                 },
@@ -447,7 +464,8 @@
                       {"tipo":"abatible ",
                        "tipos":[{"abatible":102.82},{"abatibleconabatiblefijo":201.86},{"abatiblexox":329.96},{"abatibleoxo":295.12},{"abatibleo/x":66.01},{"abatiblexx":232.80},{"abatiblexoo-oox":295.12} ]
                       
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":105.80},{"abatienteconabatiblefijo":242.73},{"abatienteconabatiblefijoapilador":66.01},{"abatientexox":339.87}]}
                     ]
                 }, 
                 {
@@ -461,7 +479,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":104.46},{"abatibleconabatiblefijo":205.13},{"abatiblexox":334.77},{"abatibleoxo":299.94},{"abatibleo/x":67.61},{"abatiblexx":236.03},{"abatiblexoo-oox":299.94} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":107.41},{"abatienteconabatiblefijo":245.94},{"abatienteconabatiblefijoapilador":67.61},{"abatientexox":344.69}]}
                     ]
                 },
                 {
@@ -475,7 +494,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":110.37},{"abatibleconabatiblefijo":216.95},{"abatiblexox":352.17},{"abatibleoxo":317.35},{"abatibleo/x":73.42},{"abatiblexx":247.64},{"abatiblexoo-oox":317.35} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":113.20},{"abatienteconabatiblefijo":257.55},{"abatienteconabatiblefijoapilador":73.42},{"abatientexox":362.08}]}
                     ]
                 },
                 {
@@ -489,7 +509,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":111.42},{"abatibleconabatiblefijo":219.08},{"abatiblexox":355.28},{"abatibleoxo":320.45},{"abatibleo/x":74.45},{"abatiblexx":249.70},{"abatiblexoo-oox":320.45} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":114.24},{"abatienteconabatiblefijo":259.64},{"abatienteconabatiblefijoapilador":74.45},{"abatientexox":365.20}]}
                     ]
                 },
                 {
@@ -503,7 +524,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":116.92},{"abatibleconabatiblefijo":230.07},{"abatiblexox":371.45},{"abatibleoxo":336.63},{"abatibleo/x":79.94},{"abatiblexx":260.48},{"abatiblexoo-oox":336.63} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":119.63},{"abatienteconabatiblefijo":270.40},{"abatienteconabatiblefijoapilador":79.85},{"abatientexox":381.38}]}
                     ]
                 }
             ]
@@ -727,7 +749,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":102.94},{"abatibleconabatiblefijo":203.09},{"abatiblexox":331.27},{"abatibleoxo":298.01},{"abatibleo/x":67.90},{"abatiblexx":232.36},{"abatiblexoo-oox":298.01} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":106.00},{"abatienteconabatiblefijo":242.32},{"abatienteconabatiblefijoapilador":67.90},{"abatientexox":340.76}]}
                     ]
                 },
                  {
@@ -742,7 +765,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":104.50},{"abatibleconabatiblefijo":206.09},{"abatiblexox":335.88},{"abatibleoxo":302.61},{"abatibleo/x":69.43},{"abatiblexx":235.92},{"abatiblexoo-oox":302.61} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":107.44},{"abatienteconabatiblefijo":245.39},{"abatienteconabatiblefijoapilador":69.43},{"abatientexox":345.36}]}
                     ]
                 },
                 {
@@ -757,7 +781,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":98.25},{"abatibleconabatiblefijo":193.71},{"abatiblexox":317.46},{"abatibleoxo":284.20},{"abatibleo/x":63.29},{"abatiblexx":223.64},{"abatiblexoo-oox":284.20} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":101.30},{"abatienteconabatiblefijo":233.10},{"abatienteconabatiblefijoapilador":63.29},{"abatientexox":326.94}]}
                     ]
                 },
                 {
@@ -772,7 +797,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":99.26},{"abatibleconabatiblefijo":195.73},{"abatiblexox":320.44},{"abatibleoxo":287.17},{"abatibleo/x":64.28},{"abatiblexx":225.62},{"abatiblexoo-oox":287.17} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":102.29},{"abatienteconabatiblefijo":235.10},{"abatienteconabatiblefijoapilador":64.28},{"abatientexox":329.92}]}
                     ]
                 },
                 {
@@ -787,7 +813,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":99.26},{"abatibleconabatiblefijo":195.73},{"abatiblexox":320.44},{"abatibleoxo":287.17},{"abatibleo/x":64.28},{"abatiblexx":225.62},{"abatiblexoo-oox":287.17} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":102.29},{"abatienteconabatiblefijo":235.10},{"abatienteconabatiblefijoapilador":64.28},{"abatientexox":329.92}]}
                     ]
                 },
                 {
@@ -802,7 +829,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":100.26},{"abatibleconabatiblefijo":197.75},{"abatiblexox":323.41},{"abatibleoxo":290.15},{"abatibleo/x":65.28},{"abatiblexx":227.62},{"abatiblexoo-oox":290.15} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":103.29},{"abatienteconabatiblefijo":237.08},{"abatienteconabatiblefijoapilador":65.28},{"abatientexox":332.89}]}
                     ]
                 },
                 {
@@ -816,7 +844,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":103.95},{"abatibleconabatiblefijo":205.09},{"abatiblexox":334.26},{"abatibleoxo":300.97},{"abatibleo/x":68.89},{"abatiblexx":234.83},{"abatiblexoo-oox":300.97} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":106.90},{"abatienteconabatiblefijo":244.32},{"abatienteconabatiblefijoapilador":68.89},{"abatientexox":343.73}]}
                     ]
                 },
                 {
@@ -830,7 +859,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":105.51},{"abatibleconabatiblefijo":208.22},{"abatiblexox":338.86},{"abatibleoxo":305.59},{"abatibleo/x":70.42},{"abatiblexx":264.90},{"abatiblexoo-oox":305.59} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":108.44},{"abatienteconabatiblefijo":247.38},{"abatienteconabatiblefijoapilador":70.42},{"abatientexox":348.33}]}
                     ]
                 },
                 {
@@ -844,7 +874,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":100.70},{"abatibleconabatiblefijo":198.63},{"abatiblexox":324.71},{"abatibleoxo":291.44},{"abatibleo/x":65.70},{"abatiblexx":228.48},{"abatiblexoo-oox":291.44} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":103.71},{"abatienteconabatiblefijo":237.94},{"abatienteconabatiblefijoapilador":65.70},{"abatientexox":334.19}]}
                     ]
                 },
                 {
@@ -858,7 +889,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":108.67},{"abatibleconabatiblefijo":214.55},{"abatiblexox":348.19},{"abatibleoxo":314.91},{"abatibleo/x":73.54},{"abatiblexx":244.12},{"abatiblexoo-oox":314.91} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":111.54},{"abatienteconabatiblefijo":253.60},{"abatienteconabatiblefijoapilador":73.53},{"abatientexox":357.67}]}
 
 
                     ]
@@ -874,7 +906,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":109.68},{"abatibleconabatiblefijo":216.57},{"abatiblexox":351.16},{"abatibleoxo":317.90},{"abatibleo/x":74.52},{"abatiblexx":246.12},{"abatiblexoo-oox":317.90} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":112.54},{"abatienteconabatiblefijo":255.58},{"abatienteconabatiblefijoapilador":74.53},{"abatientexox":360.60}]}
                     ]
                 },
                 {
@@ -888,7 +921,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":109.68},{"abatibleconabatiblefijo":216.57},{"abatiblexox":351.16},{"abatibleoxo":317.90},{"abatibleo/x":74.52},{"abatiblexx":246.12},{"abatiblexoo-oox":317.90} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":112.54},{"abatienteconabatiblefijo":255.58},{"abatienteconabatiblefijoapilador":74.53},{"abatientexox":360.60}]}
                     ]
                 },
                 {
@@ -902,7 +936,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":114.92},{"abatibleconabatiblefijo":227.07},{"abatiblexox":366.60},{"abatibleoxo":333.34},{"abatibleo/x":79.68},{"abatiblexx":256.41},{"abatiblexoo-oox":333.34} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":117.68},{"abatienteconabatiblefijo":268.88},{"abatienteconabatiblefijoapilador":79.67},{"abatientexox":376.09}]}
                     ]
                 }
             ]
@@ -926,7 +961,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":107.61},{"abatibleconabatiblefijo":189.91},{"abatiblexox":344.20},{"abatibleoxo":310.05},{"abatibleo/x":71.62},{"abatiblexx":242.04},{"abatiblexoo-oox":310.05} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":110.62},{"abatienteconabatiblefijo":251.78},{"abatienteconabatiblefijoapilador":71.62},{"abatientexox":353.92}]}
                     ]
                 },
                 {
@@ -940,7 +976,8 @@
                       {
                         "tipo":"abatible ",
                        "tipos":[{"abatible":109.22},{"abatibleconabatiblefijo":195.10},{"abatiblexox":348.92},{"abatibleoxo":314.78},{"abatibleo/x":73.19},{"abatiblexx":245.20},{"abatiblexoo-oox":314.78} ]
-                      }
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":112.21},{"abatienteconabatiblefijo":254.93},{"abatienteconabatiblefijoapilador":73.17},{"abatientexox":358.66}]}
                     ]
                 },
                 {
@@ -954,8 +991,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":295.87} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":105.90},{"abatienteconabatiblefijo":242.32},{"abatienteconabatiblefijoapilador":66.89},{"abatientexox":339.74}]}
                     ]
                 },
                 {
@@ -968,8 +1006,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":298.94} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79}]}
                     ]
                 },
                 {
@@ -982,8 +1021,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":298.94} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79}]}
                     ]
                 },
                 {
@@ -996,8 +1036,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":301.99} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":107.94},{"abatienteconabatiblefijo":246.40},{"abatienteconabatiblefijoapilador":68.93},{"abatientexox":345.85}]}
                     ]
                 },
                 {
@@ -1010,8 +1051,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":313.10} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":111.64},{"abatienteconabatiblefijo":253.81},{"abatienteconabatiblefijoapilador":72.64},{"abatientexox":356.98}]}
                     ]
                 },
                 {
@@ -1024,8 +1066,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":317.84} ]
+                      },
+                       {"tipo":"proyectante", "tipos":[{"abatiente":113.22},{"abatienteconabatiblefijo":256.96},{"abatienteconabatiblefijoapilador":74.21},{"abatientexox":361.70}]}
                     ]
                 },
                 {
@@ -1038,9 +1081,10 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":303.41} ]
+                      },  {"tipo":"proyectante", "tipos":[{"abatiente":108.56},{"abatienteconabatiblefijo":247.27},{"abatienteconabatiblefijoapilador":69.37},{"abatientexox":347.17}]}
                     ]
+                   
                 },
                 {
                     "nombre": "ReflecteSol / Claro / Claro con Marginal",
@@ -1054,8 +1098,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":327.41} ]
+                      },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":116.41},{"abatienteconabatiblefijo":263.34},{"abatienteconabatiblefijoapilador":74.40},{"abatientexox":371.28}]}
                     ]
                 },
                 {
@@ -1068,8 +1113,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                      },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33}]}
                     ]
                 },
                 {
@@ -1082,8 +1128,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                      },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33}]}
                     ]
                 },
                 {
@@ -1096,8 +1143,9 @@
                       },
                       {
                         "tipo":"abatible ",
-                       "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":} ]
-                      }
+                       "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":346.31} ]
+                      },
+                        {"tipo":"proyectante", "tipos":[{"abatiente":122.72},{"abatienteconabatiblefijo":275.95},{"abatienteconabatiblefijoapilador":83.71},{"abatientexox":390.17}]}
                     ]
                 }
             ]
@@ -1112,14 +1160,16 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 72.88 },{"abatiblefijoapilado":  72.88 },{  "dobleabatiblefijo": 72.88  }, { "fija0-0-0":72.87 } ,{"fijo0-0-0":72.87}
-                                ]
-
+                      "tipos": [ 
+                        
+                        { "abatiblefijo": 72.88 },{"abatiblefijoapilado":  72.88 },{  "dobleabatiblefijo": 72.88  },{ "fija0-0-0":72.87 } ,{"fijo0-0-0":72.87}
+                      
+                      ]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":107.61},{"abatibleconabatiblefijo":189.91},{"abatiblexox":344.20},{"abatibleoxo":310.05},{"abatibleo/x":71.62},{"abatiblexx":242.04},{"abatiblexoo-oox":310.05} ]
+                    }
                   ]
               },
               {
@@ -1128,13 +1178,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 },{  "dobleabatiblefijo":  74.48 },   { "fija0-0-0":74.47 },{"fijo0-0-0":74.47} ]
-
+                      "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 },{  "dobleabatiblefijo":  74.48 },{ "fija0-0-0":74.47 } ,{"fijo0-0-0":74.47}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":109.22},{"abatibleconabatiblefijo":195.10},{"abatiblexox":348.92},{"abatibleoxo":314.78},{"abatibleo/x":73.19},{"abatiblexx":245.20},{"abatiblexoo-oox":314.78} ]
+                    }
                   ]
               },
               {
@@ -1144,12 +1193,12 @@
                     {
                       "tipo": "fijo",
                         
-                      "tipos": [  { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  },{  "dobleabatiblefijo": 68.06  },{ "fija0-0-0":68.06 },{"fijo0-0-0":68.06 } ]
+                      "tipos": [  { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  },{  "dobleabatiblefijo": 68.06  },{ "fija0-0-0":68.06 } ,{"fijo0-0-0":68.06}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":295.87} ]
+                    }
                   ]
               },
               {
@@ -1158,12 +1207,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  },{  "dobleabatiblefijo":69.10},{ "fija0-0-0":69.10 },{"fijo0-0-0":69.10} ]
+                      "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  },{  "dobleabatiblefijo":69.10},{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":298.94} ]
+                    }
                   ]
               },
               {
@@ -1172,12 +1221,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 },{  "dobleabatiblefijo":  69.10 },{ "fija0-0-0":69.10 },{"fijo0-0-0":69.10} ]
+                      "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 },{  "dobleabatiblefijo":  69.10 },{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":298.94} ]
+                    }
                   ]
               },
               {
@@ -1186,12 +1235,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ,{  "dobleabatiblefijo":   70.14 },{ "fija0-0-0":70.14 },{"fijo0-0-0":70.14} ]
+                      "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ,{  "dobleabatiblefijo":   70.14 },{ "fija0-0-0": 70.14 },{"fijo0-0-0":70.14}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":301.99} ]
+                    }
                   ]
               },
               {
@@ -1200,12 +1249,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 },{  "dobleabatiblefijo":  73.90 },{ "fija0-0-0":73.90 },{"fijo0-0-0":73.90} ]
+                      "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 },{  "dobleabatiblefijo":  73.90 },{ "fija0-0-0": 73.90 },{"fijo0-0-0":73.90} ]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":313.10} ]
+                    }
                   ]
               },
               {
@@ -1214,12 +1263,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ,{  "dobleabatiblefijo":  75.52  },{ "fija0-0-0":75.51 },{"fijo0-0-0":75.51} ]
+                      "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ,{  "dobleabatiblefijo":  75.52  },{ "fija0-0-0":75.51 },{"fijo0-0-0":75.51}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":317.84} ]
+                    }
                   ]
               },
               {
@@ -1228,12 +1277,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 70.58 },{"abatiblefijoapilado":  70.60 } ,{  "dobleabatiblefijo":  70.60 },{ "fija0-0-0":70.58 },{"fijo0-0-0":70.58} ]
+                      "tipos": [ { "abatiblefijo": 70.58 },{"abatiblefijoapilado":  70.60 } ,{  "dobleabatiblefijo":  70.60 },{ "fija0-0-0":70.58 },{"fijo0-0-0":70.58 }]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":303.41} ]
+                    }
                   ]
               },
               {
@@ -1243,13 +1292,13 @@
                     {
                       "tipo": "fijo",
                       "tipos": [ 
-                        { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ,{  "dobleabatiblefijo": 78.76  },{ "fija0-0-0":78.76 } ,{"fijo0-0-0":78.76}]
-                      
+                        { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ,{  "dobleabatiblefijo": 78.76  },{ "fija0-0-0":78.76 },{"fijo0-0-0":78.76}
+                      ]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":327.41} ]
+                    }
                   ]
               },
               {
@@ -1258,12 +1307,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  },{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 },{"fijo0-0-0":79.79} ]
+                      "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  },{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 } ,{"fijo0-0-0":79.79}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                    }
                   ]
               },
               {
@@ -1272,12 +1321,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 79.80 },{"abatiblefijoapilado":  79.78 } ,{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 } ,{"fijo0-0-0":79.79}]
+                      "tipos": [ { "abatiblefijo": 79.80 },{"abatiblefijoapilado":  79.78 } ,{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 },{"fijo0-0-0":79.79}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                    }
                   ]
               },
               {
@@ -1286,12 +1335,12 @@
                   "precio": [
                     {
                       "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  },{  "dobleabatiblefijo":  85.16  },{ "fija0-0-0":85.17 },{"fijo0-0-0":85.17} ]
+                      "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  },{  "dobleabatiblefijo":  85.16  },{ "fija0-0-0": 85.17},{"fijo0-0-0":85.17}]
                     },
-                      {
-                        "tipo":"abatible ",
-                       "tipos":[{"abatible":},{"abatibleconabatiblefijo":},{"abatiblexox":},{"abatibleoxo":},{"abatibleo/x":},{"abatiblexx":},{"abatiblexoo-oox":} ]
-                      }
+                    {
+                      "tipo":"abatible ",
+                     "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":346.31} ]
+                    }
                   ]
               }
           ]
