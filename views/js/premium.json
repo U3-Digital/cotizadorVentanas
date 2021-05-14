@@ -312,8 +312,8 @@
                         
                       ] 
                 }
-            ]
-        },
+            ]}
+        ,
         {
             "nombre": "Vidrio Doble con Marginal",
             "img": "../../img/vidrio_dob_marginal.png",
@@ -951,10 +951,11 @@
                        "tipos":[{"abatible":114.92},{"abatibleconabatiblefijo":227.07},{"abatiblexox":366.60},{"abatibleoxo":333.34},{"abatibleo/x":79.68},{"abatiblexx":256.41},{"abatiblexoo-oox":333.34} ]
                       },
                        {"tipo":"proyectante", "tipos":[{"abatiente":117.68},{"abatienteconabatiblefijo":268.88},{"abatienteconabatiblefijoapilador":79.67},{"abatientexox":376.09},{"abatienteoxo":338.08},{"proyectantexxx":117.69},{"abatientexxx":414.10},{"proyectantecon2fijos":79.67},{"dobleproyectanteconunofijo":79.67}]}
-                    ]
+                                            ]
                 }
-            ]
-        },
+                
+                        ]
+              },
         {
             "nombre": "Vidrio Triple con Marginal",
             "img": "../../img/vidrio_tri_marginal.png",
@@ -1069,316 +1070,308 @@
                        {"tipo":"proyectante", "tipos":[{"abatiente":111.64},{"abatienteconabatiblefijo":253.81},{"abatienteconabatiblefijoapilador":72.64},{"abatientexox":356.98},{"abatienteoxo":317.97},{"proyectantexxx":111.64},{"abatientexxx":395.98},{"abatientecon2fijos":72.74},{"dobleproyectanteconunofijo":72.64}]}
                     ]
                 },
+                 {
+              "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Marginal",
+              "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
+              "precio": [
                 {
-                  "nombre": "Vidrio Triple con Cuadricula",
-                  "img": "../../img/vidrio_tri_marginal.png",
-                  "tipos": [
-                      {
-                          "nombre": "Low-E / Claro / Baño Tapis con Cuadricula",
-                          "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ 
-                                
-                                { "abatiblefijo": 72.88 },{"abatiblefijoapilado":  72.88 },{  "dobleabatiblefijo": 72.88  },{ "fija0-0-0":72.87 } ,{"fijo0-0-0":72.87}
-                              
-                              ]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":107.61},{"abatibleconabatiblefijo":189.91},{"abatiblexox":344.20},{"abatibleoxo":310.05},{"abatibleo/x":71.62},{"abatiblexx":242.04},{"abatiblexoo-oox":310.05} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":110.62},{"abatienteconabatiblefijo":251.78},{"abatienteconabatiblefijoapilador":71.62},{"abatientexox":353.92},{"abatienteoxo":314.92},{"proyectantexxx":110.62},{"abatientexxx":392.92},{"abatientecon2fijos":71.62},{"dobleproyectanteconunofijo":71.62}]}
+                  "tipo": "fijo",
+                  "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ,{  "dobleabatiblefijo":  75.52  },{ "fija0-0-0":75.51 },{"fijo0-0-0":75.51}]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":317.84} ]
+                },
+                 {"tipo":"proyectante", "tipos":[{"abatiente":113.22},{"abatienteconabatiblefijo":256.96},{"abatienteconabatiblefijoapilador":74.21},{"abatientexox":361.70},{"abatienteoxo":322.70},{"proyectantexxx":113.22},{"abatientexxx":400.71},{"abatientecon2fijos":74.22},{"dobleproyectanteconunofijo":74.21}]}
+              ]
+          },
+          {
+              "nombre": "Low-E / Low-E / Claro con Marginal",
+              "img": "../../img/vidrio_tri_lowe_marginal.png",
+              "precio": [
+                {
+                  "tipo": "fijo",
+                  "tipos": [ { "abatiblefijo": 70.58 },{"abatiblefijoapilado":  70.60 } ,{  "dobleabatiblefijo":  70.60 },{ "fija0-0-0":70.58 },{"fijo0-0-0":70.58 }]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":303.41} ]
+                },  {"tipo":"proyectante", "tipos":[{"abatiente":108.56},{"abatienteconabatiblefijo":247.27},{"abatienteconabatiblefijoapilador":69.37},{"abatientexox":347.17},{"abatienteoxo":308.17},{"proyectantexxx":108.38},{"abatientexxx":386.18},{"abatientecon2fijos":69.37},{"dobleproyectanteconunofijo":69.37}]}
+              ]
+             
+          },
+          {
+              "nombre": "ReflecteSol / Claro / Claro con Marginal",
+              "img": "../../img/vidrio_tri_marginal.png",
+              "precio": [
+                {
+                  "tipo": "fijo",
+                  "tipos": [ 
+                    { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ,{  "dobleabatiblefijo": 78.76  },{ "fija0-0-0":78.76 },{"fijo0-0-0":78.76}
+                  ]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":327.41} ]
+                },
+                  {"tipo":"proyectante", "tipos":[{"abatiente":116.41},{"abatienteconabatiblefijo":263.34},{"abatienteconabatiblefijoapilador":74.40},{"abatientexox":371.28},{"abatienteoxo":332.27},{"proyectantexxx":116.41},{"abatientexxx":410.29},{"abatientecon2fijos":77.40},{"dobleproyectanteconunofijo":77.40}]}
+              ]
+          },
+          {
+              "nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
+              "img": "../../img/vidrio_tri_marginal.png",
+              "precio": [
+                {
+                  "tipo": "fijo",
+                  "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  },{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 } ,{"fijo0-0-0":79.79}]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                },
+                  {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33},{"abatienteoxo":335.33},{"proyectantexxx":117.43},{"abatientexxx":413.34},{"abatientecon2fijos":78.42},{"dobleproyectanteconunofijo":78.43}]}
+              ]
+          },
+          {
+              "nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
+              "img": "../../img/vidrio_tri_marginal.png", 
+              "precio": [
+                {
+                  "tipo": "fijo",
+                  "tipos": [ { "abatiblefijo": 79.80 },{"abatiblefijoapilado":  79.78 } ,{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 },{"fijo0-0-0":79.79}]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                },
+                  {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33},{"abatienteoxo":335.33},{"proyectantexxx":117.43},{"abatientexxx":413.34},{"abatientecon2fijos":78.42},{"dobleproyectanteconunofijo":78.43}]}
+              ]
+          },
+          {
+              "nombre": "ReflecteSol / Claro / Baño UF con Marginal",
+              "img": "../../img/vidrio_tri_marginal.png",
+              "precio": [
+                {
+                  "tipo": "fijo",
+                  "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  },{  "dobleabatiblefijo":  85.16  },{ "fija0-0-0": 85.17},{"fijo0-0-0":85.17}]
+                },
+                {
+                  "tipo":"abatible ",
+                 "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":346.31} ]
+                },
+                  {"tipo":"proyectante", "tipos":[{"abatiente":122.72},{"abatienteconabatiblefijo":275.95},{"abatienteconabatiblefijoapilador":83.71},{"abatientexox":390.17},{"abatienteoxo":351.18},{"proyectantexxx":122.71},{"abatientexxx":429.19},{"abatientecon2fijos":83.71},{"dobleproyectanteconunofijo":83.71}]}
+              ]
+        }]
+            },
+            {
+              "nombre": "Vidrio Triple con Cuadricula",
+              "img": "../../img/vidrio_tri_cuadricula.png",
+              "tipos": [
+                  {
+                      "nombre": "Low-E / Claro / Baño Tapis con Cuadricula",
+                      "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ 
+                            
+                            { "abatiblefijo": 72.88 },{"abatiblefijoapilado":  72.88 },{  "dobleabatiblefijo": 72.88  },{ "fija0-0-0":72.87 } ,{"fijo0-0-0":72.87}
+                          
                           ]
-                      },
-                      {
-                          "nombre": "Low-E / Claro / Baño Ultra Fino con Cuadricula",
-                          "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 },{  "dobleabatiblefijo":  74.48 },{ "fija0-0-0":74.47 } ,{"fijo0-0-0":74.47}]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":109.22},{"abatibleconabatiblefijo":195.10},{"abatiblexox":348.92},{"abatibleoxo":314.78},{"abatibleo/x":73.19},{"abatiblexx":245.20},{"abatiblexoo-oox":314.78} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":112.21},{"abatienteconabatiblefijo":254.93},{"abatienteconabatiblefijoapilador":73.17},{"abatientexox":358.66},{"abatienteoxo":319.65},{"proyectantexxx":112.20},{"abatientexxx":397.67},{"abatientecon2fijos":73.20},{"dobleproyectanteconunofijo":73.20}]}
-                          ]
-                      },
-                      {
-                          "nombre": "Low-E con Marginal",
-                          "img": "../../img/vidrio_tri_lowe_Cuadricula.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                                
-                              "tipos": [  { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  },{  "dobleabatiblefijo": 68.06  },{ "fija0-0-0":68.06 } ,{"fijo0-0-0":68.06}]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":295.87} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":105.90},{"abatienteconabatiblefijo":242.32},{"abatienteconabatiblefijoapilador":66.89},{"abatientexox":339.74},{"abatienteoxo":300.74},{"proyectantexxx":105.90},{"abatientexxx":378.75},{"abatientecon2fijos":66.89},{"dobleproyectanteconunofijo":66.90}]}
-                          ]
-                      },
-                      {
-                          "nombre": "Low-E / Claro / FiltraSol con Cuadricula",
-                          "img": "../../img/vidrio_tri_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  },{  "dobleabatiblefijo":69.10},{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":298.94} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79},{"abatienteoxo":303.79},{"proyectantexxx":106.92},{"abatientexxx":381.80},{"abatientecon2fijos":67.91},{"dobleproyectanteconunofijo":67.91}]}
-                          ]
-                      },
-                      {
-                          "nombre": "Low-E / FiltraSol / Claro conCuadriculal",
-                          "img": "../../img/vidrio_tri_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 },{  "dobleabatiblefijo":  69.10 },{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":298.94} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79},{"abatienteoxo":303.79},{"proyectantexxx":106.92},{"abatientexxx":381.80},{"abatientecon2fijos":67.91},{"dobleproyectanteconunofijo":67.91}]}
-                          ]
-                      },
-                      {
-                          "nombre": "Low-E / FiltraSol / FiltraSol con Cuadricula",
-                          "img": "../../img/vidrio_tri_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ,{  "dobleabatiblefijo":   70.14 },{ "fija0-0-0": 70.14 },{"fijo0-0-0":70.14}]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":301.99} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":107.94},{"abatienteconabatiblefijo":246.40},{"abatienteconabatiblefijoapilador":68.93},{"abatientexox":345.85},{"abatienteoxo":306.85},{"proyectantexxx":107.94},{"abatientexxx":384.86},{"abatientecon2fijos":68.93},{"dobleproyectanteconunofijo":68.93}]}
-                          ]
-                      },
-                      {
-                          "nombre": "Low-E / FiltraSol / Baño Tapis con Cuadricula",
-                          "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                          "precio": [
-                            {
-                              "tipo": "fijo",
-                              "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 },{  "dobleabatiblefijo":  73.90 },{ "fija0-0-0": 73.90 },{"fijo0-0-0":73.90} ]
-                            },
-                            {
-                              "tipo":"abatible ",
-                             "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":313.10} ]
-                            },
-                             {"tipo":"proyectante", "tipos":[{"abatiente":111.64},{"abatienteconabatiblefijo":253.81},{"abatienteconabatiblefijoapilador":72.64},{"abatientexox":356.98},{"abatienteoxo":317.97},{"proyectantexxx":111.64},{"abatientexxx":395.98},{"abatientecon2fijos":72.74},{"dobleproyectanteconunofijo":72.64}]}
-                          ]
-                 },
-        {
-          "nombre": "Vidrio Triple con Cuadricula",
-          "img": "../../img/vidrio_tri_marginal.png",
-          "tipos": [
-              {
-                  "nombre": "Low-E / Claro / Baño Tapis con Cuadricula",
-                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ 
-                        
-                        { "abatiblefijo": 72.88 },{"abatiblefijoapilado":  72.88 },{  "dobleabatiblefijo": 72.88  },{ "fija0-0-0":72.87 } ,{"fijo0-0-0":72.87}
-                      
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":107.61},{"abatibleconabatiblefijo":189.91},{"abatiblexox":344.20},{"abatibleoxo":310.05},{"abatibleo/x":71.62},{"abatiblexx":242.04},{"abatiblexoo-oox":310.05} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":110.62},{"abatienteconabatiblefijo":251.78},{"abatienteconabatiblefijoapilador":71.62},{"abatientexox":353.92},{"abatienteoxo":314.92},{"proyectantexxx":110.62},{"abatientexxx":392.92},{"abatientecon2fijos":71.62},{"dobleproyectanteconunofijo":71.62}]}
                       ]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":107.61},{"abatibleconabatiblefijo":189.91},{"abatiblexox":344.20},{"abatibleoxo":310.05},{"abatibleo/x":71.62},{"abatiblexx":242.04},{"abatiblexoo-oox":310.05} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / Claro / Baño Ultra Fino con Cuadricula",
-                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 },{  "dobleabatiblefijo":  74.48 },{ "fija0-0-0":74.47 } ,{"fijo0-0-0":74.47}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":109.22},{"abatibleconabatiblefijo":195.10},{"abatiblexox":348.92},{"abatibleoxo":314.78},{"abatibleo/x":73.19},{"abatiblexx":245.20},{"abatiblexoo-oox":314.78} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E con Cuadricula",
-                  "img": "../../img/vidrio_tri_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                        
-                      "tipos": [  { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  },{  "dobleabatiblefijo": 68.06  },{ "fija0-0-0":68.06 } ,{"fijo0-0-0":68.06}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":295.87} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / Claro / FiltraSol con Cuadricula",
-                  "img": "../../img/vidrio_tri_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  },{  "dobleabatiblefijo":69.10},{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":298.94} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / FiltraSol / Claro con Cuadricula",
-                  "img": "../../img/vidrio_tri_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 },{  "dobleabatiblefijo":  69.10 },{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":298.94} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / FiltraSol / FiltraSol con Cuadricula",
-                  "img": "../../img/vidrio_tri_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ,{  "dobleabatiblefijo":   70.14 },{ "fija0-0-0": 70.14 },{"fijo0-0-0":70.14}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":301.99} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / FiltraSol / Baño Tapis con Cuadricula",
-                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 },{  "dobleabatiblefijo":  73.90 },{ "fija0-0-0": 73.90 },{"fijo0-0-0":73.90} ]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":313.10} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Cuadricula",
-                  "img": "../../img/vidrio_tri_bano_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ,{  "dobleabatiblefijo":  75.52  },{ "fija0-0-0":75.51 },{"fijo0-0-0":75.51}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":317.84} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "Low-E / Low-E / Claro con Cuadricula",
-                  "img": "../../img/vidrio_tri_lowe_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 70.58 },{"abatiblefijoapilado":  70.60 } ,{  "dobleabatiblefijo":  70.60 },{ "fija0-0-0":70.58 },{"fijo0-0-0":70.58 }]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":303.41} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "ReflecteSol / Claro / Claro con Cuadricula",
-                  "img": "../../img/vidrio_tri_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ 
-                        { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ,{  "dobleabatiblefijo": 78.76  },{ "fija0-0-0":78.76 },{"fijo0-0-0":78.76}
+                  },
+                  {
+                      "nombre": "Low-E / Claro / Baño Ultra Fino Cuadricula",
+                      "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 74.47 }, {"abatiblefijoapilado": 74.48 },{  "dobleabatiblefijo":  74.48 },{ "fija0-0-0":74.47 } ,{"fijo0-0-0":74.47}]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":109.22},{"abatibleconabatiblefijo":195.10},{"abatiblexox":348.92},{"abatibleoxo":314.78},{"abatibleo/x":73.19},{"abatiblexx":245.20},{"abatiblexoo-oox":314.78} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":112.21},{"abatienteconabatiblefijo":254.93},{"abatienteconabatiblefijoapilador":73.17},{"abatientexox":358.66},{"abatienteoxo":319.65},{"proyectantexxx":112.20},{"abatientexxx":397.67},{"abatientecon2fijos":73.20},{"dobleproyectanteconunofijo":73.20}]}
                       ]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":327.41} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "ReflecteSol / FiltraSol / Claro con Cuadricula",
-                  "img": "../../img/vidrio_tri_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  },{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 } ,{"fijo0-0-0":79.79}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "ReflecteSol / Claro / FiltraSol con Cuadricula",
-                  "img": "../../img/vidrio_tri_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 79.80 },{"abatiblefijoapilado":  79.78 } ,{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 },{"fijo0-0-0":79.79}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
-                    }
-                  ]
-              },
-              {
-                  "nombre": "ReflecteSol / Claro / Baño UF con Cuadricula",
-                  "img": "../../img/vidrio_tri_marginal.png",
-                  "precio": [
-                    {
-                      "tipo": "fijo",
-                      "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  },{  "dobleabatiblefijo":  85.16  },{ "fija0-0-0": 85.17},{"fijo0-0-0":85.17}]
-                    },
-                    {
-                      "tipo":"abatible ",
-                     "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":346.31} ]
-                    }
-                  ]
+                  },
+                  {
+                      "nombre": "Low-E con Cuadricula",
+                      "img": "../../img/vidrio_tri_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                            
+                          "tipos": [  { "abatiblefijo": 68.07 }, {"abatiblefijoapilado": 68.06  },{  "dobleabatiblefijo": 68.06  },{ "fija0-0-0":68.06 } ,{"fijo0-0-0":68.06}]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":102.81},{"abatibleconabatiblefijo":199.73},{"abatiblexox":330.02},{"abatibleoxo":395.87},{"abatibleo/x":66.89},{"abatiblexx":232.59},{"abatiblexoo-oox":295.87} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":105.90},{"abatienteconabatiblefijo":242.32},{"abatienteconabatiblefijoapilador":66.89},{"abatientexox":339.74},{"abatienteoxo":300.74},{"proyectantexxx":105.90},{"abatientexxx":378.75},{"abatientecon2fijos":66.89},{"dobleproyectanteconunofijo":66.90}]}
+                      ]
+                  },
+                  {
+                      "nombre": "Low-E / Claro / FiltraSol con Cuadricula",
+                      "img": "../../img/vidrio_tri_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 69.10 }, {"abatiblefijoapilado": 69.10  },{  "dobleabatiblefijo":69.10},{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":203.01},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":234.64},{"abatiblexoo-oox":298.94} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79},{"abatienteoxo":303.79},{"proyectantexxx":106.92},{"abatientexxx":381.80},{"abatientecon2fijos":67.91},{"dobleproyectanteconunofijo":67.91}]}
+                      ]
+                  },
+                  {
+                      "nombre": "Low-E / FiltraSol / Claro con Cuadricula",
+                      "img": "../../img/vidrio_tri_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 69.10 } , {"abatiblefijoapilado": 69.10 },{  "dobleabatiblefijo":  69.10 },{ "fija0-0-0": 69.10 },{"fijo0-0-0":69.10}]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":103.84},{"abatibleconabatiblefijo":204.93},{"abatiblexox":333.07},{"abatibleoxo":298.94},{"abatibleo/x":67.91},{"abatiblexx":264.64},{"abatiblexoo-oox":298.94} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":106.92},{"abatienteconabatiblefijo":244.36},{"abatienteconabatiblefijoapilador":67.92},{"abatientexox":342.79},{"abatienteoxo":303.79},{"proyectantexxx":106.92},{"abatientexxx":381.80},{"abatientecon2fijos":67.91},{"dobleproyectanteconunofijo":67.91}]}
+                      ]
+                  },
+                  {
+                      "nombre": "Low-E / FiltraSol / FiltraSol con Cuadricula",
+                      "img": "../../img/vidrio_tri_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 70.13}, {"abatiblefijoapilado": 70.14  } ,{  "dobleabatiblefijo":   70.14 },{ "fija0-0-0": 70.14 },{"fijo0-0-0":70.14}]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":104.87},{"abatibleconabatiblefijo":208.20},{"abatiblexox":336.12},{"abatibleoxo":301.99},{"abatibleo/x":68.93},{"abatiblexx":236.68},{"abatiblexoo-oox":301.99} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":107.94},{"abatienteconabatiblefijo":246.40},{"abatienteconabatiblefijoapilador":68.93},{"abatientexox":345.85},{"abatienteoxo":306.85},{"proyectantexxx":107.94},{"abatientexxx":384.86},{"abatientecon2fijos":68.93},{"dobleproyectanteconunofijo":68.93}]}
+                      ]
+                  },
+                  {
+                      "nombre": "Low-E / FiltraSol / Baño Tapis con Cuadricula",
+                      "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png",
+                      "precio": [
+                        {
+                          "tipo": "fijo",
+                          "tipos": [ { "abatiblefijo": 73.91 }, {"abatiblefijoapilado":73.90 },{  "dobleabatiblefijo":  73.90 },{ "fija0-0-0": 73.90 },{"fijo0-0-0":73.90} ]
+                        },
+                        {
+                          "tipo":"abatible ",
+                         "tipos":[{"abatible":108.65},{"abatibleconabatiblefijo":197.22},{"abatiblexox":347.25},{"abatibleoxo":313.10},{"abatibleo/x":72.64},{"abatiblexx":244.06},{"abatiblexoo-oox":313.10} ]
+                        },
+                         {"tipo":"proyectante", "tipos":[{"abatiente":111.64},{"abatienteconabatiblefijo":253.81},{"abatienteconabatiblefijoapilador":72.64},{"abatientexox":356.98},{"abatienteoxo":317.97},{"proyectantexxx":111.64},{"abatientexxx":395.98},{"abatientecon2fijos":72.74},{"dobleproyectanteconunofijo":72.64}]}
+                      ]
+                  },
+                   {
+                "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Cuadricula",
+                "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png",
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ { "abatiblefijo": 75.51 }, {"abatiblefijoapilado":  75.52 } ,{  "dobleabatiblefijo":  75.52  },{ "fija0-0-0":75.51 },{"fijo0-0-0":75.51}]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":110.25},{"abatibleconabatiblefijo":222.15},{"abatiblexox":351.99},{"abatibleoxo":317.84},{"abatibleo/x":74.21},{"abatiblexx":247.24},{"abatiblexoo-oox":317.84} ]
+                  },
+                   {"tipo":"proyectante", "tipos":[{"abatiente":113.22},{"abatienteconabatiblefijo":256.96},{"abatienteconabatiblefijoapilador":74.21},{"abatientexox":361.70},{"abatienteoxo":322.70},{"proyectantexxx":113.22},{"abatientexxx":400.71},{"abatientecon2fijos":74.22},{"dobleproyectanteconunofijo":74.21}]}
+                ]
+            },
+            {
+                "nombre": "Low-E / Low-E / ClaCuadricula",
+                "img": "../../img/vidrio_tri_lowe_cuadricula.png",
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ { "abatiblefijo": 70.58 },{"abatiblefijoapilado":  70.60 } ,{  "dobleabatiblefijo":  70.60 },{ "fija0-0-0":70.58 },{"fijo0-0-0":70.58 }]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":105.33},{"abatibleconabatiblefijo":192.03},{"abatiblexox":337.45},{"abatibleoxo":303.31},{"abatibleo/x":69.37},{"abatiblexx":237.56},{"abatiblexoo-oox":303.41} ]
+                  },  {"tipo":"proyectante", "tipos":[{"abatiente":108.56},{"abatienteconabatiblefijo":247.27},{"abatienteconabatiblefijoapilador":69.37},{"abatientexox":347.17},{"abatienteoxo":308.17},{"proyectantexxx":108.38},{"abatientexxx":386.18},{"abatientecon2fijos":69.37},{"dobleproyectanteconunofijo":69.37}]}
+                ]
+               
+            },
+            {
+                "nombre": "ReflecteSol / Claro / Claro con Cuadricula",
+                "img": "../../img/vidrio_tri_cuadricula.png",
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ 
+                      { "abatiblefijo": 78.76 }, {"abatiblefijoapilado":  78.76 } ,{  "dobleabatiblefijo": 78.76  },{ "fija0-0-0":78.76 },{"fijo0-0-0":78.76}
+                    ]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":113.50},{"abatibleconabatiblefijo":201.86},{"abatiblexox":361.56},{"abatibleoxo":327.41},{"abatibleo/x":77.40},{"abatiblexx":253.62},{"abatiblexoo-oox":327.41} ]
+                  },
+                    {"tipo":"proyectante", "tipos":[{"abatiente":116.41},{"abatienteconabatiblefijo":263.34},{"abatienteconabatiblefijoapilador":74.40},{"abatientexox":371.28},{"abatienteoxo":332.27},{"proyectantexxx":116.41},{"abatientexxx":410.29},{"abatientecon2fijos":77.40},{"dobleproyectanteconunofijo":77.40}]}
+                ]
+            },
+            {
+                "nombre": "ReflecteSol / FiltraSol / Claro con Cuadricula",
+                "img": "../../img/vidrio_tri_cuadricula.png",
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ { "abatiblefijo": 79.80 }, {"abatiblefijoapilado": 79.78  },{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 } ,{"fijo0-0-0":79.79}]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":205.13},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                  },
+                    {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33},{"abatienteoxo":335.33},{"proyectantexxx":117.43},{"abatientexxx":413.34},{"abatientecon2fijos":78.42},{"dobleproyectanteconunofijo":78.43}]}
+                ]
+            },
+            {
+                "nombre": "ReflecteSol / Claro / FiltraSol con Cuadricula",
+                "img": "../../img/vidrio_tri_cuadricula.png", 
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ { "abatiblefijo": 79.80 },{"abatiblefijoapilado":  79.78 } ,{  "dobleabatiblefijo":  79.78 },{ "fija0-0-0":79.79 },{"fijo0-0-0":79.79}]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":114.54},{"abatibleconabatiblefijo":216.95},{"abatiblexox":364.60},{"abatibleoxo":330.47},{"abatibleo/x":78.42},{"abatiblexx":255.66},{"abatiblexoo-oox":330.74} ]
+                  },
+                    {"tipo":"proyectante", "tipos":[{"abatiente":117.43},{"abatienteconabatiblefijo":265.38},{"abatienteconabatiblefijoapilador":78.43},{"abatientexox":374.33},{"abatienteoxo":335.33},{"proyectantexxx":117.43},{"abatientexxx":413.34},{"abatientecon2fijos":78.42},{"dobleproyectanteconunofijo":78.43}]}
+                ]
+            },
+            {
+                "nombre": "ReflecteSol / Claro / Baño UF con Cuadricula",
+                "img": "../../img/vidrio_tri_cuadricula.png",
+                "precio": [
+                  {
+                    "tipo": "fijo",
+                    "tipos": [ { "abatiblefijo": 85.17 } , {"abatiblefijoapilado": 85.16  },{  "dobleabatiblefijo":  85.16  },{ "fija0-0-0": 85.17},{"fijo0-0-0":85.17}]
+                  },
+                  {
+                    "tipo":"abatible ",
+                   "tipos":[{"abatible":119.91},{"abatibleconabatiblefijo":219.08},{"abatiblexox":380.46},{"abatibleoxo":346.31},{"abatibleo/x":83.71},{"abatiblexx":266.22},{"abatiblexoo-oox":346.31} ]
+                  },
+                    {"tipo":"proyectante", "tipos":[{"abatiente":122.72},{"abatienteconabatiblefijo":275.95},{"abatienteconabatiblefijoapilador":83.71},{"abatientexox":390.17},{"abatienteoxo":351.18},{"proyectantexxx":122.71},{"abatientexxx":429.19},{"abatientecon2fijos":83.71},{"dobleproyectanteconunofijo":83.71}]}
+                ]
+          }]
               }
-          ]
-      }
     ],
+    
     "tipo": [
         {
             "nombre": "Fijo",
