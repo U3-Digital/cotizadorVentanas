@@ -1,8 +1,9 @@
 <?php
 session_start();
 
+require_once "../../controllers/controllerUsuario.php";
+require_once "../../models/modelUsuario.php";
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -52,25 +53,27 @@ session_start();
       ?>
 
       <div class="m-4 w-100 d-flex" style="flex-grow: 1; flex-direction: column;">
-        <?php include "./stepper.php"; ?>
         <div class="row justify-content-center">
           <div class="col-md-8 col-lg-8 col-12">
             <div class="card">
               <div class="card-header border-0">
-                <h4>Cotización</h4>
+                <h4>Usuarios</h4>
               </div>
               <div class="card-body">
                 <table class="table bg-white table-bordered table-hover">
                   <thead>
-                    <th scope="col">Tamaño</th>
-                    <th scope="col">Vidrio</th>
-                    <th scope="col">Tipo</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Total</th>
-                    <th scope="col" style="width: 7em;" class="text-center">Borrar</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Rol</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Acciones</th>
                   </thead>
                   <tbody id="cuerpo-tabla">
+                    <?php
+                        $controller = new ControllerUsuario;
+                        $controller -> ctrlistarUsuarios();
+                        $controller -> ctrBorrarUsuario();
+                    ?>
                   </tbody>
                 </table>
               </div>
@@ -88,34 +91,6 @@ session_start();
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <script>
-      const cuerpoTabla = document.getElementById('cuerpo-tabla');
-
-      function cargarTabla() {
-        cuerpoTabla.innerHTML = '';
-        let i = 0;
-        cotizaciones.forEach((cotizacion) => {
-          cuerpoTabla.innerHTML +=
-            `<tr>
-            <td>${cotizacion.dimensionAlto}" x ${cotizacion.dimensionAncho}"</td>
-            <td>${cotizacion.tipoVidrio} ${cotizacion.subTipoVidrio}</td>
-            <td>${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}</td>
-            <td>${cotizacion.numeroVentanas}</td>
-            <td>$0</td>
-            <td>$0</td>
-            <td class="text-center"><button class="btn btn-danger" onclick="borrarCotizacion(${i});"><i class="fas fa-trash"></i></button></td>
-        </tr>
-        `;
-          i++;
-        });
-      }
-
-      function borrarCotizacion(index) {
-        cotizaciones.splice(index, 1);
-        cargarTabla();
-      }
-    </script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <br>
 <br>
 <br>
-<div class="row">
+<div class="row w-100 m-4">
   <div class="col-md-8 col-lg-8 col-12">
     <div class="multisteps-form">
       <!--progress bar-->
@@ -68,7 +68,7 @@
         </table>
         <div class="row ml-3 mt-3">
           <div class="col-6 text-center"><h5>Total</h5></div> 
-          <div class="col-6 text-center"><h5>$0</h5></div> 
+          <div class="col-6 text-center"><h5 id="total">$0</h5></div> 
         </div>
         <br>
         <div class="row" id="container-add-numero-ventanas" hidden>

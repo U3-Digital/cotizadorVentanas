@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav bg-light">
     <div class="row w-100">
         <div class="col-md-11 col-lg-11 col-8 text-center">
             <h3 class="mt-2">Sky View Windows</h3>

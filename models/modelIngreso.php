@@ -11,4 +11,6 @@ class ModelIngreso {
 
         return $statement -> fetch();
     }
+
+    
 }

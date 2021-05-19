@@ -1,155 +1,95 @@
 body {
-    height: 100vh !important;
-    margin: 0;
-    width: 100% !important;
-    background-color: #F0F2F5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.borde {
+  border: 1px solid red;
 }
 
 .card {
-    border-radius: 0px !important;
-}
-
-.list-group-item {
-    border-radius: 0px !important;
-    cursor: pointer;
-}
-
-.borde {
-    border: 1px solid red;
+  border-radius: 0px !important;
 }
 
 input {
-    border-radius: 0px !important;
-    border-color: rgba(2, 2, 2, 0.0) !important;
-    background-color: #EEEEEE !important;
+  border-radius: 0px !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #EEEEEE !important;
 }
 
 textarea {
-    border-radius: 0px !important;
-    border-color: rgba(2, 2, 2, 0.0) !important;
-    background-color: #EEEEEE !important;
+  border-radius: 0px !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #EEEEEE !important;
 }
 
 button {
-    border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 
 select {
-    border-width: 0px !important;
-    border-radius: 0px !important;
-    background-color: #EEEEEE !important;
+  border-radius: 0px !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #EEEEEE !important;
 }
 
 .img-profile {
-    width: 100%;
+  width: 100%;
 }
 
 .full {
-    width: 90% !important;
+  width: 90% !important;
 }
-
 .custom-modal {
-    border-color: rgba(255, 2, 2, 0.0) !important;
-    border-radius: 0px !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  border-radius: 0px !important;
 }
 
 .hover {
-    border-radius: 0.5em !important;
+  border-radius: 0.5em !important;
 }
 
 .hover:hover {
-    background-color: #CCCCCC !important;
+  background-color: #CCCCCC !important;
 }
 
 .lista {
-    overflow: auto;
-    max-height: 16em !important;
+  overflow: auto;
+  max-height: 16em !important;
 }
 
 .bre {
-    display: block;
-    margin: 2.5em;
-    content: " ";
+  display: block;
+  margin: 2.5em;
+  content: ' ';
 }
 
 .order-card {
-    color: #fff;
-}
-
-.bg-c-blue {
-    background: linear-gradient(45deg, #4099ff, #73b4ff);
-}
-
-.bg-c-green {
-    background: linear-gradient(45deg, #2ed8b6, #59e0c5);
-}
-
-.bg-c-yellow {
-    background: linear-gradient(45deg, #FFB64D, #ffcb80);
-}
-
-.bg-c-pink {
-    background: linear-gradient(45deg, #FF5370, #ff869a);
-}
-
-.tarjeta {
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
-    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
-    border: none;
-    margin-bottom: 30px;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.tarjeta .card-block {
-    padding: 25px;
-}
-
-.order-card i {
-    font-size: 26px;
-}
-
-.f-left {
-    float: left;
-}
-
-.f-right {
-    float: right;
+  color: white;
 }
 
 .selectable {
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0);
-    border: 1px solid rgba(0, 0, 0, 0.0);
-    transition: all 0.2s;
-    margin-top: 0.8em;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0);
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  transition: all 0.2s;
+  margin-top: 0.8em;
 }
-
 .selectable:hover {
-    border-color: #CCCCCC;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-color: #CCCCCC;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
-
 .selectable img {
-    margin-top: 10px;
-    width: 50%;
-    height: 10vh;
+  margin-top: 10px;
+  width: 50%;
+  height: 10vh;
 }
-
 @media(max-width: 600px) {
-    .selectable img{
-        height: 30vh;
-        width: 100%;
-    }
+  .selectable img{
+      height: 30vh;
+      width: 100%;
+  }
 }
-
 .selectable .form-check {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.nav {
-    height: 6vh;
-    background-color: white;
-    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

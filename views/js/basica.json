@@ -1161,33 +1161,33 @@
         }
     ],
     "colores": [
-		{
-			"nombre": "Blanco",
-			"img": "../../img/Blanco.png",
-			"color": [ 
-				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
-				{"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
-			]
-		},
-		{
-			"nombre": "Clay",
-			"img": "../../img/Clay.png",
-			"color": [ 
-				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
-				{"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
-				{"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
-			]
-		}
-	]
+      {
+        "nombre": "Blanco",
+        "img": "../../img/Blanco.png",
+        "color": [ 
+          {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+          {"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+        ]
+      },
+      {
+        "nombre": "Clay",
+        "img": "../../img/Clay.png",
+        "color": [ 
+          {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+          {"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+          {"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+        ]
+      }
+	  ]
 }

@@ -31,6 +31,7 @@ const detailsContainerColor = document.getElementById('details-container-color')
 const detailContainerSubColor = document.getElementById('details-container-subcolor');
 const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 const inputNumeroDeVentanas = document.getElementById('input-no-ventanas');
+const etiquetaTotal = document.getElementById('total');
 
 let serieBasica = {};
 let seriePremium = {};
@@ -255,8 +256,8 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
 
 function cargarCeja(serie, subtipo, ventana){
     console.log(subtipo);
-    calcularTotal( { ancho: rutaVentana.dimensionAncho, alto: rutaVentana.dimensionAlto } , subtipo.precio[0]["fijo"]);
     agregarARuta(subtipo.nombre, "subtipoVidrio");
+    calcularTotal();
     let temporal = '';
     let i = 0;
     temporal = '<div class="row justify-content-center">';
@@ -335,17 +336,93 @@ function cargarSubcolores(color) {
     }
 }
 
+// setTimeout(() => {
+//   calcularTotal();
+// }, 1000);
 
 
-function calcularTotal(dimensiones, precioPulgada) {
-    dimensiones.ancho = Number.parseFloat(dimensiones.ancho);
-    dimensiones.alto = Number.parseFloat(dimensiones.alto);
-    const totalPulgadas = dimensiones.ancho + dimensiones.alto;
+function calcularTotal() {
 
-    const total = totalPulgadas * precioPulgada;
+  const rutaPrueba = {
+    ceja: 'Sin ceja',
+    colorPrincipal: 'Blanco',
+    colorSubcolor: 'Rojo Caliente',
+    dimensionAlto: '48',
+    dimensionAncho: '48',
+    serie: 'Básica',
+    subtipoVentana: 'Fija',
+    subtipoVidrio: 'Claro',
+    tipoVentana: 'Fijo Serie 40',
+    tipoVidrio: 'Vidrio sencillo',
+    ladoColor: 'Interior'
+  };
+  
+  switch (rutaVentana.serie) {
+    case 'Básica':
+      const precioPulgada = encontrarPrecio(serieBasica, rutaVentana);
+      const dimensionAlto = Number.parseInt(rutaVentana.dimensionAlto);
+      const dimensionAncho = Number.parseInt(rutaVentana.dimensionAncho);
 
-    console.log(totalPulgadas, precioPulgada);
-    console.log(total);
+      let total = precioPulgada * (dimensionAlto + dimensionAncho);
+      console.log(total);
+
+      if (rutaVentana.colorPrincipal && rutaVentana.colorSubcolor) {
+        serieBasica.colores.forEach((color) => {
+          if (color.nombre === rutaVentana.colorPrincipal) {
+            color.color.forEach((subcolor) => {
+              if (subcolor.nombre === rutaVentana.colorSubcolor) {
+                if (rutaVentana.ladoColor === 'Interior') {
+                  total += subcolor.precioInterior;
+                } else {
+                  total += subcolor.precioExterior;
+                }
+              }
+            })
+          }
+        });
+      }
+      console.log(total);
+
+      etiquetaTotal.innerHTML = `$${total}`;
+
+      break;
+    default:
+      console.log('nada');
+      break;
+  }
+}
+
+function encontrarPrecio(serie, ruta) {
+  let precioPulgada = 0;
+  serie.tipoVidrio.forEach((tipoVidrio) => {
+    // console.log(tipoVidrio);
+    if (tipoVidrio.nombre === ruta.tipoVidrio) {
+      tipoVidrio.tipos.forEach((tipo) => {
+        
+        if (tipo.nombre === ruta.subtipoVidrio) {
+          tipo.precio.forEach((precio) => {
+            
+            if (precio.tipo === formatearString(ruta.tipoVentana)) {
+              precio.tipos.forEach((subtipo) => {
+                
+                if (Object.keys(subtipo)[0] === formatearString(ruta.subtipoVentana)) {
+                  precioPulgada = subtipo[formatearString(ruta.subtipoVentana)];                  
+                }
+              });
+            }
+          });
+        }
+      });
+    }
+  });
+  
+  return precioPulgada;
+}
+
+function formatearString(tipoVentana) {
+  tipoVentana = tipoVentana.toLowerCase();
+  tipoVentana = tipoVentana.replaceAll(' ', '');
+  return tipoVentana;
 }
 
 function agregarCotizacion() {
@@ -578,6 +655,8 @@ function agregarARuta(text, propiedad) {
         case "subcolor":
             rutaVentana.colorSubcolor = text;
             detailContainerSubColor.innerHTML = `<td>Subcolor</td><td>${text}</td>`;
+            calcularTotal();
+
             break;
         case "eliminaSubcolor":
             delete rutaVentana.colorSubcolor;
