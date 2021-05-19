@@ -16,20 +16,20 @@
                     "img": "../../img/vidrioSenci.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":45.02},{"fijasapiladas":45.02},{"doblesfijas":44.05},{"triplesfijasapiladas":43.15},{"triplesfijas":158.36}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":50.44},{"corredizaxox":52.15}{"corredizao-xo":43.15},{"corredizao-oxo":43.15},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":97.19},{"corredizaconarcoao":50.45},{"corredizaconfijoyarcoa-o-o-ox":43.15},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":50.44},{"corredizaxox":52.15},{"corredizao-xo":43.15},{"corredizao-oxo":43.15},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":97.19},{"corredizaconarcoao":50.45},{"corredizaconfijoyarcoa-o-o-ox":43.15},{"arcoyfijoconcorrediza":43.15}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":50.44},{"dobleguillotina":60.8},{"guillotinaoxo":165.64},{"guillotinao-ox":93.59},{"guillotinaorioox":50.44},{"dobleguillotinaorio":60.8},{"guillotinaconarco":50.45},{"guillotinaconarcoao":50.45},{"guillotinaconarcocontinuo":83.24},{"guillotinaa-oxconarcocontinuo":50.44},{"guillotinaoxoconarco":165.64},{"dobleguillotinaxoxconarco":172.95},{"guillotinadoblefijoconarco":165.64}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":81.98},{"circular":81.98},{"octagonal":81.98},{"triangulorectangulo":81.98},{"trianguloisosceles":81.98},{"hexagonal":81.98},{"formaao":81.98},{"formaao-o":0},{"figuraao-o":0},{"arcoao":81.98},{"arcoa-o-o":97.19},{"catedral":81.98},{"arcomedialunafijo":81.98},{"medialunaconfijo":97.19},{"fijoconarco":43.15},{"figuraao":81.98},{"arcomedialunacon2fijos":115.21},{"arcomedialunacon3fijos":97.19},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -38,20 +38,20 @@
                     "img": "../../img/vidrioSenciBano.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":51.48},{"fijasapiladas":51.46},{"doblesfijas":52.77},{"triplesfijasapiladas":49.33},{"triplesfijas":176.92}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":55.98},{"corredizaxox":65.96},{"corredizao-xo":49.34},{"corredizao-oxo":49.34},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":101.29},{"corredizaconarcoao":55.98},{"corredizaconfijoyarcoa-o-o-ox":49.34},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":55.98},{"corredizaxox":65.96},{"corredizao-xo":49.34},{"corredizao-oxo":49.34},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":101.29},{"corredizaconarcoao":55.98},{"corredizaconfijoyarcoa-o-o-ox":49.34},{"arcoyfijoconcorrediza":49.34}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":55.98},{"dobleguillotina":74.3},{"guillotinaoxo":183.57},{"guillotinao-ox":105.32},{"guillotinaorioox":55.98},{"dobleguillotinaorio":74.3},{"guillotinaconarco":55.97},{"guillotinaconarcoao":55.97},{"guillotinaconarcocontinuo":92.36},{"guillotinaa-oxconarcocontinuo":55.98},{"guillotinaoxoconarco":183.56},{"dobleguillotinaxoxconarco":190.2},{"guillotinadoblefijoconarco":183.56}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":93.75},{"circular":93.75},{"octagonal":93.75},{"triangulorectangulo":93.75},{"trianguloisosceles":93.75},{"hexagonal":93.75},{"formaao":93.75},{"formaao-o":0},{"figuraao-o":0},{"arcoao":93.75},{"arcoa-o-o":101.29},{"catedral":93.75},{"arcomedialunafijo":93.75},{"medialunaconfijo":101.29},{"fijoconarco":41.15},{"figuraao":93.75},{"arcomedialunacon2fijos":127.58},{"arcomedialunacon3fijos":101.29},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -60,20 +60,20 @@
                     "img": "../../img/vidrioSenciBano.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":53.62},{"fijasapiladas":53.64},{"doblesfijas":55.73},{"triplesfijasapiladas":51.41},{"triplesfijas":183.13}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":57.82},{"corredizaxox":70.56},{"corredizao-xo":51.4},{"corredizao-oxo":51.4},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":102.29},{"corredizaconarcoao":57.82},{"corredizaconfijoyarcoa-o-o-ox":51.4},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":57.82},{"corredizaxox":70.56},{"corredizao-xo":51.4},{"corredizao-oxo":51.4},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":102.29},{"corredizaconarcoao":57.82},{"corredizaconfijoyarcoa-o-o-ox":51.4},{"arcoyfijoconcorrediza":51.4}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":57.82},{"dobleguillotina":78.79},{"guillotinaoxo":189.53},{"guillotinao-ox":109.21},{"guillotinaorioox":57.82},{"dobleguillotinaorio":78.79},{"guillotinaconarco":57.81},{"guillotinaconarcoao":57.81},{"guillotinaconarcocontinuo":95.4},{"guillotinaa-oxconarcocontinuo":57.82},{"guillotinaoxoconarco":189.53},{"dobleguillotinaxoxconarco":195.94},{"guillotinadoblefijoconarco":189.53}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":97.67},{"circular":97.67},{"octagonal":97.67},{"triangulorectangulo":97.67},{"trianguloisosceles":97.67},{"hexagonal":97.67},{"formaao":97.67},{"formaao-o":0},{"figuraao-o":0},{"arcoao":97.67},{"arcoa-o-o":102.29},{"catedral":97.67},{"arcomedialunafijo":97.67},{"medialunaconfijo":102.29},{"fijoconarco":51.4},{"figuraao":97.67},{"arcomedialunacon2fijos":127.58},{"arcomedialunacon3fijos":102.29},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -82,20 +82,20 @@
                     "img": "../../img/vidrioSenci.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":46.2},{"fijasapiladas":46.42},{"doblesfijas":45.81},{"triplesfijasapiladas":44.48},{"triplesfijas":162.35}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":51.64},{"corredizaxox":55.13},{"corredizao-xo":44.48},{"corredizao-oxo":44.48},{"corredizaconarco":51.64},{"arcomedialunaconcorrediza":97.96},{"corredizaconarcoao":51.64},{"corredizaconfijoyarcoa-o-o-ox":44.48},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":51.64},{"corredizaxox":55.13},{"corredizao-xo":44.48},{"corredizao-oxo":44.48},{"corredizaconarco":51.64},{"arcomedialunaconcorrediza":97.96},{"corredizaconarcoao":51.64},{"corredizaconfijoyarcoa-o-o-ox":44.48},{"arcoyfijoconcorrediza":44.48}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":51.64},{"dobleguillotina":63.72},{"guillotinaoxo":169.5},{"guillotinao-ox":96.11},{"guillotinaorioox":51.64},{"dobleguillotinaorio":63.72},{"guillotinaconarco":51.64},{"guillotinaconarcoao":51.64},{"guillotinaconarcocontinuo":85.2},{"guillotinaa-oxconarcocontinuo":51.63},{"guillotinaoxoconarco":169.5},{"dobleguillotinaxoxconarco":176.67},{"guillotinadoblefijoconarco":169.5}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":84.52},{"circular":84.51},{"octagonal":84.51},{"triangulorectangulo":84.51},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -104,20 +104,20 @@
                     "img": "../../img/vidrioSenci.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":62.79},{"fijasapiladas":62.78},{"doblesfijas":68.33},{"triplesfijasapiladas":60.19},{"triplesfijas":209.48}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":65.66},{"corredizaxox":90.14},{"corredizao-xo":60.19},{"corredizao-oxo":60.19},{"corredizaconarco":65.66},{"arcomedialunaconcorrediza":107.8},{"corredizaconarcoao":65.66},{"corredizaconfijoyarcoa-o-o-ox":60.18},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":65.66},{"corredizaxox":90.14},{"corredizao-xo":60.19},{"corredizao-oxo":60.19},{"corredizaconarco":65.66},{"arcomedialunaconcorrediza":107.8},{"corredizaconarcoao":65.66},{"corredizaconfijoyarcoa-o-o-ox":60.18},{"arcoyfijoconcorrediza":60.18}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":65.66},{"dobleguillotina":97.91},{"guillotinaoxo":214.95},{"guillotinao-ox":125.85},{"guillotinaorioox":65.66},{"dobleguillotinaorio":97.91},{"guillotinaconarco":65.66},{"guillotinaconarcoao":65.66},{"guillotinaconarcocontinuo":108.33},{"guillotinaa-oxconarcocontinuo":65.66},{"guillotinaoxoconarco":214.94},{"dobleguillotinaxoxconarco":220.41},{"guillotinadoblefijoconarco":214.94}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":114.36},{"circular":114.36},{"octagonal":114.36},{"triangulorectangulo":114.36},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 }
@@ -132,20 +132,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":52.59},{"fijasapiladas":52.58},{"doblesfijas":53.8},{"triplesfijasapiladas":50.41},{"triplesfijas":180.13}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":58.84},{"corredizaxox":64.42},{"corredizao-xo":50.41},{"corredizao-oxo":50.41},{"corredizaconarco":58.83},{"arcomedialunaconcorrediza":113.39},{"corredizaconarcoao":58.83},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":58.84},{"corredizaxox":64.42},{"corredizao-xo":50.41},{"corredizao-oxo":50.41},{"corredizaconarco":58.83},{"arcomedialunaconcorrediza":113.39},{"corredizaconarcoao":58.83},{"corredizaconfijoyarcoa-o-o-ox":50.41},{"arcoyfijoconcorrediza":50.41}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":58.84},{"dobleguillotina":72.76},{"guillotinaoxo":188.56},{"guillotinao-ox":109.25},{"guillotinaorioox":58.84},{"dobleguillotinaorio":72.76},{"guillotinaconarco":58.84},{"guillotinaconarcoao":58.84},{"guillotinaconarcocontinuo":97.08},{"guillotinaa-oxconarcocontinuo":58.84},{"guillotinaoxoconarco":188.56},{"dobleguillotinaxoxconarco":197},{"guillotinadoblefijoconarco":188.56}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":95.77},{"circular":95.78},{"octagonal":95.78},{"triangulorectangulo":95.78},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -154,20 +154,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":55.99},{"fijasapiladas":56},{"doblesfijas":58.7},{"triplesfijasapiladas":53.67},{"triplesfijas":189.92}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":61.75},{"corredizaxox":71.67},{"corredizao-xo":53.68},{"corredizao-oxo":53.68},{"corredizaconarco":61.74},{"arcomedialunaconcorrediza":115.55},{"corredizaconarcoao":61.74},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":61.75},{"corredizaxox":71.67},{"corredizao-xo":53.68},{"corredizao-oxo":53.68},{"corredizaconarco":61.74},{"arcomedialunaconcorrediza":115.55},{"corredizaconarcoao":61.74},{"corredizaconfijoyarcoa-o-o-ox":53.68},{"arcoyfijoconcorrediza":53.68}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":61.75},{"dobleguillotina":79.82},{"guillotinaoxo":198},{"guillotinao-ox":115.43},{"guillotinaorioox":61.75},{"dobleguillotinaorio":79.82},{"guillotinaconarco":61.75},{"guillotinaconarcoao":61.75},{"guillotinaconarcocontinuo":101.84},{"guillotinaa-oxconarcocontinuo":61.75},{"guillotinaoxoconarco":198},{"dobleguillotinaxoxconarco":206.07},{"guillotinadoblefijoconarco":198}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":101.98},{"circular":101.98},{"octagonal":101.98},{"triangulorectangulo":101.98},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -176,20 +176,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":59.05},{"fijasapiladas":59.06},{"doblesfijas":62.51},{"triplesfijasapiladas":56.61},{"triplesfijas":198.71}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":64.37},{"corredizaxox":78.23},{"corredizao-xo":56.6},{"corredizao-oxo":56.6},{"corredizaconarco":64.36},{"arcomedialunaconcorrediza":117.5},{"corredizaconarcoao":90.92},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":64.37},{"corredizaxox":78.23},{"corredizao-xo":56.6},{"corredizao-oxo":56.6},{"corredizaconarco":64.36},{"arcomedialunaconcorrediza":117.5},{"corredizaconarcoao":90.92},{"corredizaconfijoyarcoa-o-o-ox":56.6},{"arcoyfijoconcorrediza":56.6}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":64.37},{"dobleguillotina":86.25},{"guillotinaoxo":206.47},{"guillotinao-ox":120.96},{"guillotinaorioox":64.37},{"dobleguillotinaorio":86.25},{"guillotinaconarco":64.37},{"guillotinaconarcoao":64.37},{"guillotinaconarcocontinuo":106.2},{"guillotinaa-oxconarcocontinuo":64.37},{"guillotinaoxoconarco":204.47},{"dobleguillotinaxoxconarco":214.24},{"guillotinadoblefijoconarco":206.47}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":107.54},{"circular":107.54},{"octagonal":107.54},{"triangulorectangulo":107.54},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -198,20 +198,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":61.2},{"fijasapiladas":61.2},{"doblesfijas":65.46},{"triplesfijasapiladas":58.67},{"triplesfijas":204.9}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":66.2},{"corredizaxox":82.83},{"corredizao-xo":58.67},{"corredizao-oxo":58.67},{"corredizaconarco":66.2},{"arcomedialunaconcorrediza":118.5},{"corredizaconarcoao":66.2},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":66.2},{"corredizaxox":82.83},{"corredizao-xo":58.67},{"corredizao-oxo":58.67},{"corredizaconarco":66.2},{"arcomedialunaconcorrediza":118.5},{"corredizaconarcoao":66.2},{"corredizaconfijoyarcoa-o-o-ox":58.66},{"arcoyfijoconcorrediza":58.66}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":66.2},{"dobleguillotina":90.74},{"guillotinaoxo":212.44},{"guillotinao-ox":124.88},{"guillotinaorioox":66.2},{"dobleguillotinaorio":90.74},{"guillotinaconarco":66.21},{"guillotinaconarcoao":66.21},{"guillotinaconarcocontinuo":109.24},{"guillotinaa-oxconarcocontinuo":66.21},{"guillotinaoxoconarco":212.43},{"dobleguillotinaxoxconarco":220},{"guillotinadoblefijoconarco":212.43}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":111.46},{"circular":111.46},{"octagonal":111.46},{"triangulorectangulo":111.46},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -220,20 +220,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":62.46},{"fijasapiladas":62.46},{"doblesfijas":67.41},{"triplesfijasapiladas":59.87},{"triplesfijas":208.5}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":67.28},{"corredizaxox":85.47},{"corredizao-xo":59.86},{"corredizao-oxo":59.86},{"corredizaconarco":67.27},{"arcomedialunaconcorrediza":119.65},{"corredizaconarcoao":67.27},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":67.28},{"corredizaxox":85.47},{"corredizao-xo":59.86},{"corredizao-oxo":59.86},{"corredizaconarco":67.27},{"arcomedialunaconcorrediza":119.65},{"corredizaconarcoao":67.27},{"corredizaconfijoyarcoa-o-o-ox":59.86},{"arcoyfijoconcorrediza":59.86}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":67.28},{"dobleguillotina":93.32},{"guillotinaoxo":215.91},{"guillotinao-ox":127.13},{"guillotinaorioox":67.28},{"dobleguillotinaorio":93.32},{"guillotinaconarco":67.27},{"guillotinaconarcoao":67.27},{"guillotinaconarcocontinuo":111.01},{"guillotinaa-oxconarcocontinuo":67.28},{"guillotinaoxoconarco":215.92},{"dobleguillotinaxoxconarco":223.33},{"guillotinadoblefijoconarco":215.92}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":113.74},{"circular":113.75},{"octagonal":113.75},{"triangulorectangulo":113.75},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -242,20 +242,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":64.61},{"fijasapiladas":64.62},{"doblesfijas":70.36},{"triplesfijasapiladas":61.93},{"triplesfijas":214.69}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":69.12},{"corredizaxox":90.07},{"corredizao-xo":61.93},{"corredizao-oxo":61.93},{"corredizaconarco":69.12},{"arcomedialunaconcorrediza":120.65},{"corredizaconarcoao":69.12},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":69.12},{"corredizaxox":90.07},{"corredizao-xo":61.93},{"corredizao-oxo":61.93},{"corredizaconarco":69.12},{"arcomedialunaconcorrediza":120.65},{"corredizaconarcoao":69.12},{"corredizaconfijoyarcoa-o-o-ox":61.93},{"arcoyfijoconcorrediza":61.93}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":69.12},{"dobleguillotina":97.81},{"guillotinaoxo":221.88},{"guillotinao-ox":131.04},{"guillotinaorioox":69.12},{"dobleguillotinaorio":97.81},{"guillotinaconarco":69.12},{"guillotinaconarcoao":69.12},{"guillotinaconarcocontinuo":114.04},{"guillotinaa-oxconarcocontinuo":69.12},{"guillotinaoxoconarco":221.88},{"dobleguillotinaxoxconarco":229.06},{"guillotinadoblefijoconarco":221.88}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":117.66},{"circular":117.66},{"octagonal":117.66},{"triangulorectangulo":117.66},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -264,20 +264,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":94.18},{"fijasapiladas":85.6},{"doblesfijas":164.12},{"triplesfijasapiladas":82.06},{"triplesfijas":275.09}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":95.07},{"corredizaxox":101.84},{"corredizao-xo":78.7},{"corredizao-oxo":78.7},{"corredizaconarco":82.44},{"arcomedialunaconcorrediza":118.41},{"corredizaconarcoao":82.4},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":95.07},{"corredizaxox":101.84},{"corredizao-xo":78.7},{"corredizao-oxo":78.7},{"corredizaconarco":82.44},{"arcomedialunaconcorrediza":118.41},{"corredizaconarcoao":82.4},{"corredizaconfijoyarcoa-o-o-ox":82.06},{"arcoyfijoconcorrediza":82.06}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":95.07},{"dobleguillotina":117.34},{"guillotinaoxo":280.41},{"guillotinao-ox":87.08},{"guillotinaorioox":87.38},{"dobleguillotinaorio":102.04},{"guillotinaconarco":83.27},{"guillotinaconarcoao":83.27},{"guillotinaconarcocontinuo":144.18},{"guillotinaa-oxconarcocontinuo":87.38},{"guillotinaoxoconarco":280.42},{"dobleguillotinaxoxconarco":285.73},{"guillotinadoblefijoconarco":280.42}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":155.92},{"circular":155.92},{"octagonal":155.92},{"triangulorectangulo":155.92},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -286,20 +286,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":124.41},{"fijasapiladas":113.1},{"doblesfijas":216.82},{"triplesfijasapiladas":108.4},{"triplesfijas":354.13}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":121.33},{"corredizaxox":126.32},{"corredizao-xo":103.3},{"corredizao-oxo":103.3},{"corredizaconarco":105.31},{"arcomedialunaconcorrediza":132.68},{"corredizaconarcoao":105.31},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":121.33},{"corredizaxox":126.32},{"corredizao-xo":103.3},{"corredizao-oxo":103.3},{"corredizaconarco":105.31},{"arcomedialunaconcorrediza":132.68},{"corredizaconarcoao":105.31},{"corredizaconfijoyarcoa-o-o-ox":108.41},{"arcoyfijoconcorrediza":108.41}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":121.33},{"dobleguillotina":141.63},{"guillotinaoxo":356.97},{"guillotinao-ox":114.54},{"guillotinaorioox":111.24},{"dobleguillotinaorio":123.16},{"guillotinaconarco":105.55},{"guillotinaconarcoao":105.55},{"guillotinaconarcocontinuo":183.54},{"guillotinaa-oxconarcocontinuo":111.24},{"guillotinaoxoconarco":356.96},{"dobleguillotinaxoxconarco":359.79},{"guillotinadoblefijoconarco":356.96}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":205.98},{"circular":205.97},{"octagonal":205.97},{"triangulorectangulo":205.97},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -308,20 +308,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":57.38},{"fijasapiladas":57.38},{"doblesfijas":60.44},{"triplesfijasapiladas":55},{"triplesfijas":193.92}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":62.94},{"corredizaxox":74.64},{"corredizao-xo":55.01},{"corredizao-oxo":55.01},{"corredizaconarco":62.94},{"arcomedialunaconcorrediza":116.32},{"corredizaconarcoao":62.94},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":62.94},{"corredizaxox":74.64},{"corredizao-xo":55.01},{"corredizao-oxo":55.01},{"corredizaconarco":62.94},{"arcomedialunaconcorrediza":116.32},{"corredizaconarcoao":62.94},{"corredizaconfijoyarcoa-o-o-ox":55.01},{"arcoyfijoconcorrediza":55.01}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":62.94},{"dobleguillotina":82.73},{"guillotinaoxo":201.86},{"guillotinao-ox":117.95},{"guillotinaorioox":62.94},{"dobleguillotinaorio":82.73},{"guillotinaconarco":62.94},{"guillotinaconarcoao":62.94},{"guillotinaconarcocontinuo":103.86},{"guillotinaa-oxconarcocontinuo":62.95},{"guillotinaoxoconarco":201.86},{"dobleguillotinaxoxconarco":209.79},{"guillotinadoblefijoconarco":201.86}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":104.51},{"circular":104.51},{"octagonal":104.51},{"triangulorectangulo":104.51},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -330,20 +330,20 @@
                     "img": "../../img/vidrio_dob_lowe.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":73.68},{"fijasapiladas":73.69},{"doblesfijas":82.83},{"triplesfijasapiladas":70.62},{"triplesfijas":240.79}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":76.84},{"corredizaxox":109.51},{"corredizao-xo":70.63},{"corredizao-oxo":70.63},{"corredizaconarco":76.85},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":76.85},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":76.84},{"corredizaxox":109.51},{"corredizao-xo":70.63},{"corredizao-oxo":70.63},{"corredizaconarco":76.85},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":76.85},{"corredizaconfijoyarcoa-o-o-ox":70.63},{"arcoyfijoconcorrediza":70.63}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":76.84},{"dobleguillotina":116.76},{"guillotinaoxo":247},{"guillotinao-ox":147.47},{"guillotinaorioox":76.84},{"dobleguillotinaorio":116.76},{"guillotinaconarco":76.85},{"guillotinaconarcoao":76.85},{"guillotinaconarcocontinuo":126.79},{"guillotinaa-oxconarcocontinuo":76.84},{"guillotinaoxoconarco":247},{"dobleguillotinaxoxconarco":253.22},{"guillotinadoblefijoconarco":247}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":134.19},{"circular":134.19},{"octagonal":134.19},{"triangulorectangulo":134.19},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -352,20 +352,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":53.98},{"fijasapiladas":53.98},{"doblesfijas":55.54},{"triplesfijasapiladas":51.74},{"triplesfijas":184.14}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":60.03},{"corredizaxox":67.4},{"corredizao-xo":51.74},{"corredizao-oxo":51.74},{"corredizaconarco":60.03},{"arcomedialunaconcorrediza":114.15},{"corredizaconarcoao":60.03},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":60.03},{"corredizaxox":67.4},{"corredizao-xo":51.74},{"corredizao-oxo":51.74},{"corredizaconarco":60.03},{"arcomedialunaconcorrediza":114.15},{"corredizaconarcoao":60.03},{"corredizaconfijoyarcoa-o-o-ox":51.74},{"arcoyfijoconcorrediza":51.74}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":60.03},{"dobleguillotina":75.68},{"guillotinaoxo":192.42},{"guillotinao-ox":111.77},{"guillotinaorioox":60.03},{"dobleguillotinaorio":75.68},{"guillotinaconarco":60.03},{"guillotinaconarcoao":60.03},{"guillotinaconarcocontinuo":99.05},{"guillotinaa-oxconarcocontinuo":60.03},{"guillotinaoxoconarco":192.42},{"dobleguillotinaxoxconarco":200.71},{"guillotinadoblefijoconarco":192.42}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":98.31},{"circular":98.3},{"octagonal":98.3},{"triangulorectangulo":98.3},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -374,20 +374,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":60.44},{"iladas":60.44},{"doblesfijas":64.26},{"triplesfijasapiladas":57.93},{"triplesfijas":202.71}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":65.56},{"corredizaxox":81.21},{"corredizao-xo":57.94},{"corredizao-oxo":57.94},{"corredizaconarco":65.56},{"arcomedialunaconcorrediza":118.26},{"corredizaconarcoao":65.56},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":65.56},{"corredizaxox":81.21},{"corredizao-xo":57.94},{"corredizao-oxo":57.94},{"corredizaconarco":65.56},{"arcomedialunaconcorrediza":118.26},{"corredizaconarcoao":65.56},{"corredizaconfijoyarcoa-o-o-ox":57.93},{"arcoyfijoconcorrediza":57.93}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":65.56},{"dobleguillotina":86.16},{"guillotinaoxo":210.33},{"guillotinao-ox":123.5},{"guillotinaorioox":65.56},{"dobleguillotinaorio":89.16},{"guillotinaconarco":65.56},{"guillotinaconarcoao":65.56},{"guillotinaconarcocontinuo":108.17},{"guillotinaa-oxconarcocontinuo":65.56},{"guillotinaoxoconarco":210.33},{"dobleguillotinaxoxconarco":217.97},{"guillotinadoblefijoconarco":210.33}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":110.07},{"circular":110.07},{"octagonal":110.07},{"triangulorectangulo":110.07},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -396,20 +396,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":62.59},{"fijasapiladas":62.6},{"doblesfijas":67.21},{"triplesfijasapiladas":60},{"triplesfijas":208.9}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":67.4},{"corredizaxox":85.8},{"corredizao-xo":60},{"corredizao-oxo":60},{"corredizaconarco":67.4},{"arcomedialunaconcorrediza":119.27},{"corredizaconarcoao":67.4},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":67.4},{"corredizaxox":85.8},{"corredizao-xo":60},{"corredizao-oxo":60},{"corredizaconarco":67.4},{"arcomedialunaconcorrediza":119.27},{"corredizaconarcoao":67.4},{"corredizaconfijoyarcoa-o-o-ox":59.99},{"arcoyfijoconcorrediza":59.99}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":67.4},{"dobleguillotina":93.65},{"guillotinaoxo":223.71},{"guillotinao-ox":127.4},{"guillotinaorioox":67.4},{"dobleguillotinaorio":93.65},{"guillotinaconarco":67.4},{"guillotinaconarcoao":67.4},{"guillotinaconarcocontinuo":111.21},{"guillotinaa-oxconarcocontinuo":67.4},{"guillotinaoxoconarco":216.3},{"dobleguillotinaxoxconarco":223.71},{"guillotinadoblefijoconarco":216.3}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":114},{"circular":114},{"octagonal":114},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -418,20 +418,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":70.28},{"fijasapiladas":70.28},{"doblesfijas":77.94},{"triplesfijasapiladas":67.36},{"triplesfijas":230.99}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":73.93},{"corredizaxox":102.26},{"corredizao-xo":67.36},{"corredizao-oxo":67.36},{"corredizaconarco":73.93},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":73.93},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":73.93},{"corredizaxox":102.26},{"corredizao-xo":67.36},{"corredizao-oxo":67.36},{"corredizaconarco":73.93},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":73.93},{"corredizaconfijoyarcoa-o-o-ox":67.36},{"arcoyfijoconcorrediza":67.36}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":73.93},{"dobleguillotina":109.7},{"guillotinaoxo":244.13},{"guillotinao-ox":141.29},{"guillotinaorioox":73.93},{"dobleguillotinaorio":109.7},{"guillotinaconarco":73.93},{"guillotinaconarcoao":73.93},{"guillotinaconarcocontinuo":121.98},{"guillotinaa-oxconarcocontinuo":73.93},{"guillotinaoxoconarco":237.57},{"dobleguillotinaxoxconarco":244.14},{"guillotinadoblefijoconarco":237.57}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":127.99},{"circular":127.98},{"octagonal":127.98},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -440,20 +440,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":71.67},{"fijasapiladas":71.68},{"doblesfijas":79.68},{"triplesfijasapiladas":68.69},{"triplesfijas":235}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":75.12},{"corredizaxox":105.24},{"corredizao-xo":68.69},{"corredizao-oxo":68.69},{"corredizaconarco":75.12},{"arcomedialunaconcorrediza":124.69},{"corredizaconarcoao":75.12},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":75.12},{"corredizaxox":105.24},{"corredizao-xo":68.69},{"corredizao-oxo":68.69},{"corredizaconarco":75.12},{"arcomedialunaconcorrediza":124.69},{"corredizaconarcoao":75.12},{"corredizaconfijoyarcoa-o-o-ox":68.69},{"arcoyfijoconcorrediza":68.69}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":75.12},{"dobleguillotina":112.61},{"guillotinaoxo":247.85},{"guillotinao-ox":143.81},{"guillotinaorioox":75.12},{"dobleguillotinaorio":112.61},{"guillotinaconarco":75.12},{"guillotinaconarcoao":75.12},{"guillotinaconarcocontinuo":123.95},{"guillotinaa-oxconarcocontinuo":75.13},{"guillotinaoxoconarco":241.42},{"dobleguillotinaxoxconarco":247.86},{"guillotinadoblefijoconarco":241.42}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":130.52},{"circular":130.52},{"octagonal":130.52},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -462,7 +462,7 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":0},{"fijasapiladas":0},{"doblesfijas":0},{"triplesfijasapiladas":0},{"triplesfijas":0}]
                         },
                         {
@@ -471,11 +471,11 @@
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":0},{"dobleguillotina":0},{"guillotinaoxo":0},{"guillotinao-ox":0},{"guillotinaorioox":0},{"dobleguillotinaorio":0},{"guillotinaconarco":0},{"guillotinaconarcoao":0},{"guillotinaconarcocontinuo":0},{"guillotinaa-oxconarcocontinuo":0},{"guillotinaoxoconarco":0},{"dobleguillotinaxoxconarco":0},{"guillotinadoblefijoconarco":0}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":0},{"circular":0},{"octagonal":0},{"triangulorectangulo":0},{"trianguloisosceles":0},{"hexagonal":0},{"formaao":0},{"formaao-o":0},{"figuraao-o":0},{"arcoao":0},{"arcoa-o-o":0},{"catedral":0},{"arcomedialunafijo":0},{"medialunaconfijo":0},{"fijoconarco":0},{"figuraao":0},{"arcomedialunacon2fijos":0},{"arcomedialunacon3fijos":0},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -484,20 +484,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":117.4},{"fijasapiladas":106.72},{"doblesfijas":204.61},{"triplesfijasapiladas":102.31},{"triplesfijas":335.83}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":115.24},{"corredizaxox":121.37},{"corredizao-xo":97.7},{"corredizao-oxo":97.7},{"corredizaconarco":100.48},{"arcomedialunaconcorrediza":140.37},{"corredizaconarcoao":100.48},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":115.24},{"corredizaxox":121.37},{"corredizao-xo":97.7},{"corredizao-oxo":97.7},{"corredizaconarco":100.48},{"arcomedialunaconcorrediza":140.37},{"corredizaconarcoao":100.48},{"corredizaconfijoyarcoa-o-o-ox":102.3},{"arcoyfijoconcorrediza":102.3}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":115.24},{"dobleguillotina":136},{"guillotinaoxo":342.62},{"guillotinao-ox":108.71},{"guillotinaorioox":105.71},{"dobleguillotinaorio":118.26},{"guillotinaconarco":1006.86},{"guillotinaconarcoao":106.86},{"guillotinaconarcocontinuo":174.42},{"guillotinaa-oxconarcocontinuo":105.71},{"guillotinaoxoconarco":339.23},{"dobleguillotinaxoxconarco":342.63},{"guillotinadoblefijoconarco":339.23}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":194.38},{"circular":194.38},{"octagonal":194.38},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -506,20 +506,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":140.49},{"fijasapiladas":127.72},{"doblesfijas":244.84},{"triplesfijasapiladas":122.43},{"triplesfijas":396.18}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":135.28},{"corredizaxox":139.35},{"corredizao-xo":116.12},{"corredizao-oxo":116.12},{"corredizaconarco":117.47},{"arcomedialunaconcorrediza":142.17},{"corredizaconarcoao":117.47},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":135.28},{"corredizaxox":139.35},{"corredizao-xo":116.12},{"corredizao-oxo":116.12},{"corredizaconarco":117.47},{"arcomedialunaconcorrediza":142.17},{"corredizaconarcoao":117.47},{"corredizaconfijoyarcoa-o-o-ox":122.45},{"arcoyfijoconcorrediza":122.45}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":135.28},{"dobleguillotina":154.54},{"guillotinaoxo":393.68},{"guillotinao-ox":129.29},{"guillotinaorioox":121.18},{"dobleguillotinaorio":134.38},{"guillotinaconarco":115.16},{"guillotinaconarcoao":154.16},{"guillotinaconarcocontinuo":199.93},{"guillotinaa-oxconarcocontinuo":121.17},{"guillotinaoxoconarco":394.93},{"dobleguillotinaxoxconarco":393.67},{"guillotinadoblefijoconarco":394.93}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":232.6},{"circular":232.6},{"octagonal":232.6},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -528,20 +528,20 @@
                     "img": "../../img/vidrio_dob.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":138.71},{"fijasapiladas":126.1},{"doblesfijas":241.75},{"triplesfijasapiladas":120.87},{"triplesfijas":391.53}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":133.74},{"corredizaxox":137.92},{"corredizao-xo":115.34},{"corredizao-oxo":115.34},{"corredizaconarco":116.09},{"arcomedialunaconcorrediza":141.5},{"corredizaconarcoao":116.09},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":133.74},{"corredizaxox":137.92},{"corredizao-xo":115.34},{"corredizao-oxo":115.34},{"corredizaconarco":116.09},{"arcomedialunaconcorrediza":141.5},{"corredizaconarcoao":116.09},{"corredizaconfijoyarcoa-o-o-ox":120.88},{"arcoyfijoconcorrediza":120.88}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":133.74},{"dobleguillotina":153.12},{"guillotinaoxo":389.33},{"guillotinao-ox":127.11},{"guillotinaorioox":119.77},{"dobleguillotinaorio":164.14},{"guillotinaconarco":114.8},{"guillotinaconarcoao":114.4},{"guillotinaconarcocontinuo":197.62},{"guillotinaa-oxconarcocontinuo":119.77},{"guillotinaoxoconarco":390.43},{"dobleguillotinaxoxconarco":389.32},{"guillotinadoblefijoconarco":390.43}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":229.66},{"circular":229.66},{"octagonal":229.66},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 }
@@ -557,20 +557,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":56.88},{"fijasapiladas":56.88},{"doblesfijas":61.04},{"triplesfijasapiladas":54.52},{"triplesfijas":192.47}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":62.57},{"corredizaxox":71.77},{"corredizao-xo":54.52},{"corredizao-oxo":54.52},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":117.83},{"corredizaconarcoao":62.56},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":62.57},{"corredizaxox":71.77},{"corredizao-xo":54.52},{"corredizao-oxo":54.52},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":117.83},{"corredizaconarcoao":62.56},{"corredizaconfijoyarcoa-o-o-ox":54.52},{"arcoyfijoconcorrediza":54.52}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":62.57},{"dobleguillotina":80.09},{"guillotinaoxo":208.55},{"guillotinao-ox":117.08},{"guillotinaorioox":62.57},{"dobleguillotinaorio":80.09},{"guillotinaconarco":62.56},{"guillotinaconarcoao":62.56},{"guillotinaconarcocontinuo":103.22},{"guillotinaa-oxconarcocontinuo":62.56},{"guillotinaoxoconarco":200.51},{"dobleguillotinaxoxconarco":208.54},{"guillotinadoblefijoconarco":200.51}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":103.58},{"circular":103.59},{"octagonal":103.59},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -579,20 +579,20 @@
                     "img": "../../img/vidrio_dob_lowe_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":60.37},{"fijasapiladas":62.36},{"doblesfijas":66.07},{"triplesfijasapiladas":57.87},{"triplesfijas":202.51}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":65.54},{"corredizaxox":79.2},{"corredizao-xo":57.87},{"corredizao-oxo":57.87},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":120.04},{"corredizaconarcoao":65.54},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":65.54},{"corredizaxox":79.2},{"corredizao-xo":57.87},{"corredizao-oxo":57.87},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":120.04},{"corredizaconarcoao":65.54},{"corredizaconfijoyarcoa-o-o-ox":57.87},{"arcoyfijoconcorrediza":57.87}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":65.54},{"dobleguillotina":87.33},{"guillotinaoxo":217.87},{"guillotinao-ox":123.42},{"guillotinaorioox":65.54},{"dobleguillotinaorio":87.33},{"guillotinaconarco":65.55},{"guillotinaconarcoao":65.55},{"guillotinaconarcocontinuo":108.15},{"guillotinaa-oxconarcocontinuo":65.54},{"guillotinaoxoconarco":210.18},{"dobleguillotinaxoxconarco":217.87},{"guillotinadoblefijoconarco":210.18}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":109.95},{"circular":109.94},{"octagonal":109.94},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -601,20 +601,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":63.5},{"fijasapiladas":63.5},{"doblesfijas":69.97},{"triplesfijasapiladas":60.87},{"triplesfijas":211.5}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":68.23},{"corredizaxox":85.93},{"corredizao-xo":60.87},{"corredizao-oxo":60.87},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":122.04},{"corredizaconarcoao":68.23},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":68.23},{"corredizaxox":85.93},{"corredizao-xo":60.87},{"corredizao-oxo":60.87},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":122.04},{"corredizaconarcoao":68.23},{"corredizaconfijoyarcoa-o-o-ox":60.87},{"arcoyfijoconcorrediza":60.87}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":68.23},{"dobleguillotina":93.92},{"guillotinaoxo":226.5},{"guillotinao-ox":129.1},{"guillotinaorioox":68.23},{"dobleguillotinaorio":93.92},{"guillotinaconarco":68.23},{"guillotinaconarcoao":68.23},{"guillotinaconarcocontinuo":112.57},{"guillotinaa-oxconarcocontinuo":68.22},{"guillotinaoxoconarco":218.87},{"dobleguillotinaxoxconarco":226.23},{"guillotinadoblefijoconarco":218.87}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":115.65},{"circular":115.65},{"octagonal":115.65},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -623,20 +623,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":65.71},{"fijasapiladas":65.72},{"doblesfijas":73},{"triplesfijasapiladas":62.97},{"triplesfijas":217.85}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":70.12},{"corredizaxox":90.64},{"corredizao-xo":62.98},{"corredizao-oxo":62.98},{"corredizaconarco":70.12},{"arcomedialunaconcorrediza":123.06},{"corredizaconarcoao":70.12},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":70.12},{"corredizaxox":90.64},{"corredizao-xo":62.98},{"corredizao-oxo":62.98},{"corredizaconarco":70.12},{"arcomedialunaconcorrediza":123.06},{"corredizaconarcoao":70.12},{"corredizaconfijoyarcoa-o-o-ox":62.98},{"arcoyfijoconcorrediza":62.98}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":70.12},{"dobleguillotina":98.52},{"guillotinaoxo":232.12},{"guillotinao-ox":133.1},{"guillotinaorioox":70.12},{"dobleguillotinaorio":98.52},{"guillotinaconarco":70.12},{"guillotinaconarcoao":70.12},{"guillotinaconarcocontinuo":115.69},{"guillotinaa-oxconarcocontinuo":70.12},{"guillotinaoxoconarco":224.99},{"dobleguillotinaxoxconarco":232.12},{"guillotinadoblefijoconarco":224.99}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":119.66},{"circular":119.66},{"octagonal":119.66},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -645,20 +645,20 @@
                     "img": "../../img/vidrio_dob_lowe_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":66.99},{"fijasapiladas":67},{"doblesfijas":74.99},{"triplesfijasapiladas":64.21},{"triplesfijas":221.54}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":71.19},{"corredizaxox":93.35},{"corredizao-xo":64.21},{"corredizao-oxo":64.21},{"corredizaconarco":71.22},{"arcomedialunaconcorrediza":124.24},{"corredizaconarcoao":71.22},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":71.19},{"corredizaxox":93.35},{"corredizao-xo":64.21},{"corredizao-oxo":64.21},{"corredizaconarco":71.22},{"arcomedialunaconcorrediza":124.24},{"corredizaconarcoao":71.22},{"corredizaconfijoyarcoa-o-o-ox":64.21},{"arcoyfijoconcorrediza":64.21}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":71.19},{"dobleguillotina":101.16},{"guillotinaoxo":235.55},{"guillotinao-ox":135.42},{"guillotinaorioox":71.22},{"dobleguillotinaorio":101.16},{"guillotinaconarco":71.21},{"guillotinaconarcoao":71.21},{"guillotinaconarcocontinuo":117.5},{"guillotinaa-oxconarcocontinuo":71.21},{"guillotinaoxoconarco":228.54},{"dobleguillotinaxoxconarco":235.55},{"guillotinadoblefijoconarco":228.54}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":122},{"circular":122},{"octagonal":122},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -667,20 +667,20 @@
                     "img": "../../img/vidrio_dob_lowe_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":69.2},{"fijasapiladas":69.18},{"doblesfijas":78.02},{"triplesfijasapiladas":66.33},{"triplesfijas":227.89}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":73.1},{"corredizaxox":98.06},{"corredizao-xo":66.33},{"corredizao-oxo":66.33},{"corredizaconarco":73.1},{"arcomedialunaconcorrediza":125.27},{"corredizaconarcoao":73.1},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":73.1},{"corredizaxox":98.06},{"corredizao-xo":66.33},{"corredizao-oxo":66.33},{"corredizaconarco":73.1},{"arcomedialunaconcorrediza":125.27},{"corredizaconarcoao":73.1},{"corredizaconfijoyarcoa-o-o-ox":66.33},{"arcoyfijoconcorrediza":66.33}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":73.1},{"dobleguillotina":105.76},{"guillotinaoxo":241.44},{"guillotinao-ox":139.43},{"guillotinaorioox":73.1},{"dobleguillotinaorio":105.76},{"guillotinaconarco":73.1},{"guillotinaconarcoao":73.1},{"guillotinaconarcocontinuo":120.62},{"guillotinaa-oxconarcocontinuo":73.1},{"guillotinaoxoconarco":234.67},{"dobleguillotinaxoxconarco":241.44},{"guillotinadoblefijoconarco":234.67}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":126.02},{"circular":126.02},{"octagonal":126.02},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -689,20 +689,20 @@
                     "img": "../../img/vidrio_dob_lowe_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":61.8},{"fijasapiladas":61.8},{"doblesfijas":67.86},{"triplesfijasapiladas":59.23},{"triplesfijas":206.6}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":66.77},{"corredizaxox":82.25},{"corredizao-xo":59.24},{"corredizao-oxo":59.24},{"corredizaconarco":66.77},{"arcomedialunaconcorrediza":120.83},{"corredizaconarcoao":66.77},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":66.77},{"corredizaxox":82.25},{"corredizao-xo":59.24},{"corredizao-oxo":59.24},{"corredizaconarco":66.77},{"arcomedialunaconcorrediza":120.83},{"corredizaconarcoao":66.77},{"corredizaconfijoyarcoa-o-o-ox":59.24},{"arcoyfijoconcorrediza":59.24}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":66.77},{"dobleguillotina":90.32},{"guillotinaoxo":221.69},{"guillotinao-ox":126.01},{"guillotinaorioox":66.77},{"dobleguillotinaorio":90.32},{"guillotinaconarco":66.77},{"guillotinaconarcoao":66.77},{"guillotinaconarcocontinuo":110.17},{"guillotinaa-oxconarcocontinuo":66.77},{"guillotinaoxoconarco":214.14},{"dobleguillotinaxoxconarco":221.68},{"guillotinadoblefijoconarco":214.14}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":112.54},{"circular":112.54},{"octagonal":112.54},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -711,20 +711,20 @@
                     "img": "../../img/vidrio_dob_lowe_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":78.5},{"fijasapiladas":78.5},{"doblesfijas":90.81},{"triplesfijasapiladas":75.25},{"triplesfijas":254.64}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":81.02},{"corredizaxox":117.98},{"corredizao-xo":75.25},{"corredizao-oxo":75.25},{"corredizaconarco":81.02},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":81.02},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":81.02},{"corredizaxox":117.98},{"corredizao-xo":75.25},{"corredizao-oxo":75.25},{"corredizaconarco":81.02},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":81.02},{"corredizaconfijoyarcoa-o-o-ox":75.24},{"arcoyfijoconcorrediza":75.24}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":81.02},{"dobleguillotina":125.19},{"guillotinaoxo":266.18},{"guillotinao-ox":156.27},{"guillotinaorioox":81.02},{"dobleguillotinaorio":125.19},{"guillotinaconarco":81.01},{"guillotinaconarcoao":81.01},{"guillotinaconarcocontinuo":133.67},{"guillotinaa-oxconarcocontinuo":81.02},{"guillotinaoxoconarco":260.61},{"dobleguillotinaxoxconarco":266.18},{"guillotinadoblefijoconarco":260.41}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":142.96},{"circular":142.96},{"octagonal":142.96},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -733,20 +733,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":58.3},{"fijasapiladas":58.3},{"doblesfijas":62.84},{"triplesfijasapiladas":55.88},{"triplesfijas":196.56}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":63.79},{"corredizaxox":74.82},{"corredizao-xo":55.88},{"corredizao-oxo":55.88},{"corredizaconarco":63.79},{"arcomedialunaconcorrediza":118.62},{"corredizaconarcoao":63.79},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":63.79},{"corredizaxox":74.82},{"corredizao-xo":55.88},{"corredizao-oxo":55.88},{"corredizaconarco":63.79},{"arcomedialunaconcorrediza":118.62},{"corredizaconarcoao":63.79},{"corredizaconfijoyarcoa-o-o-ox":55.89},{"arcoyfijoconcorrediza":55.89}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":63.79},{"dobleguillotina":83.08},{"guillotinaoxo":212.37},{"guillotinao-ox":119.66},{"guillotinaorioox":63.79},{"dobleguillotinaorio":83.08},{"guillotinaconarco":63.78},{"guillotinaconarcoao":63.78},{"guillotinaconarcocontinuo":105.24},{"guillotinaa-oxconarcocontinuo":63.79},{"guillotinaoxoconarco":204.47},{"dobleguillotinaxoxconarco":212.36},{"guillotinadoblefijoconarco":204.47}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":106.18},{"circular":106.18},{"octagonal":106.18},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -755,20 +755,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":64.93},{"fijasapiladas":64.94},{"doblesfijas":71.77},{"triplesfijasapiladas":62.23},{"triplesfijas":215.61}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":69.45},{"corredizaxox":88.97},{"corredizao-xo":62.23},{"corredizao-oxo":62.23},{"corredizaconarco":69.45},{"arcomedialunaconcorrediza":122.82},{"corredizaconarcoao":69.45},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":69.45},{"corredizaxox":88.97},{"corredizao-xo":62.23},{"corredizao-oxo":62.23},{"corredizaconarco":69.45},{"arcomedialunaconcorrediza":122.82},{"corredizaconarcoao":69.45},{"corredizaconfijoyarcoa-o-o-ox":62.23},{"arcoyfijoconcorrediza":62.23}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":69.45},{"dobleguillotina":109.6},{"guillotinaoxo":230.04},{"guillotinao-ox":131.69},{"guillotinaorioox":69.45},{"dobleguillotinaorio":96.91},{"guillotinaconarco":69.46},{"guillotinaconarcoao":69.46},{"guillotinaconarcocontinuo":114.59},{"guillotinaa-oxconarcocontinuo":69.45},{"guillotinaoxoconarco":222.84},{"dobleguillotinaxoxconarco":230.05},{"guillotinadoblefijoconarco":222.84}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":302.33},{"circular":118.25},{"octagonal":118.25},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -777,20 +777,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":67.13},{"fijasapiladas":67.12},{"doblesfijas":74.8},{"triplesfijasapiladas":64.35},{"triplesfijas":221.96}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":71.34},{"corredizaxox":93.69},{"corredizao-xo":64.34},{"corredizao-oxo":64.34},{"corredizaconarco":71.34},{"arcomedialunaconcorrediza":123.84},{"corredizaconarcoao":71.34},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":71.34},{"corredizaxox":93.69},{"corredizao-xo":64.34},{"corredizao-oxo":64.34},{"corredizaconarco":71.34},{"arcomedialunaconcorrediza":123.84},{"corredizaconarcoao":71.34},{"corredizaconfijoyarcoa-o-o-ox":64.35},{"arcoyfijoconcorrediza":64.35}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":71.34},{"dobleguillotina":101.51},{"guillotinaoxo":235.94},{"guillotinao-ox":135.68},{"guillotinaorioox":71.34},{"dobleguillotinaorio":101.51},{"guillotinaconarco":71.34},{"guillotinaconarcoao":71.34},{"guillotinaconarcocontinuo":117.71},{"guillotinaa-oxconarcocontinuo":71.34},{"guillotinaoxoconarco":228.94},{"dobleguillotinaxoxconarco":235.94},{"guillotinadoblefijoconarco":228.94}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":122.26},{"circular":122.26},{"octagonal":122.26},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -799,20 +799,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":75.01},{"fijasapiladas":75.02},{"doblesfijas":85.79},{"triplesfijasapiladas":71.91},{"triplesfijas":244.61}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":78.03},{"corredizaxox":110.55},{"corredizao-xo":71.9},{"corredizao-oxo":71.9},{"corredizaconarco":78.03},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":78.03},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":78.03},{"corredizaxox":110.55},{"corredizao-xo":71.9},{"corredizao-oxo":71.9},{"corredizaconarco":78.03},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":78.03},{"corredizaconfijoyarcoa-o-o-ox":71.9},{"arcoyfijoconcorrediza":71.9}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":78.03},{"dobleguillotina":117.96},{"guillotinaoxo":256.88},{"guillotinao-ox":149.93},{"guillotinaorioox":78.03},{"dobleguillotinaorio":117.96},{"guillotinaconarco":78.03},{"guillotinaconarcoao":78.03},{"guillotinaconarcocontinuo":128.76},{"guillotinaa-oxconarcocontinuo":78.03},{"guillotinaoxoconarco":250.75},{"dobleguillotinaxoxconarco":256.8},{"guillotinadoblefijoconarco":250.72}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":136.6},{"circular":136.6},{"octagonal":136.6},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -821,20 +821,20 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":6.44},{"fijasapiladas":76.44},{"doblesfijas":87.58},{"triplesfijasapiladas":73.26},{"triplesfijas":248.7}]
                         },
                         {
                             "tipo": "corrediza",
-                            "tipos": [{"corrediza":79.26},{"corredizaxox":113.6},{"corredizao-xo":73.26},{"corredizao-oxo":73.26},{"corredizaconarco":79.25},{"arcomedialunaconcorrediza":129.4},{"corredizaconarcoao":79.25},{"corredizaconfijoyarcoa-o-o-ox":},{"arcoyfijoconcorrediza":}]
+                            "tipos": [{"corrediza":79.26},{"corredizaxox":113.6},{"corredizao-xo":73.26},{"corredizao-oxo":73.26},{"corredizaconarco":79.25},{"arcomedialunaconcorrediza":129.4},{"corredizaconarcoao":79.25},{"corredizaconfijoyarcoa-o-o-ox":73.26},{"arcoyfijoconcorrediza":73.26}]
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":79.26},{"dobleguillotina":120.94},{"guillotinaoxo":260.69},{"guillotinao-ox":152.52},{"guillotinaorioox":0},{"dobleguillotinaorio":120.94},{"guillotinaconarco":79.26},{"guillotinaconarcoao":79.26},{"guillotinaconarcocontinuo":130.78},{"guillotinaa-oxconarcocontinuo":79.25},{"guillotinaoxoconarco":254.69},{"dobleguillotinaxoxconarco":260.69},{"guillotinadoblefijoconarco":254.69}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":139.21},{"circular":139.2},{"octagonal":139.2},{"triangulorectangulo":},{"trianguloisosceles":},{"hexagonal":},{"formaao":},{"formaao-o":0},{"figuraao-o":0},{"arcoao":},{"arcoa-o-o":},{"catedral":},{"arcomedialunafijo":},{"medialunaconfijo":},{"fijoconarco":},{"figuraao":},{"arcomedialunacon2fijos":},{"arcomedialunacon3fijos":},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 },
@@ -843,7 +843,7 @@
                     "img": "../../img/vidrio_dob_marginal.png",
                     "precio":[
                         {
-                            "tipo": "fijo",
+                            "tipo": "fija",
                             "tipos" : [{"fija":0},{"fijasapiladas":0},{"doblesfijas":0},{"triplesfijasapiladas":0},{"triplesfijas":0}]
                         },
                         {
@@ -852,11 +852,11 @@
                         },
                         {
                             "tipo" : "guillotina",
-                            "tipos": [{}]
+                            "tipos": [{"guillotina":0},{"dobleguillotina":0},{"guillotinaoxo":0},{"guillotinao-ox":0},{"guillotinaorioox":0},{"dobleguillotinaorio":0},{"guillotinaconarco":0},{"guillotinaconarcoao":0},{"guillotinaconarcocontinuo":0},{"guillotinaa-oxconarcocontinuo":0},{"guillotinaoxoconarco":0},{"dobleguillotinaxoxconarco":0},{"guillotinadoblefijoconarco":0}]
                         },
                         {
                             "tipo": "arcosyfiguras",
-                            "tipos": [{}]
+                            "tipos": [{"arco":0},{"circular":0},{"octagonal":0},{"triangulorectangulo":0},{"trianguloisosceles":0},{"hexagonal":0},{"formaao":0},{"formaao-o":0},{"figuraao-o":0},{"arcoao":0},{"arcoa-o-o":0},{"catedral":0},{"arcomedialunafijo":0},{"medialunaconfijo":0},{"fijoconarco":0},{"figuraao":0},{"arcomedialunacon2fijos":0},{"arcomedialunacon3fijos":0},{"arcoaooocon3fijos":0}]
                         }
                     ]
                 }
