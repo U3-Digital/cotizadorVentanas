@@ -9,11 +9,13 @@
     </li>
     <li>
       <a href="agregarUsuario.php" class="nav-link link-dark">
+      <i class="fas fa-user"></i>
         Agregar usuario
       </a>
     </li>
     <li>
       <a href="lstUsuarios.php" class="nav-link link-dark">
+      <i class="fas fa-list"></i>
         Manejar usuarios
       </a>
     </li>

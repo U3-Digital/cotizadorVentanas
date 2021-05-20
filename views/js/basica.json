@@ -1,6 +1,6 @@
 {
     "nombre": "Básica",
-    "img": "../../img/fija(serie40).png",
+    "img": "../../img/Fija(Serie40).png",
     "ceja": [
         { "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
         { "nombre": "Ceja", "img": "../../img/ceja.png" },
@@ -841,11 +841,11 @@
     "tipo": [
         {
             "nombre": "Fijo Serie 40",
-            "img": "../../img/fija(serie40).png",
+            "img": "../../img/Fija(Serie40).png",
             "subtipo": [
                 {
                     "nombre": "Fija",
-                    "img": "../../img/fija(serie40).png",
+                    "img": "../../img/Fija(Serie40).png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
@@ -869,7 +869,7 @@
                 },
                 {
                     "nombre": "Doble fija",
-                    "img": "../../img/DobleFija(serie40).png",
+                    "img": "../../img/DobleFija(Serie40).png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
