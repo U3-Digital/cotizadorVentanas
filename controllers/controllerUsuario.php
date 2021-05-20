@@ -17,7 +17,6 @@
                 if ($respuesta === "success") {
                     echo "
                     <script>
-                      alert('agregar');
                       Swal.fire({
                         title: 'Usuario agregado exitosamente',
                         icon: 'success',
@@ -30,7 +29,6 @@
                     ";
                 } else {
                     echo "
-                    alert('erro');
                     <script>
                       Swal.fire({
                         title: 'Error al agregar el usuario',
@@ -100,13 +98,12 @@
 
         public static function ctrActualizaUsuario($id){
             if(isset($_POST['actualizar'])){
-                
                 $password = "";
                 if($_POST["cajaPassword"] != ""){
                     $password = password_hash($_POST["cajaPassword"],PASSWORD_DEFAULT);
                 }
                 $datosController = array(
-                    "nombreUsuario" => $_POST["cajaNombres"].' '.$_POST["cajaApellidos"],
+                    "nombreUsuario" => $_POST["cajaNombres"],
                     "usuario" => $_POST["cajaNombres"],
                     "password" => $password,
                     "email" => $_POST["cajaEmail"],
@@ -124,7 +121,7 @@
                       confirmButtonText: 'Aceptar',
                       confirmButtonColor: '#F73164'
                     }).then((value) => {
-                      window.location.href = 'inicio.php?action=lstUsuarios';
+                      window.location.href = 'lstUsuarios.php';
                     });
                   </script>
                   ";
@@ -172,14 +169,14 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="cajaPassword">Contraseña:</label>
-                                <input class="form-control" type="password" required
+                                <input class="form-control" type="password" 
                                 placeholder="Contraseña" id="cajaPassword" name="cajaPassword">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <img class="img-profile" src="../img/user.png" alt="Seleccionar foto de perfil">
+                    <img class="img-profile" src="../../img/user.png" alt="Seleccionar foto de perfil">
                     <input name="inputFile" type="file" hidden>
                 </div>
             </div>
@@ -212,7 +209,7 @@
                 </div> -->
 
                 <div class="col-md-12 text-center">
-                    <button type="submit" name="submit" class="btn btn-primary" style="min-width: 10em;"  name="actualizar" value="Actualizar">Actualizar</button>
+                    <button type="submit"  class="btn btn-primary" style="min-width: 10em;"  name="actualizar" id="actualizar" value="Actualizar">Actualizar</button>
                 </div>
             </div>
         </div>  

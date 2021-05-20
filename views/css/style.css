@@ -75,8 +75,8 @@ select {
   margin-top: 0.8em;
 }
 .selectable:hover {
-  border-color: #CCCCCC;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-color: #007bff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .selectable img {
   margin-top: 10px;
@@ -92,4 +92,10 @@ select {
 .selectable .form-check {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media(max-width: 800px) {
+  .menu {
+    display: none !important;
+  }
 }

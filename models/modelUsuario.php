@@ -49,8 +49,42 @@
 
             return $statement -> fetch();
         }
-        public static function mdlActualizarUsuario($datosController){
-            
+        public static function mdlActualizarUsuario($datosModel){
+            if($datosModel["password"] == ""){
+
+                $statement =  Conexion::conectar() -> prepare ("UPDATE `usuarios` SET `nombre`= :nombre,`email`= :email,`rol`= :rol,`activo`= :activo WHERE id= :id");
+
+                
+                $statement -> bindParam(":nombre", $datosModel["nombreUsuario"], PDO::PARAM_STR);
+                $statement -> bindParam(":email", $datosModel["email"], PDO::PARAM_STR);
+                $statement -> bindParam(":rol", $datosModel["rol"], PDO::PARAM_INT);
+                $statement -> bindParam(":activo", $datosModel["activo"], PDO::PARAM_STR);
+                $statement -> bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
+
+                if($statement -> execute()){
+                    return "success";
+                }else{
+                    return "error";
+                }
+
+            }else{
+
+                $statement =  Conexion::conectar() -> prepare ("UPDATE `usuarios` SET `nombre`= :nombre,`email`= :email,`rol`= :rol,`activo`= :activo WHERE id= :id");
+
+                $statement -> bindParam(":password", $datosModel["password"], PDO::PARAM_STR);
+                $statement -> bindParam(":nombre", $datosModel["nombreUsuario"], PDO::PARAM_STR);
+                $statement -> bindParam(":email", $datosModel["email"], PDO::PARAM_STR);
+                $statement -> bindParam(":rol", $datosModel["rol"], PDO::PARAM_INT);
+                $statement -> bindParam(":activo", $datosModel["activo"], PDO::PARAM_STR);
+                $statement -> bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
+
+                if($statement -> execute()){
+                    return "success";
+                }else{
+                    return "error";
+                }
+
+            }
         }
     }
 ?>

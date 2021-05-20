@@ -58,7 +58,8 @@ function requestListenerPremium(){
 }
 
 function requestListenerPlus(){
-    seriePlus = JSON.parse(this.responseText);
+    // seriePlus = JSON.parse(this.responseText);
+    seriePlus = {};
 }
 
 function requestListenerPD10(){
@@ -68,13 +69,13 @@ function requestListenerPD10(){
 function cargarSeries(ventana) {
     let temporal = '';
     let i = 0;
+
     temporal = '<div class="row justify-content-center">';
-    ventana.tipos.forEach((serie) => {
-        
+    ventana.tipos.forEach((serie) => {        
         temporal += `<div class="col-md-2 col-lg-2 col-10 text-center selectable">
         <img src="${serie.img}" alt="placeholder">
         <div class="form-check">
-            <input class="form-check-input" type="radio" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(serie.nombre === "Básica" ? (serieBasica) : (serie.nombre === "Plus" ? (seriePlus) : (serie.nombre === "Premium" ? (seriePremium) : (seriePD10))))});'>
+            <input class="form-check-input" type="radio" value="${serie.nombre}" onChange='cargarTipo(${JSON.stringify(determinarTipo(serie.nombre))});'>
             <label class="form-check-label" for="cosa${i}">${serie.nombre}</label>
         </div>
       </div>`;
@@ -86,6 +87,28 @@ function cargarSeries(ventana) {
     generateStepper(0);
     //onClick="setActiveStep(2)"
 
+}
+
+function determinarTipo(nombreTipo) {
+  let serie;
+  switch(nombreTipo) {
+    case 'Básica':
+      serie = serieBasica;
+      break;
+    case 'Plus':
+      serie = seriePlus;
+      break;
+    case 'Premium':
+      serie = seriePremium;
+      break;
+    case 'PD10':
+      serie = seriePD10;
+      break;
+    default:
+      break;
+  }
+
+  return serie;
 }
 
 function cargarTipo(serie){
@@ -356,14 +379,19 @@ function calcularTotal() {
     tipoVidrio: 'Vidrio sencillo',
     ladoColor: 'Interior'
   };
+
+  let precioPulgada = 0;
+  let dimensionAlto = 0;
+  let dimensionAncho = 0;
+  let total = 0;
   
   switch (rutaVentana.serie) {
     case 'Básica':
-      const precioPulgada = encontrarPrecio(serieBasica, rutaVentana);
-      const dimensionAlto = Number.parseInt(rutaVentana.dimensionAlto);
-      const dimensionAncho = Number.parseInt(rutaVentana.dimensionAncho);
+      precioPulgada = encontrarPrecio(serieBasica, rutaVentana);
+      dimensionAlto = Number.parseInt(rutaVentana.dimensionAlto);
+      dimensionAncho = Number.parseInt(rutaVentana.dimensionAncho);
 
-      let total = precioPulgada * (dimensionAlto + dimensionAncho);
+      total = precioPulgada * (dimensionAlto + dimensionAncho);
       console.log(total);
 
       if (rutaVentana.colorPrincipal && rutaVentana.colorSubcolor) {
@@ -383,6 +411,38 @@ function calcularTotal() {
       }
       console.log(total);
 
+      etiquetaTotal.innerHTML = `$${total}`;
+
+      break;
+    case 'Plus': 
+      console.log('hola');
+      break;
+    case 'Premium':
+      precioPulgada = encontrarPrecio(seriePremium, rutaVentana);
+      dimensionAlto = Number.parseInt(rutaVentana.dimensionAlto);
+      dimensionAncho = Number.parseInt(rutaVentana.dimensionAncho);
+
+      total = precioPulgada * (dimensionAlto + dimensionAncho);
+
+      console.log(total);
+
+      if (rutaVentana.colorPrincipal && rutaVentana.colorSubcolor) {
+        seriePremium.colores.forEach((color) => {
+          if (color.nombre === rutaVentana.colorPrincipal) {
+            color.color.forEach((subcolor) => {
+              if (subcolor.nombre === rutaVentana.colorSubcolor) {
+                if (rutaVentana.ladoColor === 'Interior') {
+                  total += subcolor.precioInterior;
+                } else {
+                  total += subcolor.precioExterior;
+                }
+              }
+            });
+          }
+        });
+      }
+
+      console.log(total);
       etiquetaTotal.innerHTML = `$${total}`;
 
       break;
@@ -699,7 +759,11 @@ requestPD10.addEventListener("load",requestListenerPD10);
 requestPD10.open("GET","../js/pd10.json");
 requestPD10.send();
 
-const requestSeries = new XMLHttpRequest();
-requestSeries.addEventListener("load",requestListenerSeries);
-requestSeries.open("GET","../js/series.json");
-requestSeries.send();
+setTimeout(() => {
+
+  const requestSeries = new XMLHttpRequest();
+  requestSeries.addEventListener("load",requestListenerSeries);
+  requestSeries.open("GET","../js/series.json");
+  requestSeries.send();
+    
+}, 1000);
