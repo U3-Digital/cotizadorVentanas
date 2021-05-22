@@ -1,6 +1,13 @@
 <?php
+session_start();
+
 require_once "controllers/controllerIngreso.php";
 require_once "models/modelIngreso.php";
+
+
+if(isset($_SESSION["nombre"])){
+  echo "<script>window.location.href = './views/components/inicio.php'; </script>";
+}
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">

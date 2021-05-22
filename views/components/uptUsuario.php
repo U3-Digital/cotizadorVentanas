@@ -3,6 +3,9 @@ session_start();
 
 require_once "../../controllers/controllerUsuario.php";
 require_once "../../models/modelUsuario.php";
+if(!isset($_SESSION["nombre"])){
+    echo "<script>window.location.href = '../../index.php'; </script>";
+}
 $idEdita= $_GET["idEditar"];
 ?>
 

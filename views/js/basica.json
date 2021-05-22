@@ -847,8 +847,8 @@
                     "nombre": "Fija",
                     "img": "../../img/Fija(Serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "60", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
                     ]
                 },
                 {
@@ -863,24 +863,24 @@
                     "nombre": "Triple fija apilada",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "34.5" }
                     ]
                 },
                 {
                     "nombre": "Doble fija",
                     "img": "../../img/DobleFija(Serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Triple fija",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
+                        { "nombre": "Mínimo", "ancho": "108", "alto": "72" }
                     ]
                 }
             ]
@@ -893,40 +893,40 @@
                     "nombre": "Corrediza",
                     "img": "../../img/Corrediza.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Corrediza XOX",
                     "img": "../../img/CorredizaXOX(serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "36", "alto": "11.5" },
+                        { "nombre": "Mínimo", "ancho": "84", "alto": "60" }
                     ]
                 },
                 {
                     "nombre": "Corrediza OX-O",
                     "img": "../../img/CorredizaOX-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
                     ]
                 },
                 {
                     "nombre": "Corrediza O-XO",
                     "img": "../../img/CorredizaO-XO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Corrediza O-XOX",
                     "img": "../../img/CorredizaO-XOX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
                     ]
                 }
             ]
@@ -939,64 +939,64 @@
                     "nombre": "Guillotina",
                     "img": "../../img/Guillotina.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "48", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "Doble guillotina",
                     "img": "../../img/DobleGuillotina.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "OXO",
                     "img": "../../img/GuillotinaOXO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "XOX",
                     "img": "../../img/GuillotinaXOX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "Orio",
                     "img": "../../img/GuillotinaOrio.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "84" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Doble orio",
                     "img": "../../img/DobleGuillotinaOrio.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "84" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "O-OX",
                     "img": "../../img/GuillotinaO-OX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "Con arco continuo",
                     "img": "../../img/GuillotinaConArcoContinuo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "48", "alto": "84" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
                     ]
                 }
             ]
@@ -1009,152 +1009,152 @@
                     "nombre": "Triángulo isosceles",
                     "img": "../../img/TrianguloIsosceles.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Forma AO",
                     "img": "../../img/ArcoAO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Hexagonal",
                     "img": "../../img/Hexagonal.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Octagonal",
                     "img": "../../img/Octagonal.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Triángulo rectángulo",
                     "img": "../../img/TrianguloRectangulo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "84", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Forma AO-O",
                     "img": "../../img/FormaAO-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "120" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "35.5" }
                     ]
                 },
                 {
                     "nombre": "Figura AO",
                     "img": "../../img/FiguraAO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "11.5", "alto": "23.5" },
+                        { "nombre": "Mínimo", "ancho": "72", "alto": "72" }
                     ]
                 },
                 {
                     "nombre": "Figura AO-O",
                     "img": "../../img/FiguraAO-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "35.5" }
                     ]
                 },
                 {
                     "nombre": "Circular",
                     "img": "../../img/Circular.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco",
                     "img": "../../img/Arco.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "68", "alto": "34" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.75" }
                     ]
                 },
                 {
                     "nombre": "Arco media luna fijo",
                     "img": "../../img/ArcoMediaLunaFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "68", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "15" }
                     ]
                 },
                 {
                     "nombre": "Media luna con un fijo",
                     "img": "../../img/MediaLunacon1Fijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "68", "alto": "94" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco A-O-O",
                     "img": "../../img/ArcoA-O-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco media luna 3 fijos",
                     "img": "../../img/ArcoMediaLunacon3Fijos.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco AO",
                     "img": "../../img/ArcoAO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "12" }
                     ]
                 },
                 {
                     "nombre": "Fijo con arco",
                     "img": "../../img/FijoConArco.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco media luna con 2 fijos",
                     "img": "../../img/ArcoMediaLunacon2Fijos.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Arco AOOO luna con 3 fijos",
                     "img": "../../img/ArcoAOOOcon3Fijos.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "23.5" }
                     ]
                 },
                 {
                     "nombre": "Catedral",
                     "img": "../../img/Catedral.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "15.5", "alto": "32.5" }
                     ]
                 }
             ]

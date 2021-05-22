@@ -2,7 +2,7 @@
 <br>
 <br>
 <div class="row w-100 m-4">
-  <div class="col-md-8 col-lg-8 col-12">
+  <div class="col-md-12 col-lg-8 col-12">
     <div class="multisteps-form">
       <!--progress bar-->
       <div class="row">
@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-4 col-lg-4 col-12" style="margin-top: 4.3rem!important;">
+  <div class="col-md-12 col-lg-4 col-12" style="margin-top: 4.3rem!important;">
     <div class="card">
       <div class="card-header border-0">
         <h4>Detalles</h4>

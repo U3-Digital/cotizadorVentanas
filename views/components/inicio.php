@@ -1,6 +1,8 @@
 <?php
 session_start();
-
+if(!isset($_SESSION["nombre"])){
+  echo "<script>window.location.href = '../../index.php'; </script>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +56,7 @@ session_start();
       <div class="m-4 w-100 d-flex" style="flex-grow: 1; flex-direction: column;">
         <?php include "./stepper.php"; ?>
         <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-8 col-12">
+          <div class="col">
             <div class="card">
               <div class="card-header border-0">
                 <h4>Cotización</h4>
@@ -65,6 +67,7 @@ session_start();
                     <th scope="col">Tamaño</th>
                     <th scope="col">Vidrio</th>
                     <th scope="col">Tipo</th>
+                    <th scope="col">Pintura</th>
                     <th scope="col">Cantidad</th>
                     <th scope="col">Precio</th>
                     <th scope="col">Total</th>
@@ -91,19 +94,20 @@ session_start();
 
     <script>
       const cuerpoTabla = document.getElementById('cuerpo-tabla');
-
       function cargarTabla() {
         cuerpoTabla.innerHTML = '';
         let i = 0;
         cotizaciones.forEach((cotizacion) => {
+          console.log(cotizacion);
           cuerpoTabla.innerHTML +=
             `<tr>
             <td>${cotizacion.dimensionAlto}" x ${cotizacion.dimensionAncho}"</td>
             <td>${cotizacion.tipoVidrio} ${cotizacion.subTipoVidrio}</td>
             <td>${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}</td>
+            <td>${cotizacion.colorPrincipal} ${cotizacion.colorSubcolor ? cotizacion.colorSubcolor : ''}</td>
             <td>${cotizacion.numeroVentanas}</td>
-            <td>$0</td>
-            <td>$0</td>
+            <td>${cotizacion.precio}</td>
+            <td>${cotizacion.total}</td>
             <td class="text-center"><button class="btn btn-danger" onclick="borrarCotizacion(${i});"><i class="fas fa-trash"></i></button></td>
         </tr>
         `;

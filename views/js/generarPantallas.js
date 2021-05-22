@@ -1,4 +1,4 @@
-const arreglo = [`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`,];
+const arreglo = [`<div class="d-flex text-center justify-content-center"><div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div></div>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,`<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`,];
 setSteps(["Serie", "Tipo", "Subtipo", "Dimensiones","Tipo vidrio","Subtipo vidrio","Ceja","Color"]);
 setLayouts(arreglo);
 
@@ -18,6 +18,7 @@ let ruta  = {
     numeroVentanas: 1
 };
 let cotizaciones = [];
+let total = 0;
 let rutaVentana = Object.create(ruta);
 
 const detailsContainerSerie = document.getElementById('details-container-serie');
@@ -58,8 +59,7 @@ function requestListenerPremium(){
 }
 
 function requestListenerPlus(){
-    // seriePlus = JSON.parse(this.responseText);
-    seriePlus = {};
+    seriePlus = JSON.parse(this.responseText);
 }
 
 function requestListenerPD10(){
@@ -306,7 +306,10 @@ function cargarColores(serie, ceja, ventana){
     let temporal = '';
     let temporal2 = '';
     let i = 0;
- 
+    window.addEventListener('resize', () => {
+      console.log('jaa');
+    });
+    
     temporal = '<div class="row justify-content-center">';
     ventana.colores.forEach((color) => {
         temporal += `<div class="col-md-2 col-lg-2 col-10 text-center selectable">
@@ -326,25 +329,30 @@ function cargarColores(serie, ceja, ventana){
         </div>
     </div><br>`;
     i = 0;
-    temporal += '<div class="row justify-content-center" id="container-colores">'; 
+    temporal += '<form><div class="row justify-content-center" id="container-colores">'; 
     ventana.colores[0].color.forEach((subcolor) => {
-        temporal += `<div class="col-md-1 col-lg-1 col-3 text-center subcolor">
+        temporal += `<div class="col-md-2 col-lg-2 col-3 text-center subcolor">
             <img src="../../img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">
             <div class="form-check">
-                <input class="form-check-input" type="radio" value="${subcolor.nombre}" onChange='agregarARuta("${subcolor.nombre}", "subcolor");'>
+                <input class="form-check-input" type="radio" name="subcolor" value="${subcolor.nombre}" onChange='agregarARuta("${subcolor.nombre}", "subcolor");'>
                 <label class="form-check-label" for="cosa${i}">${subcolor.nombre}</label>
             </div>
         </div>`;
         i++;      
     });
-    temporal += '</div>';
+    temporal += '</div></form>';
 
     arreglo[7] = temporal;
     setLayouts(arreglo);
-    generateStepper(7)
+    generateStepper(7);
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+    }, 100);
+
 }
 
 function cargarSubcolores(color) {
+  // console.log(w);
     const containerColores = document.getElementById('container-colores');
     const checkbox = document.getElementById('agregarColores');
 
@@ -383,7 +391,7 @@ function calcularTotal() {
   let precioPulgada = 0;
   let dimensionAlto = 0;
   let dimensionAncho = 0;
-  let total = 0;
+  total = 0;
   
   switch (rutaVentana.serie) {
     case 'Básica':
@@ -411,11 +419,36 @@ function calcularTotal() {
       }
       console.log(total);
 
-      etiquetaTotal.innerHTML = `$${total}`;
+      etiquetaTotal.innerHTML = `$${total.toFixed(2)}`;
 
       break;
     case 'Plus': 
-      console.log('hola');
+      precioPulgada = encontrarPrecio(seriePlus, rutaVentana);
+      dimensionAlto = Number.parseInt(rutaVentana.dimensionAlto);
+      dimensionAncho = Number.parseInt(rutaVentana.dimensionAncho);
+
+      total = precioPulgada * (dimensionAlto + dimensionAncho);
+      console.log(total);
+
+      if (rutaVentana.colorPrincipal && rutaVentana.colorSubcolor) {
+        seriePlus.colores.forEach((color) => {
+          if (color.nombre === rutaVentana.colorPrincipal) {
+            color.color.forEach((subcolor) => {
+              if (subcolor.nombre === rutaVentana.colorSubcolor) {
+                if (rutaVentana.ladoColor === 'Interior') {
+                  total += subcolor.precioInterior;
+                } else {
+                  total += subcolor.precioExterior;
+                }
+              }
+            });
+          }
+        });
+      }
+
+      console.log(total);
+      etiquetaTotal.innerHTML = `$${total.toFixed(2)}`;
+
       break;
     case 'Premium':
       precioPulgada = encontrarPrecio(seriePremium, rutaVentana);
@@ -443,7 +476,7 @@ function calcularTotal() {
       }
 
       console.log(total);
-      etiquetaTotal.innerHTML = `$${total}`;
+      etiquetaTotal.innerHTML = `$${total.toFixed(2)}`;
 
       break;
     default:
@@ -488,6 +521,8 @@ function formatearString(tipoVentana) {
 function agregarCotizacion() {
     console.log(rutaVentana);
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
+    rutaVentana.precio = total;
+    rutaVentana.total = rutaVentana.numeroVentanas * total;
     cotizaciones.push(rutaVentana);
     rutaVentana = Object.create(ruta);
     containerAddNumeroVentana.hidden = true
@@ -503,12 +538,14 @@ function agregarCotizacion() {
     detailContainerSubColor.innerHTML = ``;
 
     for (let i = 1  ; i < 8; i++) {
-        arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+        arreglo[i] = `<p>Para mostrar este paso es necesario que completes los pasos anteriores</p>`;
     }
     inputNumeroDeVentanas.value = "1";
     setLayouts(arreglo);
     generateStepper(0);
     cargarTabla();
+    etiquetaTotal.innerText = '$0';
+    total = 0;
 
 }
 
@@ -539,7 +576,7 @@ function agregarARuta(text, propiedad) {
                 detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 1; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
             rutaVentana.serie = text;
@@ -569,7 +606,7 @@ function agregarARuta(text, propiedad) {
                 detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 2; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
@@ -598,7 +635,7 @@ function agregarARuta(text, propiedad) {
                 detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 3; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
@@ -625,7 +662,7 @@ function agregarARuta(text, propiedad) {
                 detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 4; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
@@ -652,7 +689,7 @@ function agregarARuta(text, propiedad) {
                 detailContainerSubColor.innerHTML = ``;
 
                 for (let i = 5; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
@@ -675,7 +712,7 @@ function agregarARuta(text, propiedad) {
 
 
                 for (let i = 6; i < 8; i++) {
-                    arreglo[i] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                    arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 }
             }
 
@@ -694,7 +731,7 @@ function agregarARuta(text, propiedad) {
                 detailsContainerColor.innerHTML = `Aún no se selecciona un color`;
                 detailContainerSubColor.innerHTML = ``;
 
-                arreglo[7] = `<p>Para mostarar este paso es necesario que completes lo pasos anteriores</p>`;
+                arreglo[7] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
                 
             }
 

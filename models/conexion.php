@@ -3,15 +3,15 @@
 class Conexion {
   public static function conectar() {
 
-    // $servername = "127.0.0.1";
-    // $username = "root";
-    // $password = "";
-    // $dbname = "cotizador";
+    $servername = "127.0.0.1";
+    $username = "root";
+    $password = "";
+    $dbname = "cotizador";
 
-    $servername = "mysql1007.mochahost.com";
-    $username = "rickurbi_skyview";
-    $password = "NmAIt&jZ2dd1";
-    $dbname = "rickurbi_skyview";
+    // $servername = "mysql1007.mochahost.com";
+    // $username = "rickurbi_skyview";
+    // $password = "NmAIt&jZ2dd1";
+    // $dbname = "rickurbi_skyview";
     
 
     try {
