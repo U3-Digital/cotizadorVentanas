@@ -7,6 +7,7 @@
         Cotizador
       </a>
     </li>
+    <hr style="border-top: 1px solid #DDDDDD; width: 95%">
     <li>
       <a href="agregarUsuario.php" class="nav-link link-dark">
       <i class="fas fa-user"></i>
@@ -19,6 +20,12 @@
         Manejar usuarios
       </a>
     </li>
-
+    <hr style="border-top: 1px solid #DDDDDD; width: 95%">
+    <li>
+      <a href="lstCotizaciones.php" class="nav-link link-dark">
+        <i class="fas fa-list"></i>
+        Lista de cotizaciones
+      </a>
+    </li>
   </ul>
 </div>

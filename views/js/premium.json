@@ -1381,40 +1381,40 @@
                     "nombre": "Abatible Fijo",
                     "img": "../../img/AbatibleFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "17.5" }
                     ]
                 },
                 {
                     "nombre": "Abatibles Fijos Apilados",
                     "img": "../../img/AbatibleFijosApilados.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "23" }
                     ]
                 },
                 {
                     "nombre": "Doble Abatible Fijo",
                     "img": "../../img/DobleAbatibleFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
                     ]
                 },
                 {
                     "nombre": "Fija O-O-O",
                     "img": "../../img/FijaO-O-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "11.5", "alto": "36" }
                     ]
                 },
                 {
                     "nombre": "Fijo O-O-O",
                     "img": "../../img/FijoO-O-O.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "120", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "34.5", "alto": "11.5" }
                     ]
                 }
             ]
@@ -1427,56 +1427,56 @@
                     "nombre": "Abatible",
                     "img": "../../img/Abatible.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "36", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "15.5", "alto": "20" }
                     ]
                 },
                 {
                     "nombre": "Abatible con Abatible Fijo",
                     "img": "../../img/AbatibleconAbatibleFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "31", "alto": "20" }
                     ]
                 },
                 {
                     "nombre": "Abatible XOX",
                     "img": "../../img/AbatibleXOX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "46.5", "alto": "20" }
                     ]
                 },
                 {
                     "nombre": "Abatible OXO",
                     "img": "../../img/AbatibleOXO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "46.5", "alto": "20" }
                     ]
                 },
                 {
                     "nombre": "Abatible X/O",
                     "img": "../../img/AbatibleOXO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "36", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "15.5", "alto": "32" }
                     ]
                 },
                 {
                     "nombre": "Abatible XX",
                     "img": "../../img/AbatibleXX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "72", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "31", "alto": "20" }
                     ]
                 },
                 {
                     "nombre": "Abatible XOO-OOX",
                     "img": "../../img/AbatibleXOO-OOX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "80" },
+                        { "nombre": "Mínimo", "ancho": "46.5", "alto": "20" }
                     ]
                 }
             ]
@@ -1489,72 +1489,72 @@
                     "nombre": "Abatiente",
                     "img": "../../img/Abatiente.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "22", "alto": "18" }
                     ]
                 },
                 {
                     "nombre": "Abatiente con Abatible Fijo",
                     "img": "../../img/AbatienteconAbatienteFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "44", "alto": "18" }
                     ]
                 },
                 {
                     "nombre": "Abatiente con Abatible Fijo Apilado",
                     "img": "../../img/AbatienteconAbatienteFijoAmpliado.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "22", "alto": "36" }
                     ]
                 },
                 {
                     "nombre": "Abatiente XOX",
                     "img": "../../img/AbatienteXOX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "66", "alto": "18" }
                     ]
                 },
                 {
                     "nombre": "Abatiente OXO",
                     "img": "../../img/AbatienteOXO.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "66", "alto": "18" }
                     ]
                 },
                 {
                     "nombre": "Proyectante XXX",
                     "img": "../../img/ProyectanteXXX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "22", "alto": "54" }
                     ]
                 },
                 {
                     "nombre": "Abatiente XXX",
                     "img": "../../img/AbatienteXXX.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "108", "alto": "72" },
+                        { "nombre": "Mínimo", "ancho": "66", "alto": "18" }
                     ]
                 },
                 {
                     "nombre": "Proyectante con 2 Fijos",
                     "img": "../../img/Proyectantecon2Fijos.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "22", "alto": "54" }
                     ]
                 },
                 {
                     "nombre": "Doble Proyectante con Uno Fijo",
                     "img": "../../img/DobleProyectanteconunFijo.png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "72" },
-                        { "nombre": "Mínimo", "ancho": "20", "alto": "35" }
+                        { "nombre": "Máximo", "ancho": "60", "alto": "108" },
+                        { "nombre": "Mínimo", "ancho": "22", "alto": "54" }
                     ]
                 }
             ]
