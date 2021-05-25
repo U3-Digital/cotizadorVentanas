@@ -66,6 +66,9 @@
             </tr>
           </tbody>
         </table>
+        <div class="row mx-4 mt-4">
+          <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
+        </div>
         <div class="row ml-3 mt-3">
           <div class="col-6 text-center"><h5>Total</h5></div> 
           <div class="col-6 text-center"><h5 id="total">$0</h5></div> 
@@ -73,7 +76,7 @@
         <br>
         <div class="row" id="container-add-numero-ventanas" hidden>
           <div class="col-6">
-            <input type="number" name="input-no-ventanas" min="1" id="input-no-ventanas" class="form-control" placeholder="No. de ventanas" value="1">
+            <input type="number" name="input-no-ventanas" min="1" max="10" id="input-no-ventanas" class="form-control" placeholder="No. de ventanas" value="1">
           </div>
           <div class="col-6">
             <button class="btn btn-block btn-primary" onclick="agregarCotizacion()">Agregar</button>

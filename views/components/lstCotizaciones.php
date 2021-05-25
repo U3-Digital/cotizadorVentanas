@@ -20,9 +20,8 @@ if (!isset($_SESSION["nombre"])) {
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="../../lib/vendor/bootstrap/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="../css/style.css" type="text/css" />
-  <link rel="stylesheet" href="../../lib/vendor/sweetalert2/sweetalert2.min.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <script src="../../lib/vendor/sweetalert2/sweetalert2.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Document Title
@@ -62,8 +61,8 @@ if (!isset($_SESSION["nombre"])) {
                   <tbody>
                     <?php
                       $controllerCotizaciones = new CotizacionesController();
-                      $controllerCotizaciones -> ctlListarCotizaciones();
-                      // $controllerCotizaciones
+                      $controllerCotizaciones -> ctrListarCotizaciones();
+                      $controllerCotizaciones -> ctrBorrarCotizacion();
                     ?>
                   </tbody>
                 </table>
@@ -75,5 +74,24 @@ if (!isset($_SESSION["nombre"])) {
     </div>
 
   </div>
+  <script>
+    function borrarCotizacion(idCotizacion) {
+      Swal.fire({
+        title: '¿Está seguro de que desea borrar esta cotización?',
+        text: 'Esta acción no podrá ser revertida',
+        icon: 'warning',
+        showCancelButton: true,
+        reverseButtons: true,
+        confirmButtonText: 'Aceptar',
+        cancelButtonText: 'Cancelar',
+        cancelButtonColor: '#0d6efd',
+        confirmButtonColor: '#dc3545'
+      }).then((value) => {
+        if (value.isConfirmed) {
+          window.location.href = `lstCotizaciones.php?idBorrar=${idCotizacion}`;
+        }
+      });
+    }
+  </script>
 </body>
 </html>

@@ -33,6 +33,7 @@ const detailContainerSubColor = document.getElementById('details-container-subco
 const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 const inputNumeroDeVentanas = document.getElementById('input-no-ventanas');
 const etiquetaTotal = document.getElementById('total');
+const cajaNombreCliente = document.getElementById('cajaNombreCliente');
 
 let serieBasica = {};
 let seriePremium = {};
@@ -518,11 +519,54 @@ function formatearString(tipoVentana) {
   return tipoVentana;
 }
 
+function insertarCotizacion() {
+
+  const formData = new FormData();
+  formData.set('cliente', cajaNombreCliente.value);
+  formData.set('ventana', JSON.stringify(rutaVentana));
+
+  $.ajax({
+    url: '../../controllers/agregarCotizacion.php',
+    type: 'POST',
+    data: formData,
+    success: (data) => {
+      if (data == 'success') {
+        Swal.fire({
+          title: 'Cotización agregada exitosamente',
+          icon: 'success',
+          confirmButtonText: 'Aceptar',
+          confirmButtonColor: '#0d6efd'
+        });
+      } else {
+        Swal.fire({
+          title: 'Error al agregar la cotización',
+          icon: 'error',
+          confirmButtonText: 'Aceptar',
+          confirmButtonColor: '#0d6efd'
+        });
+      }
+    },
+    error: (error) => {
+      console.log(error);
+    },
+    complete: () => {
+      console.log('Completado');
+    },
+    cache: false,
+    contentType: false,
+    processData: false
+  });
+}
+
 function agregarCotizacion() {
     console.log(rutaVentana);
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
     rutaVentana.precio = total;
     rutaVentana.total = rutaVentana.numeroVentanas * total;
+    rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
+
+    insertarCotizacion();
+    
     cotizaciones.push(rutaVentana);
     rutaVentana = Object.create(ruta);
     containerAddNumeroVentana.hidden = true
@@ -541,12 +585,13 @@ function agregarCotizacion() {
         arreglo[i] = `<p>Para mostrar este paso es necesario que completes los pasos anteriores</p>`;
     }
     inputNumeroDeVentanas.value = "1";
+
     setLayouts(arreglo);
     generateStepper(0);
     cargarTabla();
     etiquetaTotal.innerText = '$0';
     total = 0;
-
+    cajaNombreCliente.value = '';
 }
 
 function agregarARuta(text, propiedad) {

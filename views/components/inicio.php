@@ -21,9 +21,8 @@ if(!isset($_SESSION["nombre"])){
   <link rel="stylesheet" type="text/css" href="../../lib\vendor\adminlte\dist\css\adminlte.min.css">
   <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../lib/vendor/sweetalert2/sweetalert2.min.css">
   <link rel="stylesheet" href="../css/styleStepper.css">
-  <script src="../../lib/vendor/sweetalert2/sweetalert2.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -71,7 +70,6 @@ if(!isset($_SESSION["nombre"])){
                     <th scope="col">Cantidad</th>
                     <th scope="col">Precio</th>
                     <th scope="col">Total</th>
-                    <th scope="col" style="width: 7em;" class="text-center">Borrar</th>
                   </thead>
                   <tbody id="cuerpo-tabla">
                   </tbody>
@@ -108,7 +106,6 @@ if(!isset($_SESSION["nombre"])){
             <td>${cotizacion.numeroVentanas}</td>
             <td>${cotizacion.precio}</td>
             <td>${cotizacion.total}</td>
-            <td class="text-center"><button class="btn btn-danger" onclick="borrarCotizacion(${i});"><i class="fas fa-trash"></i></button></td>
         </tr>
         `;
           i++;
