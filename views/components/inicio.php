@@ -55,6 +55,12 @@ if(!isset($_SESSION["nombre"])){
       <div class="m-4 w-100 d-flex" style="flex-grow: 1; flex-direction: column;">
         <?php include "./stepper.php"; ?>
         <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-6 col-xl-6 col-8">
+            <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
           <div class="col">
             <div class="card">
               <div class="card-header border-0">
@@ -77,9 +83,8 @@ if(!isset($_SESSION["nombre"])){
               </div>
             </div>
           </div>
-
         </div>
-
+        
       </div>
     </div>
 
@@ -92,6 +97,59 @@ if(!isset($_SESSION["nombre"])){
 
     <script>
       const cuerpoTabla = document.getElementById('cuerpo-tabla');
+
+      function enviarCorreo(){
+        Swal.fire({
+          title: 'Correo del cliente',
+          input: 'text',
+          inputAttributes: {
+            autocapitalize: 'off'
+          },
+          showCancelButton: true,
+          confirmButtonText: 'Enviar',
+          showLoaderOnConfirm: true,
+          preConfirm: (correo) => {
+            const formData = new FormData();
+            formData.set('correo', correo);
+            formData.set('cotizaciones', JSON.stringify(cotizaciones));
+
+            $.ajax({
+              url: '../../controllers/enviarCorreo.php',
+              type: 'POST',
+              data: formData,
+              success: (data) => {
+                console.log(data);
+                if (data == 'success') {
+                  Swal.fire({
+                    title: 'Correo enviado exitosamente',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                } else {
+                  Swal.fire({
+                    title: 'Error al enviar la cotización',
+                    icon: 'error',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                }
+              },
+              error: (error) => {
+                console.log(error);
+              },
+              complete: () => {
+                console.log('Completado');
+              },
+              cache: false,
+              contentType: false,
+              processData: false
+            });
+          },
+          allowOutsideClick: () => !Swal.isLoading()
+        })
+      }
+
       function cargarTabla() {
         cuerpoTabla.innerHTML = '';
         let i = 0;

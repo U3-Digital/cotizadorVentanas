@@ -28,7 +28,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 88.72 }, { "formaao": 88.72 } ]
+                    "tipos": [ { "triánguloisosceles": 88.72 }, { "formaao": 88.72 }, { "hexagonal": 88.72 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 88.72 }, { "figuraao": 88.72 }, { "figuraao-o": 88.72 }, { "circular": 88.72 }, { "arco": 88.72 }, { "arcomedialunafijo": 88.72 }, { "medialunaconunfijo": 88.72 }, { "arcoa-o-o": 88.72 }, { "arcomedialuna3fijos": 88.72 }, { "arcoao": 88.72 }, { "fijoconarco": 24.03 }, { "arcomedialunacon2fijos": 61.17 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 88.72 } ]
                   }
                 ] 
               },
@@ -47,7 +47,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 92.67 }, { "formaao": 92.67 } ]
+                    "tipos": [ { "triánguloisosceles": 92.67 }, { "formaao": 92.67 }, { "hexagonal": 92.67 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 92.69 }, { "figuraao": 92.67 }, { "figuraao-o": 92.68 }, { "circular": 92.67 }, { "arco": 92.67 }, { "arcomedialunafijo": 92.67 }, { "medialunaconunfijo": 92.69 }, { "arcoa-o-o": 92.68 }, { "arcomedialuna3fijos": 92.68 }, { "arcoao": 92.67 }, { "fijoconarco": 28.8 }, { "arcomedialunacon2fijos": 70.72 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 92.67 } ]
                   }
                 ] 
               },
@@ -67,7 +67,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 89.59 }, { "formaao": 89.59 } ]
+                    "tipos": [ { "triánguloisosceles": 89.59 }, { "formaao": 89.59 }, { "hexagonal": 89.59 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 89.6 }, { "figuraao": 89.59 }, { "figuraao-o": 89.61 }, { "circular": 89.59 }, { "arco": 89.6 }, { "arcomedialunafijo": 89.59 }, { "medialunaconunfijo": 89.6 }, { "arcoa-o-o": 89.61 }, { "arcomedialuna3fijos": 89.61 }, { "arcoao": 89.61 }, { "fijoconarco": 33.42 }, { "arcomedialunacon2fijos": 79.93 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 89.59 } ]
                   }
                 ] 
               },
@@ -87,7 +87,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 99.54 } ]
+                    "tipos": [ { "triánguloisosceles": 99.54 }, { "formaao": 99.54 }, { "hexagonal": 99.54 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 99.55 }, { "figuraao": 99.54 }, { "figuraao-o": 99.55 }, { "circular": 99.54 }, { "arco": 99.54 }, { "arcomedialunafijo": 99.54 }, { "medialunaconunfijo": 99.56 }, { "arcoa-o-o": 99.55 }, { "arcomedialuna3fijos": 99.55 }, { "arcoao": 99.54 }, { "fijoconarco": 49.56 }, { "arcomedialunacon2fijos": 112.23 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 99.54 } ]
                   }
                 ] 
               }
@@ -115,7 +115,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 107.86 } ]
+                      "tipos": [ { "triánguloisosceles": 107.86 }, { "formaao": 107.86 }, { "hexagonal": 107.86 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 107.87 }, { "figuraao": 107.86 }, { "figuraao-o": 107.9 }, { "circular": 107.86 }, { "arco": 107.86 }, { "arcomedialunafijo": 107.86 }, { "medialunaconunfijo": 107.87 }, { "arcoa-o-o": 107.87 }, { "arcomedialuna3fijos": 107.87 }, { "arcoao": 107.86 }, { "fijoconarco": 38.08 }, { "arcomedialunacon2fijos": 89.27 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 107.86 } ]
                     }
                   ] 
                 },
@@ -137,7 +137,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 106.9 } ]
+                      "tipos": [ { "triánguloisosceles": 106.9 }, { "formaao": 106.9 }, { "hexagonal": 106.9 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 106.91 }, { "figuraao": 106.9 }, { "figuraao-o": 106.91 }, { "circular": 106.9 }, { "arco": 106.9 }, { "arcomedialunafijo": 106.9 }, { "medialunaconunfijo": 106.91 }, { "arcoa-o-o": 106.91 }, { "arcomedialuna3fijos": 106.91 }, { "arcoao": 106.9 }, { "fijoconarco": 42.56 }, { "arcomedialunacon2fijos": 98.23 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 106.9 } ]
                     }
                   ]
                 },
@@ -159,7 +159,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 110.89 } ]
+                      "tipos": [ { "triánguloisosceles": 110.89 }, { "formaao": 110.89 }, { "hexagonal": 110.89 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 110.9 }, { "figuraao": 110.89 }, { "figuraao-o": 110.89 }, { "circular": 110.89 }, { "arco": 110.89 }, { "arcomedialunafijo": 110.89 }, { "medialunaconunfijo": 110.9 }, { "arcoa-o-o": 110.89 }, { "arcomedialuna3fijos": 110.89 }, { "arcoao": 110.89 }, { "fijoconarco": 43.84 }, { "arcomedialunacon2fijos": 100.80 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 110.89 } ]
                     }
                   ]  
                 },
@@ -181,7 +181,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 110.86 } ]
+                      "tipos": [ { "triánguloisosceles": 110.86 }, { "formaao": 110.86 }, { "hexagonal": 110.86 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 110.87 }, { "figuraao": 110.86 }, { "figuraao-o": 110.88 }, { "circular": 110.86 }, { "arco": 110.86 }, { "arcomedialunafijo": 110.86 }, { "medialunaconunfijo": 110.87 }, { "arcoa-o-o": 110.88 }, { "arcomedialuna3fijos": 110.88 }, { "arcoao": 110.86 }, { "fijoconarco": 48.93 }, { "arcomedialunacon2fijos": 110.97 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 110.86 } ]
                     }
                   ]
                 },
@@ -203,7 +203,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 107.78 } ]
+                      "tipos": [ { "triánguloisosceles": 107.78 }, { "formaao": 107.78 }, { "hexagonal": 107.78 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 107.8 }, { "figuraao": 107.78 }, { "figuraao-o": 107.79 }, { "circular": 107.78 }, { "arco": 107.78 }, { "arcomedialunafijo": 107.78 }, { "medialunaconunfijo": 107.8 }, { "arcoa-o-o": 107.79 }, { "arcomedialuna3fijos": 107.79 }, { "arcoao": 107.78 }, { "fijoconarco": 43.93 }, { "arcomedialunacon2fijos": 100.98 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 107.78 } ]
                     }
                   ]
                 },
@@ -225,7 +225,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 117.67 } ]
+                      "tipos": [ { "triánguloisosceles": 117.67 }, { "formaao": 117.67 }, { "hexagonal": 117.67 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 117.69 }, { "figuraao": 117.67 }, { "figuraao-o": 117.69 }, { "circular": 117.67 }, { "arco": 117.68 }, { "arcomedialunafijo": 117.67 }, { "medialunaconunfijo": 117.69 }, { "arcoa-o-o": 117.69 }, { "arcomedialuna3fijos": 117.69 }, { "arcoao": 117.67 }, { "fijoconarco": 60.02 }, { "arcomedialunacon2fijos": 113.16 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 117.67 } ]
                     }
                   ]
                 },
@@ -247,7 +247,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 105.7 } ]
+                      "tipos": [ { "triánguloisosceles": 105.7 }, { "formaao": 105.7 }, { "hexagonal": 105.7 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 105.72 }, { "figuraao": 105.7 }, { "figuraao-o": 105.72 }, { "circular": 105.7 }, { "arco": 105.7 }, { "arcomedialunafijo": 105.7 }, { "medialunaconunfijo": 105.73 }, { "arcoa-o-o": 105.72 }, { "arcomedialuna3fijos": 105.72 }, { "arcoao": 105.7 } , { "fijoconarco": 40.93 }, { "arcomedialunacon2fijos": 94.27 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 105.7 } ]
                     }
                   ]
                 },
@@ -269,7 +269,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 109.67 } ]
+                      "tipos": [ { "triánguloisosceles": 109.67 }, { "formaao": 109.67 }, { "hexagonal": 109.67 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 109.68 }, { "figuraao": 109.67 }, { "figuraao-o": 109.68 }, { "circular": 109.67 }, { "arco": 109.67 }, { "arcomedialunafijo": 109.67 }, { "medialunaconunfijo": 109.68 }, { "arcoa-o-o": 109.68 }, { "arcomedialuna3fijos": 109.68 }, { "arcoao": 109.67 } , { "fijoconarco": 46.96 }, { "arcomedialunacon2fijos": 107.02 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 109.67 } ]
                     }
                   ]
                 },
@@ -291,7 +291,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 115.6 } ]
+                      "tipos": [ { "triánguloisosceles": 115.6 }, { "formaao": 115.6 }, { "hexagonal": 115.6 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 115.61 }, { "figuraao": 115.6 }, { "figuraao-o": 115.61 }, { "circular": 115.6 }, { "arco": 115.6 }, { "arcomedialunafijo": 115.6 }, { "medialunaconunfijo": 115.61 }, { "arcoa-o-o": 115.61 }, { "arcomedialuna3fijos": 115.61 }, { "arcoao": 115.6 }, { "fijoconarco": 56.67 }, { "arcomedialunacon2fijos": 123.46 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 115.6 } ]
                     }
                   ]
                 },
@@ -313,7 +313,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 116.48 } ]
+                      "tipos": [ { "triánguloisosceles": 116.48 }, { "formaao": 116.48 }, { "hexagonal": 116.48 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 116.5 }, { "figuraao": 116.48 }, { "figuraao-o": 116.5 }, { "circular": 116.48 }, { "arco": 116.48 }, { "arcomedialunafijo": 116.48 }, { "medialunaconunfijo": 116.5 }, { "arcoa-o-o": 116.5 }, { "arcomedialuna3fijos": 116.5 }, { "arcoao": 116.48 }, { "fijoconarco": 58.05 }, { "arcomedialunacon2fijos": 129.21 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 116.48 } ]
                     }
                   ]
                 },
@@ -335,7 +335,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 0 } ]
+                      "tipos": [ { "triánguloisosceles": 0 }, { "formaao": 0 }, { "hexagonal": 0 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 0 }, { "figuraao": 0 }, { "figuraao-o": 0 }, { "circular": 0 }, { "arco": 0 }, { "arcomedialunafijo": 0 }, { "medialunaconunfijo": 0 }, { "arcoa-o-o": 0 }, { "arcomedialuna3fijos": 0 }, { "arcoao": 0 }, { "fijoconarco": 0 }, { "arcomedialunacon2fijos": 0 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 0 } ]
                     }
                   ]
                 }
@@ -363,7 +363,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 112.57 } ]
+                      "tipos": [ { "triánguloisosceles": 112.57 }, { "formaao": 112.57 }, { "hexagonal": 112.57 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 112.58 }, { "figuraao": 112.57 }, { "figuraao-o": 112.58 }, { "circular": 112.57 }, { "arco": 112.57 }, { "arcomedialunafijo": 112.57 }, { "medialunaconunfijo": 112.59 }, { "arcoa-o-o": 112.58 }, { "arcomedialuna3fijos": 112.58 }, { "arcoao": 112.57 }, { "fijoconarco": 43.92 }, { "arcomedialunacon2fijos": 100.95 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 112.57 } ]
                     }
                   ] 
                 },
@@ -385,7 +385,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 108.46 } ]
+                      "tipos": [ { "triánguloisosceles": 108.46 }, { "formaao": 108.46 }, { "hexagonal": 108.46 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 108.47 }, { "figuraao": 108.46 }, { "figuraao-o": 108.47 }, { "circular": 108.46 }, { "arco": 108.46 }, { "arcomedialunafijo": 108.46 }, { "medialunaconunfijo": 108.47 }, { "arcoa-o-o": 108.47 }, { "arcomedialuna3fijos": 108.47 }, { "arcoao": 108.46 }, { "fijoconarco": 46.49 }, { "arcomedialunacon2fijos": 106.09 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 108.46 } ]
                     }
                   ] 
                 },
@@ -407,7 +407,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 115.67 } ]
+                      "tipos": [ { "triánguloisosceles": 115.67 }, { "formaao": 115.67 }, { "hexagonal": 115.67 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 115.69 }, { "figuraao": 115.67 }, { "figuraao-o": 115.68 }, { "circular": 115.67 }, { "arco": 115.67 }, { "arcomedialunafijo": 115.67 }, { "medialunaconunfijo": 115.68 }, { "arcoa-o-o": 115.68 }, { "arcomedialuna3fijos": 115.68 }, { "arcoao": 115.67 }, { "fijoconarco": 49.84 }, { "arcomedialunacon2fijos": 112.8 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 115.67 } ]
                     }
                   ]
                 },
@@ -429,7 +429,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 112.42 } ]
+                      "tipos": [ { "triánguloisosceles": 112.42 }, { "formaao": 112.42 }, { "hexagonal": 112.72 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 112.44 }, { "figuraao": 112.42 }, { "figuraao-o": 112.43 }, { "circular": 112.42 }, { "arco": 112.42 }, { "arcomedialunafijo": 112.42 }, { "medialunaconunfijo": 112.43 }, { "arcoa-o-o": 112.43 }, { "arcomedialuna3fijos": 112.43 }, { "arcoao": 112.42 }, { "fijoconarco": 53.01 }, { "arcomedialunacon2fijos": 119.14 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 112.42 } ]
                     }
                   ]
                 },
@@ -451,7 +451,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 109.34 } ]
+                      "tipos": [ { "triánguloisosceles": 109.34 }, { "formaao": 109.34 }, { "hexagonal": 109.34 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 109.36 }, { "figuraao": 109.34 }, { "figuraao-o": 109.35 }, { "circular": 109.34 }, { "arco": 109.34 }, { "arcomedialunafijo": 109.34 }, { "medialunaconunfijo": 109.36 }, { "arcoa-o-o": 109.35 }, { "arcomedialuna3fijos": 109.35 }, { "arcoao": 109.34 }, { "fijoconarco": 47.9 }, { "arcomedialunacon2fijos": 108.9 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 109.34 } ]
                     }
                   ]
                 },
@@ -473,7 +473,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 119.23 } ]
+                      "tipos": [ { "triánguloisosceles": 119.23 }, { "formaao": 119.23 }, { "hexagonal": 119.23 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 119.24 }, { "figuraao": 119.23 }, { "figuraao-o": 119.25 }, { "circular": 119.23 }, { "arco": 119.23 }, { "arcomedialunafijo": 119.23 }, { "medialunaconunfijo": 119.24 }, { "arcoa-o-o": 119.25 }, { "arcomedialuna3fijos": 119.25 }, { "arcoao": 119.23 }, { "fijoconarco": 64.39 }, { "arcomedialunacon2fijos": 141.89 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 119.23 } ]
                     }
                   ]
                 },
@@ -495,7 +495,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 107.26 } ]
+                      "tipos": [ { "triánguloisosceles": 107.26 }, { "formaao": 107.26 }, { "hexagonal": 107.26 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 107.28 }, { "figuraao": 107.26 }, { "figuraao-o": 107.27 }, { "circular": 107.26 }, { "arco": 107.26 }, { "arcomedialunafijo": 107.26 }, { "medialunaconunfijo": 107.27 }, { "arcoa-o-o": 107.27 }, { "arcomedialuna3fijos": 107.27 }, { "arcoao": 107.26 }, { "fijoconarco": 44.47 }, { "arcomedialunacon2fijos": 102.04 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 107.26 } ]
                     }
                   ] 
                 },
@@ -517,7 +517,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 111.23 } ]
+                      "tipos": [ { "triánguloisosceles": 111.23 }, { "formaao": 111.23 }, { "hexagonal": 111.23 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 111.24 }, { "figuraao": 111.23 }, { "figuraao-o": 111.23 }, { "circular": 111.23 }, { "arco": 111.23 }, { "arcomedialunafijo": 111.23 }, { "medialunaconunfijo": 111.24 }, { "arcoa-o-o": 111.23 }, { "arcomedialuna3fijos": 111.23 }, { "arcoao": 111.23 }, { "fijoconarco": 50.99 }, { "arcomedialunacon2fijos": 115.09 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 112.23 } ]
                     }
                   ] 
                 },
@@ -539,7 +539,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 117.15 } ]
+                      "tipos": [ { "triánguloisosceles": 117.15 }, { "formaao": 114.15 }, { "hexagonal": 114.15 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 117.17 }, { "figuraao": 117.15 }, { "figuraao-o": 117.16 }, { "circular": 117.15 }, { "arco": 117.16 }, { "arcomedialunafijo": 117.15 }, { "medialunaconunfijo": 117.17 }, { "arcoa-o-o": 117.16 }, { "arcomedialuna3fijos": 117.16 }, { "arcoao": 117.15 }, { "fijoconarco": 60.96 }, { "arcomedialunacon2fijos": 135.01 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 117.15 } ]
                     }
                   ]
                 },
@@ -561,7 +561,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 118.04 } ]
+                      "tipos": [ { "triánguloisosceles": 118.04 }, { "formaao": 118.04 }, { "hexagonal": 118.04 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 118.05 }, { "figuraao": 118.04 }, { "figuraao-o": 118.05 }, { "circular": 118.04 }, { "arco": 118.04 }, { "arcomedialunafijo": 118.04 }, { "medialunaconunfijo": 118.05 }, { "arcoa-o-o": 118.05 }, { "arcomedialuna3fijos": 118.05 }, { "arcoao": 118.04 }, { "fijoconarco": 62.36 }, { "arcomedialunacon2fijos": 137.83 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 118.04 } ]
                     }
                   ] 
                 },
@@ -583,7 +583,7 @@
                     },
                     {
                       "tipo": "arcosyfiguras",
-                      "tipos": [ { "triánguloisosceles": 0 } ]
+                      "tipos": [ { "triánguloisosceles": 0 }, { "formaao": 0 }, { "hexagonal": 0 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 0 }, { "figuraao": 0 }, { "figuraao-o": 0 }, { "circular": 0 }, { "arco": 0 }, { "arcomedialunafijo": 0 }, { "medialunaconunfijo": 0 }, { "arcoa-o-o": 0 }, { "arcomedialuna3fijos": 0 }, { "arcoao": 0 }, { "fijoconarco": 0 }, { "arcomedialunacon2fijos": 0 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 0 } ]
                     }
                   ]
                 }
@@ -611,7 +611,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 112.57 } ]
+                    "tipos": [ { "triánguloisosceles": 112.57 }, { "formaao": 112.57 }, { "hexagonal": 112.57 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 112.58 }, { "figuraao": 112.57 }, { "figuraao-o": 112.58 }, { "circular": 112.57 }, { "arco": 112.57 }, { "arcomedialunafijo": 112.57 }, { "medialunaconunfijo": 112.59 }, { "arcoa-o-o": 112.58 }, { "arcomedialuna3fijos": 112.58 }, { "arcoao": 112.57 }, { "fijoconarco": 43.92 }, { "arcomedialunacon2fijos": 100.95 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 112.57 } ]
                   }
                 ] 
               },
@@ -633,7 +633,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles":  108.46} ]
+                    "tipos": [ { "triánguloisosceles":  108.46 }, { "formaao": 108.46 }, { "hexagonal": 108.46 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 108.47 }, { "figuraao": 108.46 }, { "figuraao-o": 108.47 }, { "circular": 108.46 }, { "arco": 108.46 }, { "arcomedialunafijo": 108.46 }, { "medialunaconunfijo": 108.47 }, { "arcoa-o-o": 108.47 }, { "arcomedialuna3fijos": 108.47 }, { "arcoao": 108.46 }, { "fijoconarco": 46.49 }, { "arcomedialunacon2fijos": 106.09 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 108.46 } ]
                   }
                 ] 
               },
@@ -655,7 +655,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 115.67 } ]
+                    "tipos": [ { "triánguloisosceles": 115.67 }, { "formaao": 115.67 }, { "hexagonal": 115.67 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 115.69 }, { "figuraao": 115.67 }, { "figuraao-o": 115.68 }, { "circular": 115.67 }, { "arco": 115.67 }, { "arcomedialunafijo": 115.67 }, { "medialunaconunfijo": 115.68 }, { "arcoa-o-o": 115.68 }, { "arcomedialuna3fijos": 115.68 }, { "arcoao": 115.67 }, { "fijoconarco": 49.84 }, { "arcomedialunacon2fijos": 112.8 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 115.67 } ]
                   }
                 ]
               },
@@ -677,7 +677,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 112.42 } ]
+                    "tipos": [ { "triánguloisosceles": 112.42 }, { "formaao": 112.42 }, { "hexagonal": 112.42 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 112.44 }, { "figuraao": 112.42 }, { "figuraao-o": 112.43 }, { "circular": 112.42 }, { "arco": 112.42 }, { "arcomedialunafijo": 112.42 }, { "medialunaconunfijo": 112.43 }, { "arcoa-o-o": 112.43 }, { "arcomedialuna3fijos": 112.43 }, { "arcoao": 112.42 }, { "fijoconarco": 53.01 }, { "arcomedialunacon2fijos": 119.14 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 112.42 } ]
                   }
                 ] 
               },
@@ -699,7 +699,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 109.34 } ]
+                    "tipos": [ { "triánguloisosceles": 109.34 }, { "formaao": 109.34 }, { "hexagonal": 109.34 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 109.36 }, { "figuraao": 109.34 }, { "figuraao-o": 109.35 }, { "circular": 109.34 }, { "arco": 109.34 }, { "arcomedialunafijo": 109.34 }, { "medialunaconunfijo": 109.36 }, { "arcoa-o-o": 109.35 }, { "arcomedialuna3fijos": 109.35 }, { "arcoao": 109.34 }, { "fijoconarco": 47.9 }, { "arcomedialunacon2fijos": 108.9 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 109.34 } ]
                   }
                 ]	
               },
@@ -721,7 +721,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 119.23 } ]
+                    "tipos": [ { "triánguloisosceles": 119.23 }, { "formaao": 119.23 }, { "hexagonal": 119.23 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 119.24 }, { "figuraao": 119.23 }, { "figuraao-o": 119.25 }, { "circular": 119.23 }, { "arco": 119.23 }, { "arcomedialunafijo": 119.23 }, { "medialunaconunfijo": 119.24 }, { "arcoa-o-o": 119.25 }, { "arcomedialuna3fijos": 119.25 }, { "arcoao": 119.23 }, { "fijoconarco": 64.39 }, { "arcomedialunacon2fijos": 141.89 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 119.23 } ]
                   }
                 ] 
               },
@@ -743,7 +743,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 107.26 } ]
+                    "tipos": [ { "triánguloisosceles": 107.26 }, { "formaao": 107.26 }, { "hexagonal": 107.26 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 107.28 }, { "figuraao": 107.26 }, { "figuraao-o": 107.27 }, { "circular": 107.26 }, { "arco": 107.26 }, { "arcomedialunafijo": 107.26 }, { "medialunaconunfijo": 107.27 }, { "arcoa-o-o": 107.27 }, { "arcomedialuna3fijos": 107.27 }, { "arcoao": 107.26 }, { "fijoconarco": 44.47 }, { "arcomedialunacon2fijos": 102.04 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 107.26 } ]
                   }
                 ]
               },
@@ -765,7 +765,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 111.23 } ]
+                    "tipos": [ { "triánguloisosceles": 111.23 }, { "formaao": 111.23 }, { "hexagonal": 111.23 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 111.24 }, { "figuraao": 111.23 }, { "figuraao-o": 111.23 }, { "circular": 111.23 }, { "arco": 111.23 }, { "arcomedialunafijo": 111.23 }, { "medialunaconunfijo": 111.24 }, { "arcoa-o-o": 111.23 }, { "arcomedialuna3fijos": 111.23 }, { "arcoao": 111.23 }, { "fijoconarco": 50.99 }, { "arcomedialunacon2fijos": 115.09 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 111.23 } ]
                   }
                 ] 
               },
@@ -787,7 +787,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 117.15 } ]
+                    "tipos": [ { "triánguloisosceles": 117.15 }, { "formaao": 117.15 }, { "hexagonal": 117.15 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 117.17 }, { "figuraao": 117.15 }, { "figuraao-o": 117.16 }, { "circular": 117.15 }, { "arco": 117.16 }, { "arcomedialunafijo": 117.15 }, { "medialunaconunfijo": 117.17 }, { "arcoa-o-o": 117.16 }, { "arcomedialuna3fijos": 117.16 }, { "arcoao": 117.15 }, { "fijoconarco": 60.96 }, { "arcomedialunacon2fijos": 135.01 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 117.15 } ]
                   }
                 ]
               },
@@ -809,7 +809,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 118.04 } ]
+                    "tipos": [ { "triánguloisosceles": 118.04 }, { "formaao": 118.04 }, { "hexagonal": 118.04 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 118.05 }, { "figuraao": 118.04 }, { "figuraao-o": 118.05 }, { "circular": 118.04 }, { "arco": 118.04 }, { "arcomedialunafijo": 118.04 }, { "medialunaconunfijo": 118.05 }, { "arcoa-o-o": 118.05 }, { "arcomedialuna3fijos": 118.05 }, { "arcoao": 118.04 }, { "fijoconarco": 62.36 }, { "arcomedialunacon2fijos": 137.83 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 118.04 } ]
                   }
                 ]	
               },
@@ -819,7 +819,7 @@
                 "precio": [
                   {
                     "tipo": "fijoserie40",
-                    "tipos": [ { "fija": 0 }, { "doblefijaapilada": 0 }, { "triplefijapilada": 0 }, { "doblefija": 0 }, { "triplefija": 0 } ]
+                    "tipos": [ { "fija": 0 }, { "doblefijaapilada": 0 }, { "triplefijapilada": 0 }, { "doblefija": 0 }, { "triplefija": 0 }, { "triángulorectángulo": 0 } ]
                   },
                   {
                     "tipo": "corrediza",
@@ -831,7 +831,7 @@
                   },
                   {
                     "tipo": "arcosyfiguras",
-                    "tipos": [ { "triánguloisosceles": 0 } ]
+                    "tipos": [ { "triánguloisosceles": 0 }, { "formaao": 0 }, { "hexagonal": 0 }, { "octagonal": 0 }, { "triángulorectángulo": 0 }, { "formaao-o": 0 }, { "figuraao": 0 }, { "figuraao-o": 0 }, { "circular": 0 }, { "arco": 0 }, { "arcomedialunafijo": 0 }, { "medialunaconunfijo": 0 }, { "arcoa-o-o": 0 }, { "arcomedialuna3fijos": 0 }, { "arcoao": 0 }, { "fijoconarco": 0 }, { "arcomedialunacon2fijos": 0 }, { "arcoaooolunacon3fijos": 0 }, { "catedral": 0 } ]
                   }
                 ]	
               }
