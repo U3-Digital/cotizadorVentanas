@@ -2,7 +2,7 @@
 
   <ul class="nav nav-pills flex-column mb-auto">
     <li class="nav-item">
-      <a href="inicio.php" class="nav-link" aria-current="page" style="border-radius: 0px;">
+      <a href="inicio.php" class="nav-link" aria-current="page">
         <i class="fas fa-home"></i>
         Cotizador
       </a>

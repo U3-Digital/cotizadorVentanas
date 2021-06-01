@@ -560,6 +560,20 @@ function insertarCotizacion() {
 
 function agregarCotizacion() {
     console.log(rutaVentana);
+    nombrePersona = document.getElementById("cajaNombreCliente").value;
+
+    console.log(nombrePersona);
+    if(nombrePersona == ""){
+      Swal.fire({
+        title: 'Favor de colocar el nombre del cliente',
+        icon: 'error',
+        confirmButtonText: 'Aceptar',
+        confirmButtonColor: '#0d6efd'
+      });
+      return;
+    }
+  
+
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
     rutaVentana.precio = total;
     rutaVentana.total = rutaVentana.numeroVentanas * total;

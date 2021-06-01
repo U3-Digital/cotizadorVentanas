@@ -42,6 +42,9 @@
 
     $sujeto = "Cotización";
 
-    //mail($correo,$sujeto,$texto,$headers);
-    print_r($texto);
+    if(mail($correo,$sujeto,$texto,$headers)){
+        print_r("success");
+    }else{
+        print_r("error");
+    }
 ?>

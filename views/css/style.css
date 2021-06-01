@@ -99,3 +99,16 @@ select {
     display: none !important;
   }
 }
+
+.nav-link {
+  background-color: #F8F9FA;
+  margin-top: 4px;
+  transition-duration: 0.1s;
+  border-radius: 0px !important;
+  color: #555555;
+}
+
+.nav-link:hover {
+  background-color: #DDDDDD;
+  color: #007bff;
+}

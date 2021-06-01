@@ -18,8 +18,6 @@ if(!isset($_SESSION["nombre"])){
 	============================================= -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="../../lib/vendor/bootstrap/css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="../../lib\vendor\adminlte\dist\css\adminlte.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/sb-admin.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styleStepper.css">
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -54,7 +52,7 @@ if(!isset($_SESSION["nombre"])){
 
       <div class="m-4 w-100 d-flex" style="flex-grow: 1; flex-direction: column;">
         <?php include "./stepper.php"; ?>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-3">
           <div class="col-md-6 col-lg-6 col-xl-6 col-8">
             <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
           </div>
@@ -99,6 +97,17 @@ if(!isset($_SESSION["nombre"])){
       const cuerpoTabla = document.getElementById('cuerpo-tabla');
 
       function enviarCorreo(){
+        console.log(cotizaciones.length);
+        if(cotizaciones.length == 0){
+          Swal.fire({
+            title: 'No hay ninguna cotizacion para enviar',
+            icon: 'error',
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#0d6efd'
+          });
+          return;
+        }
+
         Swal.fire({
           title: 'Correo del cliente',
           input: 'text',

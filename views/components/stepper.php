@@ -1,7 +1,4 @@
-<br>
-<br>
-<br>
-<div class="row w-100 m-4">
+<div class="row w-100 mt-1">
   <div class="col-md-12 col-lg-8 col-12">
     <div class="multisteps-form">
       <!--progress bar-->
