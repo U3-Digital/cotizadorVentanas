@@ -38,7 +38,7 @@
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 
-    $headers .= 'From: <webmaster@example.com>' . "\r\n";
+    $headers .= 'From: ventas@skyviewfenster.com.mx' . "\r\n";
 
     $sujeto = "Cotización";
 

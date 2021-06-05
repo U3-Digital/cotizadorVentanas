@@ -901,8 +901,8 @@
                     "nombre": "Corrediza XOX",
                     "img": "../../img/CorredizaXOX(serie40).png",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "36", "alto": "11.5" },
-                        { "nombre": "Mínimo", "ancho": "84", "alto": "60" }
+                        { "nombre": "Máximo", "ancho": "84", "alto": "60" },
+                        { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
                     ]
                 },
                 {
