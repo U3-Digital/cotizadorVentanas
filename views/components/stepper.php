@@ -87,3 +87,4 @@
 <script src="../js/stepper.js"></script>
 <script src="../js/generarPantallas.js"></script>
 <script src="../js/script.js"></script>
+<script src="../js/calcularPrecio.js"></script>
