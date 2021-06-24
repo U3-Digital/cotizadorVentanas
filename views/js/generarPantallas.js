@@ -373,6 +373,12 @@ function cargarSubcolores(color) {
 // }, 1000);
 
 
+function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
+  console.log(serie, tipoVidrio, ventana);
+  return 25.33875;
+}
+
+
 function calcularTotal() {
 
   const rutaPrueba = {

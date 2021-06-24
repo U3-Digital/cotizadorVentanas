@@ -5,7 +5,8 @@ const constanteTMullion = 0.8771929825;
 
 const regexAncho = /An/gmi;
 const regexAlto = /Al/gmi;
-const regextPrecioVidrioBase = /PV/gmi;
+const regexPrecioVidrioBase = /PV/gmi;
+const regexPrecioVidrio = /PV2/gmi;
 const TMullion = /T-Mullion/gmi;
 
 const formulaEjemplo = '((An / 3 + Al) * PV) * 3 + (T-Mullion) * 2';
@@ -15,9 +16,9 @@ function analizadorLexico(formula) {
 
   stringFinal = stringFinal.replaceAll(regexAncho, 'rutaVentana.dimensionAncho');
   stringFinal = stringFinal.replaceAll(regexAlto, 'rutaVentana.dimensionAlto');
-  stringFinal = stringFinal.replaceAll(regextPrecioVidrioBase, `rutaVentana.precioVidrio`);
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio('Básica', 'Fija', 'Sencillo Claro')`);
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrio, `determinarPrecioVidrio()`);
   stringFinal = stringFinal.replaceAll(TMullion, `(rutaVentana.dimensionAncho / ${constanteTMullion}) * ${precioUnidadTMullion}`);
-
 
   rutaVentana = {
     dimensionAncho: 48,
@@ -28,9 +29,7 @@ function analizadorLexico(formula) {
   stringFinal = `const total = ${stringFinal}; return total.toFixed(2);`;
   console.log(stringFinal);
 
-  // new Function
   console.log(new Function(stringFinal)());
-  console.log();
 }
 
 analizadorLexico(formulaEjemplo);
