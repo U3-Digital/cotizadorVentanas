@@ -281,6 +281,7 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
 function cargarCeja(serie, subtipo, ventana){
     console.log(subtipo);
     agregarARuta(subtipo.nombre, "subtipoVidrio");
+    determinarPrecioVidrio('Básica', 'Fija', 'Sencillo Claro');
     calcularTotal();
     let temporal = '';
     let i = 0;
@@ -374,7 +375,15 @@ function cargarSubcolores(color) {
 
 
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
-  console.log(serie, tipoVidrio, ventana);
+  console.log(rutaVentana);
+  let strdescripcion = '';
+  strdescripcion += tipoVidrio+" ";
+  if(serie === "Básica"){
+    strdescripcion += "(serie 40)"
+  }
+  strdescripcion += "-";
+  strdescripcion += rutaVentana.tipoVidrio + " " + ventana;
+  
   return 25.33875;
 }
 
