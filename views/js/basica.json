@@ -846,6 +846,7 @@
                 {
                     "nombre": "Fija",
                     "img": "../../img/Fija(Serie40).png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
@@ -854,6 +855,7 @@
                 {
                     "nombre": "Doble fija apilada",
                     "img": "../../img/DobleFijoApilado(serie40).png",
+                    "formula": "((An + Al / 2) * PV) * 2 + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -862,6 +864,7 @@
                 {
                     "nombre": "Triple fija apilada",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
+                    "formula": "((An + Al / 3) * PV) * 3 + (T-Mullion) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "108" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "34.5" }
@@ -870,6 +873,7 @@
                 {
                     "nombre": "Doble fija",
                     "img": "../../img/DobleFija(Serie40).png",
+                    "formula": "((An / 2 + Al) * PV) * 2 + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
@@ -878,6 +882,7 @@
                 {
                     "nombre": "Triple fija",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
+                    "formula": "((An / 3 + Al) * PV) * 3 + (T-Mullion) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
                         { "nombre": "Mínimo", "ancho": "108", "alto": "72" }
@@ -892,6 +897,7 @@
                 {
                     "nombre": "Corrediza",
                     "img": "../../img/Corrediza.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
@@ -900,6 +906,7 @@
                 {
                     "nombre": "Corrediza XOX",
                     "img": "../../img/CorredizaXOX(serie40).png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "84", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
