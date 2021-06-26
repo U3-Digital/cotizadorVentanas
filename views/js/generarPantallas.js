@@ -377,13 +377,47 @@ function cargarSubcolores(color) {
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   console.log(rutaVentana);
   let strdescripcion = '';
+  let vidrio = rutaVentana.tipoVidrio + " " + ventana;
+  let multiplicador = 1* 1.05;
   strdescripcion += tipoVidrio+" ";
   if(serie === "Básica"){
     strdescripcion += "(serie 40)"
+    if(vidrio == 'Vidrio Doble Claro' || vidrio == 'Vidrio Doble Claro con Marginal' || vidrio == 'Vidrio Doble Claro con Cuadricula' || vidrio == 'Vidrio Doble Claro/ Baño' || vidrio == 'Vidrio Doble Claro/ Baño con Marginal' || vidrio == 'Vidrio Doble Claro/ Baño con Cuadricula'){
+      multiplicador = multiplicador * 1.08
+    }
+  }
+  if(ventana.includes("Sencillo")){
+    ventana = ventana.replace("Sencillo","");
   }
   strdescripcion += "-";
   strdescripcion += rutaVentana.tipoVidrio + " " + ventana;
+  strdescripcion = strdescripcion.replace("  "," ");
   
+  console.log(strdescripcion);
+
+  const formData = new FormData();
+  formData.set('ventana', strdescripcion);
+  $.ajax({
+    url: '../../controllers/consultarPrecios.php',
+    type: 'POST',
+    data: formData,
+    success: (data) => {
+      let info = JSON.parse(data);
+      console.log(info);
+
+      let total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03;
+      return total;
+    },
+    error: (error) => {
+      console.log(error);
+    },
+    complete: () => {
+      console.log('Completado');
+    },
+    cache: false,
+    contentType: false,
+    processData: false
+  });
   return 25.33875;
 }
 
