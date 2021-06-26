@@ -279,10 +279,8 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
 
 
 function cargarCeja(serie, subtipo, ventana){
-    console.log(subtipo);
     agregarARuta(subtipo.nombre, "subtipoVidrio");
-    determinarPrecioVidrio('Básica', 'Fija', 'Sencillo Claro');
-    calcularTotal();
+    analizadorLexico(obtenerFormulaVentana());
     let temporal = '';
     let i = 0;
     temporal = '<div class="row justify-content-center">';
@@ -373,11 +371,45 @@ function cargarSubcolores(color) {
 //   calcularTotal();
 // }, 1000);
 
+function obtenerFormulaVentana() {
+  console.log(rutaVentana);
+  let formula = '';
+  switch (rutaVentana.serie) {
+    case 'Básica': {
+      const tipo = serieBasica.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
+      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
+      formula = subtipo.formula;
+    }
+      break;
+    case 'Plus': {
+      const tipo = seriePlus.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
+      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
+      formula = subtipo.formula;
+    }
+      break;
+    case 'Premium': {
+      const tipo = seriePremium.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
+      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
+      formula = subtipo.formula;
+    }
+      break;
+    case 'PD10': {
+      const tipo = seriePD10.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
+      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
+      formula = subtipo.formula;
+    }
+      break;
+    default:
+      break;
+  }
+
+  return formula;
+}
 
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   console.log(rutaVentana);
   let strdescripcion = '';
-  let vidrio = rutaVentana.tipoVidrio + " " + ventana;
+  let vidrio = ventana;
   let multiplicador = 1* 1.05;
   strdescripcion += tipoVidrio+" ";
   if(serie === "Básica"){
@@ -390,23 +422,23 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     ventana = ventana.replace("Sencillo","");
   }
   strdescripcion += "-";
-  strdescripcion += rutaVentana.tipoVidrio + " " + ventana;
-  strdescripcion = strdescripcion.replace("  "," ");
+  strdescripcion += ventana;
   
   console.log(strdescripcion);
 
   const formData = new FormData();
   formData.set('ventana', strdescripcion);
+  let total = 0;
   $.ajax({
     url: '../../controllers/consultarPrecios.php',
     type: 'POST',
+    async: false,
     data: formData,
     success: (data) => {
       let info = JSON.parse(data);
-      console.log(info);
-
-      let total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03;
-      return total;
+      console.log(multiplicador);
+      console.log(info.precio);
+      total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03 * 1.1; 
     },
     error: (error) => {
       console.log(error);
@@ -418,7 +450,8 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     contentType: false,
     processData: false
   });
-  return 25.33875;
+  
+  return total;
 }
 
 

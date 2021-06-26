@@ -11,29 +11,26 @@ const regexPrecioVidrioBase = /\bPV\b/gmi;
 const regexPrecioVidrio2 = /\bPV2\b/gmi;
 const TMullion = /\bT-Mullion\b/gmi;
 
-const formulaEjemplo = '((An / 3 + Al) * PV) * 3 + (T-Mullion) * 2 + PV2';
+const formulaEjemplo = '(An + Al) * PV';
 
 function analizadorLexico(formula) {
   let stringFinal = formula;
 
-  stringFinal = stringFinal.replaceAll(regexAncho, 'rutaVentana.dimensionAncho');
-  stringFinal = stringFinal.replaceAll(regexAncho2, 'rutaVentana.dimensionAncho2');
-  stringFinal = stringFinal.replaceAll(regexAlto, 'rutaVentana.dimensionAlto');
-  stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio('Básica', 'Fija', 'Sencillo Claro')`);
-  stringFinal = stringFinal.replaceAll(regexPrecioVidrio2, `determinarPrecioVidrio('Básica', 'Fija', 'Sencillo Claro')`)
+
+  stringFinal = stringFinal.replaceAll(regexAncho, 'Number.parseInt(rutaVentana.dimensionAncho)');
+  stringFinal = stringFinal.replaceAll(regexAncho2, 'Number.parseInt(rutaVentana.dimensionAncho2)');
+  stringFinal = stringFinal.replaceAll(regexAlto, 'Number.parseInt(rutaVentana.dimensionAlto)');
+  stringFinal = stringFinal.replaceAll(regexAncho2, 'Number.parseInt(rutaVentana.dimensionAncho2)');
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`);
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrio2, `determinarPrecioVidrio(rutaVentana.serie2, rutaVentana.subtipoVentana2, rutaVentana.tipoVidrio2 + " " + rutaVentana.subtipoVidrio2)`)
   stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio()`);
   stringFinal = stringFinal.replaceAll(TMullion, `(rutaVentana.dimensionAncho / ${constanteTMullion}) * ${precioUnidadTMullion}`);
 
-  rutaVentana = {
-    dimensionAncho: 48,
-    dimensionAlto: 48,
-    precioVidrio: precioVidrioBase,
-  };
-
   stringFinal = `const total = ${stringFinal}; return total.toFixed(2);`;
   console.log(stringFinal);
+  console.log(rutaVentana);
 
   console.log(new Function(stringFinal)());
 }
 
-analizadorLexico(formulaEjemplo);
+// analizadorLexico(formulaEjemplo);
