@@ -280,7 +280,9 @@ function cargarSubtipoVidrio(tipoVidrio, serie, ventana){
 
 function cargarCeja(serie, subtipo, ventana){
     agregarARuta(subtipo.nombre, "subtipoVidrio");
-    analizadorLexico(obtenerFormulaVentana());
+    // obtenerFormulaVentana(rutaVentana);
+    // analizadorLexico(obtenerFormulaVentana());
+    // calcularPrecio();
     let temporal = '';
     let i = 0;
     temporal = '<div class="row justify-content-center">';
@@ -371,40 +373,6 @@ function cargarSubcolores(color) {
 //   calcularTotal();
 // }, 1000);
 
-function obtenerFormulaVentana() {
-  console.log(rutaVentana);
-  let formula = '';
-  switch (rutaVentana.serie) {
-    case 'Básica': {
-      const tipo = serieBasica.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
-      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
-      formula = subtipo.formula;
-    }
-      break;
-    case 'Plus': {
-      const tipo = seriePlus.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
-      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
-      formula = subtipo.formula;
-    }
-      break;
-    case 'Premium': {
-      const tipo = seriePremium.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
-      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
-      formula = subtipo.formula;
-    }
-      break;
-    case 'PD10': {
-      const tipo = seriePD10.tipo.filter((t) => t.nombre === rutaVentana.tipoVentana)[0];
-      const subtipo = tipo.subtipo.filter((sb) => sb.nombre === rutaVentana.subtipoVentana)[0];
-      formula = subtipo.formula;
-    }
-      break;
-    default:
-      break;
-  }
-
-  return formula;
-}
 
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   console.log(rutaVentana);

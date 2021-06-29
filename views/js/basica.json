@@ -915,6 +915,7 @@
                 {
                     "nombre": "Corrediza OX-O",
                     "img": "../../img/CorredizaOX-O.png",
+                    "formula": "Fija & Corrediza + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
@@ -923,6 +924,7 @@
                 {
                     "nombre": "Corrediza O-XO",
                     "img": "../../img/CorredizaO-XO.png",
+                    "formula": "Fija & Corrediza + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
@@ -931,6 +933,7 @@
                 {
                     "nombre": "Corrediza O-XOX",
                     "img": "../../img/CorredizaO-XOX.png",
+                    "formula": "Fija & Corrediza XOX + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "36", "alto": "23" }
