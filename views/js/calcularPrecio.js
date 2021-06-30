@@ -18,20 +18,21 @@ function calcularPrecio() {
     dimensionAncho: 24,
     dimensionAlto: 24,
     serie: 'Básica',
-    subtipoVentana: 'Corrediza',
+    subtipoVentana: 'Corrediza O-XOX',
     subtipoVidrio: 'Claro',
     tipoVentana: 'Corrediza',
     tipoVidrio: 'Vidrio sencillo'
   }
 
-  let formulaInicial = obtenerFormulaVentana(rutaPrueba.serie, rutaPrueba.subtipoVentana);
-  
+  let formulaInicial = obtenerFormulaVentana(rutaPrueba.serie, rutaPrueba.subtipoVentana.replaceAll(' ', ''));
   if (!formulaInicial.includes("&")) {
     const stringEjecutable = analizadorLexico(formulaInicial);
     console.log(stringEjecutable);
     // TODO Ejecutar strings
   } else {
-    console.log('hola');
+    // console.log(formulaInicial.split(' '));
+    // Funcion recursiva
+    reemplazo(rutaPrueba.serie, formulaInicial);
   }
 
 }
@@ -39,6 +40,36 @@ function calcularPrecio() {
 setTimeout(() => {
   calcularPrecio();
 }, 3000);
+
+function reemplazo(serie, formula) {
+  console.log(formula);
+  const elementos = formula.split(' ');
+
+  // Quitar los & y reemplazarlos por +/*  */
+  elementos.forEach((elemento, index, arreglo) => {
+    if (elemento === '&') {
+      arreglo[index] = '+';
+    }
+  });
+
+  elementos.forEach((elemento, index, arreglo) => {
+    const formula = obtenerFormulaVentana(serie, elemento);
+    if (formula) {
+      arreglo[index] = formula;
+    }
+
+  });
+
+  console.log(elementos.join(' '));
+
+  // const resultado = obtenerFormulaVentana(serie, formula);
+  // if (resultado) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+}
+
 
 function obtenerFormulaVentana(serie, nombre) {
   let formula = '';
@@ -50,7 +81,7 @@ function obtenerFormulaVentana(serie, nombre) {
         const tipo = serieBasica.tipo[i];
         for (let j = 0; j < tipo.subtipo.length; j++) {
           const subtipo = tipo.subtipo[j];
-          if (subtipo.nombre === nombre) {
+          if (subtipo.nombre.replaceAll(' ', '') === nombre) {
             formula = subtipo.formula;
             encontrado = true;
             break;

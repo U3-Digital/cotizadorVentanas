@@ -919,7 +919,13 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la ventana corrediza: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al-11.5"
+                    }
+                    
                 },
                 {
                     "nombre": "Corrediza O-XO",
@@ -928,16 +934,26 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la ventana corrediza: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al-11.5"
+                    }
                 },
                 {
                     "nombre": "Corrediza O-XOX",
                     "img": "../../img/CorredizaO-XOX.png",
-                    "formula": "Fija & Corrediza XOX + T-Mullion",
+                    "formula": "Fija & CorredizaXOX + T-Mullion",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "36", "alto": "23" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la ventana corrediza: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al-11.5"
+                    }
                 }
             ]
         },
@@ -962,47 +978,72 @@
                     ]
                 },
                 {
-                    "nombre": "OXO",
+                    "nombre": "Guillotina OXO",
                     "img": "../../img/GuillotinaOXO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Ancho de la guillotina: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "An-23"
+                    }
                 },
                 {
-                    "nombre": "XOX",
+                    "nombre": "Guillotina XOX",
                     "img": "../../img/GuillotinaXOX.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Ancho de las guillotinas: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "(An -11.5)/2"
+                    }
                 },
                 {
-                    "nombre": "Orio",
+                    "nombre": "Guillotina Orio",
                     "img": "../../img/GuillotinaOrio.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la guillotina: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al/2"
+                    }
                 },
                 {
-                    "nombre": "Doble orio",
+                    "nombre": "Guillotina Doble orio",
                     "img": "../../img/DobleGuillotinaOrio.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la guillotina: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al/2"
+                    }
                 },
                 {
-                    "nombre": "O-OX",
+                    "nombre": "Guillotina O-OX",
                     "img": "../../img/GuillotinaO-OX.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Ancho de la guillotina: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "An-11.5"
+                    }
                 },
                 {
-                    "nombre": "Con arco continuo",
+                    "nombre": "Guillotina con arco continuo",
                     "img": "../../img/GuillotinaConArcoContinuo.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
@@ -1061,7 +1102,12 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "120" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la forma: ",
+                      "minimo": "2",
+                      "formulaMaximo": "Al-11.5"
+                    }
                 },
                 {
                     "nombre": "Figura AO",
@@ -1077,7 +1123,12 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la figura: ",
+                      "minimo": "2",
+                      "formulaMaximo": "Al-11.5"
+                    }
                 },
                 {
                     "nombre": "Circular",
@@ -1109,7 +1160,12 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "94" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra":{
+                      "titulo": "Alto de la guillotina: ",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al/2"
+                    }
                 },
                 {
                     "nombre": "Arco A-O-O",

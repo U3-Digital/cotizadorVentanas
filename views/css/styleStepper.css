@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   .multisteps-form__progress-btn {
     text-indent: 0;
   }
