@@ -161,40 +161,60 @@ function cargarDimension(subtipo, serie, ventana){
     let maximoAncho = 0;
     let minimoAncho = 0;
 
-
-    tableString += 
-    `
-    <div class="row">
-    <div class="col-12 text-center">
-        <table class="table">
+    tableString += `
+      <div class="row">
+        <div class="col text-center">
+          <table class="table">
             <thead>
-                <tr>
-                    <th></th>
-                    <th>Ancho</th>
-                    <th>Alto</th>
-                </tr>
-            </thead>
-            <tbody>`;
+              <tr>
+                <th></th>`;
+    for (let i = subtipo.dimensiones.length - 1; i >= 0; i--) {
+      tableString += `<th>${subtipo.dimensiones[i].nombre}<th>`;
+    }
+
+    const anchos = [];
+    const altos = [];
+
     subtipo.dimensiones.forEach((dimension) => {
-        tableString += `<tr><td>${dimension.nombre}</td><td>${dimension.ancho}</tds><td>${dimension.alto}</td></tr>`;
-        if(dimension.nombre == "Máximo"){
-            if (dimension.ancho > maximoAncho){
-                maximoAncho = dimension.ancho;
-            }
-            if(dimension.alto > maximoAlto){
-                maximoAlto = dimension.alto;
-            }
-        }else{
-            if(dimension.alto < minimoAlto || minimoAlto == 0){
-                minimoAlto = dimension.alto;
-            }
-            if(dimension.ancho < minimoAncho || minimoAncho == 0){
-                minimoAncho = dimension.ancho;
-            }
-        }
+      anchos.push(dimension.ancho);
+      altos.push(dimension.alto);
     });
 
-    tableString += `</tbody></table></div></div>`;
+    anchos.sort((a, b) => a - b);
+    altos.sort((a, b) => a - b);
+
+    maximoAlto = altos[altos.length - 1];
+    minimoAlto = altos[0];
+
+    maximoAncho = anchos[anchos.length - 1];
+    minimoAncho = anchos[0]; 
+          
+    tableString += `
+              </tr>
+            </thead>
+            <tbody>
+              `;
+    tableString += `<tr><td>Ancho</td>
+    `;
+    anchos.forEach((ancho) => {
+      tableString += `<td>${ancho}<td>`;
+    });
+    tableString += `</tr>`;
+
+    tableString += `<tr><td>Alto</td>
+    `;
+    altos.forEach((alto) => {
+      tableString += `<td>${alto}<td>`;
+    });
+    tableString += `</tr>`;
+    
+            
+    tableString += `
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
     
     tableString += `</br>
     <div class="row justify-content-center">
@@ -216,24 +236,180 @@ function cargarDimension(subtipo, serie, ventana){
 
 }
 
-function verificarDimensiones(serie,ventana,maxalto,maxancho,minalto,minancho){
-    const textFieldAncho = document.getElementById('text-field-ancho');
-    const textFieldAlto = document.getElementById('text-field-alto');
-
-    if (textFieldAlto.value == "" || textFieldAncho.value == "") {
-        alert("favor de rellenar las casillas");
-    } else {
-        if (textFieldAncho.value > maxancho || textFieldAncho.value < minancho || textFieldAlto.value > maxalto || textFieldAlto.value < minalto) {
-            alert("favor de colocar dimensiones validas");
-        } else {
-            const dimension = `${textFieldAlto.value}/-/${textFieldAncho.value}`
-            agregarARuta(dimension,"dimension");
-            cargarTipoVidrio(serie,ventana);
+function tieneExtras(serie, ventana) {
+  let extras = false;
+  switch (serie) {
+    case 'Básica': {
+      let encontrado = false;
+      for (let i = 0; i < serieBasica.tipo.length; i++) {
+        const tipo = serieBasica.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
         }
-    }    
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'Plus': {
+      let encontrado = false;
+      for (let i = 0; i < seriePlus.tipo.length; i++) {
+        const tipo = seriePlus.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'Premium': {
+      let encontrado = false;
+      for (let i = 0; i < seriePremium.tipo.length; i++) {
+        const tipo = seriePremium.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'PD10': {
+      let encontrado = false;
+      for (let i = 0; i < seriePD10.tipo.length; i++) {
+        const tipo = seriePD10.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    default:
+      break;
+  }
+  return extras; 
 }
 
-function cargarTipoVidrio(serie, ventana){
+function miniAnalizadorLexico(formula) {
+  let stringFinal = formula;
+
+  const regexAlto = /\bAl\b/gmi;
+  const regexAncho = /\bAn\b/gmi;
+
+  stringFinal = stringFinal.replaceAll(regexAncho, 'Number.parseInt(rutaVentana.dimensionAncho)');
+  stringFinal = stringFinal.replaceAll(regexAlto, 'Number.parseInt(rutaVentana.dimensionAlto)');
+
+  stringFinal = `const calculo = ${stringFinal}; return calculo`;
+
+  return new Function(stringFinal)();
+}
+
+async function verificarDimensiones(serie, ventana, maxalto, maxancho, minalto, minancho) {
+
+    const textFieldAncho = document.getElementById('text-field-ancho');
+    const textFieldAlto = document.getElementById('text-field-alto');
+  
+    if (textFieldAlto.value == "" || textFieldAncho.value == "") {
+        alert("Favor de rellenar las casillas");
+    } else {
+      if (textFieldAncho.value > maxancho || textFieldAncho.value < minancho || textFieldAlto.value > maxalto || textFieldAlto.value < minalto) {
+        alert("Favor de colocar dimensiones válidas");
+      } else {
+        const dimension = `${textFieldAlto.value}/-/${textFieldAncho.value}`;
+
+        agregarARuta(dimension,"dimension");
+
+        const extras = tieneExtras(serie.nombre, rutaVentana.subtipoVentana);
+/* html: `
+              <span style="display: inline-block">Mínimo: ${extras.minimo}</span>
+              <span style="display: inline-block">Máximo: ${miniAnalizadorLexico(extras.formulaMaximo)}</span>
+            `, */
+        if (extras) {
+          const { value: dimension } = await Swal.fire({
+            title: extras.titulo,
+            icon: 'info',
+            inputLabel: `Mínimo: ${extras.minimo} | Máximo: ${miniAnalizadorLexico(extras.formulaMaximo)}`,
+            input: 'number',
+            inputAttributes: {
+              min: Number.parseFloat(extras.minimo),
+              max: Number.parseFloat(miniAnalizadorLexico(extras.formulaMaximo))
+            },
+            inputValidator: (value) => {
+              value = Number.parseFloat(value);
+              if (!value) {
+                return 'Inserte una dimensión válida';
+              }
+
+              if (value < Number.parseFloat(extras.minimo)) {
+                return 'Inserte una dimensión válida';
+              }
+
+              if (value > Number.parseFloat(miniAnalizadorLexico(extras.formulaMaximo))) {
+                return 'Inserte una dimensión válida';
+              }
+            },
+            validationMessage: 'Inserte una dimensión válida',
+            showCancelButton: false,
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#007BFF',
+            reverseButtons: true,
+            allowOutsideClick: false
+          });
+          
+          if (extras.titulo.toLowerCase().includes('alto')) {
+            rutaVentana.dimensionAlto2 = dimension;
+          } else if (extras.titulo.toLowerCase().includes('ancho')) {
+            rutaVentana.dimensionAncho2 = dimension;
+          }
+
+          cargarTipoVidrio(serie, ventana);
+
+        } else {
+          cargarTipoVidrio(serie,ventana);
+        }
+      }
+    } 
+  // }
+
+     
+}
+
+function cargarTipoVidrio(serie, ventana) {
     let temporal = '';
     let i = 0;
     temporal = '<div class="row justify-content-center">';
@@ -277,7 +453,7 @@ function cargarCeja(serie, subtipo, ventana){
     agregarARuta(subtipo.nombre, "subtipoVidrio");
     // obtenerFormulaVentana(rutaVentana);
     // analizadorLexico(obtenerFormulaVentana());
-    // calcularPrecio();
+    calcularPrecio();
     let temporal = '';
     let i = 0;
     temporal = '<div class="row justify-content-center">';
@@ -368,18 +544,18 @@ function cargarSubcolores(color) {
 
 
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
-  console.log(rutaVentana);
+  // console.log(rutaVentana);
   let strdescripcion = '';
   let vidrio = ventana;
-  let multiplicador = 1* 1.05;
-  strdescripcion += tipoVidrio+" ";
-  if(serie === "Básica"){
-    strdescripcion += "(serie 40)"
-    if(vidrio == 'Vidrio Doble Claro' || vidrio == 'Vidrio Doble Claro con Marginal' || vidrio == 'Vidrio Doble Claro con Cuadricula' || vidrio == 'Vidrio Doble Claro/ Baño' || vidrio == 'Vidrio Doble Claro/ Baño con Marginal' || vidrio == 'Vidrio Doble Claro/ Baño con Cuadricula'){
+  let multiplicador = 1 * 1.05;
+  strdescripcion += tipoVidrio + " ";
+  if (serie === "Básica") {
+    strdescripcion += "(serie 40)";
+    if (vidrio == 'Vidrio Doble Claro' || vidrio == 'Vidrio Doble Claro con Marginal' || vidrio == 'Vidrio Doble Claro con Cuadricula' || vidrio == 'Vidrio Doble Claro/ Baño' || vidrio == 'Vidrio Doble Claro/ Baño con Marginal' || vidrio == 'Vidrio Doble Claro/ Baño con Cuadricula') {
       multiplicador = multiplicador * 1.08
     }
   }
-  if(ventana.includes("Sencillo")){
+  if (ventana.includes("Sencillo")) {
     ventana = ventana.replace("Sencillo","");
   }
   strdescripcion += "-";
@@ -397,9 +573,10 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     data: formData,
     success: (data) => {
       let info = JSON.parse(data);
-      console.log(multiplicador);
-      console.log(info.precio);
+      // console.log(multiplicador);
+      // console.log(info.precio);
       total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03 * 1.1; 
+      console.log(total);
     },
     error: (error) => {
       console.log(error);
@@ -416,7 +593,7 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
 }
 
 
-function calcularTotal() {
+/* function calcularTotal() {
 
   const rutaPrueba = {
     ceja: 'Sin ceja',
@@ -527,40 +704,40 @@ function calcularTotal() {
       console.log('nada');
       break;
   }
-}
+} */
 
-function encontrarPrecio(serie, ruta) {
-  let precioPulgada = 0;
-  serie.tipoVidrio.forEach((tipoVidrio) => {
-    // console.log(tipoVidrio);
-    if (tipoVidrio.nombre === ruta.tipoVidrio) {
-      tipoVidrio.tipos.forEach((tipo) => {
+// function encontrarPrecio(serie, ruta) {
+//   let precioPulgada = 0;
+//   serie.tipoVidrio.forEach((tipoVidrio) => {
+//     // console.log(tipoVidrio);
+//     if (tipoVidrio.nombre === ruta.tipoVidrio) {
+//       tipoVidrio.tipos.forEach((tipo) => {
         
-        if (tipo.nombre === ruta.subtipoVidrio) {
-          tipo.precio.forEach((precio) => {
+//         if (tipo.nombre === ruta.subtipoVidrio) {
+//           tipo.precio.forEach((precio) => {
             
-            if (precio.tipo === formatearString(ruta.tipoVentana)) {
-              precio.tipos.forEach((subtipo) => {
+//             if (precio.tipo === formatearString(ruta.tipoVentana)) {
+//               precio.tipos.forEach((subtipo) => {
                 
-                if (Object.keys(subtipo)[0] === formatearString(ruta.subtipoVentana)) {
-                  precioPulgada = subtipo[formatearString(ruta.subtipoVentana)];                  
-                }
-              });
-            }
-          });
-        }
-      });
-    }
-  });
+//                 if (Object.keys(subtipo)[0] === formatearString(ruta.subtipoVentana)) {
+//                   precioPulgada = subtipo[formatearString(ruta.subtipoVentana)];                  
+//                 }
+//               });
+//             }
+//           });
+//         }
+//       });
+//     }
+//   });
   
-  return precioPulgada;
-}
+//   return precioPulgada;
+// }
 
-function formatearString(tipoVentana) {
-  tipoVentana = tipoVentana.toLowerCase();
-  tipoVentana = tipoVentana.replaceAll(' ', '');
-  return tipoVentana;
-}
+// function formatearString(tipoVentana) {
+//   tipoVentana = tipoVentana.toLowerCase();
+//   tipoVentana = tipoVentana.replaceAll(' ', '');
+//   return tipoVentana;
+// }
 
 function insertarCotizacion() {
 

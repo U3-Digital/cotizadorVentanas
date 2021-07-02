@@ -112,3 +112,7 @@ select {
   background-color: #DDDDDD;
   color: #007bff;
 }
+
+.swal2-input[type=number] {
+  max-width: unset !important;
+}

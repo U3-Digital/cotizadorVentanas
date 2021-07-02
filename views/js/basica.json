@@ -850,43 +850,58 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Fija"]
+                    }
                 },
                 {
                     "nombre": "Doble fija apilada",
                     "img": "../../img/DobleFijoApilado(serie40).png",
-                    "formula": "((An + Al / 2) * PV) * 2 + T-Mullion",
+                    "formula": "((An + Al / 2) * PV) * 2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Fija"]
+                    }
                 },
                 {
                     "nombre": "Triple fija apilada",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
-                    "formula": "((An + Al / 3) * PV) * 3 + (T-Mullion) * 2",
+                    "formula": "((An + Al / 3) * PV) * 3 + calcularTMullion(An) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "108" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "34.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Fija"]
+                    }
                 },
                 {
                     "nombre": "Doble fija",
                     "img": "../../img/DobleFija(Serie40).png",
-                    "formula": "((An / 2 + Al) * PV) * 2 + T-Mullion",
+                    "formula": "((An / 2 + Al) * PV) * 2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Fija"]
+                    }
                 },
                 {
                     "nombre": "Triple fija",
                     "img": "../../img/TripleFijaApilada(Serie40).png",
-                    "formula": "((An / 3 + Al) * PV) * 3 + (T-Mullion) * 2",
+                    "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(An) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
                         { "nombre": "Mínimo", "ancho": "108", "alto": "72" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Fija"]
+                    }
                 }
             ]
         },
@@ -901,7 +916,10 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Corrediza"]
+                    }
                 },
                 {
                     "nombre": "Corrediza XOX",
@@ -910,27 +928,31 @@
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "84", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Corrediza XOX"]
+                    }
                 },
                 {
                     "nombre": "Corrediza OX-O",
                     "img": "../../img/CorredizaOX-O.png",
-                    "formula": "Fija & Corrediza + T-Mullion",
+                    "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
                     ],
-                    "extra":{
+                    "extra": {
                       "titulo": "Alto de la ventana corrediza: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "Al-11.5"
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Fija", "Corrediza"]
                     }
                     
                 },
                 {
                     "nombre": "Corrediza O-XO",
                     "img": "../../img/CorredizaO-XO.png",
-                    "formula": "Fija & Corrediza + T-Mullion",
+                    "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "23" }
@@ -938,13 +960,14 @@
                     "extra":{
                       "titulo": "Alto de la ventana corrediza: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "Al-11.5"
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Fija", "Corrediza"]
                     }
                 },
                 {
                     "nombre": "Corrediza O-XOX",
                     "img": "../../img/CorredizaO-XOX.png",
-                    "formula": "Fija & CorredizaXOX + T-Mullion",
+                    "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "36", "alto": "23" }
@@ -952,7 +975,8 @@
                     "extra":{
                       "titulo": "Alto de la ventana corrediza: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "Al-11.5"
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Fija", "Corrediza XOX"]
                     }
                 }
             ]
@@ -964,22 +988,31 @@
                 {
                     "nombre": "Guillotina",
                     "img": "../../img/Guillotina.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Doble guillotina",
                     "img": "../../img/DobleGuillotina.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Doble Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Guillotina OXO",
                     "img": "../../img/GuillotinaOXO.png",
+                    "formula": "(((An - An2) / 2 + Al) * PV) * 2+ (An2 + Al) * PV2 + calcularTMullion(Al) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
@@ -987,12 +1020,14 @@
                     "extra":{
                       "titulo": "Ancho de la guillotina: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "An-23"
+                      "formulaMaximo": "An - 23",
+                      "preciosVidrio": ["Fija", "Guillotina"]
                     }
                 },
                 {
                     "nombre": "Guillotina XOX",
                     "img": "../../img/GuillotinaXOX.png",
+                    "formula": "((An - An2 * 2) + Al) * PV + ((An2 + Al) * PV2) * 2 + calcularTMullion(Al) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
@@ -1000,7 +1035,8 @@
                     "extra":{
                       "titulo": "Ancho de las guillotinas: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "(An -11.5)/2"
+                      "formulaMaximo": "(An - 11.5) / 2",
+                      "preciosVidrio": ["Fija", "Guillotina"]
                     }
                 },
                 {
@@ -1013,7 +1049,7 @@
                     "extra":{
                       "titulo": "Alto de la guillotina: ",
                       "minimo": "11.5",
-                      "formulaMaximo": "Al/2"
+                      "formulaMaximo": "Al / 2"
                     }
                 },
                 {
