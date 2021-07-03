@@ -11,8 +11,6 @@ const regexPrecioVidrioBase = /\bPV\b/gmi;
 const regexPrecioVidrio2 = /\bPV2\b/gmi;
 const TMullion = /\bT-Mullion\b/gmi;
 
-// const formulaEjemplo = '(An + Al) * PV';
-
 function calcularPrecio() {
 
   let formulaInicial = obtenerFormulaVentana(rutaVentana.serie, rutaVentana);
@@ -22,43 +20,6 @@ function calcularPrecio() {
   console.log(total);
   etiquetaTotal.innerHTML = `${total.toFixed(2)}`;
 }
-
-// setTimeout(() => {
-  // const cosa = obtenerSubtipoVentanaParaPrecioVidrio('Básica', 'Corrediza OX-O', 0);
-  // const cosa2 = obtenerSubtipoVentanaParaPrecioVidrio('Básica', 'Corrediza OX-O', 1);
-  // console.log(cosa, cosa2);
-  // calcularPrecio();
-// }, 3000);
-
-function reemplazo(serie, formula) {
-  console.log(formula);
-  const elementos = formula.split(' ');
-
-  // Quitar los & y reemplazarlos por +/*  */
-  elementos.forEach((elemento, index, arreglo) => {
-    if (elemento === '&') {
-      arreglo[index] = '+';
-    }
-  });
-
-  elementos.forEach((elemento, index, arreglo) => {
-    const formula = obtenerFormulaVentana(serie, elemento);
-    if (formula) {
-      arreglo[index] = formula;
-    }
-
-  });
-
-  console.log(elementos.join(' '));
-
-  // const resultado = obtenerFormulaVentana(serie, formula);
-  // if (resultado) {
-  //   return true;
-  // } else {
-  //   return false;
-  // }
-}
-
 
 function obtenerFormulaVentana(serie, ruta) {
   let formula = '';
@@ -194,10 +155,7 @@ function analizadorLexico(formula) {
   stringFinal = stringFinal.replaceAll(regexAlto, 'Number.parseInt(rutaVentana.dimensionAlto)');
   stringFinal = stringFinal.replaceAll(regexAlto2, 'Number.parseInt(rutaVentana.dimensionAlto2)');
   stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 0), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`);
-  stringFinal = stringFinal.replaceAll(regexPrecioVidrio2, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 1), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`)
-  stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio()`);
-  // stringFinal = stringFinal.replaceAll(TMullion, `calcularTMullion()`);
-
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrio2, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 1), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`);
   stringFinal = `const total = ${stringFinal}; return total.toFixed(2);`;
 
   return stringFinal;

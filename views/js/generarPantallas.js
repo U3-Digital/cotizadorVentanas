@@ -41,30 +41,42 @@ let seriePlus = {};
 let seriePD10 = {}
 
 
-function requestListener() {
+/* function requestListener() {
     let ventana = JSON.parse(this.responseText);
     cargarSeries(ventana);
 }
-
-function requestListenerSeries(){
+ */
+function requestListenerSeries() {
     let series = JSON.parse(this.responseText);
     cargarSeries(series);
 }
 
-function requestListenerBasica(){
+function requestListenerBasica() {
+    const t0 = performance.now();
     serieBasica = JSON.parse(this.responseText);
+    const t1 = performance.now();
+    console.log(t1 - t0);
 }
 
-function requestListenerPremium(){
+function requestListenerPremium() {
+    const t0 = performance.now();
     seriePremium = JSON.parse(this.responseText);
+    const t1 = performance.now();
+    console.log(t1 - t0);
 }
 
-function requestListenerPlus(){
-    seriePlus = JSON.parse(this.responseText);
+function requestListenerPlus() {
+  const t0 = performance.now();
+  seriePlus = JSON.parse(this.responseText);
+  const t1 = performance.now();
+  console.log(t1 - t0);
 }
 
 function requestListenerPD10(){
-    seriePD10 = JSON.parse(this.responseText)
+  const t0 = performance.now();
+  seriePD10 = JSON.parse(this.responseText);
+  const t1 = performance.now();
+  console.log(t1 - t0);
 }
 
 function cargarSeries(ventana) {
