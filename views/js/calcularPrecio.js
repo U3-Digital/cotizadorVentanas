@@ -1,7 +1,9 @@
-const precioDolar = 19.95;
-const precioVidrioBase = 25.33875;
-const precioUnidadTMullion = 11.77;
-const constanteTMullion = 0.8771929825;
+
+const precioUnidadTMullionBasica = 11.77;
+const constanteTMullionBasica = 0.8771929825;
+
+const precioUnidadTMullionPlus = 2974.48;
+const constanteTMullionPlus = 110;
 
 const regexAncho = /\bAn\b/gmi;
 const regexAncho2 = /\bAn2\b/gmi;
@@ -143,7 +145,24 @@ function obtenerSubtipoVentanaParaPrecioVidrio(serie, ventana, posicion) {
 }
 
 function calcularTMullion(medida) {
-  return medida / constanteTMullion * precioUnidadTMullion;
+
+  const serie = rutaVentana.serie;
+
+  let tMullion = 0;
+
+  switch (serie) {
+    case 'Básica': {
+      tMullion = medida / constanteTMullionBasica * precioUnidadTMullionBasica;
+    }
+    break;
+    case 'Plus': {
+      tMullion = (medida / constanteTMullionPlus).toFixed(2) * precioUnidadTMullionPlus;
+      console.log(tMullion);
+    }
+
+  }
+
+  return tMullion;
 }
 
 function analizadorLexico(formula) {

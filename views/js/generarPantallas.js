@@ -72,7 +72,7 @@ function requestListenerPlus() {
   console.log(t1 - t0);
 }
 
-function requestListenerPD10(){
+function requestListenerPD10() {
   const t0 = performance.now();
   seriePD10 = JSON.parse(this.responseText);
   const t1 = performance.now();
@@ -560,12 +560,15 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   let strdescripcion = '';
   let vidrio = ventana;
   let multiplicador = 1 * 1.05;
-  strdescripcion += tipoVidrio + " ";
+  
   if (serie === "Básica") {
+    strdescripcion += tipoVidrio + " ";
     strdescripcion += "(serie 40)";
     if (vidrio == 'Vidrio Doble Claro' || vidrio == 'Vidrio Doble Claro con Marginal' || vidrio == 'Vidrio Doble Claro con Cuadricula' || vidrio == 'Vidrio Doble Claro/ Baño' || vidrio == 'Vidrio Doble Claro/ Baño con Marginal' || vidrio == 'Vidrio Doble Claro/ Baño con Cuadricula') {
       multiplicador = multiplicador * 1.08
     }
+  } else {
+    strdescripcion += tipoVidrio;
   }
   if (ventana.includes("Sencillo")) {
     ventana = ventana.replace("Sencillo","");

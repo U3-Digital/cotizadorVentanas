@@ -224,7 +224,7 @@
               {
                   "nombre": "Doble fija",
                   "img": "../../img/DobleFija(Serie40).png",
-                  "formula": "((An / 2 + Al) * PV) * 2 + calcularTMullion(An)",
+                  "formula": "((An / 2 + Al) * PV) * 2 + calcularTMullion(Al)",
                   "dimensiones": [
                       { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                       { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
@@ -235,8 +235,8 @@
               },
               {
                   "nombre": "Triple fija",
-                  "img": "../../img/TripleFijaApilada(Serie40).png",
-                  "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(An) * 2",
+                  "img": "../../img/TripleFija(Serie40).png",
+                  "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(Al) * 2",
                   "dimensiones": [
                       { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
                       { "nombre": "Mínimo", "ancho": "108", "alto": "72" }
