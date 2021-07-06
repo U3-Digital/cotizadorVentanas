@@ -1362,10 +1362,17 @@
                 {
                     "nombre": "Corrediza con Fijo y Arco A-O-XO",
                     "img": "../../img/CorredizaconFijoyArcoA-O-XO.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "23.5", "alto": "34.5" },
                         { "nombre": "Mínimo", "ancho": "68", "alto": "96" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del arco",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al - 12",
+                      "preciosVidrio": [""]
+                    }
                 },
                 {
                     "nombre": "Arco Fijo con Corrediza",
@@ -1384,82 +1391,137 @@
                 {
                     "nombre": "Guillotina",
                     "img": "../../img/Guillotina.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Doble",
                     "img": "../../img/DobleGuillotina.png",
+                    "titulo": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Doble Guillotina"]
+                    }
                 },
                 {
                     "nombre": "OXO",
                     "img": "../../img/GuillotinaOXO.png",
+                    "formula": "(((An - An2) / 2 + Al) * PV) * 2 + (An2 + Al) * PV2 + calcularTMullion(Al)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Ancho de la guillotina",
+                      "minimo": "11.5",
+                      "formulaMaximo": "An - 13",
+                      "preciosVidrio": ["Fija", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "XOX",
                     "img": "../../img/GuillotinaXOX.png",
+                    "formula": "(An - (An2 * 2) + Al) * PV + ((An2 + Al) * PV2) * 2 + calcularTMullion(Al)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Ancho de las guillotinas",
+                      "minimo": "11.5",
+                      "formulaMaximo": "(An - 11.5) / 2",
+                      "preciosVidrio": ["Fija", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "O-OX",
                     "img": "../../img/GuillotinaO-OX.png",
+                    "formula": "((An - An2) + Al) * PV + (An2 + Al) * PV2 + calcularTMullion(Al) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Ancho de la guillotina",
+                      "minimo": "11.5",
+                      "formulaMaximo": "An - 11.5",
+                      "preciosVidrio": ["Fija", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Orio OX",
                     "img": "../../img/GuillotinaOrioOX.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Guillotina Orio OX"]
+                    }
                 },
                 {
                     "nombre": "Doble Orio",
                     "img": "../../img/DobleGuillotinaOrio.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Doble Guillotina Orio"]
+                    }
                 },
                 {
                     "nombre": "Con Arco",
                     "img": "../../img/GuillotinaconArco.png",
+                    "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(Al) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del arco",
+                      "minimo": "11.75",
+                      "formulaMaximo": "Al - 17.5",
+                      "preciosVidrio": ["Arco", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Con Arco AO",
                     "img": "../../img/GuillotinaconArcoAO.png",
+                    "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(Al) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del arco",
+                      "minimo": "11.75",
+                      "formulaMaximo": "Al - 17.5",
+                      "preciosVidrio": ["Arco", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "Con Arco Continuo",
                     "img": "../../img/GuillotinaConArcoContinuo.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Guillotina con Arco Continuo"]
+                    }
                 },
                 {
                     "nombre": "A-OX con Arco Continuo",

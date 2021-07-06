@@ -65,6 +65,9 @@ if(!isset($_SESSION["nombre"])){
               <div class="card-header border-0">
                 <h4>Cotización</h4>
               </div>
+              <div class="row mx-4 mt-4">
+                <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
+              </div>
               <div class="card-body">
                 <table class="table bg-white table-bordered table-hover">
                   <thead>
@@ -79,6 +82,12 @@ if(!isset($_SESSION["nombre"])){
                   <tbody id="cuerpo-tabla">
                   </tbody>
                 </table>
+                <div class="row" id="container-save-cotizacion" hidden>
+                  <div class="col-8"></div>
+                  <div class="col-4">
+                    <button class="btn btn-block btn-primary" onclick="insertarCotizacion()">Guardar Cotizacion</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

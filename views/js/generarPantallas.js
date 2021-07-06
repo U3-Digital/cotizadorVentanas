@@ -758,7 +758,7 @@ function insertarCotizacion() {
 
   const formData = new FormData();
   formData.set('cliente', cajaNombreCliente.value);
-  formData.set('ventana', JSON.stringify(rutaVentana));
+  formData.set('ventanas', JSON.stringify(cotizaciones));
 
   $.ajax({
     url: '../../controllers/agregarCotizacion.php',
@@ -794,27 +794,13 @@ function insertarCotizacion() {
 }
 
 function agregarCotizacion() {
-    console.log(rutaVentana);
-    nombrePersona = document.getElementById("cajaNombreCliente").value;
-
-    console.log(nombrePersona);
-    if(nombrePersona == ""){
-      Swal.fire({
-        title: 'Favor de colocar el nombre del cliente',
-        icon: 'error',
-        confirmButtonText: 'Aceptar',
-        confirmButtonColor: '#0d6efd'
-      });
-      return;
-    }
   
-
+    const containerSaveCotizacion = document.getElementById('container-save-cotizacion');
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
     rutaVentana.precio = total;
     rutaVentana.total = rutaVentana.numeroVentanas * total;
     rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
-
-    insertarCotizacion();
+    containerSaveCotizacion.hidden = false;
     
     cotizaciones.push(rutaVentana);
     rutaVentana = Object.create(ruta);

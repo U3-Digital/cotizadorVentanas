@@ -42,7 +42,7 @@ class CotizacionesController {
     $cotizaciones = CotizacionesModel::mdlListarCotizaciones();
 
     foreach ($cotizaciones as $cotizacion) {
-      $ventana = json_decode($cotizacion["ventana"], true);
+      $ventana = json_decode($cotizacion["ventanas"], true);
 
       $subcolor = "";
 

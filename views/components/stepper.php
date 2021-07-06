@@ -63,9 +63,7 @@
             </tr>
           </tbody>
         </table>
-        <div class="row mx-4 mt-4">
-          <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
-        </div>
+        
         <div class="row ml-3 mt-3">
           <div class="col-6 text-center"><h5>Total</h5></div> 
           <div class="col-6 text-center"><h5 id="total">$0</h5></div> 
