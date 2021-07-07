@@ -3,10 +3,9 @@
   require "../models/modelCotizaciones.php";
 
 $datosController = array(
-  "ventana" => $_POST["ventana"],
+  "ventanas" => $_POST["ventanas"],
   "cliente" => $_POST["cliente"]
 );
-
 $controller = new CotizacionesController();
 $respuesta = $controller -> ctrAgregarCotizacion($datosController);
 

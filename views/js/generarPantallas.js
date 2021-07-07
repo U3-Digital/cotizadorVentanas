@@ -33,7 +33,6 @@ const detailContainerSubColor = document.getElementById('details-container-subco
 const containerAddNumeroVentana = document.getElementById('container-add-numero-ventanas');
 const inputNumeroDeVentanas = document.getElementById('input-no-ventanas');
 const etiquetaTotal = document.getElementById('total');
-const cajaNombreCliente = document.getElementById('cajaNombreCliente');
 
 let serieBasica = {};
 let seriePremium = {};
@@ -755,16 +754,16 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
 // }
 
 function insertarCotizacion() {
-
+  const cajaNombreCliente = document.getElementById('cajaNombreCliente');
   const formData = new FormData();
   formData.set('cliente', cajaNombreCliente.value);
   formData.set('ventanas', JSON.stringify(cotizaciones));
-
   $.ajax({
     url: '../../controllers/agregarCotizacion.php',
     type: 'POST',
     data: formData,
     success: (data) => {
+      
       if (data == 'success') {
         Swal.fire({
           title: 'Cotización agregada exitosamente',
@@ -826,7 +825,6 @@ function agregarCotizacion() {
     cargarTabla();
     etiquetaTotal.innerText = '$0';
     total = 0;
-    cajaNombreCliente.value = '';
 }
 
 function agregarARuta(text, propiedad) {

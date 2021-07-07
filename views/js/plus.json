@@ -1526,42 +1526,77 @@
                 {
                     "nombre": "A-OX con Arco Continuo",
                     "img": "../../img/GuillotinaA-OXconArcoContinuo.png",
+                    "formula": "(An + Al2) * PV + (An + Al - Al2) * PV2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del arco",
+                      "minimo": "23.5",
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Arco", "Guillotina"]
+                    }
                 },
                 {
                     "nombre": "OXO con Arco",
                     "img": "../../img/GuillotinaOXOconArco.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "",
+                      "minimo": "",
+                      "formulaMaximo": "",
+                      "preciosVidrio": [""]
+                    }
                 },
                 {
                     "nombre": "Doble XOX con Arco",
                     "img": "../../img/DoubleGuillotinaXOXconArco.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "",
+                      "minimo": "",
+                      "formulaMaximo": "",
+                      "preciosVidrio": [""]
+                    }
                 },
                 {
                     "nombre": "Doble Fijo con Arco",
                     "img": "../../img/GuillotinaDobleFijoconArco.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "",
+                      "minimo": "",
+                      "formulaMaximo": "",
+                      "preciosVidrio": [""]
+                    }
                 },
                 {
                     "nombre": "Fijo con doble Guillotina y Arco",
                     "img": "../../img/FijoconDobleGuillotinayArco.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "",
+                      "minimo": "",
+                      "formulaMaximo": "",
+                      "preciosVidrio": [""]
+                    }
                 }
             ]
         },
@@ -1572,50 +1607,80 @@
                 {
                     "nombre": "Triángulo isosceles",
                     "img": "../../img/TrianguloIsosceles.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Forma AO",
                     "img": "../../img/FormaAO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "80" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto de la forma",
+                      "minimo": "2",
+                      "formulaMaximo": "Al - 13",
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Hexagonal",
                     "img": "../../img/Hexagonal.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Octagonal",
                     "img": "../../img/Octagonal.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Triángulo rectángulo",
                     "img": "../../img/TrianguloRectangulo.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Forma AO-O",
                     "img": "../../img/FormaAO-O.png",
+                    "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "35.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto de la forma",
+                      "minimo": "2",
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Fija", "Arco"]
+                    }
                 },
                 {
                     "nombre": "Figura AO",
@@ -1628,50 +1693,83 @@
                 {
                     "nombre": "Figura AO-O",
                     "img": "../../img/FiguraAO-O.png",
+                    "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "11.5", "alto": "35.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto de la forma",
+                      "minimo": "2",
+                      "formulaMaximo": "Al - 11.5",
+                      "preciosVidrio": ["Fija", "Arco"]
+                    }
                 },
                 {
                     "nombre": "Circular",
                     "img": "../../img/Circular.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Arco",
                     "img": "../../img/Arco.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "34" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Arco media luna fijo",
                     "img": "../../img/ArcoMediaLunaFijo.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "15" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Media luna con un fijo",
                     "img": "../../img/MediaLunacon1Fijo.png",
+                    "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(An) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "94" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del traslapo",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al - 11.75",
+                      "preciosVidrio": ["Fija", "Arco"]
+                    }
                 },
                 {
                     "nombre": "Arco A-O-O",
                     "img": "../../img/ArcoA-O-O.png",
+                    "formula": "(((An / 2) + Al2) * PV) * 2 + (An + (Al - Al2)) * PV2 + calcularTMullion(An / 2 + Al2) / 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del traslapo",
+                      "minimo": "11.5",
+                      "formulaMaximo": "Al - 11.75",
+                      "preciosVidrio": ["Fija", "Arco"]
+                    }
                 },
                 {
                     "nombre": "Arco media luna 3 fijos",
@@ -1684,18 +1782,29 @@
                 {
                     "nombre": "Arco AO",
                     "img": "../../img/ArcoAO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "12" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 },
                 {
                     "nombre": "Fijo con arco",
                     "img": "../../img/FijoConArco.png",
+                    "formula": "",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "titulo": "Alto del arco",
+                      "minimo": "",
+                      "formulaMaximo": "",
+                      "preciosVidrio": ["Fija", "Arco"]
+                    }
                 },
                 {
                     "nombre": "Arco media luna con 2 fijos",
@@ -1716,10 +1825,14 @@
                 {
                     "nombre": "Catedral",
                     "img": "../../img/Catedral.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "15.5", "alto": "32.5" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Arco"]
+                    }
                 }
             ]
         }

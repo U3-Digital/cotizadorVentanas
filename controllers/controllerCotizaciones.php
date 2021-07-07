@@ -32,7 +32,10 @@ class CotizacionesController {
       }
     }
   }
-
+  public function ctrConsultarVentanasCotizacion($idConsulta){
+    $resultado = CotizacionesModel::mdlBuscarVentanasDeCotizacion($idConsulta);
+    return $resultado;
+  }
   public function ctrAgregarCotizacion($datosController) {
     $resultado = CotizacionesModel::mdlAgregarCotizacion($datosController);
     return $resultado;
@@ -42,26 +45,21 @@ class CotizacionesController {
     $cotizaciones = CotizacionesModel::mdlListarCotizaciones();
 
     foreach ($cotizaciones as $cotizacion) {
-      $ventana = json_decode($cotizacion["ventanas"], true);
+      $ventana = json_decode($cotizacion["ventana"], true);
 
       $subcolor = "";
 
       if (isset($ventana["colorSubcolor"])) {
         $subcolor = $ventana["colorSubcolor"];
       }
-
       echo '
         <tr>
           <td>' . $cotizacion["cliente"] . '</td>
-          <td>' . $ventana["dimensionAncho"] . "x" . $ventana["dimensionAlto"] . '</td>
-          <td>' . $ventana["tipoVidrio"] . ' ' . $ventana["subtipoVidrio"] . '</td>
-          <td>' . $ventana["tipoVentana"] . ' ' . $ventana["subtipoVentana"] . '</td>
-          <td>' . $ventana["colorPrincipal"] . ' ' . $subcolor .'</td>
-          <td>' . $ventana["numeroVentanas"] . '</td>
-          <td>' . $ventana["precio"] . '</td>
-          <td>' . $ventana["total"] . '</td>
+          <td>' . $cotizacion["fecha"] .'</td>
           <td>
+            <button class="btn btn-success" onclick="mirarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-eye"></i></button>
             <button class="btn btn-danger" onclick="borrarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-trash"></i></button>
+            <button class="btn btn-info" onclick="enviarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-paper-plane"></i></button>
           </td>
         </tr>
       ';

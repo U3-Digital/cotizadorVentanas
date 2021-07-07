@@ -3,10 +3,20 @@
 require_once "conexion.php";
 
 class CotizacionesModel {
+  public static function mdlBuscarVentanasDeCotizacion($id){
+    $statement = Conexion::conectar() -> prepare("SELECT ventana FROM `cotizaciones` WHERE idCotizacion = :idCotizacion;");
+    
+    $statement -> bindParam(":idCotizacion", $id, PDO::PARAM_INT);
+
+    $statement -> execute();
+
+    return $statement -> fetch();
+  }
+
   public static function mdlAgregarCotizacion($datosModel) {
     $statement = Conexion::conectar() -> prepare("INSERT INTO `cotizaciones` VALUES (NULL, :ventana, :cliente, now());");
 
-    $statement -> bindParam(":ventana", $datosModel["ventana"], PDO::PARAM_STR);
+    $statement -> bindParam(":ventana", $datosModel["ventanas"], PDO::PARAM_STR);
     $statement -> bindParam(":cliente", $datosModel["cliente"], PDO::PARAM_STR);
 
     if ($statement -> execute()) {
