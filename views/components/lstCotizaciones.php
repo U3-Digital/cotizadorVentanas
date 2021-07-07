@@ -101,6 +101,55 @@ if (!isset($_SESSION["nombre"])) {
         success: (data) => {
           const ventanas = JSON.parse(JSON.parse(data).ventana);
           console.log(ventanas);
+          /*
+            <div class=\"row mt-4\">
+              <div class=\"col\">
+                <h3>Cotizacion</h3>
+                <p>Favor de guardar la siguiente información tomando una captura de pantalla</p>
+                <p>Nombre: <span style=\"color: #7E9680\"><b>" . $datosController["nombre"] . "</b></span></p>
+                <p>Número de boleto: <span style=\"color: #7E9680\"><b>" . $this -> generarNumeroReal(str_split(strval($noBoleto))) . "</b></span></p>
+                <p>Oportunidades:</p>
+                " . $this -> generarOportunidades($noBoleto) . "
+                <p>Costo del boleto: <b>$<span>" . $sorteo["costoBoleto"] . "</span></b></p>
+                <hr>
+                <p>Debes realizar tu pago y enviar tu comprobante por WhatsApp</p>
+                <p>Efrén Olivas Miranda</p>
+                <p><img style=\"height: 14px\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBVA_2019.svg/1920px-BBVA_2019.svg.pn\g\">&nbsp;Tarjeta: 4152 3138 0752 3639</p>
+                <p>Zayra Yvonne García Loya</p>
+                <p><img style=\"height: 14px\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBVA_2019.svg/1920px-BBVA_2019.svg.pn\g\">&nbsp;Tarjeta: 4152 3137 0599 6150</p>
+              </div> 
+            </div>
+          */
+          let total = 0;
+          let html = `
+            <div class=\"row mt-4\">
+              <div class=\"col\">
+                <h3>Cotizacion</h3>
+          `;
+          ventanas.map(ventana => {
+            console.log(ventana);
+            total += ventana.total;
+            html += `
+              <p>Tipo de ventana: <span><b>${ventana.subtipoVentana}</b></span></p>
+              <p>Tipo de vidrio: <span><b>${ventana.tipoVidrio} ${ventana.subtipoVidrio}</b></span></p>
+              <p>dimensión: <span><b>${ventana.dimensionAlto} x ${ventana.dimensionAncho}</b></span></p>
+              <p>Color: <span><b>${ventana.colorPrincipal}</b></span> ${ventana.colorSubcolor ? (` Subcolor: <span><b>${ventana.colorSubcolor}</b></span>`) :("")}</p>
+              <p>Total: <span><b>${ventana.total}</b></span></p>
+              <hr>
+            `;
+          });
+
+          html += `
+            <p>Total cotización: <span ><b>${total}</b></span></p>
+            </div> 
+          </div>
+          `;
+
+          Swal.fire({
+            html: html,
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#007BFF'
+          });
         },
         error: (error) => {
           console.log(error);

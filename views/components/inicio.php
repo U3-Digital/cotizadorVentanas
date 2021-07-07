@@ -54,9 +54,7 @@ if(!isset($_SESSION["nombre"])){
       <div class="m-4 w-100 d-flex" style="flex-grow: 1; flex-direction: column;">
         <?php include "./stepper.php"; ?>
         <div class="row justify-content-center mt-3">
-          <div class="col-md-6 col-lg-6 col-xl-6 col-8">
-            <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
-          </div>
+          
         </div>
         <br>
         <div class="row justify-content-center">
@@ -83,7 +81,10 @@ if(!isset($_SESSION["nombre"])){
                   </tbody>
                 </table>
                 <div class="row" id="container-save-cotizacion" hidden>
-                  <div class="col-8"></div>
+                  <div class="col-4"></div>
+                  <div class="col-md-4 col-lg-4 col-xl-4 col-4">
+                    <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
+                  </div>
                   <div class="col-4">
                     <button class="btn btn-block btn-primary" onclick="insertarCotizacion()">Guardar Cotizacion</button>
                   </div>

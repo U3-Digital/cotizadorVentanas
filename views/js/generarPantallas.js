@@ -755,6 +755,15 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
 
 function insertarCotizacion() {
   const cajaNombreCliente = document.getElementById('cajaNombreCliente');
+  if(cajaNombreCliente.value == ""){
+    Swal.fire({
+      title: "Favor de introducir el nombre del cliente",
+      icon: 'error',
+      confirmButtonText: 'Aceptar',
+      confirmButtonColor: '#0d6efd'
+    })
+    return;
+  }
   const formData = new FormData();
   formData.set('cliente', cajaNombreCliente.value);
   formData.set('ventanas', JSON.stringify(cotizaciones));
