@@ -7,10 +7,16 @@ const constanteTMullionPlus = 110;
 
 const regexAncho = /\bAn\b/gmi;
 const regexAncho2 = /\bAn2\b/gmi;
+const regexAncho3 = /\bAn3\b/gmi;
+
 const regexAlto = /\bAl\b/gmi;
 const regexAlto2 = /\bAl2\b/gmi;
+const regexAlto3 = /\bAl3\b/gmi;
+
 const regexPrecioVidrioBase = /\bPV\b/gmi;
 const regexPrecioVidrio2 = /\bPV2\b/gmi;
+const regexPrecioVidrio3 = /\bPV3\b/gmi;
+
 const TMullion = /\bT-Mullion\b/gmi;
 
 function calcularPrecio() {
@@ -171,10 +177,16 @@ function analizadorLexico(formula) {
 
   stringFinal = stringFinal.replaceAll(regexAncho, 'Number.parseInt(rutaVentana.dimensionAncho)');
   stringFinal = stringFinal.replaceAll(regexAncho2, 'Number.parseInt(rutaVentana.dimensionAncho2)');
+  stringFinal = stringFinal.replaceAll(regexAncho3, 'Number.parseInt(rutaVentana.dimensionAncho3)');
+
   stringFinal = stringFinal.replaceAll(regexAlto, 'Number.parseInt(rutaVentana.dimensionAlto)');
   stringFinal = stringFinal.replaceAll(regexAlto2, 'Number.parseInt(rutaVentana.dimensionAlto2)');
+  stringFinal = stringFinal.replaceAll(regexAlto3, 'Number.parseInt(rutaVentana.dimensionAlto3)');
+
   stringFinal = stringFinal.replaceAll(regexPrecioVidrioBase, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 0), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`);
   stringFinal = stringFinal.replaceAll(regexPrecioVidrio2, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 1), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`);
+  stringFinal = stringFinal.replaceAll(regexPrecioVidrio3, `determinarPrecioVidrio(rutaVentana.serie, obtenerSubtipoVentanaParaPrecioVidrio(rutaVentana.serie, rutaVentana.subtipoVentana, 2), rutaVentana.tipoVidrio + " " + rutaVentana.subtipoVidrio)`)
+
   stringFinal = `const total = ${stringFinal}; return total.toFixed(2);`;
 
   return stringFinal;

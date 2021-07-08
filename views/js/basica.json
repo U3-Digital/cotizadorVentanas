@@ -235,7 +235,7 @@
               },
               {
                   "nombre": "Triple fija",
-                  "img": "../../img/TripleFija(Serie40).png",
+                  "img": "../../img/TripleFija(serie40).png",
                   "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(Al) * 2",
                   "dimensiones": [
                       { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },

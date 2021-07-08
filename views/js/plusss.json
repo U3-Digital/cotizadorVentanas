@@ -1,0 +1,1898 @@
+{
+  "nombre": "Plus",
+  "img": "../../img/PlusGuillotinaOXO.png",
+  "ceja": [
+      { "nombre": "Sin ceja", "img": "../../img/sinCeja.png" },
+      { "nombre": "Ceja", "img": "../../img/ceja.png" },
+      { "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+  ],
+  "tipoVidrio": [
+      {
+          "nombre": "Vidrio sencillo",
+          "img": "../../img/vidrioSencillo.png",
+          "tipos": [
+              {
+                  "nombre": "Claro",
+                  "img": "../../img/vidrioSenci.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":45.02},{"doblefijoapilada":45.02},{"doblefijo":44.05},{"triplefijoapilada":43.15},{"triplefijo":158.36}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":50.44},{"corredizaxox":52.15},{"corredizao-xo":43.15},{"corredizao-oxo":43.15},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":97.19},{"corredizaconarcoao":50.45},{"corredizaconfijoyarcoa-o-o-ox":43.15},{"arcofijoconcorrediza":43.15}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":50.44},{"doble":60.8},{"oxo":165.64},{"o-ox":93.59},{"orioox":50.44},{"dobleorio":60.8},{"conarco":50.45},{"conarcoao":50.45},{"conarcocontinuo":83.24},{"a-oxconarcocontinuo":50.44},{"oxoconarco":165.64},{"doblexoxconarco":172.95},{"doblefijoconarco":165.64}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":81.98},{"circular":81.98},{"octagonal":81.98},{"triangulorectangulo":81.98},{"triánguloisosceles":81.98},{"hexagonal":81.98},{"formaao":81.98},{"formaao-o":0},{"figuraao-o":0},{"arcoao":81.98},{"arcoa-o-o":97.19},{"catedral":81.98},{"arcomedialunafijo":81.98},{"medialunaconunfijo":97.19},{"fijoconarco":43.15},{"figuraao":81.98},{"arcomedialunacon2fijos":115.21},{"arcomedialunacon3fijos":97.19},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Baño tapis",
+                  "img": "../../img/vidrioSenciBano.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":51.48},{"doblefijoapilada":51.46},{"doblefijo":52.77},{"triplefijoapilada":49.33},{"triplefijo":176.92}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":55.98},{"corredizaxox":65.96},{"corredizao-xo":49.34},{"corredizao-oxo":49.34},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":101.29},{"corredizaconarcoao":55.98},{"corredizaconfijoyarcoa-o-o-ox":49.34},{"arcofijoconcorrediza":49.34}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":55.98},{"doble":74.3},{"oxo":183.57},{"o-ox":105.32},{"orioox":55.98},{"dobleorio":74.3},{"conarco":55.97},{"conarcoao":55.97},{"conarcocontinuo":92.36},{"a-oxconarcocontinuo":55.98},{"oxoconarco":183.56},{"doblexoxconarco":190.2},{"doblefijoconarco":183.56}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":93.75},{"circular":93.75},{"octagonal":93.75},{"triangulorectangulo":93.75},{"triánguloisosceles":93.75},{"hexagonal":93.75},{"formaao":93.75},{"formaao-o":0},{"figuraao-o":0},{"arcoao":93.75},{"arcoa-o-o":101.29},{"catedral":93.75},{"arcomedialunafijo":93.75},{"medialunaconunfijo":101.29},{"fijoconarco":41.15},{"figuraao":93.75},{"arcomedialunacon2fijos":127.58},{"arcomedialunacon3fijos":101.29},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Baño ultra fino",
+                  "img": "../../img/vidrioSenciBano.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":53.62},{"doblefijoapilada":53.64},{"doblefijo":55.73},{"triplefijoapilada":51.41},{"triplefijo":183.13}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":57.82},{"corredizaxox":70.56},{"corredizao-xo":51.4},{"corredizao-oxo":51.4},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":102.29},{"corredizaconarcoao":57.82},{"corredizaconfijoyarcoa-o-o-ox":51.4},{"arcofijoconcorrediza":51.4}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":57.82},{"doble":78.79},{"oxo":189.53},{"o-ox":109.21},{"orioox":57.82},{"dobleorio":78.79},{"conarco":57.81},{"conarcoao":57.81},{"conarcocontinuo":95.4},{"a-oxconarcocontinuo":57.82},{"oxoconarco":189.53},{"doblexoxconarco":195.94},{"doblefijoconarco":189.53}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":97.67},{"circular":97.67},{"octagonal":97.67},{"triangulorectangulo":97.67},{"triánguloisosceles":97.67},{"hexagonal":97.67},{"formaao":97.67},{"formaao-o":0},{"figuraao-o":0},{"arcoao":97.67},{"arcoa-o-o":102.29},{"catedral":97.67},{"arcomedialunafijo":97.67},{"medialunaconunfijo":102.29},{"fijoconarco":51.4},{"figuraao":97.67},{"arcomedialunacon2fijos":127.58},{"arcomedialunacon3fijos":102.29},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol",
+                  "img": "../../img/vidrioSenci.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":46.2},{"doblefijoapilada":46.42},{"doblefijo":45.81},{"triplefijoapilada":44.48},{"triplefijo":162.35}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":51.64},{"corredizaxox":55.13},{"corredizao-xo":44.48},{"corredizao-oxo":44.48},{"corredizaconarco":51.64},{"arcomedialunaconcorrediza":97.96},{"corredizaconarcoao":51.64},{"corredizaconfijoyarcoa-o-o-ox":44.48},{"arcofijoconcorrediza":44.48}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":51.64},{"doble":63.72},{"oxo":169.5},{"o-ox":96.11},{"orioox":51.64},{"dobleorio":63.72},{"conarco":51.64},{"conarcoao":51.64},{"conarcocontinuo":85.2},{"a-oxconarcocontinuo":51.63},{"oxoconarco":169.5},{"doblexoxconarco":176.67},{"doblefijoconarco":169.5}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":84.52},{"circular":84.51},{"octagonal":84.51},{"triangulorectangulo":84.51},{"triánguloisosceles":84.51},{"hexagonal":84.51},{"formaao":84.51},{"formaao-o":0},{"figuraao-o":0},{"arcoao":84.51},{"arcoa-o-o":97.96},{"catedral":84.51},{"arcomedialunafijo":84.51},{"medialunaconunfijo":97.96},{"fijoconarco":44.48},{"figuraao":84.51},{"arcomedialunacon2fijos":117.87},{"arcomedialunacon3fijos":97.96},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol",
+                  "img": "../../img/vidrioSenci.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":62.79},{"doblefijoapilada":62.78},{"doblefijo":68.33},{"triplefijoapilada":60.19},{"triplefijo":209.48}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":65.66},{"corredizaxox":90.14},{"corredizao-xo":60.19},{"corredizao-oxo":60.19},{"corredizaconarco":65.66},{"arcomedialunaconcorrediza":107.8},{"corredizaconarcoao":65.66},{"corredizaconfijoyarcoa-o-o-ox":60.18},{"arcofijoconcorrediza":60.18}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":65.66},{"doble":97.91},{"oxo":214.95},{"o-ox":125.85},{"orioox":65.66},{"dobleorio":97.91},{"conarco":65.66},{"conarcoao":65.66},{"conarcocontinuo":108.33},{"a-oxconarcocontinuo":65.66},{"oxoconarco":214.94},{"doblexoxconarco":220.41},{"doblefijoconarco":214.94}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":114.36},{"circular":114.36},{"octagonal":114.36},{"triangulorectangulo":114.36},{"triánguloisosceles":114.36},{"hexagonal":114.36},{"formaao":114.36},{"formaao-o":0},{"figuraao-o":0},{"arcoao":114.36},{"arcoa-o-o":107.8},{"catedral":114.36},{"arcomedialunafijo":114.36},{"medialunaconunfijo":0},{"fijoconarco":60.19},{"figuraao":114.36},{"arcomedialunacon2fijos":149.28},{"arcomedialunacon3fijos":107.8},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "nombre": "Vidrio doble",
+          "img": "../../img/vidrio_dob.png",
+          "tipos": [
+              {
+                  "nombre": "Claro",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":52.59},{"doblefijoapilada":52.58},{"doblefijo":53.8},{"triplefijoapilada":50.41},{"triplefijo":180.13}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":58.84},{"corredizaxox":64.42},{"corredizao-xo":50.41},{"corredizao-oxo":50.41},{"corredizaconarco":58.83},{"arcomedialunaconcorrediza":113.39},{"corredizaconarcoao":58.83},{"corredizaconfijoyarcoa-o-o-ox":50.41},{"arcofijoconcorrediza":50.41}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":58.84},{"doble":72.76},{"oxo":188.56},{"o-ox":109.25},{"orioox":58.84},{"dobleorio":72.76},{"conarco":58.84},{"conarcoao":58.84},{"conarcocontinuo":97.08},{"a-oxconarcocontinuo":58.84},{"oxoconarco":188.56},{"doblexoxconarco":197},{"doblefijoconarco":188.56}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":95.77},{"circular":95.78},{"octagonal":95.78},{"triangulorectangulo":95.78},{"triánguloisosceles":95.78},{"hexagonal":95.78},{"formaao":95.78},{"formaao-o":0},{"figuraao-o":0},{"arcoao":95.78},{"arcoa-o-o":113.39},{"catedral":95.78},{"arcomedialunafijo":95.78},{"medialunaconunfijo":113.39},{"fijoconarco":50.41},{"figuraao":95.78},{"arcomedialunacon2fijos":129.72},{"arcomedialunacon3fijos":113.39},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":55.99},{"doblefijoapilada":56},{"doblefijo":58.7},{"triplefijoapilada":53.67},{"triplefijo":189.92}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":61.75},{"corredizaxox":71.67},{"corredizao-xo":53.68},{"corredizao-oxo":53.68},{"corredizaconarco":61.74},{"arcomedialunaconcorrediza":115.55},{"corredizaconarcoao":61.74},{"corredizaconfijoyarcoa-o-o-ox":53.68},{"arcofijoconcorrediza":53.68}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":61.75},{"doble":79.82},{"oxo":198},{"o-ox":115.43},{"orioox":61.75},{"dobleorio":79.82},{"conarco":61.75},{"conarcoao":61.75},{"conarcocontinuo":101.84},{"a-oxconarcocontinuo":61.75},{"oxoconarco":198},{"doblexoxconarco":206.07},{"doblefijoconarco":198}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":101.98},{"circular":101.98},{"octagonal":101.98},{"triangulorectangulo":101.98},{"triánguloisosceles":101.98},{"hexagonal":101.98},{"formaao":101.98},{"formaao-o":0},{"figuraao-o":0},{"arcoao":101.98},{"arcoa-o-o":115.55},{"catedral":101.98},{"arcomedialunafijo":101.98},{"medialunaconunfijo":155.55},{"fijoconarco":53.68},{"figuraao":101.98},{"arcomedialunacon2fijos":136.25},{"arcomedialunacon3fijos":155.55},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Claro / Baño Tapis",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":59.05},{"doblefijoapilada":59.06},{"doblefijo":62.51},{"triplefijoapilada":56.61},{"triplefijo":198.71}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":64.37},{"corredizaxox":78.23},{"corredizao-xo":56.6},{"corredizao-oxo":56.6},{"corredizaconarco":64.36},{"arcomedialunaconcorrediza":117.5},{"corredizaconarcoao":90.92},{"corredizaconfijoyarcoa-o-o-ox":56.6},{"arcofijoconcorrediza":56.6}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":64.37},{"doble":86.25},{"oxo":206.47},{"o-ox":120.96},{"orioox":64.37},{"dobleorio":86.25},{"conarco":64.37},{"conarcoao":64.37},{"conarcocontinuo":106.2},{"a-oxconarcocontinuo":64.37},{"oxoconarco":204.47},{"doblexoxconarco":214.24},{"doblefijoconarco":206.47}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":107.54},{"circular":107.54},{"octagonal":107.54},{"triangulorectangulo":107.54},{"triánguloisosceles":107.54},{"hexagonal":107.54},{"formaao":107.54},{"formaao-o":0},{"figuraao-o":0},{"arcoao":107.54},{"arcoa-o-o":117.5},{"catedral":107.54},{"arcomedialunafijo":107.54},{"medialunaconunfijo":117.5},{"fijoconarco":251.6},{"figuraao":107.54},{"arcomedialunacon2fijos":142.11},{"arcomedialunacon3fijos":117.5},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Claro / Baño Ultra Fino",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":61.2},{"doblefijoapilada":61.2},{"doblefijo":65.46},{"triplefijoapilada":58.67},{"triplefijo":204.9}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":66.2},{"corredizaxox":82.83},{"corredizao-xo":58.67},{"corredizao-oxo":58.67},{"corredizaconarco":66.2},{"arcomedialunaconcorrediza":118.5},{"corredizaconarcoao":66.2},{"corredizaconfijoyarcoa-o-o-ox":58.66},{"arcofijoconcorrediza":58.66}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":66.2},{"doble":90.74},{"oxo":212.44},{"o-ox":124.88},{"orioox":66.2},{"dobleorio":90.74},{"conarco":66.21},{"conarcoao":66.21},{"conarcocontinuo":109.24},{"a-oxconarcocontinuo":66.21},{"oxoconarco":212.43},{"doblexoxconarco":220},{"doblefijoconarco":212.43}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":111.46},{"circular":111.46},{"octagonal":111.46},{"triangulorectangulo":111.46},{"triánguloisosceles":111.46},{"hexagonal":111.46},{"formaao":111.46},{"formaao-o":0},{"figuraao-o":0},{"arcoao":111.46},{"arcoa-o-o":118.5},{"catedral":111.46},{"arcomedialunafijo":111.46},{"medialunaconunfijo":118.5},{"fijoconarco":58.67},{"figuraao":111.46},{"arcomedialunacon2fijos":146.24},{"arcomedialunacon3fijos":118.5},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Tapis",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":62.46},{"doblefijoapilada":62.46},{"doblefijo":67.41},{"triplefijoapilada":59.87},{"triplefijo":208.5}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":67.28},{"corredizaxox":85.47},{"corredizao-xo":59.86},{"corredizao-oxo":59.86},{"corredizaconarco":67.27},{"arcomedialunaconcorrediza":119.65},{"corredizaconarcoao":67.27},{"corredizaconfijoyarcoa-o-o-ox":59.86},{"arcofijoconcorrediza":59.86}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":67.28},{"doble":93.32},{"oxo":215.91},{"o-ox":127.13},{"orioox":67.28},{"dobleorio":93.32},{"conarco":67.27},{"conarcoao":67.27},{"conarcocontinuo":111.01},{"a-oxconarcocontinuo":67.28},{"oxoconarco":215.92},{"doblexoxconarco":223.33},{"doblefijoconarco":215.92}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":113.74},{"circular":113.75},{"octagonal":113.75},{"triangulorectangulo":113.75},{"triánguloisosceles":113.75},{"hexagonal":113.75},{"formaao":113.75},{"formaao-o":0},{"figuraao-o":0},{"arcoao":113.75},{"arcoa-o-o":119.65},{"catedral":113.75},{"arcomedialunafijo":113.75},{"medialunaconunfijo":119.65},{"fijoconarco":59.86},{"figuraao":113.75},{"arcomedialunacon2fijos":148.64},{"arcomedialunacon3fijos":119.65},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Ultra Fino",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":64.61},{"doblefijoapilada":64.62},{"doblefijo":70.36},{"triplefijoapilada":61.93},{"triplefijo":214.69}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":69.12},{"corredizaxox":90.07},{"corredizao-xo":61.93},{"corredizao-oxo":61.93},{"corredizaconarco":69.12},{"arcomedialunaconcorrediza":120.65},{"corredizaconarcoao":69.12},{"corredizaconfijoyarcoa-o-o-ox":61.93},{"arcofijoconcorrediza":61.93}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":69.12},{"doble":97.81},{"oxo":221.88},{"o-ox":131.04},{"orioox":69.12},{"dobleorio":97.81},{"conarco":69.12},{"conarcoao":69.12},{"conarcocontinuo":114.04},{"a-oxconarcocontinuo":69.12},{"oxoconarco":221.88},{"doblexoxconarco":229.06},{"doblefijoconarco":221.88}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":117.66},{"circular":117.66},{"octagonal":117.66},{"triangulorectangulo":117.66},{"triánguloisosceles":117.66},{"hexagonal":117.66},{"formaao":117.66},{"formaao-o":0},{"figuraao-o":0},{"arcoao":117.66},{"arcoa-o-o":120.65},{"catedral":117.66},{"arcomedialunafijo":117.66},{"medialunaconunfijo":120.65},{"fijoconarco":61.93},{"figuraao":117.66},{"arcomedialunacon2fijos":152.77},{"arcomedialunacon3fijos":120.65},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Templado Claro",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":94.18},{"doblefijoapilada":85.6},{"doblefijo":164.12},{"triplefijoapilada":82.06},{"triplefijo":275.09}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":95.07},{"corredizaxox":101.84},{"corredizao-xo":78.7},{"corredizao-oxo":78.7},{"corredizaconarco":82.44},{"arcomedialunaconcorrediza":118.41},{"corredizaconarcoao":82.4},{"corredizaconfijoyarcoa-o-o-ox":82.06},{"arcofijoconcorrediza":82.06}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":95.07},{"doble":117.34},{"oxo":280.41},{"o-ox":87.08},{"orioox":87.38},{"dobleorio":102.04},{"conarco":83.27},{"conarcoao":83.27},{"conarcocontinuo":144.18},{"a-oxconarcocontinuo":87.38},{"oxoconarco":280.42},{"doblexoxconarco":285.73},{"doblefijoconarco":280.42}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":155.92},{"circular":155.92},{"octagonal":155.92},{"triangulorectangulo":155.92},{"triánguloisosceles":155.92},{"hexagonal":155.92},{"formaao":155.92},{"formaao-o":0},{"figuraao-o":0},{"arcoao":155.92},{"arcoa-o-o":118.41},{"catedral":155.92},{"arcomedialunafijo":155.92},{"medialunaconunfijo":118.41},{"fijoconarco":78.7},{"figuraao":155.92},{"arcomedialunacon2fijos":193.04},{"arcomedialunacon3fijos":118.41},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Templado Low-E",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":124.41},{"doblefijoapilada":113.1},{"doblefijo":216.82},{"triplefijoapilada":108.4},{"triplefijo":354.13}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":121.33},{"corredizaxox":126.32},{"corredizao-xo":103.3},{"corredizao-oxo":103.3},{"corredizaconarco":105.31},{"arcomedialunaconcorrediza":132.68},{"corredizaconarcoao":105.31},{"corredizaconfijoyarcoa-o-o-ox":108.41},{"arcofijoconcorrediza":108.41}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":121.33},{"doble":141.63},{"oxo":356.97},{"o-ox":114.54},{"orioox":111.24},{"dobleorio":123.16},{"conarco":105.55},{"conarcoao":105.55},{"conarcocontinuo":183.54},{"a-oxconarcocontinuo":111.24},{"oxoconarco":356.96},{"doblexoxconarco":359.79},{"doblefijoconarco":356.96}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":205.98},{"circular":205.97},{"octagonal":205.97},{"triangulorectangulo":205.97},{"triánguloisosceles":205.97},{"hexagonal":205.97},{"formaao":205.97},{"formaao-o":0},{"figuraao-o":0},{"arcoao":205.97},{"arcoa-o-o":132.68},{"catedral":205.97},{"arcomedialunafijo":205.97},{"medialunaconunfijo":132.68},{"fijoconarco":105.3},{"figuraao":205.97},{"arcomedialunacon2fijos":245.73},{"arcomedialunacon3fijos":132.68},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":57.38},{"doblefijoapilada":57.38},{"doblefijo":60.44},{"triplefijoapilada":55},{"triplefijo":193.92}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":62.94},{"corredizaxox":74.64},{"corredizao-xo":55.01},{"corredizao-oxo":55.01},{"corredizaconarco":62.94},{"arcomedialunaconcorrediza":116.32},{"corredizaconarcoao":62.94},{"corredizaconfijoyarcoa-o-o-ox":55.01},{"arcofijoconcorrediza":55.01}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":62.94},{"doble":82.73},{"oxo":201.86},{"o-ox":117.95},{"orioox":62.94},{"dobleorio":82.73},{"conarco":62.94},{"conarcoao":62.94},{"conarcocontinuo":103.86},{"a-oxconarcocontinuo":62.95},{"oxoconarco":201.86},{"doblexoxconarco":209.79},{"doblefijoconarco":201.86}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":104.51},{"circular":104.51},{"octagonal":104.51},{"triangulorectangulo":104.51},{"triánguloisosceles":104.51},{"hexagonal":104.51},{"formaao":104.51},{"formaao-o":0},{"figuraao-o":0},{"arcoao":104.51},{"arcoa-o-o":116.32},{"catedral":104.51},{"arcomedialunafijo":104.51},{"medialunaconunfijo":116.32},{"fijoconarco":55.01},{"figuraao":104.51},{"arcomedialunacon2fijos":138.92},{"arcomedialunacon3fijos":115.32},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / ReflecteSol",
+                  "img": "../../img/vidrio_dob_lowe.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":73.68},{"doblefijoapilada":73.69},{"doblefijo":82.83},{"triplefijoapilada":70.62},{"triplefijo":240.79}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":76.84},{"corredizaxox":109.51},{"corredizao-xo":70.63},{"corredizao-oxo":70.63},{"corredizaconarco":76.85},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":76.85},{"corredizaconfijoyarcoa-o-o-ox":70.63},{"arcofijoconcorrediza":70.63}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":76.84},{"doble":116.76},{"oxo":247},{"o-ox":147.47},{"orioox":76.84},{"dobleorio":116.76},{"conarco":76.85},{"conarcoao":76.85},{"conarcocontinuo":126.79},{"a-oxconarcocontinuo":76.84},{"oxoconarco":247},{"doblexoxconarco":253.22},{"doblefijoconarco":247}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":134.19},{"circular":134.19},{"octagonal":134.19},{"triangulorectangulo":134.19},{"triánguloisosceles":134.19},{"hexagonal":134.19},{"formaao":134.19},{"formaao-o":0},{"figuraao-o":0},{"arcoao":134.19},{"arcoa-o-o":126.07},{"catedral":134.19},{"arcomedialunafijo":134.19},{"medialunaconunfijo":126.07},{"fijoconarco":70.63},{"figuraao":134.19},{"arcomedialunacon2fijos":170.16},{"arcomedialunacon3fijos":126.07},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Claro",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":53.98},{"doblefijoapilada":53.98},{"doblefijo":55.54},{"triplefijoapilada":51.74},{"triplefijo":184.14}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":60.03},{"corredizaxox":67.4},{"corredizao-xo":51.74},{"corredizao-oxo":51.74},{"corredizaconarco":60.03},{"arcomedialunaconcorrediza":114.15},{"corredizaconarcoao":60.03},{"corredizaconfijoyarcoa-o-o-ox":51.74},{"arcofijoconcorrediza":51.74}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":60.03},{"doble":75.68},{"oxo":192.42},{"o-ox":111.77},{"orioox":60.03},{"dobleorio":75.68},{"conarco":60.03},{"conarcoao":60.03},{"conarcocontinuo":99.05},{"a-oxconarcocontinuo":60.03},{"oxoconarco":192.42},{"doblexoxconarco":200.71},{"doblefijoconarco":192.42}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":98.31},{"circular":98.3},{"octagonal":98.3},{"triangulorectangulo":98.3},{"triánguloisosceles":98.31},{"hexagonal":98.31},{"formaao":98.31},{"formaao-o":0},{"figuraao-o":0},{"arcoao":98.31},{"arcoa-o-o":114.15},{"catedral":98.31},{"arcomedialunafijo":98.31},{"medialunaconunfijo":114.15},{"fijoconarco":51.74},{"figuraao":98.31},{"arcomedialunacon2fijos":132.39},{"arcomedialunacon3fijos":114.15},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Tapis",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":60.44},{"iladas":60.44},{"doblefijo":64.26},{"triplefijoapilada":57.93},{"triplefijo":202.71}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":65.56},{"corredizaxox":81.21},{"corredizao-xo":57.94},{"corredizao-oxo":57.94},{"corredizaconarco":65.56},{"arcomedialunaconcorrediza":118.26},{"corredizaconarcoao":65.56},{"corredizaconfijoyarcoa-o-o-ox":57.93},{"arcofijoconcorrediza":57.93}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":65.56},{"doble":86.16},{"oxo":210.33},{"o-ox":123.5},{"orioox":65.56},{"dobleorio":89.16},{"conarco":65.56},{"conarcoao":65.56},{"conarcocontinuo":108.17},{"a-oxconarcocontinuo":65.56},{"oxoconarco":210.33},{"doblexoxconarco":217.97},{"doblefijoconarco":210.33}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":110.07},{"circular":110.07},{"octagonal":110.07},{"triangulorectangulo":110.07},{"triánguloisosceles":110.07},{"hexagonal":110.07},{"formaao":110.07},{"formaao-o":0},{"figuraao-o":0},{"arcoao":110.07},{"arcoa-o-o":118.26},{"catedral":110.07},{"arcomedialunafijo":110.07},{"medialunaconunfijo":118.26},{"fijoconarco":57.94},{"figuraao":110.07},{"arcomedialunacon2fijos":144.77},{"arcomedialunacon3fijos":118.26},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Ultra Fino",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":62.59},{"doblefijoapilada":62.6},{"doblefijo":67.21},{"triplefijoapilada":60},{"triplefijo":208.9}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":67.4},{"corredizaxox":85.8},{"corredizao-xo":60},{"corredizao-oxo":60},{"corredizaconarco":67.4},{"arcomedialunaconcorrediza":119.27},{"corredizaconarcoao":67.4},{"corredizaconfijoyarcoa-o-o-ox":59.99},{"arcofijoconcorrediza":59.99}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":67.4},{"doble":93.65},{"oxo":223.71},{"o-ox":127.4},{"orioox":67.4},{"dobleorio":93.65},{"conarco":67.4},{"conarcoao":67.4},{"conarcocontinuo":111.21},{"a-oxconarcocontinuo":67.4},{"oxoconarco":216.3},{"doblexoxconarco":223.71},{"doblefijoconarco":216.3}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":114},{"circular":114},{"octagonal":114},{"triangulorectangulo":114},{"triánguloisosceles":114},{"hexagonal":114},{"formaao":114},{"formaao-o":0},{"figuraao-o":0},{"arcoao":114},{"arcoa-o-o":119.27},{"catedral":114},{"arcomedialunafijo":114},{"medialunaconunfijo":119.27},{"fijoconarco":60},{"figuraao":114},{"arcomedialunacon2fijos":148.9},{"arcomedialunacon3fijos":119.27},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":70.28},{"doblefijoapilada":70.28},{"doblefijo":77.94},{"triplefijoapilada":67.36},{"triplefijo":230.99}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":73.93},{"corredizaxox":102.26},{"corredizao-xo":67.36},{"corredizao-oxo":67.36},{"corredizaconarco":73.93},{"arcomedialunaconcorrediza":126.07},{"corredizaconarcoao":73.93},{"corredizaconfijoyarcoa-o-o-ox":67.36},{"arcofijoconcorrediza":67.36}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":73.93},{"doble":109.7},{"oxo":244.13},{"o-ox":141.29},{"orioox":73.93},{"dobleorio":109.7},{"conarco":73.93},{"conarcoao":73.93},{"conarcocontinuo":121.98},{"a-oxconarcocontinuo":73.93},{"oxoconarco":237.57},{"doblexoxconarco":244.14},{"doblefijoconarco":237.57}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":127.99},{"circular":127.98},{"octagonal":127.98},{"triangulorectangulo":127.98},{"triánguloisosceles":127.98},{"hexagonal":127.98},{"formaao":127.98},{"formaao-o":0},{"figuraao-o":0},{"arcoao":127.98},{"arcoa-o-o":357.82},{"catedral":127.98},{"arcomedialunafijo":127.98},{"medialunaconunfijo":126.07},{"fijoconarco":67.36},{"figuraao":127.98},{"arcomedialunacon2fijos":163.63},{"arcomedialunacon3fijos":126.07},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / FiltraSol",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":71.67},{"doblefijoapilada":71.68},{"doblefijo":79.68},{"triplefijoapilada":68.69},{"triplefijo":235}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":75.12},{"corredizaxox":105.24},{"corredizao-xo":68.69},{"corredizao-oxo":68.69},{"corredizaconarco":75.12},{"arcomedialunaconcorrediza":124.69},{"corredizaconarcoao":75.12},{"corredizaconfijoyarcoa-o-o-ox":68.69},{"arcofijoconcorrediza":68.69}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":75.12},{"doble":112.61},{"oxo":247.85},{"o-ox":143.81},{"orioox":75.12},{"dobleorio":112.61},{"conarco":75.12},{"conarcoao":75.12},{"conarcocontinuo":123.95},{"a-oxconarcocontinuo":75.13},{"oxoconarco":241.42},{"doblexoxconarco":247.86},{"doblefijoconarco":241.42}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":130.52},{"circular":130.52},{"octagonal":130.52},{"triangulorectangulo":130.52},{"triánguloisosceles":130.52},{"hexagonal":130.52},{"formaao":130.52},{"formaao-o":0},{"figuraao-o":0},{"arcoao":130.52},{"arcoa-o-o":124.69},{"catedral":130.52},{"arcomedialunafijo":130.52},{"medialunaconunfijo":124.69},{"fijoconarco":68.69},{"figuraao":130.52},{"arcomedialunacon2fijos":166.3},{"arcomedialunacon3fijos":124.69},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Baño UF",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":0},{"doblefijoapilada":0},{"doblefijo":0},{"triplefijoapilada":0},{"triplefijo":0}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":0},{"corredizaxox":0},{"corredizao-xo":0},{"corredizao-oxo":0},{"corredizaconarco":0},{"arcomedialunaconcorrediza":0},{"corredizaconarcoao":0},{"corredizaconfijoyarcoa-o-o-ox":0},{"arcofijoconcorrediza":0}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":0},{"doble":0},{"oxo":0},{"o-ox":0},{"orioox":0},{"dobleorio":0},{"conarco":0},{"conarcoao":0},{"conarcocontinuo":0},{"a-oxconarcocontinuo":0},{"oxoconarco":0},{"doblexoxconarco":0},{"doblefijoconarco":0}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":0},{"circular":0},{"octagonal":0},{"triangulorectangulo":0},{"triánguloisosceles":0},{"hexagonal":0},{"formaao":0},{"formaao-o":0},{"figuraao-o":0},{"arcoao":0},{"arcoa-o-o":0},{"catedral":0},{"arcomedialunafijo":0},{"medialunaconunfijo":0},{"fijoconarco":0},{"figuraao":0},{"arcomedialunacon2fijos":0},{"arcomedialunacon3fijos":0},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Templado Claro / Baño",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":117.4},{"doblefijoapilada":106.72},{"doblefijo":204.61},{"triplefijoapilada":102.31},{"triplefijo":335.83}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":115.24},{"corredizaxox":121.37},{"corredizao-xo":97.7},{"corredizao-oxo":97.7},{"corredizaconarco":100.48},{"arcomedialunaconcorrediza":140.37},{"corredizaconarcoao":100.48},{"corredizaconfijoyarcoa-o-o-ox":102.3},{"arcofijoconcorrediza":102.3}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":115.24},{"doble":136},{"oxo":342.62},{"o-ox":108.71},{"orioox":105.71},{"dobleorio":118.26},{"conarco":1006.86},{"conarcoao":106.86},{"conarcocontinuo":174.42},{"a-oxconarcocontinuo":105.71},{"oxoconarco":339.23},{"doblexoxconarco":342.63},{"doblefijoconarco":339.23}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":194.38},{"circular":194.38},{"octagonal":194.38},{"triangulorectangulo":194.38},{"triánguloisosceles":194.38},{"hexagonal":194.38},{"formaao":194.38},{"formaao-o":0},{"figuraao-o":0},{"arcoao":194.38},{"arcoa-o-o":140.37},{"catedral":194.38},{"arcomedialunafijo":194.38},{"medialunaconunfijo":140.97},{"fijoconarco":94.7},{"figuraao":194.38},{"arcomedialunacon2fijos":233.52},{"arcomedialunacon3fijos":140.37},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Templado Low-E / Baño",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":140.49},{"doblefijoapilada":127.72},{"doblefijo":244.84},{"triplefijoapilada":122.43},{"triplefijo":396.18}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":135.28},{"corredizaxox":139.35},{"corredizao-xo":116.12},{"corredizao-oxo":116.12},{"corredizaconarco":117.47},{"arcomedialunaconcorrediza":142.17},{"corredizaconarcoao":117.47},{"corredizaconfijoyarcoa-o-o-ox":122.45},{"arcofijoconcorrediza":122.45}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":135.28},{"doble":154.54},{"oxo":393.68},{"o-ox":129.29},{"orioox":121.18},{"dobleorio":134.38},{"conarco":115.16},{"conarcoao":154.16},{"conarcocontinuo":199.93},{"a-oxconarcocontinuo":121.17},{"oxoconarco":394.93},{"doblexoxconarco":393.67},{"doblefijoconarco":394.93}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":232.6},{"circular":232.6},{"octagonal":232.6},{"triangulorectangulo":232.6},{"triánguloisosceles":232.6},{"hexagonal":232.6},{"formaao":232.6},{"formaao-o":0},{"figuraao-o":0},{"arcoao":232.6},{"arcoa-o-o":142.17},{"catedral":232.6},{"arcomedialunafijo":232.6},{"medialunaconunfijo":142.17},{"fijoconarco":116.12},{"figuraao":232.6},{"arcomedialunacon2fijos":273.75},{"arcomedialunacon3fijos":142.17},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Templado Low-E / Filtra Sol",
+                  "img": "../../img/vidrio_dob.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":138.71},{"doblefijoapilada":126.1},{"doblefijo":241.75},{"triplefijoapilada":120.87},{"triplefijo":391.53}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":133.74},{"corredizaxox":137.92},{"corredizao-xo":115.34},{"corredizao-oxo":115.34},{"corredizaconarco":116.09},{"arcomedialunaconcorrediza":141.5},{"corredizaconarcoao":116.09},{"corredizaconfijoyarcoa-o-o-ox":120.88},{"arcofijoconcorrediza":120.88}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":133.74},{"doble":153.12},{"oxo":389.33},{"o-ox":127.11},{"orioox":119.77},{"dobleorio":164.14},{"conarco":114.8},{"conarcoao":114.4},{"conarcocontinuo":197.62},{"a-oxconarcocontinuo":119.77},{"oxoconarco":390.43},{"doblexoxconarco":389.32},{"doblefijoconarco":390.43}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":229.66},{"circular":229.66},{"octagonal":229.66},{"triangulorectangulo":229.66},{"triánguloisosceles":229.66},{"hexagonal":229.66},{"formaao":229.66},{"formaao-o":0},{"figuraao-o":0},{"arcoao":229.66},{"arcoa-o-o":141.5},{"catedral":229.66},{"arcomedialunafijo":229.66},{"medialunaconunfijo":141.5},{"fijoconarco":229.66},{"figuraao":154.3},{"arcomedialunacon2fijos":270.66},{"arcomedialunacon3fijos":141.5},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              }
+              
+          ]
+      },
+      {
+          "nombre": "Vidrio doble con marginal",
+          "img": "../../img/vidrio_dob_marginal.png",
+          "tipos": [
+              {
+                  "nombre": "Claro con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":56.88},{"doblefijoapilada":56.88},{"doblefijo":61.04},{"triplefijoapilada":54.52},{"triplefijo":192.47}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":62.57},{"corredizaxox":71.77},{"corredizao-xo":54.52},{"corredizao-oxo":54.52},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":117.83},{"corredizaconarcoao":62.56},{"corredizaconfijoyarcoa-o-o-ox":54.52},{"arcofijoconcorrediza":54.52}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":62.57},{"doble":80.09},{"oxo":208.55},{"o-ox":117.08},{"orioox":62.57},{"dobleorio":80.09},{"conarco":62.56},{"conarcoao":62.56},{"conarcocontinuo":103.22},{"a-oxconarcocontinuo":62.56},{"oxoconarco":200.51},{"doblexoxconarco":208.54},{"doblefijoconarco":200.51}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":103.58},{"circular":103.59},{"octagonal":103.59},{"triangulorectangulo":103.59},{"triánguloisosceles":103.59},{"hexagonal":103.59},{"formaao":103.59},{"formaao-o":0},{"figuraao-o":0},{"arcoao":103.59},{"arcoa-o-o":117.83},{"catedral":103.59},{"arcomedialunafijo":103.59},{"medialunaconunfijo":117.83},{"fijoconarco":103.59},{"figuraao":54.52},{"arcomedialunacon2fijos":137.95},{"arcomedialunacon3fijos":117.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E con marginal",
+                  "img": "../../img/vidrio_dob_lowe_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":60.37},{"doblefijoapilada":62.36},{"doblefijo":66.07},{"triplefijoapilada":57.87},{"triplefijo":202.51}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":65.54},{"corredizaxox":79.2},{"corredizao-xo":57.87},{"corredizao-oxo":57.87},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":120.04},{"corredizaconarcoao":65.54},{"corredizaconfijoyarcoa-o-o-ox":57.87},{"arcofijoconcorrediza":57.87}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":65.54},{"doble":87.33},{"oxo":217.87},{"o-ox":123.42},{"orioox":65.54},{"dobleorio":87.33},{"conarco":65.55},{"conarcoao":65.55},{"conarcocontinuo":108.15},{"a-oxconarcocontinuo":65.54},{"oxoconarco":210.18},{"doblexoxconarco":217.87},{"doblefijoconarco":210.18}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":109.95},{"circular":109.94},{"octagonal":109.94},{"triangulorectangulo":109.94},{"triánguloisosceles":109.94},{"hexagonal":109.94},{"formaao":109.94},{"formaao-o":0},{"figuraao-o":0},{"arcoao":109.94},{"arcoa-o-o":120.04},{"catedral":109.94},{"arcomedialunafijo":109.94},{"medialunaconunfijo":120.04},{"fijoconarco":109.94},{"figuraao":57.87},{"arcomedialunacon2fijos":144.64},{"arcomedialunacon3fijos":120.04},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Claro / Baño Tapis con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":63.5},{"doblefijoapilada":63.5},{"doblefijo":69.97},{"triplefijoapilada":60.87},{"triplefijo":211.5}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":68.23},{"corredizaxox":85.93},{"corredizao-xo":60.87},{"corredizao-oxo":60.87},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":122.04},{"corredizaconarcoao":68.23},{"corredizaconfijoyarcoa-o-o-ox":60.87},{"arcofijoconcorrediza":60.87}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":68.23},{"doble":93.92},{"oxo":226.5},{"o-ox":129.1},{"orioox":68.23},{"dobleorio":93.92},{"conarco":68.23},{"conarcoao":68.23},{"conarcocontinuo":112.57},{"a-oxconarcocontinuo":68.22},{"oxoconarco":218.87},{"doblexoxconarco":226.23},{"doblefijoconarco":218.87}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":115.65},{"circular":115.65},{"octagonal":115.65},{"triangulorectangulo":115.65},{"triánguloisosceles":115.65},{"hexagonal":115.65},{"formaao":115.65},{"formaao-o":0},{"figuraao-o":0},{"arcoao":115.65},{"arcoa-o-o":122.04},{"catedral":115.65},{"arcomedialunafijo":115.65},{"medialunaconunfijo":122.04},{"fijoconarco":60.87},{"figuraao":115.65},{"arcomedialunacon2fijos":150.64},{"arcomedialunacon3fijos":122.04},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+                 {
+                  "nombre": "Claro / Baño Ultra Fino con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":65.71},{"doblefijoapilada":65.72},{"doblefijo":73},{"triplefijoapilada":62.97},{"triplefijo":217.85}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":70.12},{"corredizaxox":90.64},{"corredizao-xo":62.98},{"corredizao-oxo":62.98},{"corredizaconarco":70.12},{"arcomedialunaconcorrediza":123.06},{"corredizaconarcoao":70.12},{"corredizaconfijoyarcoa-o-o-ox":62.98},{"arcofijoconcorrediza":62.98}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":70.12},{"doble":98.52},{"oxo":232.12},{"o-ox":133.1},{"orioox":70.12},{"dobleorio":98.52},{"conarco":70.12},{"conarcoao":70.12},{"conarcocontinuo":115.69},{"a-oxconarcocontinuo":70.12},{"oxoconarco":224.99},{"doblexoxconarco":232.12},{"doblefijoconarco":224.99}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":119.66},{"circular":119.66},{"octagonal":119.66},{"triangulorectangulo":119.66},{"triánguloisosceles":119.66},{"hexagonal":119.66},{"formaao":119.66},{"formaao-o":0},{"figuraao-o":0},{"arcoao":119.66},{"arcoa-o-o":123.06},{"catedral":119.66},{"arcomedialunafijo":119.66},{"medialunaconunfijo":123.06},{"fijoconarco":62.98},{"figuraao":119.66},{"arcomedialunacon2fijos":154.87},{"arcomedialunacon3fijos":123.06},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Tapis con marginal",
+                  "img": "../../img/vidrio_dob_lowe_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":66.99},{"doblefijoapilada":67},{"doblefijo":74.99},{"triplefijoapilada":64.21},{"triplefijo":221.54}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":71.19},{"corredizaxox":93.35},{"corredizao-xo":64.21},{"corredizao-oxo":64.21},{"corredizaconarco":71.22},{"arcomedialunaconcorrediza":124.24},{"corredizaconarcoao":71.22},{"corredizaconfijoyarcoa-o-o-ox":64.21},{"arcofijoconcorrediza":64.21}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":71.19},{"doble":101.16},{"oxo":235.55},{"o-ox":135.42},{"orioox":71.22},{"dobleorio":101.16},{"conarco":71.21},{"conarcoao":71.21},{"conarcocontinuo":117.5},{"a-oxconarcocontinuo":71.21},{"oxoconarco":228.54},{"doblexoxconarco":235.55},{"doblefijoconarco":228.54}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":122},{"circular":122},{"octagonal":122},{"triangulorectangulo":122},{"triánguloisosceles":122},{"hexagonal":122},{"formaao":122},{"formaao-o":0},{"figuraao-o":0},{"arcoao":122},{"arcoa-o-o":124.24},{"catedral":122},{"arcomedialunafijo":122},{"medialunaconunfijo":124.24},{"fijoconarco":64.21},{"figuraao":122},{"arcomedialunacon2fijos":157.33},{"arcomedialunacon3fijos":124.24},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Ultra Fino con marginal",
+                  "img": "../../img/vidrio_dob_lowe_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":69.2},{"doblefijoapilada":69.18},{"doblefijo":78.02},{"triplefijoapilada":66.33},{"triplefijo":227.89}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":73.1},{"corredizaxox":98.06},{"corredizao-xo":66.33},{"corredizao-oxo":66.33},{"corredizaconarco":73.1},{"arcomedialunaconcorrediza":125.27},{"corredizaconarcoao":73.1},{"corredizaconfijoyarcoa-o-o-ox":66.33},{"arcofijoconcorrediza":66.33}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":73.1},{"doble":105.76},{"oxo":241.44},{"o-ox":139.43},{"orioox":73.1},{"dobleorio":105.76},{"conarco":73.1},{"conarcoao":73.1},{"conarcocontinuo":120.62},{"a-oxconarcocontinuo":73.1},{"oxoconarco":234.67},{"doblexoxconarco":241.44},{"doblefijoconarco":234.67}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":126.02},{"circular":126.02},{"octagonal":126.02},{"triangulorectangulo":126.02},{"triánguloisosceles":126.02},{"hexagonal":126.02},{"formaao":126.02},{"formaao-o":0},{"figuraao-o":0},{"arcoao":126.02},{"arcoa-o-o":125.27},{"catedral":126.02},{"arcomedialunafijo":126.02},{"medialunaconunfijo":125.27},{"fijoconarco":66.33},{"figuraao":126.02},{"arcomedialunacon2fijos":161.56},{"arcomedialunacon3fijos":125.27},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol con marginal",
+                  "img": "../../img/vidrio_dob_lowe_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":61.8},{"doblefijoapilada":61.8},{"doblefijo":67.86},{"triplefijoapilada":59.23},{"triplefijo":206.6}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":66.77},{"corredizaxox":82.25},{"corredizao-xo":59.24},{"corredizao-oxo":59.24},{"corredizaconarco":66.77},{"arcomedialunaconcorrediza":120.83},{"corredizaconarcoao":66.77},{"corredizaconfijoyarcoa-o-o-ox":59.24},{"arcofijoconcorrediza":59.24}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":66.77},{"doble":90.32},{"oxo":221.69},{"o-ox":126.01},{"orioox":66.77},{"dobleorio":90.32},{"conarco":66.77},{"conarcoao":66.77},{"conarcocontinuo":110.17},{"a-oxconarcocontinuo":66.77},{"oxoconarco":214.14},{"doblexoxconarco":221.68},{"doblefijoconarco":214.14}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":112.54},{"circular":112.54},{"octagonal":112.54},{"triangulorectangulo":112.54},{"triánguloisosceles":112.54},{"hexagonal":112.54},{"formaao":112.54},{"formaao-o":0},{"figuraao-o":0},{"arcoao":112.54},{"arcoa-o-o":120.83},{"catedral":112.54},{"arcomedialunafijo":112.54},{"medialunaconunfijo":120.83},{"fijoconarco":59.24},{"figuraao":112.54},{"arcomedialunacon2fijos":147.37},{"arcomedialunacon3fijos":120.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / ReflecteSol con marginal",
+                  "img": "../../img/vidrio_dob_lowe_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":78.5},{"doblefijoapilada":78.5},{"doblefijo":90.81},{"triplefijoapilada":75.25},{"triplefijo":254.64}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":81.02},{"corredizaxox":117.98},{"corredizao-xo":75.25},{"corredizao-oxo":75.25},{"corredizaconarco":81.02},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":81.02},{"corredizaconfijoyarcoa-o-o-ox":75.24},{"arcofijoconcorrediza":75.24}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":81.02},{"doble":125.19},{"oxo":266.18},{"o-ox":156.27},{"orioox":81.02},{"dobleorio":125.19},{"conarco":81.01},{"conarcoao":81.01},{"conarcocontinuo":133.67},{"a-oxconarcocontinuo":81.02},{"oxoconarco":260.61},{"doblexoxconarco":266.18},{"doblefijoconarco":260.41}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":142.96},{"circular":142.96},{"octagonal":142.96},{"triangulorectangulo":142.96},{"triánguloisosceles":142.96},{"hexagonal":142.96},{"formaao":142.96},{"formaao-o":0},{"figuraao-o":0},{"arcoao":142.96},{"arcoa-o-o":130.83},{"catedral":142.96},{"arcomedialunafijo":142.96},{"medialunaconunfijo":130.83},{"fijoconarco":75.25},{"figuraao":142.96},{"arcomedialunacon2fijos":179.39},{"arcomedialunacon3fijos":130.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Claro con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":58.3},{"doblefijoapilada":58.3},{"doblefijo":62.84},{"triplefijoapilada":55.88},{"triplefijo":196.56}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":63.79},{"corredizaxox":74.82},{"corredizao-xo":55.88},{"corredizao-oxo":55.88},{"corredizaconarco":63.79},{"arcomedialunaconcorrediza":118.62},{"corredizaconarcoao":63.79},{"corredizaconfijoyarcoa-o-o-ox":55.89},{"arcofijoconcorrediza":55.89}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":63.79},{"doble":83.08},{"oxo":212.37},{"o-ox":119.66},{"orioox":63.79},{"dobleorio":83.08},{"conarco":63.78},{"conarcoao":63.78},{"conarcocontinuo":105.24},{"a-oxconarcocontinuo":63.79},{"oxoconarco":204.47},{"doblexoxconarco":212.36},{"doblefijoconarco":204.47}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":106.18},{"circular":106.18},{"octagonal":106.18},{"triangulorectangulo":106.18},{"triánguloisosceles":106.18},{"hexagonal":106.18},{"formaao":106.18},{"formaao-o":0},{"figuraao-o":0},{"arcoao":106.18},{"arcoa-o-o":118.62},{"catedral":106.18},{"arcomedialunafijo":106.18},{"medialunaconunfijo":118.62},{"fijoconarco":55.88},{"figuraao":106.18},{"arcomedialunacon2fijos":140.68},{"arcomedialunacon3fijos":118.62},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Tapis con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":64.93},{"doblefijoapilada":64.94},{"doblefijo":71.77},{"triplefijoapilada":62.23},{"triplefijo":215.61}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":69.45},{"corredizaxox":88.97},{"corredizao-xo":62.23},{"corredizao-oxo":62.23},{"corredizaconarco":69.45},{"arcomedialunaconcorrediza":122.82},{"corredizaconarcoao":69.45},{"corredizaconfijoyarcoa-o-o-ox":62.23},{"arcofijoconcorrediza":62.23}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":69.45},{"doble":109.6},{"oxo":230.04},{"o-ox":131.69},{"orioox":69.45},{"dobleorio":96.91},{"conarco":69.46},{"conarcoao":69.46},{"conarcocontinuo":114.59},{"a-oxconarcocontinuo":69.45},{"oxoconarco":222.84},{"doblexoxconarco":230.05},{"doblefijoconarco":222.84}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":302.33},{"circular":118.25},{"octagonal":118.25},{"triangulorectangulo":118.25},{"triánguloisosceles":118.25},{"hexagonal":118.25},{"formaao":118.25},{"formaao-o":0},{"figuraao-o":0},{"arcoao":118.25},{"arcoa-o-o":122.82},{"catedral":118.25},{"arcomedialunafijo":118.25},{"medialunaconunfijo":122.82},{"fijoconarco":62.23},{"figuraao":118.25},{"arcomedialunacon2fijos":153.38},{"arcomedialunacon3fijos":122.82},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Ultra Fino con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":67.13},{"doblefijoapilada":67.12},{"doblefijo":74.8},{"triplefijoapilada":64.35},{"triplefijo":221.96}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":71.34},{"corredizaxox":93.69},{"corredizao-xo":64.34},{"corredizao-oxo":64.34},{"corredizaconarco":71.34},{"arcomedialunaconcorrediza":123.84},{"corredizaconarcoao":71.34},{"corredizaconfijoyarcoa-o-o-ox":64.35},{"arcofijoconcorrediza":64.35}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":71.34},{"doble":101.51},{"oxo":235.94},{"o-ox":135.68},{"orioox":71.34},{"dobleorio":101.51},{"conarco":71.34},{"conarcoao":71.34},{"conarcocontinuo":117.71},{"a-oxconarcocontinuo":71.34},{"oxoconarco":228.94},{"doblexoxconarco":235.94},{"doblefijoconarco":228.94}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":122.26},{"circular":122.26},{"octagonal":122.26},{"triangulorectangulo":122.26},{"triánguloisosceles":122.26},{"hexagonal":122.26},{"formaao":122.26},{"formaao-o":0},{"figuraao-o":0},{"arcoao":122.26},{"arcoa-o-o":123.84},{"catedral":122.26},{"arcomedialunafijo":122.26},{"medialunaconunfijo":123.84},{"fijoconarco":64.34},{"figuraao":122.26},{"arcomedialunacon2fijos":157.6},{"arcomedialunacon3fijos":123.84},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":75.01},{"doblefijoapilada":75.02},{"doblefijo":85.79},{"triplefijoapilada":71.91},{"triplefijo":244.61}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":78.03},{"corredizaxox":110.55},{"corredizao-xo":71.9},{"corredizao-oxo":71.9},{"corredizaconarco":78.03},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":78.03},{"corredizaconfijoyarcoa-o-o-ox":71.9},{"arcofijoconcorrediza":71.9}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":78.03},{"doble":117.96},{"oxo":256.88},{"o-ox":149.93},{"orioox":78.03},{"dobleorio":117.96},{"conarco":78.03},{"conarcoao":78.03},{"conarcocontinuo":128.76},{"a-oxconarcocontinuo":78.03},{"oxoconarco":250.75},{"doblexoxconarco":256.8},{"doblefijoconarco":250.72}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":136.6},{"circular":136.6},{"octagonal":136.6},{"triangulorectangulo":136.6},{"triánguloisosceles":136.6},{"hexagonal":136.6},{"formaao":136.6},{"formaao-o":0},{"figuraao-o":0},{"arcoao":136.6},{"arcoa-o-o":130.83},{"catedral":136.6},{"arcomedialunafijo":136.6},{"medialunaconunfijo":130.83},{"fijoconarco":71.9},{"figuraao":136.6},{"arcomedialunacon2fijos":172.7},{"arcomedialunacon3fijos":130.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / FiltraSol con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":6.44},{"doblefijoapilada":76.44},{"doblefijo":87.58},{"triplefijoapilada":73.26},{"triplefijo":248.7}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":79.26},{"corredizaxox":113.6},{"corredizao-xo":73.26},{"corredizao-oxo":73.26},{"corredizaconarco":79.25},{"arcomedialunaconcorrediza":129.4},{"corredizaconarcoao":79.25},{"corredizaconfijoyarcoa-o-o-ox":73.26},{"arcofijoconcorrediza":73.26}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":79.26},{"doble":120.94},{"oxo":260.69},{"o-ox":152.52},{"orioox":0},{"dobleorio":120.94},{"conarco":79.26},{"conarcoao":79.26},{"conarcocontinuo":130.78},{"a-oxconarcocontinuo":79.25},{"oxoconarco":254.69},{"doblexoxconarco":260.69},{"doblefijoconarco":254.69}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":139.21},{"circular":139.2},{"octagonal":139.2},{"triangulorectangulo":139.2},{"triánguloisosceles":139.2},{"hexagonal":139.2},{"formaao":139.2},{"formaao-o":0},{"figuraao-o":0},{"arcoao":139.2},{"arcoa-o-o":129.4},{"catedral":139.2},{"arcomedialunafijo":139.2},{"medialunaconunfijo":129.4},{"fijoconarco":73.26},{"figuraao":139.2},{"arcomedialunacon2fijos":175.44},{"arcomedialunacon3fijos":129.4},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Baño UF con marginal",
+                  "img": "../../img/vidrio_dob_marginal.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":0},{"doblefijoapilada":0},{"doblefijo":0},{"triplefijoapilada":0},{"triplefijo":0}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":0},{"corredizaxox":0},{"corredizao-xo":0},{"corredizao-oxo":0},{"corredizaconarco":0},{"arcomedialunaconcorrediza":0},{"corredizaconarcoao":0},{"corredizaconfijoyarcoa-o-o-ox":0},{"arcofijoconcorrediza":0}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":0},{"doble":0},{"oxo":0},{"o-ox":0},{"orioox":0},{"dobleorio":0},{"conarco":0},{"conarcoao":0},{"conarcocontinuo":0},{"a-oxconarcocontinuo":0},{"oxoconarco":0},{"doblexoxconarco":0},{"doblefijoconarco":0}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":0},{"circular":0},{"octagonal":0},{"triangulorectangulo":0},{"triánguloisosceles":0},{"hexagonal":0},{"formaao":0},{"formaao-o":0},{"figuraao-o":0},{"arcoao":0},{"arcoa-o-o":0},{"catedral":0},{"arcomedialunafijo":0},{"medialunaconunfijo":0},{"fijoconarco":0},{"figuraao":0},{"arcomedialunacon2fijos":0},{"arcomedialunacon3fijos":0},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "nombre": "Vidrio doble con cuadricula",
+          "img": "../../img/vidrio_dob_cuadricula.png",
+          "tipos": [
+              {
+                  "nombre": "Claro con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":56.88},{"doblefijoapilada":56.88},{"doblefijo":61.04},{"triplefijoapilada":54.52},{"triplefijo":192.47}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":62.57},{"corredizaxox":71.77},{"corredizao-xo":54.52},{"corredizao-oxo":54.52},{"corredizaconarco":50.45},{"arcomedialunaconcorrediza":117.83},{"corredizaconarcoao":62.56},{"corredizaconfijoyarcoa-o-o-ox":54.52},{"arcofijoconcorrediza":54.52}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":62.57},{"doble":80.09},{"oxo":208.55},{"o-ox":117.08},{"orioox":62.57},{"dobleorio":80.09},{"conarco":62.56},{"conarcoao":62.56},{"conarcocontinuo":103.22},{"a-oxconarcocontinuo":62.56},{"oxoconarco":200.51},{"doblexoxconarco":208.54},{"doblefijoconarco":200.51}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":103.58},{"circular":103.59},{"octagonal":103.59},{"triangulorectangulo":103.59},{"triánguloisosceles":103.59},{"hexagonal":103.59},{"formaao":103.59},{"formaao-o":0},{"figuraao-o":0},{"arcoao":103.59},{"arcoa-o-o":117.83},{"catedral":103.59},{"arcomedialunafijo":103.59},{"medialunaconunfijo":117.83},{"fijoconarco":103.59},{"figuraao":54.52},{"arcomedialunacon2fijos":137.95},{"arcomedialunacon3fijos":117.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E con cuadricula",
+                  "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":60.37},{"doblefijoapilada":62.36},{"doblefijo":66.07},{"triplefijoapilada":57.87},{"triplefijo":202.51}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":65.54},{"corredizaxox":79.2},{"corredizao-xo":57.87},{"corredizao-oxo":57.87},{"corredizaconarco":55.98},{"arcomedialunaconcorrediza":120.04},{"corredizaconarcoao":65.54},{"corredizaconfijoyarcoa-o-o-ox":57.87},{"arcofijoconcorrediza":57.87}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":65.54},{"doble":87.33},{"oxo":217.87},{"o-ox":123.42},{"orioox":65.54},{"dobleorio":87.33},{"conarco":65.55},{"conarcoao":65.55},{"conarcocontinuo":108.15},{"a-oxconarcocontinuo":65.54},{"oxoconarco":210.18},{"doblexoxconarco":217.87},{"doblefijoconarco":210.18}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":109.95},{"circular":109.94},{"octagonal":109.94},{"triangulorectangulo":109.94},{"triánguloisosceles":109.94},{"hexagonal":109.94},{"formaao":109.94},{"formaao-o":0},{"figuraao-o":0},{"arcoao":109.94},{"arcoa-o-o":120.04},{"catedral":109.94},{"arcomedialunafijo":109.94},{"medialunaconunfijo":120.04},{"fijoconarco":109.94},{"figuraao":57.87},{"arcomedialunacon2fijos":144.64},{"arcomedialunacon3fijos":120.04},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Claro / Baño Tapis con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":63.5},{"doblefijoapilada":63.5},{"doblefijo":69.97},{"triplefijoapilada":60.87},{"triplefijo":211.5}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":68.23},{"corredizaxox":85.93},{"corredizao-xo":60.87},{"corredizao-oxo":60.87},{"corredizaconarco":57.82},{"arcomedialunaconcorrediza":122.04},{"corredizaconarcoao":68.23},{"corredizaconfijoyarcoa-o-o-ox":60.87},{"arcofijoconcorrediza":60.87}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":68.23},{"doble":93.92},{"oxo":226.5},{"o-ox":129.1},{"orioox":68.23},{"dobleorio":93.92},{"conarco":68.23},{"conarcoao":68.23},{"conarcocontinuo":112.57},{"a-oxconarcocontinuo":68.22},{"oxoconarco":218.87},{"doblexoxconarco":226.23},{"doblefijoconarco":218.87}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":115.65},{"circular":115.65},{"octagonal":115.65},{"triangulorectangulo":115.65},{"triánguloisosceles":115.65},{"hexagonal":115.65},{"formaao":115.65},{"formaao-o":0},{"figuraao-o":0},{"arcoao":115.65},{"arcoa-o-o":122.04},{"catedral":115.65},{"arcomedialunafijo":115.65},{"medialunaconunfijo":122.04},{"fijoconarco":60.87},{"figuraao":115.65},{"arcomedialunacon2fijos":150.64},{"arcomedialunacon3fijos":122.04},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+                 {
+                  "nombre": "Claro / Baño Ultra Fino con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":65.71},{"doblefijoapilada":65.72},{"doblefijo":73},{"triplefijoapilada":62.97},{"triplefijo":217.85}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":70.12},{"corredizaxox":90.64},{"corredizao-xo":62.98},{"corredizao-oxo":62.98},{"corredizaconarco":70.12},{"arcomedialunaconcorrediza":123.06},{"corredizaconarcoao":70.12},{"corredizaconfijoyarcoa-o-o-ox":62.98},{"arcofijoconcorrediza":62.98}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":70.12},{"doble":98.52},{"oxo":232.12},{"o-ox":133.1},{"orioox":70.12},{"dobleorio":98.52},{"conarco":70.12},{"conarcoao":70.12},{"conarcocontinuo":115.69},{"a-oxconarcocontinuo":70.12},{"oxoconarco":224.99},{"doblexoxconarco":232.12},{"doblefijoconarco":224.99}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":119.66},{"circular":119.66},{"octagonal":119.66},{"triangulorectangulo":119.66},{"triánguloisosceles":119.66},{"hexagonal":119.66},{"formaao":119.66},{"formaao-o":0},{"figuraao-o":0},{"arcoao":119.66},{"arcoa-o-o":123.06},{"catedral":119.66},{"arcomedialunafijo":119.66},{"medialunaconunfijo":123.06},{"fijoconarco":62.98},{"figuraao":119.66},{"arcomedialunacon2fijos":154.87},{"arcomedialunacon3fijos":123.06},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Tapis con cuadricula",
+                  "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":66.99},{"doblefijoapilada":67},{"doblefijo":74.99},{"triplefijoapilada":64.21},{"triplefijo":221.54}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":71.19},{"corredizaxox":93.35},{"corredizao-xo":64.21},{"corredizao-oxo":64.21},{"corredizaconarco":71.22},{"arcomedialunaconcorrediza":124.24},{"corredizaconarcoao":71.22},{"corredizaconfijoyarcoa-o-o-ox":64.21},{"arcofijoconcorrediza":64.21}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":71.19},{"doble":101.16},{"oxo":235.55},{"o-ox":135.42},{"orioox":71.22},{"dobleorio":101.16},{"conarco":71.21},{"conarcoao":71.21},{"conarcocontinuo":117.5},{"a-oxconarcocontinuo":71.21},{"oxoconarco":228.54},{"doblexoxconarco":235.55},{"doblefijoconarco":228.54}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":122},{"circular":122},{"octagonal":122},{"triangulorectangulo":122},{"triánguloisosceles":122},{"hexagonal":122},{"formaao":122},{"formaao-o":0},{"figuraao-o":0},{"arcoao":122},{"arcoa-o-o":124.24},{"catedral":122},{"arcomedialunafijo":122},{"medialunaconunfijo":124.24},{"fijoconarco":64.21},{"figuraao":122},{"arcomedialunacon2fijos":157.33},{"arcomedialunacon3fijos":124.24},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / Baño Ultra Fino con cuadricula",
+                  "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":69.2},{"doblefijoapilada":69.18},{"doblefijo":78.02},{"triplefijoapilada":66.33},{"triplefijo":227.89}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":73.1},{"corredizaxox":98.06},{"corredizao-xo":66.33},{"corredizao-oxo":66.33},{"corredizaconarco":73.1},{"arcomedialunaconcorrediza":125.27},{"corredizaconarcoao":73.1},{"corredizaconfijoyarcoa-o-o-ox":66.33},{"arcofijoconcorrediza":66.33}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":73.1},{"doble":105.76},{"oxo":241.44},{"o-ox":139.43},{"orioox":73.1},{"dobleorio":105.76},{"conarco":73.1},{"conarcoao":73.1},{"conarcocontinuo":120.62},{"a-oxconarcocontinuo":73.1},{"oxoconarco":234.67},{"doblexoxconarco":241.44},{"doblefijoconarco":234.67}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":126.02},{"circular":126.02},{"octagonal":126.02},{"triangulorectangulo":126.02},{"triánguloisosceles":126.02},{"hexagonal":126.02},{"formaao":126.02},{"formaao-o":0},{"figuraao-o":0},{"arcoao":126.02},{"arcoa-o-o":125.27},{"catedral":126.02},{"arcomedialunafijo":126.02},{"medialunaconunfijo":125.27},{"fijoconarco":66.33},{"figuraao":126.02},{"arcomedialunacon2fijos":161.56},{"arcomedialunacon3fijos":125.27},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / FiltraSol con cuadricula",
+                  "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":61.8},{"doblefijoapilada":61.8},{"doblefijo":67.86},{"triplefijoapilada":59.23},{"triplefijo":206.6}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":66.77},{"corredizaxox":82.25},{"corredizao-xo":59.24},{"corredizao-oxo":59.24},{"corredizaconarco":66.77},{"arcomedialunaconcorrediza":120.83},{"corredizaconarcoao":66.77},{"corredizaconfijoyarcoa-o-o-ox":59.24},{"arcofijoconcorrediza":59.24}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":66.77},{"doble":90.32},{"oxo":221.69},{"o-ox":126.01},{"orioox":66.77},{"dobleorio":90.32},{"conarco":66.77},{"conarcoao":66.77},{"conarcocontinuo":110.17},{"a-oxconarcocontinuo":66.77},{"oxoconarco":214.14},{"doblexoxconarco":221.68},{"doblefijoconarco":214.14}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":112.54},{"circular":112.54},{"octagonal":112.54},{"triangulorectangulo":112.54},{"triánguloisosceles":112.54},{"hexagonal":112.54},{"formaao":112.54},{"formaao-o":0},{"figuraao-o":0},{"arcoao":112.54},{"arcoa-o-o":120.83},{"catedral":112.54},{"arcomedialunafijo":112.54},{"medialunaconunfijo":120.83},{"fijoconarco":59.24},{"figuraao":112.54},{"arcomedialunacon2fijos":147.37},{"arcomedialunacon3fijos":120.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "Low-E / ReflecteSol con cuadricula",
+                  "img": "../../img/vidrio_dob_lowe_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":78.5},{"doblefijoapilada":78.5},{"doblefijo":90.81},{"triplefijoapilada":75.25},{"triplefijo":254.64}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":81.02},{"corredizaxox":117.98},{"corredizao-xo":75.25},{"corredizao-oxo":75.25},{"corredizaconarco":81.02},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":81.02},{"corredizaconfijoyarcoa-o-o-ox":75.24},{"arcofijoconcorrediza":75.24}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":81.02},{"doble":125.19},{"oxo":266.18},{"o-ox":156.27},{"orioox":81.02},{"dobleorio":125.19},{"conarco":81.01},{"conarcoao":81.01},{"conarcocontinuo":133.67},{"a-oxconarcocontinuo":81.02},{"oxoconarco":260.61},{"doblexoxconarco":266.18},{"doblefijoconarco":260.41}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":142.96},{"circular":142.96},{"octagonal":142.96},{"triangulorectangulo":142.96},{"triánguloisosceles":142.96},{"hexagonal":142.96},{"formaao":142.96},{"formaao-o":0},{"figuraao-o":0},{"arcoao":142.96},{"arcoa-o-o":130.83},{"catedral":142.96},{"arcomedialunafijo":142.96},{"medialunaconunfijo":130.83},{"fijoconarco":75.25},{"figuraao":142.96},{"arcomedialunacon2fijos":179.39},{"arcomedialunacon3fijos":130.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Claro con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":58.3},{"doblefijoapilada":58.3},{"doblefijo":62.84},{"triplefijoapilada":55.88},{"triplefijo":196.56}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":63.79},{"corredizaxox":74.82},{"corredizao-xo":55.88},{"corredizao-oxo":55.88},{"corredizaconarco":63.79},{"arcomedialunaconcorrediza":118.62},{"corredizaconarcoao":63.79},{"corredizaconfijoyarcoa-o-o-ox":55.89},{"arcofijoconcorrediza":55.89}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":63.79},{"doble":83.08},{"oxo":212.37},{"o-ox":119.66},{"orioox":63.79},{"dobleorio":83.08},{"conarco":63.78},{"conarcoao":63.78},{"conarcocontinuo":105.24},{"a-oxconarcocontinuo":63.79},{"oxoconarco":204.47},{"doblexoxconarco":212.36},{"doblefijoconarco":204.47}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":106.18},{"circular":106.18},{"octagonal":106.18},{"triangulorectangulo":106.18},{"triánguloisosceles":106.18},{"hexagonal":106.18},{"formaao":106.18},{"formaao-o":0},{"figuraao-o":0},{"arcoao":106.18},{"arcoa-o-o":118.62},{"catedral":106.18},{"arcomedialunafijo":106.18},{"medialunaconunfijo":118.62},{"fijoconarco":55.88},{"figuraao":106.18},{"arcomedialunacon2fijos":140.68},{"arcomedialunacon3fijos":118.62},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Tapis con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":64.93},{"doblefijoapilada":64.94},{"doblefijo":71.77},{"triplefijoapilada":62.23},{"triplefijo":215.61}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":69.45},{"corredizaxox":88.97},{"corredizao-xo":62.23},{"corredizao-oxo":62.23},{"corredizaconarco":69.45},{"arcomedialunaconcorrediza":122.82},{"corredizaconarcoao":69.45},{"corredizaconfijoyarcoa-o-o-ox":62.23},{"arcofijoconcorrediza":62.23}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":69.45},{"doble":109.6},{"oxo":230.04},{"o-ox":131.69},{"orioox":69.45},{"dobleorio":96.91},{"conarco":69.46},{"conarcoao":69.46},{"conarcocontinuo":114.59},{"a-oxconarcocontinuo":69.45},{"oxoconarco":222.84},{"doblexoxconarco":230.05},{"doblefijoconarco":222.84}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":302.33},{"circular":118.25},{"octagonal":118.25},{"triangulorectangulo":118.25},{"triánguloisosceles":118.25},{"hexagonal":118.25},{"formaao":118.25},{"formaao-o":0},{"figuraao-o":0},{"arcoao":118.25},{"arcoa-o-o":122.82},{"catedral":118.25},{"arcomedialunafijo":118.25},{"medialunaconunfijo":122.82},{"fijoconarco":62.23},{"figuraao":118.25},{"arcomedialunacon2fijos":153.38},{"arcomedialunacon3fijos":122.82},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "FiltraSol / Baño Ultra Fino con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":67.13},{"doblefijoapilada":67.12},{"doblefijo":74.8},{"triplefijoapilada":64.35},{"triplefijo":221.96}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":71.34},{"corredizaxox":93.69},{"corredizao-xo":64.34},{"corredizao-oxo":64.34},{"corredizaconarco":71.34},{"arcomedialunaconcorrediza":123.84},{"corredizaconarcoao":71.34},{"corredizaconfijoyarcoa-o-o-ox":64.35},{"arcofijoconcorrediza":64.35}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":71.34},{"doble":101.51},{"oxo":235.94},{"o-ox":135.68},{"orioox":71.34},{"dobleorio":101.51},{"conarco":71.34},{"conarcoao":71.34},{"conarcocontinuo":117.71},{"a-oxconarcocontinuo":71.34},{"oxoconarco":228.94},{"doblexoxconarco":235.94},{"doblefijoconarco":228.94}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":122.26},{"circular":122.26},{"octagonal":122.26},{"triangulorectangulo":122.26},{"triánguloisosceles":122.26},{"hexagonal":122.26},{"formaao":122.26},{"formaao-o":0},{"figuraao-o":0},{"arcoao":122.26},{"arcoa-o-o":123.84},{"catedral":122.26},{"arcomedialunafijo":122.26},{"medialunaconunfijo":123.84},{"fijoconarco":64.34},{"figuraao":122.26},{"arcomedialunacon2fijos":157.6},{"arcomedialunacon3fijos":123.84},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Claro con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":75.01},{"doblefijoapilada":75.02},{"doblefijo":85.79},{"triplefijoapilada":71.91},{"triplefijo":244.61}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":78.03},{"corredizaxox":110.55},{"corredizao-xo":71.9},{"corredizao-oxo":71.9},{"corredizaconarco":78.03},{"arcomedialunaconcorrediza":130.83},{"corredizaconarcoao":78.03},{"corredizaconfijoyarcoa-o-o-ox":71.9},{"arcofijoconcorrediza":71.9}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":78.03},{"doble":117.96},{"oxo":256.88},{"o-ox":149.93},{"orioox":78.03},{"dobleorio":117.96},{"conarco":78.03},{"conarcoao":78.03},{"conarcocontinuo":128.76},{"a-oxconarcocontinuo":78.03},{"oxoconarco":250.75},{"doblexoxconarco":256.8},{"doblefijoconarco":250.72}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":136.6},{"circular":136.6},{"octagonal":136.6},{"triangulorectangulo":136.6},{"triánguloisosceles":136.6},{"hexagonal":136.6},{"formaao":136.6},{"formaao-o":0},{"figuraao-o":0},{"arcoao":136.6},{"arcoa-o-o":130.83},{"catedral":136.6},{"arcomedialunafijo":136.6},{"medialunaconunfijo":130.83},{"fijoconarco":71.9},{"figuraao":136.6},{"arcomedialunacon2fijos":172.7},{"arcomedialunacon3fijos":130.83},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / FiltraSol con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":6.44},{"doblefijoapilada":76.44},{"doblefijo":87.58},{"triplefijoapilada":73.26},{"triplefijo":248.7}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":79.26},{"corredizaxox":113.6},{"corredizao-xo":73.26},{"corredizao-oxo":73.26},{"corredizaconarco":79.25},{"arcomedialunaconcorrediza":129.4},{"corredizaconarcoao":79.25},{"corredizaconfijoyarcoa-o-o-ox":73.26},{"arcofijoconcorrediza":73.26}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":79.26},{"doble":120.94},{"oxo":260.69},{"o-ox":152.52},{"orioox":0},{"dobleorio":120.94},{"conarco":79.26},{"conarcoao":79.26},{"conarcocontinuo":130.78},{"a-oxconarcocontinuo":79.25},{"oxoconarco":254.69},{"doblexoxconarco":260.69},{"doblefijoconarco":254.69}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":139.21},{"circular":139.2},{"octagonal":139.2},{"triangulorectangulo":139.2},{"triánguloisosceles":139.2},{"hexagonal":139.2},{"formaao":139.2},{"formaao-o":0},{"figuraao-o":0},{"arcoao":139.2},{"arcoa-o-o":129.4},{"catedral":139.2},{"arcomedialunafijo":139.2},{"medialunaconunfijo":129.4},{"fijoconarco":73.26},{"figuraao":139.2},{"arcomedialunacon2fijos":175.44},{"arcomedialunacon3fijos":129.4},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              },
+              {
+                  "nombre": "ReflecteSol / Baño UF con cuadricula",
+                  "img": "../../img/vidrio_dob_cuadricula.png",
+                  "precio":[
+                      {
+                          "tipo": "fijo",
+                          "tipos" : [{"fijo":0},{"doblefijoapilada":0},{"doblefijo":0},{"triplefijoapilada":0},{"triplefijo":0}]
+                      },
+                      {
+                          "tipo": "corrediza",
+                          "tipos": [{"corrediza":0},{"corredizaxox":0},{"corredizao-xo":0},{"corredizao-oxo":0},{"corredizaconarco":0},{"arcomedialunaconcorrediza":0},{"corredizaconarcoao":0},{"corredizaconfijoyarcoa-o-o-ox":0},{"arcofijoconcorrediza":0}]
+                      },
+                      {
+                          "tipo" : "guillotina",
+                          "tipos": [{"guillotina":0},{"doble":0},{"oxo":0},{"o-ox":0},{"orioox":0},{"dobleorio":0},{"conarco":0},{"conarcoao":0},{"conarcocontinuo":0},{"a-oxconarcocontinuo":0},{"oxoconarco":0},{"doblexoxconarco":0},{"doblefijoconarco":0}]
+                      },
+                      {
+                          "tipo": "arcosyfiguras",
+                          "tipos": [{"arco":0},{"circular":0},{"octagonal":0},{"triangulorectangulo":0},{"triánguloisosceles":0},{"hexagonal":0},{"formaao":0},{"formaao-o":0},{"figuraao-o":0},{"arcoao":0},{"arcoa-o-o":0},{"catedral":0},{"arcomedialunafijo":0},{"medialunaconunfijo":0},{"fijoconarco":0},{"figuraao":0},{"arcomedialunacon2fijos":0},{"arcomedialunacon3fijos":0},{"arcoaooocon3fijos":0}]
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "tipo": [
+      {
+          "nombre": "Fijo",
+          "img": "../../img/Fijo.png",
+          "subtipo": [
+              {
+                  "nombre": "Fijo",
+                  "img": "../../img/Fijo.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "80" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Fija"]
+                  }
+              },
+              {
+                  "nombre": "Doble fijo apilada",
+                  "img": "../../img/DobleFijoApilado(Serie40).png",
+                  "formula": "((An + Al / 2) * PV) * 2 + calcularTMullion(An)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "23" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Fija"]
+                  }
+              },
+              {
+                  "nombre": "Triple fijo apilada",
+                  "img": "../../img/TripleFijaApilada(Serie40).png",
+                  "formula": "((An + Al / 3) * PV) * 3 + calcularTMullion(An)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "108" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "34.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Fija"]
+                  }
+              },
+              {
+                  "nombre": "Doble fijo",
+                  "img": "../../img/DobleFija(serie40).png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "23", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Fija"]
+                  }
+              },
+              {
+                  "nombre": "Triple fijo ",
+                  "img": "../../img/TripleFija(Serie40).png",
+                  "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(Al)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
+                      { "nombre": "Mínimo", "ancho": "108", "alto": "72" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Fija"]
+                  }
+              }
+          ]
+      },
+      {
+          "nombre": "Corrediza",
+          "img": "../../img/Corrediza.png",
+          "subtipo": [
+              {
+                  "nombre": "Corrediza",
+                  "img": "../../img/Corrediza.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Corrediza"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza XOX  1/4 2/4 1/4",
+                  "img": "../../img/CorredizaXOX(Serie40).png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "108", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Corrediza XOX"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza XOX  1/3 1/3 1/3",
+                  "img": "../../img/CorredizaXOX(Serie40)1-3.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "108", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Corrediza XOX"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza O-XO",
+                  "img": "../../img/CorredizaO-XO.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la ventana corrediza",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Corrediza"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza O-XOX",
+                  "img": "../../img/CorredizaO-XOX.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "36", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la ventana corrediza",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Corrediza XOX"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza con arco",
+                  "img": "../../img/CorredizaconArco.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "94" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Arco", "Corrediza"]
+                  }
+              },
+              {
+                  "nombre": "Arco media luna con corrediza",
+                  "img": "../../img/ArcoMediaLunaconCorrediza.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "24" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la ventana corrediza",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 12",
+                    "preciosVidrio": ["Arco", "Corrediza"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza con Arco AO",
+                  "img": "../../img/CorredizaconArcoAO.png",
+                  "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Arco", "Corrediza"]
+                  }
+              },
+              {
+                  "nombre": "Corrediza con Fijo y Arco A-O-XO",
+                  "img": "../../img/CorredizaconFijoyArcoA-O-XO.png",
+                  "formula": "",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "23.5", "alto": "34.5" },
+                      { "nombre": "Mínimo", "ancho": "68", "alto": "96" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 12",
+                    "preciosVidrio": [""]
+                  }
+              },
+              {
+                  "nombre": "Arco Fijo con Corrediza",
+                  "img": "../../img/ArcoyFijoconCorrediza.png",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "34.5" }
+                  ]
+              }
+          ]
+      },
+      {
+          "nombre": "Guillotina",
+          "img": "../../img/Guillotina.png",
+          "subtipo": [
+              {
+                  "nombre": "Guillotina",
+                  "img": "../../img/Guillotina.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "17.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "Doble",
+                  "img": "../../img/DobleGuillotina.png",
+                  "titulo": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "17.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Doble Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "OXO",
+                  "img": "../../img/GuillotinaOXO.png",
+                  "formula": "(((An - An2) / 2 + Al) * PV) * 2 + (An2 + Al) * PV2 + calcularTMullion(Al)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Ancho de la guillotina",
+                    "minimo": "11.5",
+                    "formulaMaximo": "An - 13",
+                    "preciosVidrio": ["Fija", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "XOX",
+                  "img": "../../img/GuillotinaXOX.png",
+                  "formula": "(An - (An2 * 2) + Al) * PV + ((An2 + Al) * PV2) * 2 + calcularTMullion(Al)",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Ancho de las guillotinas",
+                    "minimo": "11.5",
+                    "formulaMaximo": "(An - 11.5) / 2",
+                    "preciosVidrio": ["Fija", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "O-OX",
+                  "img": "../../img/GuillotinaO-OX.png",
+                  "formula": "((An - An2) + Al) * PV + (An2 + Al) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "17.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Ancho de la guillotina",
+                    "minimo": "11.5",
+                    "formulaMaximo": "An - 11.5",
+                    "preciosVidrio": ["Fija", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "Orio OX",
+                  "img": "../../img/GuillotinaOrioOX.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "84" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Guillotina Orio OX"]
+                  }
+              },
+              {
+                  "nombre": "Doble Orio",
+                  "img": "../../img/DobleGuillotinaOrio.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "96", "alto": "84" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Doble Guillotina Orio"]
+                  }
+              },
+              {
+                  "nombre": "Con Arco",
+                  "img": "../../img/GuillotinaconArco.png",
+                  "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "11.75",
+                    "formulaMaximo": "Al - 17.5",
+                    "preciosVidrio": ["Arco", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "Con Arco AO",
+                  "img": "../../img/GuillotinaconArcoAO.png",
+                  "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "84" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "11.75",
+                    "formulaMaximo": "Al - 17.5",
+                    "preciosVidrio": ["Arco", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "Con Arco Continuo",
+                  "img": "../../img/GuillotinaConArcoContinuo.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "84" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Guillotina con Arco Continuo"]
+                  }
+              },
+              {
+                  "nombre": "A-OX con Arco Continuo",
+                  "img": "../../img/GuillotinaA-OXconArcoContinuo.png",
+                  "formula": "(An + Al2) * PV + (An + Al - Al2) * PV2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "48", "alto": "84" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "23.5",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Arco", "Guillotina"]
+                  }
+              },
+              {
+                  "nombre": "OXO con Arco",
+                  "img": "../../img/GuillotinaOXOconArco.png",
+                  "formula": "",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "",
+                    "minimo": "",
+                    "formulaMaximo": "",
+                    "preciosVidrio": [""]
+                  }
+              },
+              {
+                  "nombre": "Doble XOX con Arco",
+                  "img": "../../img/DoubleGuillotinaXOXconArco.png",
+                  "formula": "",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "",
+                    "minimo": "",
+                    "formulaMaximo": "",
+                    "preciosVidrio": [""]
+                  }
+              },
+              {
+                  "nombre": "Doble Fijo con Arco",
+                  "img": "../../img/GuillotinaDobleFijoconArco.png",
+                  "formula": "",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "",
+                    "minimo": "",
+                    "formulaMaximo": "",
+                    "preciosVidrio": [""]
+                  }
+              },
+              {
+                  "nombre": "Fijo con doble Guillotina y Arco",
+                  "img": "../../img/FijoconDobleGuillotinayArco.png",
+                  "formula": "",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "35" }
+                  ],
+                  "extra": {
+                    "titulo": "",
+                    "minimo": "",
+                    "formulaMaximo": "",
+                    "preciosVidrio": [""]
+                  }
+              }
+          ]
+      },
+      {
+          "nombre": "Arcos y figuras",
+          "img": "../../img/ArcosyFiguras.png",
+          "subtipo": [
+              {
+                  "nombre": "Triángulo isosceles",
+                  "img": "../../img/TrianguloIsosceles.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Forma AO",
+                  "img": "../../img/FormaAO.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "60", "alto": "80" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la forma",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 13",
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Hexagonal",
+                  "img": "../../img/Hexagonal.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Octagonal",
+                  "img": "../../img/Octagonal.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Triángulo rectángulo",
+                  "img": "../../img/TrianguloRectangulo.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Forma AO-O",
+                  "img": "../../img/FormaAO-O.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "35.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la forma",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Figura AO",
+                  "img": "../../img/FiguraAO.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la forma",
+                    "minimo": "1",
+                    "formulaMaximo": "Al - 15",
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Figura AO-O",
+                  "img": "../../img/FiguraAO-O.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "11.5", "alto": "35.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto de la forma",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Circular",
+                  "img": "../../img/Circular.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "60", "alto": "60" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco",
+                  "img": "../../img/Arco.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "34" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "11.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco media luna fijo",
+                  "img": "../../img/ArcoMediaLunaFijo.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "15" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Media luna con un fijo",
+                  "img": "../../img/MediaLunacon1Fijo.png",
+                  "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(An) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "94" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del traslapo",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.75",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco A-O-O",
+                  "img": "../../img/ArcoA-O-O.png",
+                  "formula": "(((An / 2) + Al2) * PV) * 2 + (An + (Al - Al2)) * PV2 + calcularTMullion(An / 2 + Al2) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del traslapo",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.75",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco media luna 3 fijos",
+                  "img": "../../img/ArcoMediaLunacon3Fijos.png",
+                  "formula": "(((An / 3) + Al2) * PV) * 3 + (An + (Al - Al2)) * PV2 + calcularTMullion(An + (Al - Al2)) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "68", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del traslapo",
+                    "minimo": "11.5",
+                    "formulaMaximo": "Al - 11.75",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco AO",
+                  "img": "../../img/ArcoAO.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "12" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              },
+              {
+                  "nombre": "Fijo con arco",
+                  "img": "../../img/FijoConArco.png",
+                  "formula": "(An + (Al - Al2)) * PV + (An + Al) * PV2 + calcularTMullion(An) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco media luna con 2 fijos",
+                  "img": "../../img/ArcoMediaLunacon2Fijos.png",
+                  "formula": "((An / 2 + (Al - Al2)) * PV) * 2 + (An + Al2) * PV2 + calcularTMullion(An + Al2) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "23.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Arco AOOO luna con 3 fijos",
+                  "img": "../../img/ArcoAOOOcon3Fijos.png",
+                  "formula": "(((An / 3) + (Al - Al2)) * PV ) * 3 + (An + Al2) * PV2 + calcularTMullion(An + Al) / 2",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                      { "nombre": "Mínimo", "ancho": "34.5", "alto": "23.5" }
+                  ],
+                  "extra": {
+                    "titulo": "Alto del arco",
+                    "minimo": "2",
+                    "formulaMaximo": "Al - 11.5",
+                    "preciosVidrio": ["Fija", "Arco"]
+                  }
+              },
+              {
+                  "nombre": "Catedral",
+                  "img": "../../img/Catedral.png",
+                  "formula": "(An + Al) * PV",
+                  "dimensiones": [
+                      { "nombre": "Máximo", "ancho": "60", "alto": "72" },
+                      { "nombre": "Mínimo", "ancho": "15.5", "alto": "32.5" }
+                  ],
+                  "extra": {
+                    "preciosVidrio": ["Arco"]
+                  }
+              }
+          ]
+      }
+  ],
+  "colores": [
+  {
+    "nombre": "Blanco",
+    "img": "../../img/Blanco.png",
+    "color": [ 
+      {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+      {"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+    ]
+  },
+  {
+    "nombre": "Clay",
+    "img": "../../img/Clay.png",
+    "color": [ 
+      {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Cranberry","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Charcoal Gray","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Azul","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Rojo Caliente","precioExterior": 1872.50,"precioInterior":3744.99},
+      {"nombre": "Metallic Silver","precioExterior": 3744.99,"precioInterior":7489.99},
+      {"nombre": "Wicker","precioExterior": 1872.50,"precioInterior":3744.99}
+    ]
+  }
+]
+}

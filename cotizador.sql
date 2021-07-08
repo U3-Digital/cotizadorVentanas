@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-07-2021 a las 21:12:47
+-- Tiempo de generación: 08-07-2021 a las 02:17:39
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.8
 
@@ -39,21 +39,7 @@ CREATE TABLE `cotizaciones` (
 --
 
 INSERT INTO `cotizaciones` (`idCotizacion`, `ventana`, `cliente`, `fecha`) VALUES
-(11, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"5\",\"precio\":2302.08,\"total\":11510.4}', 'Pedic', '2021-05-24'),
-(14, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Azul\",\"numeroVentanas\":\"2\",\"precio\":4174.58,\"total\":8349.16}', 'Pedic 3', '2021-05-24'),
-(16, '{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/4 2/4 1/4\",\"dimensionAncho\":\"41\",\"dimensionAlto\":\"41\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Low-E\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":0,\"total\":0}', 'cosa', '2021-05-29'),
-(17, '{\"serie\":\"Básica\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza OX-O\",\"dimensionAncho\":\"32\",\"dimensionAlto\":\"32\",\"tipoVidrio\":\"Vidrio doble con marginal\",\"subtipoVidrio\":\"Low-E / Baño con marginal\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Clay\",\"numeroVentanas\":\"1\",\"precio\":4135.04,\"total\":4135.04}', 'nombre', '2021-05-29'),
-(18, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":2302.08,\"total\":2302.08}', 'color', '2021-05-29'),
-(19, '{\"serie\":\"Plus\",\"tipoVentana\":\"Fijo\",\"subtipoVentana\":\"Fijo\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Claro / Baño Tapis\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":5668.799999999999,\"total\":5668.8}', 'cliente', '2021-05-29'),
-(20, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Claro / Baño\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":4200.96,\"total\":4200.96}', 'eric', '2021-05-29'),
-(21, '{\"serie\":\"Plus\",\"tipoVentana\":\"Arcos y figuras\",\"subtipoVentana\":\"Octagonal\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":7870.08,\"total\":7870.08}', 'nombre', '2021-05-29'),
-(22, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":2302.08,\"total\":2302.08}', 'eric', '2021-05-29'),
-(23, '{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/3 1/3 1/3\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Claro / Baño Tapis\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":0,\"total\":0}', 'Eric|', '2021-05-31'),
-(24, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio doble con marginal\",\"subtipoVidrio\":\"Claro / Baño con marginal\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":4775.04,\"total\":4775.04}', '', '2021-05-31'),
-(25, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Baño\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":2759.04,\"total\":2759.04}', ' Pazito', '2021-05-31'),
-(26, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Claro / Baño\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"3\",\"precio\":4200.96,\"total\":12602.88}', 'eric', '2021-06-04'),
-(27, '{\"serie\":\"Básica\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Rojo Caliente\",\"numeroVentanas\":\"7\",\"precio\":5664.5,\"total\":39651.5}', 'Pedic', '2021-06-04'),
-(28, '{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":2302.08,\"total\":2302.08}', 'Eric', '2021-06-09');
+(29, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/4 2/4 1/4\",\"dimensionAncho\":\"38\",\"dimensionAlto\":\"38\",\"subtipoVidrio\":\"Templado Claro\",\"tipoVidrio\":\"Vidrio doble\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":7441.75,\"total\":7441.75}]', 'Pedic', '2021-07-06');
 
 -- --------------------------------------------------------
 
@@ -776,7 +762,45 @@ INSERT INTO `precios` (`id`, `descripcion`, `precio`) VALUES
 (683, 'Abatiente Vidrio Triple ReflecteSol / Claro / Claro con Marginal', 5.382),
 (684, 'Abatiente Vidrio Triple ReflecteSol / FiltraSol / Claro con Marginal', 5.429),
 (685, 'Abatiente Vidrio Triple ReflecteSol / Claro / FiltraSol con Marginal', 5.429),
-(686, 'Abatiente Vidrio Triple ReflecteSol / Claro / Baño UF con Marginal', 5.6733);
+(686, 'Abatiente Vidrio Triple ReflecteSol / Claro / Baño UF con Marginal', 5.6733),
+(687, 'Guillotina con Arco Continuo-Vidrio Sencillo Claro', 3.700125),
+(688, 'Guillotina con Arco Continuo-Vidrio Sencillo Baño', 4.105695),
+(689, 'Guillotina con Arco Continuo-Vidrio Sencillo Baño UF', 4.240665),
+(690, 'Guillotina con Arco Continuo-Vidrio Sencillo FiltraSol', 3.787575),
+(691, 'Guillotina con Arco Continuo-Vidrio Sencillo ReflecteSol', 4.81569),
+(692, 'Guillotina con Arco Continuo-Vidrio Doble Claro', 4.315575),
+(693, 'Guillotina con Arco Continuo-Vidrio Doble Low-E', 4.529085),
+(694, 'Guillotina con Arco Continuo-Vidrio Doble Claro/ Baño', 4.721145),
+(695, 'Guillotina con Arco Continuo-Vidrio Doble Claro/ Baño UF', 4.85628),
+(696, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ Baño', 4.934655),
+(697, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ Baño UF', 5.06979),
+(698, 'Guillotina con Arco Continuo-Vidrio Doble Templado Claro', 6.409095),
+(699, 'Guillotina con Arco Continuo-Vidrio Doble Templado Low-E', 8.15925),
+(700, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ FiltraSol', 4.6167),
+(701, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ ReflecteSol', 5.636235),
+(702, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Claro', 4.40319),
+(703, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Baño', 4.80876),
+(704, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Baño UF', 4.943895),
+(705, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Claro', 5.422725),
+(706, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ FiltraSol', 5.51034),
+(707, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Baño UF', 0),
+(708, 'Guillotina con Arco Continuo-Vidrio Doble Templado Claro Baño', 7.753515),
+(709, 'Guillotina con Arco Continuo-Vidrio Doble Templado Low-E Baño', 8.88789),
+(710, 'Guillotina con Arco Continuo-Vidrio Doble Templado Low-E FiltraSol', 8.78493),
+(711, 'Guillotina con Arco Continuo-Vidrio Doble Claro con Marginal', 4.588815),
+(712, 'Guillotina con Arco Continuo-Vidrio Doble Low-E', 4.529085),
+(713, 'Guillotina con Arco Continuo-Vidrio Doble Claro/ Baño con Marginal', 5.00445),
+(714, 'Guillotina con Arco Continuo-Vidrio Doble Claro/ Baño UF con Marginal', 5.14305),
+(715, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ Baño con Marginal', 5.223405),
+(716, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ Baño UF con Marginal', 5.36184),
+(717, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ FiltraSol con Marginal', 4.89753),
+(718, 'Guillotina con Arco Continuo-Vidrio Doble Low-E/ ReflecteSol con Marginal', 5.942475),
+(719, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Claro con Marginal', 4.678575),
+(720, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Baño con Marginal', 5.09421),
+(721, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Baño UF con Marginal', 5.23281),
+(722, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Claro con Marginal', 5.723685),
+(723, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ FiltraSol con Marginal', 5.813445),
+(724, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Baño UF con Marginal', 0);
 
 -- --------------------------------------------------------
 
@@ -838,7 +862,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `cotizaciones`
 --
 ALTER TABLE `cotizaciones`
-  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT de la tabla `generales`
@@ -850,7 +874,7 @@ ALTER TABLE `generales`
 -- AUTO_INCREMENT de la tabla `precios`
 --
 ALTER TABLE `precios`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=687;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=725;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`

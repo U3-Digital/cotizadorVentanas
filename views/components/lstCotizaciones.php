@@ -73,6 +73,55 @@ if (!isset($_SESSION["nombre"])) {
 
   </div>
   <script>
+    function enviarCotizacion(idCotizacion) {
+      Swal.fire({
+          title: 'Correo del cliente',
+          input: 'text',
+          inputAttributes: {
+            autocapitalize: 'off'
+          },
+          showCancelButton: true,
+          confirmButtonText: 'Enviar',
+          showLoaderOnConfirm: true,
+          preConfirm: (correo) => {
+            const formData = new FormData();
+            formData.set('id', idCotizacion);
+            formData.set('correo',correo);
+            $.ajax({
+              url: '../../controllers/solicitarEnvioDeCorreo.php',
+              type: 'POST',
+              data: formData,
+              success: (data) => {
+                if (data == 'success') {
+                  Swal.fire({
+                    title: 'Correo enviado exitosamente',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                } else {
+                  Swal.fire({
+                    title: 'Error al enviar la cotización',
+                    icon: 'error',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                }
+              },
+              error: (error) => {
+                console.log(error);
+              },
+              complete: () => {
+              },
+              cache: false,
+              contentType: false,
+              processData: false
+            });
+          },
+          allowOutsideClick: () => !Swal.isLoading()
+        })
+      
+    }
     function borrarCotizacion(idCotizacion) {
       Swal.fire({
         title: '¿Está seguro de que desea borrar esta cotización?',
@@ -92,6 +141,7 @@ if (!isset($_SESSION["nombre"])) {
     }
 
     function mirarCotizacion(idCotizacion){
+      
       const formData = new FormData();
       formData.set('id', idCotizacion);
       $.ajax({

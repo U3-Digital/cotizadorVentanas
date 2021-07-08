@@ -4,7 +4,7 @@ require_once "conexion.php";
 
 class CotizacionesModel {
   public static function mdlBuscarVentanasDeCotizacion($id){
-    $statement = Conexion::conectar() -> prepare("SELECT ventana FROM `cotizaciones` WHERE idCotizacion = :idCotizacion;");
+    $statement = Conexion::conectar() -> prepare("SELECT * FROM `cotizaciones` WHERE idCotizacion = :idCotizacion;");
     
     $statement -> bindParam(":idCotizacion", $id, PDO::PARAM_INT);
 
