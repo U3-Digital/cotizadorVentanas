@@ -100,6 +100,10 @@ select {
   }
 }
 
+.topbar {
+  height: 3em;
+}
+
 .nav-link {
   background-color: #F8F9FA;
   margin-top: 4px;

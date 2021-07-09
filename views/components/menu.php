@@ -27,5 +27,12 @@
         Lista de cotizaciones
       </a>
     </li>
+    <hr style="border-top: 1px solid #DDDDDD; width: 95%">
+    <li>
+      <a href="lstPrecios.php" class="nav-link link-dark">
+        <i class="fas fa-list"></i>
+        Lista de precios
+      </a>
+    </li>
   </ul>
 </div>

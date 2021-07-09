@@ -5,6 +5,9 @@ const constanteTMullionBasica = 0.8771929825;
 const precioUnidadTMullionPlus = 2974.48;
 const constanteTMullionPlus = 110;
 
+const precioUnidadTMullionPremium = 28.65;
+const constanteTMullionPremium = 0.8771929825;
+
 const regexAncho = /\bAn\b/gmi;
 const regexAncho2 = /\bAn2\b/gmi;
 const regexAncho3 = /\bAn3\b/gmi;
@@ -163,9 +166,10 @@ function calcularTMullion(medida) {
     break;
     case 'Plus': {
       tMullion = (medida / constanteTMullionPlus).toFixed(2) * precioUnidadTMullionPlus;
-      console.log(tMullion);
     }
-
+    case 'Premium': {
+      tMullion = (medida / constanteTMullionPremium).toFixed(2) * precioUnidadTMullionPremium;
+    }
   }
 
   return tMullion;
