@@ -572,6 +572,36 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   if (ventana.includes("Sencillo")) {
     ventana = ventana.replace("Sencillo","");
   }
+  if(ventana.includes(" con marginal ")){
+    ventana = ventana.replace(" con marginal "," ");
+  }
+  if(ventana.includes(" con Marginal ")){
+    ventana = ventana.replace(" con Marginal "," ");
+  }
+  if(ventana.includes(" con cuadrícula ")){
+    ventana = ventana.replace(" con cuadrícula "," ");
+    ventana = ventana.replace(" con cuadrícula", " con marginal");
+  }else if (ventana.includes(" con cuadricula ")){
+    ventana = ventana.replace(" con cuadricula "," ");
+    ventana = ventana.replace(" con cuadricula", " con marginal");
+  }
+  if(ventana.includes(" con Cuadrícula ")){
+    ventana = ventana.replace(" con Cuadrícula "," ");
+    ventana = ventana.replace(" con Cuadrícula", " con marginal");
+  }else if(ventana.includes(" con Cuadricula ")){
+    ventana = ventana.replace(" con Cuadricula "," ");
+    ventana = ventana.replace(" con Cuadricula", " con marginal");
+  }
+
+  if(ventana.includes("Ultra Fino")){
+    ventana = ventana.replace("Ultra Fino", "UF");
+  }
+  if(ventana.includes("Tapis")){
+    ventana = ventana.replace(" Tapis", "");
+  }
+
+
+  console.log(`ventana: ${ventana}`);
   strdescripcion += "-";
   strdescripcion += ventana;
   

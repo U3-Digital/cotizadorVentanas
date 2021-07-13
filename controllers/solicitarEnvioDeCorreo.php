@@ -9,6 +9,9 @@
   $respuesta = $controller-> ctrConsultarVentanasCotizacion($id);
   $ventanas = json_decode($respuesta["ventana"],true);
   $html= '
+  <img alt="" style="display:block;max-width:100%;margin-right:auto;width:122px;height:37px" height="37" src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png" class="CToWUd">
+  <p>Cliente: <span><b>'.$respuesta["cliente"].'</b></span></p>
+  <p>Adjuntamos su cotización</p>
   <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
     <thead>
         <tr>
@@ -28,7 +31,7 @@
     $total += $item["total"];
     $html .= '
         <tr>
-            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["subtipoVentana"].'${ventana.subtipoVentana}</td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["subtipoVentana"].'</td>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["tipoVidrio"].' '.$item["tipoVidrio"].'</td>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"> '.$item["dimensionAlto"].'x'.$item["dimensionAncho"].'</td>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["colorPrincipal"].'</td>

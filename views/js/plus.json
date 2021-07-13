@@ -467,7 +467,7 @@
                 {
                     "nombre": "Doble",
                     "img": "../../img/DobleGuillotina.png",
-                    "titulo": "(An + Al) * PV",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "17.5" }
