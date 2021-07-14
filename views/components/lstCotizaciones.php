@@ -137,14 +137,23 @@ require_once "./models/modelCotizaciones.php";
           ventanas.map(ventana => {
             console.log(ventana);
             total += ventana.total;
-            html += `
-              <p>Tipo de ventana: <span><b>${ventana.subtipoVentana}</b></span></p>
-              <p>Tipo de vidrio: <span><b>${ventana.tipoVidrio} ${ventana.subtipoVidrio}</b></span></p>
-              <p>dimensión: <span><b>${ventana.dimensionAlto} x ${ventana.dimensionAncho}</b></span></p>
-              <p>Color: <span><b>${ventana.colorPrincipal}</b></span> ${ventana.colorSubcolor ? (` Subcolor: <span><b>${ventana.colorSubcolor}</b></span>`) :("")}</p>
-              <p>Total: <span><b>${ventana.total}</b></span></p>
-              <hr>
-            `;
+            if(!ventana.subtipoVentana && ventana.colorSubcolor){
+              html += `
+                <p>Pintura: <span><b>${ventana.colorSubcolor}</b></span></p>
+                <p>Total: <span><b>${ventana.total}</b></span></p>
+                <hr>
+              `
+            }else{  
+              html += `
+                <p>Tipo de ventana: <span><b>${ventana.subtipoVentana}</b></span></p>
+                <p>Tipo de vidrio: <span><b>${ventana.tipoVidrio} ${ventana.subtipoVidrio}</b></span></p>
+                <p>dimensión: <span><b>${ventana.dimensionAlto} x ${ventana.dimensionAncho}</b></span></p>
+                <p>Color: <span><b>${ventana.colorPrincipal}</b></span> ${ventana.colorSubcolor ? (` Subcolor: <span><b>${ventana.colorSubcolor}</b></span>`) :("")}</p>
+                <p>Total: <span><b>${ventana.total}</b></span></p>
+                <hr>
+              `;
+            }
+            
           });
 
           html += `

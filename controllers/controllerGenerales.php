@@ -1,13 +1,47 @@
 <?php
 
 class GeneralesController {
-  public function uptActualizarCampo() {
-    print_r($_POST);
+  public function ctrActualizarCampo() {
+    if (isset($_POST["id"])) {
+      $datosController = array(
+        "id" => $_POST["id"],
+        "precioDolar" => $_POST["cajaPrecioDolar"],
+        "incremento" => $_POST["cajaIncremento"]
+      );
+
+      $respuesta = GeneralesModel::mdlActualizarCampo($datosController);
+      if ($respuesta === "success") {
+        echo "
+          <script>
+            Swal.fire({
+              title: 'Actualización exitosa',
+              icon: 'success',
+              confirmButtonText: 'Aceptar',
+              confirmButtonColor: '#0d6efd'  
+            }).then(() => {
+              window.location.href = 'inicio.php?action=lstGenerales';  
+            });
+          </script>
+        ";
+      } else {
+        echo "
+          <script>
+            Swal.fire({
+              title: 'Error al actualizar',
+              icon: 'error',
+              confirmButtonText: 'Aceptar',
+              confirmButtonColor: '#0d6efd'  
+            });
+          </script>
+        ";
+      }
+    }
   }
 
   public function ctrListarGenerales() {
     $generales = GeneralesModel::mdlListarGenerales();
 
+    $i = 0;
     foreach ($generales as $general) {
       echo '
       <form method="POST">
@@ -27,13 +61,14 @@ class GeneralesController {
               <input type="number" id="cajaIncremento" name="cajaIncremento" class="form-control" value="' . $general["incremento"] . '">
             </div>
           </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 col-12">
-            <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-redo"></i>&nbsp;Actualizar</button>
+          <div class="col-md-2 col-lg-2 col-xl-2 col-12 d-flex align-items-center">
+            <button class="btn btn-primary btn-block mt-3" type="submit"><i class="fas fa-redo"></i>&nbsp;Actualizar</button>
           </div>
         </div>
+        <input id="id" name="id" type="text" value="' . $general["id"] . '" hidden/>
         </form>
       ';
+      $i++;
     }
-
   }
 }

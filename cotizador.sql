@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-07-2021 a las 02:17:39
+-- Tiempo de generación: 14-07-2021 a las 19:31:27
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.8
 
@@ -39,7 +39,10 @@ CREATE TABLE `cotizaciones` (
 --
 
 INSERT INTO `cotizaciones` (`idCotizacion`, `ventana`, `cliente`, `fecha`) VALUES
-(29, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/4 2/4 1/4\",\"dimensionAncho\":\"38\",\"dimensionAlto\":\"38\",\"subtipoVidrio\":\"Templado Claro\",\"tipoVidrio\":\"Vidrio doble\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":7441.75,\"total\":7441.75}]', 'Pedic', '2021-07-06');
+(29, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/4 2/4 1/4\",\"dimensionAncho\":\"38\",\"dimensionAlto\":\"38\",\"subtipoVidrio\":\"Templado Claro\",\"tipoVidrio\":\"Vidrio doble\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":7441.75,\"total\":7441.75}]', 'Pedic', '2021-07-06'),
+(30, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98}]', 'Pedic', '2021-07-13'),
+(31, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Rojo Caliente\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"colorSubcolor\":\"Rojo Caliente\",\"total\":1872.5,\"precio\":1872.5}]', 'Pedic', '2021-07-13'),
+(32, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"36\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Azul\",\"numeroVentanas\":\"1\",\"precio\":1521.23,\"total\":1521.23},{\"colorSubcolor\":\"Azul\",\"precio\":1872.5,\"numeroVentanas\":\"1\",\"total\":1872.5}]', 'Pedic', '2021-07-13');
 
 -- --------------------------------------------------------
 
@@ -704,65 +707,65 @@ INSERT INTO `precios` (`id`, `descripcion`, `precio`) VALUES
 (625, 'Abatible-Vidrio Triple ReflecteSol / FiltraSol / Claro con Marginal', 5.2042),
 (626, 'Abatible-Vidrio Triple ReflecteSol / Claro / FiltraSol con Marginal', 5.2042),
 (627, 'Abatible-Vidrio Triple ReflecteSol / Claro / Baño UF con Marginal', 5.4485),
-(628, 'Abatiente Vidrio Doble Claro', 4.3263),
-(629, 'Abatiente Vidrio Doble Low-E', 4.4387),
-(630, 'Abatiente Vidrio Doble Claro / Baño', 4.5392),
-(631, 'Abatiente Vidrio Doble Claro / Baño UF', 4.6102),
-(632, 'Abatiente Vidrio Doble Low-E / Baño', 4.6516),
-(633, 'Abatiente Vidrio Doble Low-E / Baño UF', 4.7226),
-(634, 'Abatiente Vidrio Doble Templado Claro', 5.355),
-(635, 'Abatiente Vidrio Doble Templado Low-E', 6.2681),
-(636, 'Abatiente Vidrio Doble Low-E / FiltraSol', 4.4846),
-(637, 'Abatiente Vidrio Doble Low-E / ReflecteSol', 5.0246),
-(638, 'Abatiente Vidrio Doble FiltraSol / Claro', 4.3722),
-(639, 'Abatiente Vidrio Doble FiltraSol / Baño', 4.5851),
-(640, 'Abatiente Vidrio Doble FiltraSol / Baño UF', 4.656),
-(641, 'Abatiente Vidrio Doble ReflecteSol / Claro', 4.9122),
-(642, 'Abatiente Vidrio Doble ReflecteSol / FiltraSol', 4.958),
-(643, 'Abatiente Vidrio Doble ReflecteSol / Baño UF', 5.196),
-(644, 'Abatiente Vidrio Doble Templado Claro Baño', 6.057),
-(645, 'Abatiente Vidrio Doble Templado Low-E Baño', 6.754),
-(646, 'Abatiente Vidrio Doble Templado Low-E FiltraSol', 6.7003),
-(647, 'Abatiente Vidrio Doble Claro con Marginal', 4.5297),
-(648, 'Abatiente Vidrio Doble Low-E con Marginal', 4.6451),
-(649, 'Abatiente Vidrio Doble Claro / Baño con Marginal', 4.7482),
-(650, 'Abatiente Vidrio Doble Claro / Baño UF con Marginal', 4.821),
-(651, 'Abatiente Vidrio Doble Low-E / Baño con Marginal', 4.8636),
-(652, 'Abatiente Vidrio Doble Low-E / Baño UF con Marginal', 4.9364),
-(653, 'Abatiente Vidrio Doble Low-E / FiltraSol con Marginal', 4.6921),
-(654, 'Abatiente Vidrio Doble Low-E / ReflecteSol con Marginal', 5.2464),
-(655, 'Abatiente Vidrio Doble FiltraSol / Claro con Marginal', 4.5768),
-(656, 'Abatiente Vidrio Doble FiltraSol / Baño con Marginal', 4.7953),
-(657, 'Abatiente Vidrio Doble FiltraSol / Baño UF con Marginal', 4.8681),
-(658, 'Abatiente Vidrio Doble ReflecteSol / Claro con Marginal', 5.131),
-(659, 'Abatiente Vidrio Doble ReflecteSol / FiltraSol con Marginal', 5.1781),
-(660, 'Abatiente Vidrio Doble ReflecteSol / Baño UF con Marginal', 5.4223),
-(661, 'Abatiente Vidrio Triple Low-E / Claro / Baño', 4.8961),
-(662, 'Abatiente Vidrio Triple Low-E / Claro / Baño UF', 4.9671),
-(663, 'Abatiente Vidrio Triple Low-E', 4.6833),
-(664, 'Abatiente Vidrio Triple Low-E / Claro / FiltraSol', 4.7291),
-(665, 'Abatiente Vidrio Triple Low-E / FiltraSol / Claro', 4.7291),
-(666, 'Abatiente Vidrio Triple Low-E / FiltraSol / FiltraSol', 4.7749),
-(667, 'Abatiente Vidrio Triple Low-E / FiltraSol / Baño', 4.942),
-(668, 'Abatiente Vidrio Triple Low-E / FiltraSol / Baño UF', 5.013),
-(669, 'Abatiente Vidrio Triple Low-E / Low-E / Claro', 4.7948),
-(670, 'Abatiente Vidrio Triple ReflecteSol / Claro / Claro', 5.1567),
-(671, 'Abatiente Vidrio Triple ReflecteSol / FiltraSol / Claro', 5.2026),
-(672, 'Abatiente Vidrio Triple ReflecteSol / Claro / FiltraSol', 5.2026),
-(673, 'Abatiente Vidrio Triple ReflecteSol / Claro / Baño UF', 5.4406),
-(674, 'Abatiente Vidrio Triple Low-E / Claro / Baño con Marginal', 5.1145),
-(675, 'Abatiente Vidrio Triple Low-E / Claro / Baño UF con Marginal', 5.1874),
-(676, 'Abatiente Vidrio Triple Low-E con Marginal', 4.896),
-(677, 'Abatiente Vidrio Triple Low-E / Claro / FiltraSol con Marginal', 4.9431),
-(678, 'Abatiente Vidrio Triple Low-E / FiltraSol / Claro con Marginal', 4.9431),
-(679, 'Abatiente Vidrio Triple Low-E / FiltraSol / FiltraSol con Marginal', 4.9901),
-(680, 'Abatiente Vidrio Triple Low-E / FiltraSol / Baño con Marginal', 5.1616),
-(681, 'Abatiente Vidrio Triple Low-E / FiltraSol / Baño UF con Marginal', 5.2344),
-(682, 'Abatiente Vidrio Triple Low-E / Low-E / Claro con Marginal', 5.0105),
-(683, 'Abatiente Vidrio Triple ReflecteSol / Claro / Claro con Marginal', 5.382),
-(684, 'Abatiente Vidrio Triple ReflecteSol / FiltraSol / Claro con Marginal', 5.429),
-(685, 'Abatiente Vidrio Triple ReflecteSol / Claro / FiltraSol con Marginal', 5.429),
-(686, 'Abatiente Vidrio Triple ReflecteSol / Claro / Baño UF con Marginal', 5.6733),
+(628, 'Abatiente-Vidrio Doble Claro', 4.3263),
+(629, 'Abatiente-Vidrio Doble Low-E', 4.4387),
+(630, 'Abatiente-Vidrio Doble Claro / Baño', 4.5392),
+(631, 'Abatiente-Vidrio Doble Claro / Baño UF', 4.6102),
+(632, 'Abatiente-Vidrio Doble Low-E / Baño', 4.6516),
+(633, 'Abatiente-Vidrio Doble Low-E / Baño UF', 4.7226),
+(634, 'Abatiente-Vidrio Doble Templado Claro', 5.355),
+(635, 'Abatiente-Vidrio Doble Templado Low-E', 6.2681),
+(636, 'Abatiente-Vidrio Doble Low-E / FiltraSol', 4.4846),
+(637, 'Abatiente-Vidrio Doble Low-E / ReflecteSol', 5.0246),
+(638, 'Abatiente-Vidrio Doble FiltraSol / Claro', 4.3722),
+(639, 'Abatiente-Vidrio Doble FiltraSol / Baño', 4.5851),
+(640, 'Abatiente-Vidrio Doble FiltraSol / Baño UF', 4.656),
+(641, 'Abatiente-Vidrio Doble ReflecteSol / Claro', 4.9122),
+(642, 'Abatiente-Vidrio Doble ReflecteSol / FiltraSol', 4.958),
+(643, 'Abatiente-Vidrio Doble ReflecteSol / Baño UF', 5.196),
+(644, 'Abatiente-Vidrio Doble Templado Claro Baño', 6.057),
+(645, 'Abatiente-Vidrio Doble Templado Low-E Baño', 6.754),
+(646, 'Abatiente-Vidrio Doble Templado Low-E FiltraSol', 6.7003),
+(647, 'Abatiente-Vidrio Doble Claro con Marginal', 4.5297),
+(648, 'Abatiente-Vidrio Doble Low-E con Marginal', 4.6451),
+(649, 'Abatiente-Vidrio Doble Claro / Baño con Marginal', 4.7482),
+(650, 'Abatiente-Vidrio Doble Claro / Baño UF con Marginal', 4.821),
+(651, 'Abatiente-Vidrio Doble Low-E / Baño con Marginal', 4.8636),
+(652, 'Abatiente-Vidrio Doble Low-E / Baño UF con Marginal', 4.9364),
+(653, 'Abatiente-Vidrio Doble Low-E / FiltraSol con Marginal', 4.6921),
+(654, 'Abatiente-Vidrio Doble Low-E / ReflecteSol con Marginal', 5.2464),
+(655, 'Abatiente-Vidrio Doble FiltraSol / Claro con Marginal', 4.5768),
+(656, 'Abatiente-Vidrio Doble FiltraSol / Baño con Marginal', 4.7953),
+(657, 'Abatiente-Vidrio Doble FiltraSol / Baño UF con Marginal', 4.8681),
+(658, 'Abatiente-Vidrio Doble ReflecteSol / Claro con Marginal', 5.131),
+(659, 'Abatiente-Vidrio Doble ReflecteSol / FiltraSol con Marginal', 5.1781),
+(660, 'Abatiente-Vidrio Doble ReflecteSol / Baño UF con Marginal', 5.4223),
+(661, 'Abatiente-Vidrio Triple Low-E / Claro / Baño', 4.8961),
+(662, 'Abatiente-Vidrio Triple Low-E / Claro / Baño UF', 4.9671),
+(663, 'Abatiente-Vidrio Triple Low-E', 4.6833),
+(664, 'Abatiente-Vidrio Triple Low-E / Claro / FiltraSol', 4.7291),
+(665, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Claro', 4.7291),
+(666, 'Abatiente-Vidrio Triple Low-E / FiltraSol / FiltraSol', 4.7749),
+(667, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Baño', 4.942),
+(668, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Baño UF', 5.013),
+(669, 'Abatiente-Vidrio Triple Low-E / Low-E / Claro', 4.7948),
+(670, 'Abatiente-Vidrio Triple ReflecteSol / Claro / Claro', 5.1567),
+(671, 'Abatiente-Vidrio Triple ReflecteSol / FiltraSol / Claro', 5.2026),
+(672, 'Abatiente-Vidrio Triple ReflecteSol / Claro / FiltraSol', 5.2026),
+(673, 'Abatiente-Vidrio Triple ReflecteSol / Claro / Baño UF', 5.4406),
+(674, 'Abatiente-Vidrio Triple Low-E / Claro / Baño con Marginal', 5.1145),
+(675, 'Abatiente-Vidrio Triple Low-E / Claro / Baño UF con Marginal', 5.1874),
+(676, 'Abatiente-Vidrio Triple Low-E con Marginal', 4.896),
+(677, 'Abatiente-Vidrio Triple Low-E / Claro / FiltraSol con Marginal', 4.9431),
+(678, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Claro con Marginal', 4.9431),
+(679, 'Abatiente-Vidrio Triple Low-E / FiltraSol / FiltraSol con Marginal', 4.9901),
+(680, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Baño con Marginal', 5.1616),
+(681, 'Abatiente-Vidrio Triple Low-E / FiltraSol / Baño UF con Marginal', 5.2344),
+(682, 'Abatiente-Vidrio Triple Low-E / Low-E / Claro con Marginal', 5.0105),
+(683, 'Abatiente-Vidrio Triple ReflecteSol / Claro / Claro con Marginal', 5.382),
+(684, 'Abatiente-Vidrio Triple ReflecteSol / FiltraSol / Claro con Marginal', 5.429),
+(685, 'Abatiente-Vidrio Triple ReflecteSol / Claro / FiltraSol con Marginal', 5.429),
+(686, 'Abatiente-Vidrio Triple ReflecteSol / Claro / Baño UF con Marginal', 5.6733),
 (687, 'Guillotina con Arco Continuo-Vidrio Sencillo Claro', 3.700125),
 (688, 'Guillotina con Arco Continuo-Vidrio Sencillo Baño', 4.105695),
 (689, 'Guillotina con Arco Continuo-Vidrio Sencillo Baño UF', 4.240665),
@@ -824,7 +827,8 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `usuario`, `password`, `nombre`, `email`, `rol`, `activo`) VALUES
 (1, 'rick', '$2y$10$/OjBWcvKvVyreaYkt3W2NOSErwJhWndhPvsHmPJ1608zzD.gBQodS', 'Ricardo Urbina N.', 'rickyurbina@gmail.com', 0, 'S'),
-(16, 'Eric', '$2y$10$sgzh18h/ZFbOhC4gtuTCq.Vgyj1LVLwEpOU1voBJO76Tiy8e2NHLW', 'Eric Marcial', 'eric.aguimar@gmail.com', 0, 'S');
+(16, 'Eric', '$2y$10$sgzh18h/ZFbOhC4gtuTCq.Vgyj1LVLwEpOU1voBJO76Tiy8e2NHLW', 'Eric Marcial', 'eric.aguimar@gmail.com', 0, 'S'),
+(26, 'usuario', '$2y$10$mm8YVMoBQwPxLAfaM/JMLeILZZs4V6GRWFI1NUEzHFqxtHKE8gQRu', 'usuario prueba', 'usuario@prueba', 1, 'S');
 
 --
 -- Índices para tablas volcadas
@@ -862,7 +866,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `cotizaciones`
 --
 ALTER TABLE `cotizaciones`
-  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT de la tabla `generales`
@@ -880,7 +884,7 @@ ALTER TABLE `precios`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -167,9 +167,11 @@ function calcularTMullion(medida) {
     case 'Plus': {
       tMullion = (medida / constanteTMullionPlus).toFixed(2) * precioUnidadTMullionPlus;
     }
+    break;
     case 'Premium': {
       tMullion = (medida / constanteTMullionPremium).toFixed(2) * precioUnidadTMullionPremium;
     }
+    break;
   }
 
   return tMullion;

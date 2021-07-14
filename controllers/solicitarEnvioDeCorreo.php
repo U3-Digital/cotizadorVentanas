@@ -29,7 +29,20 @@
 
   foreach ($ventanas as $row => $item) {
     $total += $item["total"];
-    $html .= '
+    if(!isset($item["subtipoVentana"]) && isset($item["colorSubcolor"])){
+      $html .= '
+        <tr>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"> </td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["colorSubcolor"].'</td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["precio"].'</td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["numeroVentanas"].'</td>
+            <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["total"].'</td>
+        </tr>
+      ';
+    }else{
+      $html .= '
         <tr>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["subtipoVentana"].'</td>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["tipoVidrio"].' '.$item["tipoVidrio"].'</td>
@@ -39,7 +52,9 @@
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["numeroVentanas"].'</td>
             <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">'.$item["total"].'</td>
         </tr>
-    ';
+      ';
+    }
+    
   }
   $html .= '</tbody>
         </table><hr>

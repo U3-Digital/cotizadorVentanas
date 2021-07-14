@@ -675,6 +675,7 @@
         {
           "nombre": "Abatiente",
           "img": "./img/Abatiente.png",
+          "formula": "(An + Al) * PV",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -686,11 +687,15 @@
               "ancho": "22",
               "alto": "18"
             }
-          ]
+          ],
+          "extra": {
+            "preciosVidrio": ["Abatiente"]
+          }
         },
         {
           "nombre": "Abatiente con Abatible Fijo",
           "img": "./img/AbatienteconAbatienteFijo.png",
+          "formula": "((An - An2) + Al) * PV + (An2 + Al) * PV2 + calcularTMullion(Al)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -702,11 +707,18 @@
               "ancho": "44",
               "alto": "18"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Ancho de la ventana abatible",
+            "minimo": "22",
+            "formulaMaximo": "An - 12",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         },
         {
           "nombre": "Abatiente con Abatible Fijo Apilado",
           "img": "./img/AbatienteconAbatienteFijoAmpliado.png",
+          "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -718,11 +730,18 @@
               "ancho": "22",
               "alto": "36"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Alto de la ventana avatible",
+            "minimo": "18",
+            "formulaMaximo": "Al - 10",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         },
         {
           "nombre": "Abatiente XOX",
           "img": "./img/AbatienteXOX.png",
+          "formula": "((An - (An2 * 2)) + Al) * PV + ((An2 + Al) * PV2) * 2 + calcularTMullion(Al) * 2",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -734,11 +753,18 @@
               "ancho": "66",
               "alto": "18"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Ancho de las ventanas abatibles",
+            "minimo": "22",
+            "formulaMaximo": "(An - 12) / 2",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         },
         {
           "nombre": "Abatiente OXO",
           "img": "./img/AbatienteOXO.png",
+          "formula": "(((An - An2) / 2 + Al) * PV) * 2 + (An2 + Al) * PV2 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -750,11 +776,18 @@
               "ancho": "66",
               "alto": "18"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Ancho de la ventana abatible",
+            "minimo": "22",
+            "formulaMaximo": "An - 24",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         },
         {
           "nombre": "Proyectante XXX",
           "img": "./img/ProyectanteXXX.png",
+          "formula": "((An + (Al / 3)) * PV) * 3 + calcularTMullion(An * 2)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -766,11 +799,15 @@
               "ancho": "22",
               "alto": "54"
             }
-          ]
+          ],
+          "extra": {
+            "preciosVidrio": ["Abatiente"]
+          }
         },
         {
           "nombre": "Abatiente XXX",
           "img": "./img/AbatienteXXX.png",
+          "formula": "(((An / 3) + Al) * PV) * 3 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -782,11 +819,15 @@
               "ancho": "66",
               "alto": "18"
             }
-          ]
+          ],
+          "extra": {
+            "preciosVidrio": ["Abatiente"]
+          }
         },
         {
           "nombre": "Proyectante con 2 Fijos",
           "img": "./img/Proyectantecon2Fijos.png",
+          "formula": "((An + ((Al - Al2) / 2)) * PV) * 2 + (An + Al2) * PV2 + calcularTMullion(An * 2)",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -798,23 +839,36 @@
               "ancho": "22",
               "alto": "54"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Alto de la ventana abatible",
+            "minimo": "18",
+            "formulaMaximo": "Al - 20",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         },
         {
-          "nombre": "Doble Proyectante con Uno Fijo",
+          "nombre": "Doble Proyectante con un Fijo",
           "img": "./img/DobleProyectanteconunFijo.png",
+          "formula": "(An + (Al - Al2) / 2) * PV + ((An + Al2) * PV2  ) * 2 + calcularTMullion(An * 2)",
           "dimensiones": [
             {
               "nombre": "Máximo",
               "ancho": "60",
               "alto": "108"
             },
-            {
+            { 
               "nombre": "Mínimo",
               "ancho": "22",
               "alto": "54"
             }
-          ]
+          ],
+          "extra": {
+            "titulo": "Alto de las ventanas abatibles",
+            "minimo": "18",
+            "formulaMaximo": "Al - 18",
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+          }
         }
       ]
     }

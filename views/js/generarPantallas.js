@@ -1133,11 +1133,11 @@ requestPD10.addEventListener("load",requestListenerPD10);
 requestPD10.open("GET","./views/js/pd10.json");
 requestPD10.send();
 
-setTimeout(() => {
+// setTimeout(() => {
 
   const requestSeries = new XMLHttpRequest();
   requestSeries.addEventListener("load",requestListenerSeries);
   requestSeries.open("GET","./views/js/series.json");
   requestSeries.send();
     
-}, 1000);
+// }, 500);

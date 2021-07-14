@@ -27,58 +27,86 @@
                 {
                     "nombre": "Puerta Corrediza",
                     "img": "./img/PD10-PuertaCorrediza.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza OXO",
                     "img": "./img/CorredizaOXO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza O XO"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza OOX",
                     "img": "./img/PuertaCorredizaOOX.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza OOX"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza OXXO",
                     "img": "./img/PuertaCorredizaOXXO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza OXXO"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza OO",
                     "img": "./img/PuertaCorredizaOO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza OO"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza OOOO",
                     "img": "./img/PuertaCorredizaOOOO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza OOOO"]
+                    }
                 },
                 {
                     "nombre": "Puerta Corrediza O",
                     "img": "./img/PuertaCorredizaO.png",
+                    "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
-                    ]
+                    ],
+                    "extra": {
+                      "preciosVidrio": ["Puerta Corrediza O"]
+                    }
                 }
             ]
         }

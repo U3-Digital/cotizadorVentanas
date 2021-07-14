@@ -14,6 +14,7 @@ $controllerGenerales = new GeneralesController();
       <div class="card-body">
         <?php
           $controllerGenerales -> ctrListarGenerales();
+          $controllerGenerales -> ctrActualizarCampo();
         ?>
       </div>
     </div>
