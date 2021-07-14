@@ -1,32 +1,32 @@
 {
     "nombre": "PD10",
-    "img": "../../img/PD10-PuertaCorrediza.png",
+    "img": "./img/PD10-PuertaCorrediza.png",
     "ceja": [
-        { "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
-        { "nombre": "Ceja", "img": "../../img/ceja.png" },
-        { "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+        { "nombre": "Sin ceja", "img": "./img/sinCeja.png " },
+        { "nombre": "Ceja", "img": "./img/ceja.png" },
+        { "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
     ],
     "tipoVidrio": [
         {
             "nombre": "Vidrio doble",
-            "img": "../../img/vidrio_dob.png",
+            "img": "./img/vidrio_dob.png",
             "tipos": [
-                { "nombre": "templado claro", "img": "../../img/vidrio_dob_templado_ingles.png" },
-                { "nombre": "templado Low-E", "img": "../../img/vidrio_dob_templado_lowe_ingles.png" },
-                { "nombre": "templado claro baño", "img": "../../img/vidrio_dob_templado_ingles.png" },
-                { "nombre": "templado low-E baño", "img": "../../img/vidrio_dob_templado_lowe_ingles.png"  },
-                { "nombre": "templado low-E Filtrasol", "img": "../../img/vidrio_dob_templado_lowe_ingles.png"  }
+                { "nombre": "templado claro", "img": "./img/vidrio_dob_templado_ingles.png" },
+                { "nombre": "templado Low-E", "img": "./img/vidrio_dob_templado_lowe_ingles.png" },
+                { "nombre": "templado claro baño", "img": "./img/vidrio_dob_templado_ingles.png" },
+                { "nombre": "templado low-E baño", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  },
+                { "nombre": "templado low-E Filtrasol", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  }
             ]
         }
     ],
     "tipo": [
         {
             "nombre": "Puerta Corrediza",
-            "img": "../../img/PD10-PuertaCorrediza.png",
+            "img": "./img/PD10-PuertaCorrediza.png",
             "subtipo": [
                 {
                     "nombre": "Puerta Corrediza",
-                    "img": "../../img/PD10-PuertaCorrediza.png",
+                    "img": "./img/PD10-PuertaCorrediza.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -34,7 +34,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza OXO",
-                    "img": "../../img/CorredizaOXO.png",
+                    "img": "./img/CorredizaOXO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -42,7 +42,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza OOX",
-                    "img": "../../img/PuertaCorredizaOOX.png",
+                    "img": "./img/PuertaCorredizaOOX.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -50,7 +50,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza OXXO",
-                    "img": "../../img/PuertaCorredizaOXXO.png",
+                    "img": "./img/PuertaCorredizaOXXO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -58,7 +58,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza OO",
-                    "img": "../../img/PuertaCorredizaOO.png",
+                    "img": "./img/PuertaCorredizaOO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -66,7 +66,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza OOOO",
-                    "img": "../../img/PuertaCorredizaOOOO.png",
+                    "img": "./img/PuertaCorredizaOOOO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -74,7 +74,7 @@
                 },
                 {
                     "nombre": "Puerta Corrediza O",
-                    "img": "../../img/PuertaCorredizaO.png",
+                    "img": "./img/PuertaCorredizaO.png",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "80", "alto": "20" },
                         { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -86,7 +86,7 @@
     "colores": [
 		{
 			"nombre": "Blanco",
-			"img": "../../img/Blanco.png",
+			"img": "./img/Blanco.png",
 			"color": [ 
 				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
 				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
@@ -100,7 +100,7 @@
 		},
 		{
 			"nombre": "Clay",
-			"img": "../../img/Clay.png",
+			"img": "./img/Clay.png",
 			"color": [ 
 				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
 				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},

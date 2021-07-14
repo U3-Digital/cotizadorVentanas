@@ -2,36 +2,42 @@
 
   <ul class="nav nav-pills flex-column mb-auto">
     <li class="nav-item">
-      <a href="inicio.php" class="nav-link" aria-current="page">
+      <a href="inicio.php?action=" class="nav-link" aria-current="page">
         <i class="fas fa-home"></i>
         Cotizador
       </a>
     </li>
     <hr style="border-top: 1px solid #DDDDDD; width: 95%">
     <li>
-      <a href="agregarUsuario.php" class="nav-link link-dark">
+      <a href="inicio.php?action=agregarUsuario" class="nav-link link-dark">
       <i class="fas fa-user"></i>
         Agregar usuario
       </a>
     </li>
     <li>
-      <a href="lstUsuarios.php" class="nav-link link-dark">
+      <a href="inicio.php?action=lstUsuarios" class="nav-link link-dark">
       <i class="fas fa-list"></i>
         Manejar usuarios
       </a>
     </li>
     <hr style="border-top: 1px solid #DDDDDD; width: 95%">
     <li>
-      <a href="lstCotizaciones.php" class="nav-link link-dark">
+      <a href="inicio.php?action=lstCotizaciones" class="nav-link link-dark">
         <i class="fas fa-list"></i>
         Lista de cotizaciones
       </a>
     </li>
     <hr style="border-top: 1px solid #DDDDDD; width: 95%">
     <li>
-      <a href="lstPrecios.php" class="nav-link link-dark">
+      <a href="inicio.php?action=lstPrecios" class="nav-link link-dark">
         <i class="fas fa-list"></i>
         Lista de precios
+      </a>
+    </li>
+    <li>
+      <a href="inicio.php?action=lstGenerales" class="nav-link link-dark">
+        <i class="fas fa-list"></i>
+        Generales
       </a>
     </li>
   </ul>

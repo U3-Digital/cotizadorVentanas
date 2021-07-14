@@ -1,19 +1,19 @@
 {
     "nombre": "Básica",
-    "img": "../../img/Fija(Serie40).png",
+    "img": "./img/Fija(Serie40).png",
     "ceja": [
-        { "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
-        { "nombre": "Ceja", "img": "../../img/ceja.png" },
-        { "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+        { "nombre": "Sin ceja", "img": "./img/sinCeja.png " },
+        { "nombre": "Ceja", "img": "./img/ceja.png" },
+        { "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
     ],
     "tipoVidrio": [
         {
             "nombre": "Vidrio sencillo",
-            "img": "../../img/vidrioSencillo.png ",
+            "img": "./img/vidrioSencillo.png ",
             "tipos": [
               { 
                 "nombre": "Claro", 
-                "img": "../../img/vidrioSenci.png", 
+                "img": "./img/vidrioSenci.png", 
                 "precio": [ 
                   { "tipo": "fijoserie40", 
                     "tipos": [ { "fija": 23.98 }, { "doblefijaapilada": 24.04 } , { "triplefijapilada": 24.03 }, { "doblefija": 61.17 }, { "triplefija": 98.31  } ] 
@@ -32,7 +32,7 @@
                   }
                 ] 
               },
-              { "nombre": "Baño", "img": "../../img/vidrioSenciBano.png", 
+              { "nombre": "Baño", "img": "./img/vidrioSenciBano.png", 
                 "precio": [ 
                   { "tipo": "fijoserie40", 
                     "tipos": [ { "fija" : 28.74 }, { "doblefijaapilada": 28.82 }, { "triplefijapilada": 28.81 }, { "doblefija": 70.71 }, { "triplefija": 112.64 } ] 
@@ -51,7 +51,7 @@
                   }
                 ] 
               },
-              { "nombre": "FiltraSol", "img": "../../img/vidrioSenci.png", 
+              { "nombre": "FiltraSol", "img": "./img/vidrioSenci.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -71,7 +71,7 @@
                   }
                 ] 
               },
-              { "nombre": "ReflecteSol", "img": "../../img/vidrioSenci.png", 
+              { "nombre": "ReflecteSol", "img": "./img/vidrioSenci.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -95,11 +95,11 @@
         },
         {
             "nombre": "Vidrio doble",
-            "img": "../../img/vidrio_dob.png",
+            "img": "./img/vidrio_dob.png",
             "tipos": [
                 { 
                   "nombre": "Claro", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -121,7 +121,7 @@
                 },
                 { 
                   "nombre": "Low-E", 
-                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "img": "./img/vidrio_dob_lowe.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -143,7 +143,7 @@
                 },
                 { 
                   "nombre": "Claro / Baño", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -165,7 +165,7 @@
                 },
                 { 
                   "nombre": "Low-E / Baño", 
-                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "img": "./img/vidrio_dob_lowe.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -187,7 +187,7 @@
                 },
                 { 
                   "nombre": "Low-E / FiltraSol", 
-                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "img": "./img/vidrio_dob_lowe.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -209,7 +209,7 @@
                 },
                 { 
                   "nombre": "Low-E / ReflecteSol", 
-                  "img": "../../img/vidrio_dob_lowe.png", 
+                  "img": "./img/vidrio_dob_lowe.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -231,7 +231,7 @@
                 },
                 { 
                   "nombre": "FiltraSol / Claro", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -253,7 +253,7 @@
                 },
                 { 
                   "nombre": "FiltraSol / Baño", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -275,7 +275,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / Claro", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -297,7 +297,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / FiltraSol", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -319,7 +319,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / Baño UF", 
-                  "img": "../../img/vidrio_dob.png", 
+                  "img": "./img/vidrio_dob.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -343,11 +343,11 @@
         },
         {
             "nombre": "Vidrio doble con marginal",
-            "img": "../../img/vidrio_dob_marginal.png",
+            "img": "./img/vidrio_dob_marginal.png",
             "tipos": [
                 { 
                   "nombre": "Claro con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -369,7 +369,7 @@
                 },
                 { 
                   "nombre": "Low-E con marginal", 
-                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "img": "./img/vidrio_dob_lowe_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -391,7 +391,7 @@
                 },
                 { 
                   "nombre": "Claro / Baño con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -413,7 +413,7 @@
                 },
                 { 
                   "nombre": "Low-E / Baño con marginal", 
-                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "img": "./img/vidrio_dob_lowe_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -435,7 +435,7 @@
                 },
                 { 
                   "nombre": "Low-E / FiltraSol con marginal", 
-                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "img": "./img/vidrio_dob_lowe_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -457,7 +457,7 @@
                 },
                 { 
                   "nombre": "Low-E / ReflecteSol con marginal", 
-                  "img": "../../img/vidrio_dob_lowe_marginal.png", 
+                  "img": "./img/vidrio_dob_lowe_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -479,7 +479,7 @@
                 },
                 { 
                   "nombre": "FiltraSol / Claro con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -501,7 +501,7 @@
                 },
                 { 
                   "nombre": "FiltraSol / Baño con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -523,7 +523,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / Claro con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -545,7 +545,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / FiltraSol con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -567,7 +567,7 @@
                 },
                 { 
                   "nombre": "ReflecteSol / Baño UF con marginal", 
-                  "img": "../../img/vidrio_dob_marginal.png", 
+                  "img": "./img/vidrio_dob_marginal.png", 
                   "precio": [
                     {
                       "tipo": "fijoserie40",
@@ -591,11 +591,11 @@
         },
         {
             "nombre": "Vidrio doble con cuadrícula",
-            "img": "../../img/vidrio_dob_cuadricula.png",
+            "img": "./img/vidrio_dob_cuadricula.png",
             "tipos": [
               { 
                 "nombre": "Claro con cuadrícula", 
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -617,7 +617,7 @@
               },
               { 
                 "nombre": "Low-E con cuadrícula", 
-                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "img": "./img/vidrio_dob_lowe_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -639,7 +639,7 @@
               },
               { 
                 "nombre": "Claro / Baño con cuadrícula", 
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -661,7 +661,7 @@
               },
               { 
                 "nombre": "Low-E / Baño con cuadrícula", 
-                "img": "../../img/vidrio_dob_bano_lowe_cuadricula.png", 
+                "img": "./img/vidrio_dob_bano_lowe_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -683,7 +683,7 @@
               },
               {	
                 "nombre": "Low-E / FiltraSol con cuadrícula", 
-                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "img": "./img/vidrio_dob_lowe_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -705,7 +705,7 @@
               },
               {	
                 "nombre": "Low-E / ReflecteSol con cuadrícula",	
-                "img": "../../img/vidrio_dob_lowe_cuadricula.png", 
+                "img": "./img/vidrio_dob_lowe_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -727,7 +727,7 @@
               },
               { 
                 "nombre": "FiltraSol / Claro con cuadrícula", 
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -749,7 +749,7 @@
               },
               { 
                 "nombre": "FiltraSol / Baño con cuadrícula", 
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -771,7 +771,7 @@
               },
               {	
                 "nombre": "ReflecteSol / Claro con cuadrícula",	
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -793,7 +793,7 @@
               },
               {	
                 "nombre": "ReflecteSol / FiltraSol con cuadrícula",	
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -815,7 +815,7 @@
               },
               {	
                 "nombre": "ReflecteSol / Baño UF con cuadrícula",	
-                "img": "../../img/vidrio_dob_cuadricula.png", 
+                "img": "./img/vidrio_dob_cuadricula.png", 
                 "precio": [
                   {
                     "tipo": "fijoserie40",
@@ -841,11 +841,11 @@
     "tipo": [
         {
             "nombre": "Fijo Serie 40",
-            "img": "../../img/Fija(Serie40).png",
+            "img": "./img/Fija(Serie40).png",
             "subtipo": [
                 {
                     "nombre": "Fija",
-                    "img": "../../img/Fija(Serie40).png",
+                    "img": "./img/Fija(Serie40).png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -857,7 +857,7 @@
                 },
                 {
                     "nombre": "Doble fija apilada",
-                    "img": "../../img/DobleFijoApilado(serie40).png",
+                    "img": "./img/DobleFijoApilado(serie40).png",
                     "formula": "((An + Al / 2) * PV) * 2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -869,7 +869,7 @@
                 },
                 {
                     "nombre": "Triple fija apilada",
-                    "img": "../../img/TripleFijaApilada(Serie40).png",
+                    "img": "./img/TripleFijaApilada(Serie40).png",
                     "formula": "((An + Al / 3) * PV) * 3 + calcularTMullion(An) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "108" },
@@ -881,7 +881,7 @@
                 },
                 {
                     "nombre": "Doble fija",
-                    "img": "../../img/DobleFija(Serie40).png",
+                    "img": "./img/DobleFija(Serie40).png",
                     "formula": "((An / 2 + Al) * PV) * 2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -893,7 +893,7 @@
                 },
                 {
                     "nombre": "Triple fija",
-                    "img": "../../img/TripleFijaApilada(Serie40).png",
+                    "img": "./img/TripleFijaApilada(Serie40).png",
                     "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(An) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
@@ -907,11 +907,11 @@
         },
         {
             "nombre": "Corrediza",
-            "img": "../../img/Corrediza.png",
+            "img": "./img/Corrediza.png",
             "subtipo": [
                 {
                     "nombre": "Corrediza",
-                    "img": "../../img/Corrediza.png",
+                    "img": "./img/Corrediza.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
@@ -923,7 +923,7 @@
                 },
                 {
                     "nombre": "Corrediza XOX",
-                    "img": "../../img/CorredizaXOX(serie40).png",
+                    "img": "./img/CorredizaXOX(serie40).png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "84", "alto": "60" },
@@ -935,7 +935,7 @@
                 },
                 {
                     "nombre": "Corrediza OX-O",
-                    "img": "../../img/CorredizaOX-O.png",
+                    "img": "./img/CorredizaOX-O.png",
                     "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -951,7 +951,7 @@
                 },
                 {
                     "nombre": "Corrediza O-XO",
-                    "img": "../../img/CorredizaO-XO.png",
+                    "img": "./img/CorredizaO-XO.png",
                     "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -966,7 +966,7 @@
                 },
                 {
                     "nombre": "Corrediza O-XOX",
-                    "img": "../../img/CorredizaO-XOX.png",
+                    "img": "./img/CorredizaO-XOX.png",
                     "formula": "(An + (Al - Al2)) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -983,11 +983,11 @@
         },
         {
             "nombre": "Guillotina",
-            "img": "../../img/Guillotina.png",
+            "img": "./img/Guillotina.png",
             "subtipo": [
                 {
                     "nombre": "Guillotina",
-                    "img": "../../img/Guillotina.png",
+                    "img": "./img/Guillotina.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "72" },
@@ -999,7 +999,7 @@
                 },
                 {
                     "nombre": "Doble guillotina",
-                    "img": "../../img/DobleGuillotina.png",
+                    "img": "./img/DobleGuillotina.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -1011,7 +1011,7 @@
                 },
                 {
                     "nombre": "Guillotina OXO",
-                    "img": "../../img/GuillotinaOXO.png",
+                    "img": "./img/GuillotinaOXO.png",
                     "formula": "(((An - An2) / 2 + Al) * PV) * 2+ (An2 + Al) * PV2 + calcularTMullion(Al) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -1026,7 +1026,7 @@
                 },
                 {
                     "nombre": "Guillotina XOX",
-                    "img": "../../img/GuillotinaXOX.png",
+                    "img": "./img/GuillotinaXOX.png",
                     "formula": "((An - An2 * 2) + Al) * PV + ((An2 + Al) * PV2) * 2 + calcularTMullion(Al) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -1041,7 +1041,7 @@
                 },
                 {
                     "nombre": "Guillotina Orio",
-                    "img": "../../img/GuillotinaOrio.png",
+                    "img": "./img/GuillotinaOrio.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "84" },
@@ -1056,7 +1056,7 @@
                 },
                 {
                     "nombre": "Guillotina Doble orio",
-                    "img": "../../img/DobleGuillotinaOrio.png",
+                    "img": "./img/DobleGuillotinaOrio.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "84" },
@@ -1071,7 +1071,7 @@
                 },
                 {
                     "nombre": "Guillotina O-OX",
-                    "img": "../../img/GuillotinaO-OX.png",
+                    "img": "./img/GuillotinaO-OX.png",
                     "formula": "(An - An2 + Al) * PV + (An2 + Al) * PV2 + calcularTMullion(Al)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "96", "alto": "72" },
@@ -1086,7 +1086,7 @@
                 },
                 {
                     "nombre": "Guillotina con arco continuo",
-                    "img": "../../img/GuillotinaConArcoContinuo.png",
+                    "img": "./img/GuillotinaConArcoContinuo.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "48", "alto": "84" },
@@ -1100,11 +1100,11 @@
         },
         {
             "nombre": "Arcos y figuras",
-            "img": "../../img/ArcosyFiguras.png",
+            "img": "./img/ArcosyFiguras.png",
             "subtipo": [
                 {
                     "nombre": "Triángulo isosceles",
-                    "img": "../../img/TrianguloIsosceles.png",
+                    "img": "./img/TrianguloIsosceles.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "60" },
@@ -1116,7 +1116,7 @@
                 },
                 {
                     "nombre": "Forma AO",
-                    "img": "../../img/ArcoAO.png",
+                    "img": "./img/ArcoAO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "80" },
@@ -1128,7 +1128,7 @@
                 },
                 {
                     "nombre": "Hexagonal",
-                    "img": "../../img/Hexagonal.png",
+                    "img": "./img/Hexagonal.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
@@ -1140,7 +1140,7 @@
                 },
                 {
                     "nombre": "Octagonal",
-                    "img": "../../img/Octagonal.png",
+                    "img": "./img/Octagonal.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
@@ -1152,7 +1152,7 @@
                 },
                 {
                     "nombre": "Triángulo rectángulo",
-                    "img": "../../img/TrianguloRectangulo.png",
+                    "img": "./img/TrianguloRectangulo.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "84", "alto": "60" },
@@ -1164,7 +1164,7 @@
                 },
                 {
                     "nombre": "Forma AO-O",
-                    "img": "../../img/FormaAO-O.png",
+                    "img": "./img/FormaAO-O.png",
                     "formula": "(An + Al - Al2) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "120" },
@@ -1179,7 +1179,7 @@
                 },
                 {
                     "nombre": "Figura AO",
-                    "img": "../../img/FiguraAO.png",
+                    "img": "./img/FiguraAO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "11.5", "alto": "23.5" },
@@ -1191,7 +1191,7 @@
                 },
                 {
                     "nombre": "Figura AO-O",
-                    "img": "../../img/FiguraAO-O.png",
+                    "img": "./img/FiguraAO-O.png",
                     "formula": "(An + Al - Al2) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -1206,7 +1206,7 @@
                 },
                 {
                     "nombre": "Circular",
-                    "img": "../../img/Circular.png",
+                    "img": "./img/Circular.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "60" },
@@ -1218,7 +1218,7 @@
                 },
                 {
                     "nombre": "Arco",
-                    "img": "../../img/Arco.png",
+                    "img": "./img/Arco.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "34" },
@@ -1230,7 +1230,7 @@
                 },
                 {
                     "nombre": "Arco media luna fijo",
-                    "img": "../../img/ArcoMediaLunaFijo.png",
+                    "img": "./img/ArcoMediaLunaFijo.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "72" },
@@ -1242,7 +1242,7 @@
                 },
                 {
                     "nombre": "Media luna con un fijo",
-                    "img": "../../img/MediaLunacon1Fijo.png",
+                    "img": "./img/MediaLunacon1Fijo.png",
                     "formula": "(An + Al - Al2) * PV + (An + Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "94" },
@@ -1257,7 +1257,7 @@
                 },
                 {
                     "nombre": "Arco A-O-O",
-                    "img": "../../img/ArcoA-O-O.png",
+                    "img": "./img/ArcoA-O-O.png",
                     "formula": "((An / 2 + Al2) * PV) * 2 + (An + Al - Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
@@ -1272,7 +1272,7 @@
                 },
                 {
                     "nombre": "Arco media luna 3 fijos",
-                    "img": "../../img/ArcoMediaLunacon3Fijos.png",
+                    "img": "./img/ArcoMediaLunacon3Fijos.png",
                     "formula": "((An / 3 + Al2) * PV) * 3 + (An + Al - Al2) * PV2 + calcularTMullion(An) + calcularTMullion(Al2) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "68", "alto": "96" },
@@ -1287,7 +1287,7 @@
                 },
                 {
                     "nombre": "Arco AO",
-                    "img": "../../img/ArcoAO.png",
+                    "img": "./img/ArcoAO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "72" },
@@ -1299,7 +1299,7 @@
                 },
                 {
                     "nombre": "Fijo con arco",
-                    "img": "../../img/FijoConArco.png",
+                    "img": "./img/FijoConArco.png",
                     "formula": "(An + Al2) * PV + (An + Al - Al2) * PV2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -1314,7 +1314,7 @@
                 },
                 {
                     "nombre": "Arco media luna con 2 fijos",
-                    "img": "../../img/ArcoMediaLunacon2Fijos.png",
+                    "img": "./img/ArcoMediaLunacon2Fijos.png",
                     "formula": "((An / 2 + Al2) * PV) * 2 + (An + Al - Al2) * PV2 + calcularTMullion(An) + calcularTMullion(Al2)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -1329,7 +1329,7 @@
                 },
                 {
                     "nombre": "Arco AOOO luna con 3 fijos",
-                    "img": "../../img/ArcoAOOOcon3Fijos.png",
+                    "img": "./img/ArcoAOOOcon3Fijos.png",
                     "formula": "((An / 3 + Al2) * PV) * 3 + (An + Al - Al2) * PV2 + calcularTMullion(An) + calcularTMullion(Al2) * 2",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -1344,7 +1344,7 @@
                 },
                 {
                     "nombre": "Catedral",
-                    "img": "../../img/Catedral.png",
+                    "img": "./img/Catedral.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "60", "alto": "72" },
@@ -1360,7 +1360,7 @@
     "colores": [
       {
         "nombre": "Blanco",
-        "img": "../../img/Blanco.png",
+        "img": "./img/Blanco.png",
         "color": [ 
           {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
           {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
@@ -1374,7 +1374,7 @@
       },
       {
         "nombre": "Clay",
-        "img": "../../img/Clay.png",
+        "img": "./img/Clay.png",
         "color": [ 
           {"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
           {"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},

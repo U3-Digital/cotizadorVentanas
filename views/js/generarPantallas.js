@@ -3,7 +3,12 @@ setSteps(["Serie", "Tipo", "Subtipo", "Dimensiones","Tipo vidrio","Subtipo vidri
 setLayouts(arreglo);
 
 generateStepper(0);
-
+let pintura = {
+  colorSubcolor: "",
+  precio: 0,
+  total: 0,
+  numeroVentanas: 0
+};
 let ruta  = {
     serie: "",
     tipoVentana: "",
@@ -20,7 +25,7 @@ let ruta  = {
 let cotizaciones = [];
 let total = 0;
 let rutaVentana = Object.create(ruta);
-
+let rutaPintura = Object.create(pintura);
 const detailsContainerSerie = document.getElementById('details-container-serie');
 const detailsContainerTipoVentana = document.getElementById('details-container-tipo-ventana');
 const detailsContainerSubtipoVentana = document.getElementById('details-container-subtipo-ventana');
@@ -514,9 +519,9 @@ function cargarColores(serie, ceja, ventana){
     temporal += '<form><div class="row justify-content-center" id="container-colores">'; 
     ventana.colores[0].color.forEach((subcolor) => {
         temporal += `<div class="col-md-2 col-lg-2 col-3 text-center subcolor">
-            <img src="../../img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">
+            <img src="./img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="subcolor" value="${subcolor.nombre}" onChange='agregarARuta("${subcolor.nombre}", "subcolor");'>
+                <input class="form-check-input" type="radio" name="subcolor" value="${subcolor.nombre}" onChange='agregarColorTotal(${JSON.stringify(subcolor)}),agregarARuta("${subcolor.nombre}", "subcolor")'>
                 <label class="form-check-label" for="cosa${i}">${subcolor.nombre}</label>
             </div>
         </div>`;
@@ -531,6 +536,11 @@ function cargarColores(serie, ceja, ventana){
       window.dispatchEvent(new Event('resize'));
     }, 100);
 
+}
+
+function agregarColorTotal(subcolor){
+  rutaPintura.colorSubcolor = subcolor.nombre;
+  rutaPintura.precio = subcolor.precioExterior;
 }
 
 function cargarSubcolores(color) {
@@ -600,8 +610,6 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     ventana = ventana.replace(" Tapis", "");
   }
 
-
-  console.log(`ventana: ${ventana}`);
   strdescripcion += "-";
   strdescripcion += ventana;
   
@@ -611,7 +619,7 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   formData.set('ventana', strdescripcion);
   let total = 0;
   $.ajax({
-    url: '../../controllers/consultarPrecios.php',
+    url: './controllers/consultarPrecios.php',
     type: 'POST',
     async: false,
     data: formData,
@@ -798,7 +806,7 @@ function insertarCotizacion() {
   formData.set('cliente', cajaNombreCliente.value);
   formData.set('ventanas', JSON.stringify(cotizaciones));
   $.ajax({
-    url: '../../controllers/agregarCotizacion.php',
+    url: './controllers/agregarCotizacion.php',
     type: 'POST',
     data: formData,
     success: (data) => {
@@ -839,8 +847,21 @@ function agregarCotizacion() {
     rutaVentana.total = rutaVentana.numeroVentanas * total;
     rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
     containerSaveCotizacion.hidden = false;
-    
+    console.log(rutaVentana);
+    console.log(cotizaciones);
+    if(rutaVentana.colorSubcolor){
+
+    }
+
     cotizaciones.push(rutaVentana);
+    if(rutaPintura.precio !== 0){
+      rutaPintura.numeroVentanas = rutaVentana.numeroVentanas;
+      rutaPintura.total = rutaPintura.precio * rutaPintura.numeroVentanas;
+      cotizaciones.push(rutaPintura);
+      rutaPintura = Object.create(pintura);
+    }else{
+      console.log("no cambio");
+    }
     rutaVentana = Object.create(ruta);
     containerAddNumeroVentana.hidden = true
 
@@ -1069,8 +1090,7 @@ function agregarARuta(text, propiedad) {
         case "subcolor":
             rutaVentana.colorSubcolor = text;
             detailContainerSubColor.innerHTML = `<td>Subcolor</td><td>${text}</td>`;
-            calcularTotal();
-
+            
             break;
         case "eliminaSubcolor":
             delete rutaVentana.colorSubcolor;
@@ -1095,29 +1115,29 @@ request.send();*/
 
 const requestBasica = new XMLHttpRequest();
 requestBasica.addEventListener("load",requestListenerBasica);
-requestBasica.open("GET","../js/basica.json");
+requestBasica.open("GET","./views/js/basica.json");
 requestBasica.send();
 
 const requestPlus = new XMLHttpRequest();
 requestPlus.addEventListener("load",requestListenerPlus);
-requestPlus.open("GET","../js/plus.json");
+requestPlus.open("GET","./views/js/plus.json");
 requestPlus.send();
 
 const requestPremium = new XMLHttpRequest();
 requestPremium.addEventListener("load",requestListenerPremium);
-requestPremium.open("GET","../js/premium.json");
+requestPremium.open("GET","./views/js/premium.json");
 requestPremium.send();
 
 const requestPD10 = new XMLHttpRequest();
 requestPD10.addEventListener("load",requestListenerPD10);
-requestPD10.open("GET","../js/pd10.json");
+requestPD10.open("GET","./views/js/pd10.json");
 requestPD10.send();
 
 setTimeout(() => {
 
   const requestSeries = new XMLHttpRequest();
   requestSeries.addEventListener("load",requestListenerSeries);
-  requestSeries.open("GET","../js/series.json");
+  requestSeries.open("GET","./views/js/series.json");
   requestSeries.send();
     
 }, 1000);

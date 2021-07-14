@@ -53,8 +53,8 @@
                         <td>'. ($item["rol"] == 0 ? ("Administrador") : ("Usuairo")) .'</td>
                         <td>'. ($item["activo"] == "S" ? ("activo") : ("inactivo")).'</td>
                         <td>
-                            <a href="uptUsuario.php?idEditar='.$item["id"].'"><button class="btn btn-warning"><i class="fas fa-pencil-alt"></i></button></a>
-                            <a href="lstUsuarios.php?idBorrar='.$item["id"].'"><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></a>
+                            <a href="inicio.php?action=uptUsuario&idEditar='.$item["id"].'"><button class="btn btn-warning"><i class="fas fa-pencil-alt"></i></button></a>
+                            <a href="inicio.php?action=lstUsuarios&idBorrar='.$item["id"].'"><button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button></a>
                         </td>
                     </tr>
                 ';
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-md-2">
-                    <img class="img-profile" src="../../img/user.png" alt="Seleccionar foto de perfil">
+                    <img class="img-profile" src="./img/user.png" alt="Seleccionar foto de perfil">
                     <input name="inputFile" type="file" hidden>
                 </div>
             </div>

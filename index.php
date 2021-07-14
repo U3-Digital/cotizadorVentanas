@@ -6,7 +6,7 @@ require_once "models/modelIngreso.php";
 
 
 if(isset($_SESSION["nombre"])){
-  echo "<script>window.location.href = './views/components/inicio.php'; </script>";
+  echo "<script>window.location.href = './inicio.php?action='; </script>";
 }
 ?>
 <!DOCTYPE html>

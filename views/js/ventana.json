@@ -2,7 +2,7 @@
 	"colores": [
 		{
 			"nombre": "Blanco",
-			"img": "../../img/Blanco.png",
+			"img": "./img/Blanco.png",
 			"color": [ 
 				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
 				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
@@ -16,7 +16,7 @@
 		},
 		{
 			"nombre": "Clay",
-			"img": "../../img/Clay.png",
+			"img": "./img/Clay.png",
 			"color": [ 
 				{"nombre": "Bronze","precioExterior": 1872.50,"precioInterior":3744.99},
 				{"nombre": "Negro","precioExterior": 1872.50,"precioInterior":3744.99},
@@ -32,83 +32,83 @@
 	"tipos": [
 		{
 			"nombre": "Básica",
-			"img": "../../img/fija(serie40).png",
+			"img": "./img/fija(serie40).png",
 			"ceja": [
-				{ "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
-				{ "nombre": "Ceja", "img": "../../img/ceja.png" },
-				{ "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+				{ "nombre": "Sin ceja", "img": "./img/sinCeja.png " },
+				{ "nombre": "Ceja", "img": "./img/ceja.png" },
+				{ "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
 			],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio sencillo",
-					"img": "../../img/vidrioSencillo.png ",
+					"img": "./img/vidrioSencillo.png ",
 					"tipos": [
-						{ "nombre": "Claro", "img": "../../img/vidrioSenci.png", "precio": [ { "fija": 23.98, "doblefijaapilada": 24.04, "triplefijapilada": 24.03, "doblefija": 61.17, "triplefija": 98.31 } ] },
-						{ "nombre": "Baño", "img": "../../img/vidrioSenciBano.png", "precio": [ { "fija" : 28.74, "doblefijaapilada": 28.82, "triplefijapilada": 28.81, "doblefija": 70.71, "triplefija": 112.64 } ] },
-						{ "nombre": "FiltraSol", "img": "../../img/vidrioSenci.png", "precio": [ { "fija": 33.34, "doblefijaapilada": 33.42, "triplefijapilada": 33.42, "doblefija": 79.92, "triplefija": 126.47 } ] },
-						{ "nombre": "ReflecteSol", "img": "../../img/vidrioSenci.png", "precio": [ { "fija": 49.46, "doblefijaapilada": 49.60, "triplefijapilada": 49.56, "doblefija": 112.22, "triplefija": 174.91 } ] }
+						{ "nombre": "Claro", "img": "./img/vidrioSenci.png", "precio": [ { "fija": 23.98, "doblefijaapilada": 24.04, "triplefijapilada": 24.03, "doblefija": 61.17, "triplefija": 98.31 } ] },
+						{ "nombre": "Baño", "img": "./img/vidrioSenciBano.png", "precio": [ { "fija" : 28.74, "doblefijaapilada": 28.82, "triplefijapilada": 28.81, "doblefija": 70.71, "triplefija": 112.64 } ] },
+						{ "nombre": "FiltraSol", "img": "./img/vidrioSenci.png", "precio": [ { "fija": 33.34, "doblefijaapilada": 33.42, "triplefijapilada": 33.42, "doblefija": 79.92, "triplefija": 126.47 } ] },
+						{ "nombre": "ReflecteSol", "img": "./img/vidrioSenci.png", "precio": [ { "fija": 49.46, "doblefijaapilada": 49.60, "triplefijapilada": 49.56, "doblefija": 112.22, "triplefija": 174.91 } ] }
 					]
 				},
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_dob.png",
+					"img": "./img/vidrio_dob.png",
 					"tipos": [
-						{ "nombre": "Claro", "img": "../../img/vidrio_dob.png","precio": [ { "fija": 38.00, "doblefijaapilada": 38.1, "triplefijapilada": 38.09, "doblefija": 89.26, "triplefija": 140.47 } ] },
-						{ "nombre": "Low-E", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 42.47, "doblefijaapilada": 42.58, "triplefijapilada": 42.58, "doblefija": 98.21, "triplefija": 153.92 } ] },
-						{ "nombre": "Claro / Baño", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 43.76, "doblefijaapilada": 43.88, "triplefijapilada": 43.85, "doblefija": 100.79, "triplefija": 157.75 } ]  },
-						{ "nombre": "Low-E / Baño", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 48.83, "doblefijaapilada": 48.95, "triplefijapilada": 48.95, "doblefija": 110.96, "triplefija": 173.03 } ] },
-						{ "nombre": "Low-E / FiltraSol", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 43.85, "doblefijaapilada": 43.97, "triplefijapilada": 43.95, "doblefija": 100.97, "triplefija": 158.04 } ] },
-						{ "nombre": "Low-E / ReflecteSol", "img": "../../img/vidrio_dob_lowe.png", "precio": [ { "fija": 59.89, "doblefijaapilada": 60.07, "triplefijapilada": 60.04, "doblefija": 133.15, "triplefija": 206.31 } ]  },
-						{ "nombre": "FiltraSol / Claro", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 40.50, "doblefijaapilada": 40.61, "triplefijapilada": 40.60, "doblefija": 94.26, "triplefija": 147.99 } ] },
-						{ "nombre": "FiltraSol / Baño", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 46.86, "doblefijaapilada": 47.0, "triplefijapilada": 46.96, "doblefija": 107.01, "triplefija": 167.1 } ]  },
-						{ "nombre": "ReflecteSol / Claro", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 189.65, "doblefijaapilada": 56.71, "triplefijapilada": 56.7, "doblefija": 126.44, "triplefija": 196.26 } ] },
-						{ "nombre": "ReflecteSol / FiltraSol", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 57.92, "doblefijaapilada": 58.09, "triplefijapilada": 58.06, "doblefija": 129.18, "triplefija": 200.38 } ]  },
-						{ "nombre": "ReflecteSol / Baño UF", "img": "../../img/vidrio_dob.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]  }
+						{ "nombre": "Claro", "img": "./img/vidrio_dob.png","precio": [ { "fija": 38.00, "doblefijaapilada": 38.1, "triplefijapilada": 38.09, "doblefija": 89.26, "triplefija": 140.47 } ] },
+						{ "nombre": "Low-E", "img": "./img/vidrio_dob_lowe.png", "precio": [ { "fija": 42.47, "doblefijaapilada": 42.58, "triplefijapilada": 42.58, "doblefija": 98.21, "triplefija": 153.92 } ] },
+						{ "nombre": "Claro / Baño", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 43.76, "doblefijaapilada": 43.88, "triplefijapilada": 43.85, "doblefija": 100.79, "triplefija": 157.75 } ]  },
+						{ "nombre": "Low-E / Baño", "img": "./img/vidrio_dob_lowe.png", "precio": [ { "fija": 48.83, "doblefijaapilada": 48.95, "triplefijapilada": 48.95, "doblefija": 110.96, "triplefija": 173.03 } ] },
+						{ "nombre": "Low-E / FiltraSol", "img": "./img/vidrio_dob_lowe.png", "precio": [ { "fija": 43.85, "doblefijaapilada": 43.97, "triplefijapilada": 43.95, "doblefija": 100.97, "triplefija": 158.04 } ] },
+						{ "nombre": "Low-E / ReflecteSol", "img": "./img/vidrio_dob_lowe.png", "precio": [ { "fija": 59.89, "doblefijaapilada": 60.07, "triplefijapilada": 60.04, "doblefija": 133.15, "triplefija": 206.31 } ]  },
+						{ "nombre": "FiltraSol / Claro", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 40.50, "doblefijaapilada": 40.61, "triplefijapilada": 40.60, "doblefija": 94.26, "triplefija": 147.99 } ] },
+						{ "nombre": "FiltraSol / Baño", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 46.86, "doblefijaapilada": 47.0, "triplefijapilada": 46.96, "doblefija": 107.01, "triplefija": 167.1 } ]  },
+						{ "nombre": "ReflecteSol / Claro", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 189.65, "doblefijaapilada": 56.71, "triplefijapilada": 56.7, "doblefija": 126.44, "triplefija": 196.26 } ] },
+						{ "nombre": "ReflecteSol / FiltraSol", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 57.92, "doblefijaapilada": 58.09, "triplefijapilada": 58.06, "doblefija": 129.18, "triplefija": 200.38 } ]  },
+						{ "nombre": "ReflecteSol / Baño UF", "img": "./img/vidrio_dob.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]  }
 					]
 				},
 				{
 					"nombre": "Vidrio doble con marginal",
-					"img": "../../img/vidrio_dob_marginal.png",
+					"img": "./img/vidrio_dob_marginal.png",
 					"tipos": [
-						{ "nombre": "Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
-						{ "nombre": "Low-E con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
-						{ "nombre": "Claro / Baño con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
-						{ "nombre": "Low-E / Baño con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
-						{ "nombre": "Low-E / FiltraSol con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 47.80, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ] },
-						{ "nombre": "Low-E / ReflecteSol con marginal", "img": "../../img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 64.42, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
-						{ "nombre": "FiltraSol / Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.50, "triplefijapilada": 44.48, "doblefija": 102.03, "triplefija": 159.64 } ] },
-						{ "nombre": "FiltraSol / Baño con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
-						{ "nombre": "ReflecteSol / Claro con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 61.24, "doblefija": 135.0, "triplefija": 209.1 } ] },
-						{ "nombre": "ReflecteSol / FiltraSol con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ] },
-						{ "nombre": "ReflecteSol / Baño UF con marginal", "img": "../../img/vidrio_dob_marginal.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ] }
+						{ "nombre": "Claro con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
+						{ "nombre": "Low-E con marginal", "img": "./img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
+						{ "nombre": "Claro / Baño con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
+						{ "nombre": "Low-E / Baño con marginal", "img": "./img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
+						{ "nombre": "Low-E / FiltraSol con marginal", "img": "./img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 47.80, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ] },
+						{ "nombre": "Low-E / ReflecteSol con marginal", "img": "./img/vidrio_dob_lowe_marginal.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 64.42, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
+						{ "nombre": "FiltraSol / Claro con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.50, "triplefijapilada": 44.48, "doblefija": 102.03, "triplefija": 159.64 } ] },
+						{ "nombre": "FiltraSol / Baño con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
+						{ "nombre": "ReflecteSol / Claro con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 61.24, "doblefija": 135.0, "triplefija": 209.1 } ] },
+						{ "nombre": "ReflecteSol / FiltraSol con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ] },
+						{ "nombre": "ReflecteSol / Baño UF con marginal", "img": "./img/vidrio_dob_marginal.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ] }
 					]
 				},
 				{
 					"nombre": "Vidrio doble con cuadrícula",
-					"img": "../../img/vidrio_dob_cuadricula.png",
+					"img": "./img/vidrio_dob_cuadricula.png",
 					"tipos": [
-						{ "nombre": "Claro con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
-						{ "nombre": "Low-E con cuadrícula", "img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
-						{ "nombre": "Claro / Baño con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
-						{ "nombre": "Low-E / Baño con cuadrícula", "img": "../../img/vidrio_dob_bano_lowe_cuadricula.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
-						{	"nombre": "Low-E / FiltraSol con cuadrícula", "img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 47.8, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ]	},
-						{	"nombre": "Low-E / ReflecteSol con cuadrícula",	"img": "../../img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 53.23, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
-						{ "nombre": "FiltraSol / Claro con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.5, "triplefijapilada": 53.03, "doblefija": 102.03, "triplefija": 159.64 } ] },
-						{ "nombre": "FiltraSol / Baño con cuadrícula", "img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
-						{	"nombre": "ReflecteSol / Claro con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 60.97, "doblefija": 135.0, "triplefija": 209.1 } ]	},
-						{	"nombre": "ReflecteSol / FiltraSol con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ]	},
-						{	"nombre": "ReflecteSol / Baño UF con cuadrícula",	"img": "../../img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]	}
+						{ "nombre": "Claro con cuadrícula", "img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 43.83, "doblefijaapilada": 43.95, "triplefijapilada": 43.93, "doblefija": 100.93, "triplefija": 158.0 } ] },
+						{ "nombre": "Low-E con cuadrícula", "img": "./img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 46.39, "doblefijaapilada": 46.51, "triplefijapilada": 46.5, "doblefija": 106.08, "triplefija": 165.7 } ] },
+						{ "nombre": "Claro / Baño con cuadrícula", "img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 49.74, "doblefijaapilada": 49.87, "triplefijapilada": 49.86, "doblefija": 112.77, "triplefija": 175.77 } ] },
+						{ "nombre": "Low-E / Baño con cuadrícula", "img": "./img/vidrio_dob_bano_lowe_cuadricula.png", "precio": [ { "fija": 52.91, "doblefijaapilada": 53.04, "triplefijapilada": 53.03, "doblefija": 119.12, "triplefija": 185.29 } ] },
+						{	"nombre": "Low-E / FiltraSol con cuadrícula", "img": "./img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 47.8, "doblefijaapilada": 47.91, "triplefijapilada": 47.92, "doblefija": 108.89, "triplefija": 169.94 } ]	},
+						{	"nombre": "Low-E / ReflecteSol con cuadrícula",	"img": "./img/vidrio_dob_lowe_cuadricula.png", "precio": [ { "fija": 64.26, "doblefijaapilada": 53.23, "triplefijapilada": 64.41, "doblefija": 141.85, "triplefija": 219.41 } ] },
+						{ "nombre": "FiltraSol / Claro con cuadrícula", "img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 44.37, "doblefijaapilada": 44.5, "triplefijapilada": 53.03, "doblefija": 102.03, "triplefija": 159.64 } ] },
+						{ "nombre": "FiltraSol / Baño con cuadrícula", "img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 50.89, "doblefijaapilada": 51.03, "triplefijapilada": 51.01, "doblefija": 115.07, "triplefija": 179.22 } ] },
+						{	"nombre": "ReflecteSol / Claro con cuadrícula",	"img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 60.83, "doblefijaapilada": 61.0, "triplefijapilada": 60.97, "doblefija": 135.0, "triplefija": 209.1 } ]	},
+						{	"nombre": "ReflecteSol / FiltraSol con cuadrícula",	"img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 62.24, "doblefijaapilada": 62.41, "triplefijapilada": 62.38, "doblefija": 137.83, "triplefija": 213.33 } ]	},
+						{	"nombre": "ReflecteSol / Baño UF con cuadrícula",	"img": "./img/vidrio_dob_cuadricula.png", "precio": [ { "fija": 0, "doblefijaapilada": 0, "triplefijapilada": 0, "doblefija": 0, "triplefija": 0 } ]	}
 					]
 				}	
 			],
 			"tipo": [
 				{
 					"nombre": "Fijo Serie 40",
-					"img": "../../img/fija(serie40).png",
+					"img": "./img/fija(serie40).png",
 					"subtipo": [
 						{
 							"nombre": "Fija",
-							"img": "../../img/fija(serie40).png",
+							"img": "./img/fija(serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "60", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "11.5", "alto": "11.5" }
@@ -116,7 +116,7 @@
 						},
 						{
 							"nombre": "Doble fija apilada",
-							"img": "../../img/DobleFijoApilado(serie40).png",
+							"img": "./img/DobleFijoApilado(serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -124,7 +124,7 @@
 						},
 						{
 							"nombre": "Triple fija apilada",
-							"img": "../../img/TripleFijaApilada(Serie40).png",
+							"img": "./img/TripleFijaApilada(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -132,7 +132,7 @@
 						},
 						{
 							"nombre": "Doble fija",
-							"img": "../../img/DobleFija(serie40).png",
+							"img": "./img/DobleFija(serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -140,7 +140,7 @@
 						},
 						{
 							"nombre": "Triple fija",
-							"img": "../../img/TripleFijaApilada(Serie40).png",
+							"img": "./img/TripleFijaApilada(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -150,11 +150,11 @@
 				},
 				{
 					"nombre": "Corrediza",
-					"img": "../../img/Corrediza.png",
+					"img": "./img/Corrediza.png",
 					"subtipo": [
 						{
 							"nombre": "Corrediza",
-							"img": "../../img/Corrediza.png",
+							"img": "./img/Corrediza.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -162,7 +162,7 @@
 						},
 						{
 							"nombre": "Corrediza XOX",
-							"img": "../../img/CorredizaXOX(serie40).png",
+							"img": "./img/CorredizaXOX(serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -170,7 +170,7 @@
 						},
 						{
 							"nombre": "Corrediza OX-O",
-							"img": "../../img/CorredizaOX-O.png",
+							"img": "./img/CorredizaOX-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -178,7 +178,7 @@
 						},
 						{
 							"nombre": "Corrediza O-XO",
-							"img": "../../img/CorredizaO-XO.png",
+							"img": "./img/CorredizaO-XO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -186,7 +186,7 @@
 						},
 						{
 							"nombre": "Corrediza O-XOX",
-							"img": "../../img/CorredizaO-XOX.png",
+							"img": "./img/CorredizaO-XOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -196,11 +196,11 @@
 				},
 				{
 					"nombre": "Guillotina",
-					"img": "../../img/Guillotina.png",
+					"img": "./img/Guillotina.png",
 					"subtipo": [
 						{
 							"nombre": "Guillotina",
-							"img": "../../img/Guillotina.png",
+							"img": "./img/Guillotina.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -208,7 +208,7 @@
 						},
 						{
 							"nombre": "Doble guillotina",
-							"img": "../../img/DobleGuillotina.png",
+							"img": "./img/DobleGuillotina.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -216,7 +216,7 @@
 						},
 						{
 							"nombre": "OXO",
-							"img": "../../img/GuillotinaOXO.png",
+							"img": "./img/GuillotinaOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -224,7 +224,7 @@
 						},
 						{
 							"nombre": "XOX",
-							"img": "../../img/GuillotinaXOX.png",
+							"img": "./img/GuillotinaXOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -232,7 +232,7 @@
 						},
 						{
 							"nombre": "Orio",
-							"img": "../../img/GuillotinaOrio.png",
+							"img": "./img/GuillotinaOrio.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -240,7 +240,7 @@
 						},
 						{
 							"nombre": "Doble orio",
-							"img": "../../img/DobleGuillotinaOrio.png",
+							"img": "./img/DobleGuillotinaOrio.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -248,7 +248,7 @@
 						},
 						{
 							"nombre": "O-OX",
-							"img": "../../img/GuillotinaO-OX.png",
+							"img": "./img/GuillotinaO-OX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -256,7 +256,7 @@
 						},
 						{
 							"nombre": "Con arco continuo",
-							"img": "../../img/GuillotinaConArcoContinuo.png",
+							"img": "./img/GuillotinaConArcoContinuo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -266,11 +266,11 @@
 				},
 				{
 					"nombre": "Arcos y figuras",
-					"img": "../../img/ArcosyFiguras.png",
+					"img": "./img/ArcosyFiguras.png",
 					"subtipo": [
 						{
 							"nombre": "Triángulo isosceles",
-							"img": "../../img/TrianguloIsosceles.png",
+							"img": "./img/TrianguloIsosceles.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -278,7 +278,7 @@
 						},
 						{
 							"nombre": "Forma AO",
-							"img": "../../img/ArcoAO.png",
+							"img": "./img/ArcoAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -286,7 +286,7 @@
 						},
 						{
 							"nombre": "Hexagonal",
-							"img": "../../img/Hexagonal.png",
+							"img": "./img/Hexagonal.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -294,7 +294,7 @@
 						},
 						{
 							"nombre": "Octagonal",
-							"img": "../../img/Octagonal.png",
+							"img": "./img/Octagonal.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -302,7 +302,7 @@
 						},
 						{
 							"nombre": "Triángulo rectángulo",
-							"img": "../../img/TrianguloRectangulo.png",
+							"img": "./img/TrianguloRectangulo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -310,7 +310,7 @@
 						},
 						{
 							"nombre": "Forma AO-O",
-							"img": "../../img/FormaAO-O.png",
+							"img": "./img/FormaAO-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -318,7 +318,7 @@
 						},
 						{
 							"nombre": "Figura AO",
-							"img": "../../img/FiguraAO.png",
+							"img": "./img/FiguraAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -326,7 +326,7 @@
 						},
 						{
 							"nombre": "Figura AO-O",
-							"img": "../../img/FiguraAO-O.png",
+							"img": "./img/FiguraAO-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -334,7 +334,7 @@
 						},
 						{
 							"nombre": "Circular",
-							"img": "../../img/Circular.png",
+							"img": "./img/Circular.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -342,7 +342,7 @@
 						},
 						{
 							"nombre": "Arco",
-							"img": "../../img/Arco.png",
+							"img": "./img/Arco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -350,7 +350,7 @@
 						},
 						{
 							"nombre": "Arco media luna fijo",
-							"img": "../../img/ArcoMediaLunaFijo.png",
+							"img": "./img/ArcoMediaLunaFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -358,7 +358,7 @@
 						},
 						{
 							"nombre": "Media luna con un fijo",
-							"img": "../../img/MediaLunacon1Fijo.png",
+							"img": "./img/MediaLunacon1Fijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -366,7 +366,7 @@
 						},
 						{
 							"nombre": "Arco A-O-O",
-							"img": "../../img/ArcoA-O-O.png",
+							"img": "./img/ArcoA-O-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -374,7 +374,7 @@
 						},
 						{
 							"nombre": "Arco media luna 3 fijos",
-							"img": "../../img/ArcoMediaLunacon3Fijos.png",
+							"img": "./img/ArcoMediaLunacon3Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -382,7 +382,7 @@
 						},
 						{
 							"nombre": "Arco AO",
-							"img": "../../img/ArcoAO.png",
+							"img": "./img/ArcoAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -390,7 +390,7 @@
 						},
 						{
 							"nombre": "Fijo con arco",
-							"img": "../../img/FijoConArco.png",
+							"img": "./img/FijoConArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -398,7 +398,7 @@
 						},
 						{
 							"nombre": "Arco media luna con 2 fijos",
-							"img": "../../img/ArcoMediaLunacon2Fijos.png",
+							"img": "./img/ArcoMediaLunacon2Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -406,7 +406,7 @@
 						},
 						{
 							"nombre": "Arco AOOO luna con 3 fijos",
-							"img": "../../img/ArcoAOOOcon3Fijos.png",
+							"img": "./img/ArcoAOOOcon3Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -414,7 +414,7 @@
 						},
 						{
 							"nombre": "Catedral",
-							"img": "../../img/Catedral.png",
+							"img": "./img/Catedral.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -426,260 +426,260 @@
 		},
 		{
 			"nombre": "Premium",
-			"img": "../../img/PremiumAbatible.png",
+			"img": "./img/PremiumAbatible.png",
 			"ceja": [
-				{ "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
-				{ "nombre": "Ceja", "img": "../../img/ceja.png" },
-				{ "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+				{ "nombre": "Sin ceja", "img": "./img/sinCeja.png " },
+				{ "nombre": "Ceja", "img": "./img/ceja.png" },
+				{ "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
 			],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio Doble",
-					"img": "../../img/vidrio_dob.png",
+					"img": "./img/vidrio_dob.png",
 					"tipos": [
 						{
 							"nombre": "Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "Low-E",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "Claro / Baño",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "Low-E / Baño",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio Doble con Marginal",
-					"img": "../../img/vidrio_dob_marginal.png",
+					"img": "./img/vidrio_dob_marginal.png",
 					"tipos": [
 						{
 							"nombre": "Claro con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "Low-E con Marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Claro / Baño con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "Low-E / Baño con Marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol con Marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF con Marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio Doble con Cuadricula",
-					"img": "../../img/vidrio_dob_cuadricula.png",
+					"img": "./img/vidrio_dob_cuadricula.png",
 					"tipos": [
 						{
 							"nombre": "Claro con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E con Cuadricula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "Claro / Baño con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E / Baño con Cuadricula",
-							"img": "../../img/vidrio_dob_bano_lowe_cuadricula"
+							"img": "./img/vidrio_dob_bano_lowe_cuadricula"
 						},
 						{
 							"nombre": "Low-E / FiltraSol con Cuadricula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol con Cuadricula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF con Cuadricula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio Triple ",
-					"img": "../../img/vidrio_tri.png",
+					"img": "./img/vidrio_tri.png",
 					"tipos": [
 						{
 							"nombre": "Low-E / Claro / Baño",
-							"img": "../../img/vidrio_tri_bano_lowe.png"
+							"img": "./img/vidrio_tri_bano_lowe.png"
 						},
 						{
 							"nombre": "Low-E",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "Low-E / Claro / FiltraSol",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / Claro",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / FiltraSol",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / Baño",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "Low-E / Low-E / Claro",
-							"img": "../../img/vidrio_tri_lowe.png"
+							"img": "./img/vidrio_tri_lowe.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / Claro",
-							"img": "../../img/vidrio_tri.png"
+							"img": "./img/vidrio_tri.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol / Claro",
-							"img": "../../img/vidrio_tri.png"
+							"img": "./img/vidrio_tri.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / FiltraSol",
-							"img": "../../img/vidrio_tri.png"
+							"img": "./img/vidrio_tri.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / Baño UF",
-							"img": "../../img/vidrio_tri.png"
+							"img": "./img/vidrio_tri.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio Triple con Marginal",
-					"img": "../../img/vidrio_tri_marginal.png",
+					"img": "./img/vidrio_tri_marginal.png",
 					"tipos": [
 						{
 							"nombre": "Low-E / Claro / Baño con Marginal",
-							"img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+							"img": "./img/vidrio_tri_bano_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E con Marginal",
-							"img": "../../img/vidrio_tri_lowe_marginal.png"
+							"img": "./img/vidrio_tri_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / Claro / FiltraSol con Marginal",
-							"img": "../../img/vidrio_tri_lowe_marginal.png"
+							"img": "./img/vidrio_tri_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / Claro con Marginal",
-							"img": "../../img/vidrio_tri_lowe_marginal.png"
+							"img": "./img/vidrio_tri_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / FiltraSol con Marginal",
-							"img": "../../img/vidrio_tri_lowe_marginal.png"
+							"img": "./img/vidrio_tri_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol / Baño con Marginal",
-							"img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+							"img": "./img/vidrio_tri_bano_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / Low-E / Claro con Marginal",
-							"img": "../../img/vidrio_tri_lowe_marginal.png"
+							"img": "./img/vidrio_tri_lowe_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / Claro con Marginal",
-							"img": "../../img/vidrio_tri_marginal.png"
+							"img": "./img/vidrio_tri_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
-							"img": "../../img/vidrio_tri_marginal.png"
+							"img": "./img/vidrio_tri_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
-							"img": "../../img/vidrio_tri_marginal.png"
+							"img": "./img/vidrio_tri_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro / Baño UF con Marginal",
-							"img": "../../img/vidrio_tri_marginal.png"
+							"img": "./img/vidrio_tri_marginal.png"
 						}
 					]
 				}
@@ -687,11 +687,11 @@
 			"tipo": [
 				{
 					"nombre": "Fijo",
-					"img": "../../img/Fijo.png",
+					"img": "./img/Fijo.png",
 					"subtipo": [
 						{
 							"nombre": "Abatible Fijo",
-							"img": "../../img/AbatibleFijo.png",
+							"img": "./img/AbatibleFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -699,7 +699,7 @@
 						},
 						{
 							"nombre": "Abatibles Fijos Apilados",
-							"img": "../../img/AbatibleFijosApilados.png",
+							"img": "./img/AbatibleFijosApilados.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -707,7 +707,7 @@
 						},
 						{
 							"nombre": "Doble Abatible Fijo",
-							"img": "../../img/DobleAbatibleFijo.png",
+							"img": "./img/DobleAbatibleFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -715,7 +715,7 @@
 						},
 						{
 							"nombre": "Fija O-O-O",
-							"img": "../../img/FijaO-O-O.png",
+							"img": "./img/FijaO-O-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -723,7 +723,7 @@
 						},
 						{
 							"nombre": "Fijo O-O-O",
-							"img": "../../img/FijoO-O-O.png",
+							"img": "./img/FijoO-O-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -733,11 +733,11 @@
 				},
 				{
 					"nombre": "Abatible",
-					"img": "../../img/Abatible.png",
+					"img": "./img/Abatible.png",
 					"subtipo": [
 						{
 							"nombre": "Abatible",
-							"img": "../../img/Abatible.png",
+							"img": "./img/Abatible.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -745,7 +745,7 @@
 						},
 						{
 							"nombre": "Abatible con Abatible Fijo",
-							"img": "../../img/AbatibleconAbatibleFijo.png",
+							"img": "./img/AbatibleconAbatibleFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -753,7 +753,7 @@
 						},
 						{
 							"nombre": "Abatible XOX",
-							"img": "../../img/AbatibleXOX.png",
+							"img": "./img/AbatibleXOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -761,7 +761,7 @@
 						},
 						{
 							"nombre": "Abatible OXO",
-							"img": "../../img/AbatibleOXO.png",
+							"img": "./img/AbatibleOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -769,7 +769,7 @@
 						},
 						{
 							"nombre": "Abatible X/O",
-							"img": "../../img/AbatibleOXO.png",
+							"img": "./img/AbatibleOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -777,7 +777,7 @@
 						},
 						{
 							"nombre": "Abatible XX",
-							"img": "../../img/AbatibleXX.png",
+							"img": "./img/AbatibleXX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -785,7 +785,7 @@
 						},
 						{
 							"nombre": "Abatible XOO-OOX",
-							"img": "../../img/AbatibleXOO-OOX.png",
+							"img": "./img/AbatibleXOO-OOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -795,11 +795,11 @@
 				},
 				{
 					"nombre": "Proyectante",
-					"img": "../../img/Proyectante.png",
+					"img": "./img/Proyectante.png",
 					"subtipo": [
 						{
 							"nombre": "Abatiente",
-							"img": "../../img/Abatiente.png",
+							"img": "./img/Abatiente.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -807,7 +807,7 @@
 						},
 						{
 							"nombre": "Abatiente con Abatible Fijo",
-							"img": "../../img/AbatienteconAbatienteFijo.png",
+							"img": "./img/AbatienteconAbatienteFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -815,7 +815,7 @@
 						},
 						{
 							"nombre": "Abatiente con Abatible Fijo Apilado",
-							"img": "../../img/AbatienteconAbatienteFijoAmpliado.png",
+							"img": "./img/AbatienteconAbatienteFijoAmpliado.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -823,7 +823,7 @@
 						},
 						{
 							"nombre": "Abatiente XOX",
-							"img": "../../img/AbatienteXOX.png",
+							"img": "./img/AbatienteXOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -831,7 +831,7 @@
 						},
 						{
 							"nombre": "Abatiente OXO",
-							"img": "../../img/AbatienteOXO.png",
+							"img": "./img/AbatienteOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -839,7 +839,7 @@
 						},
 						{
 							"nombre": "Proyectante XXX",
-							"img": "../../img/ProyectanteXXX.png",
+							"img": "./img/ProyectanteXXX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -847,7 +847,7 @@
 						},
 						{
 							"nombre": "Abatiente XXX",
-							"img": "../../img/AbatienteXXX.png",
+							"img": "./img/AbatienteXXX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -855,7 +855,7 @@
 						},
 						{
 							"nombre": "Proyectante con 2 Fijos",
-							"img": "../../img/Proyectantecon2Fijos.png",
+							"img": "./img/Proyectantecon2Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -863,7 +863,7 @@
 						},
 						{
 							"nombre": "Doble Proyectante con Uno Fijo",
-							"img": "../../img/DobleProyectanteconunFijo.png",
+							"img": "./img/DobleProyectanteconunFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "72", "alto": "72" },
 								{ "nombre": "Mínimo", "ancho": "20", "alto": "35" }
@@ -875,182 +875,182 @@
 		},
 		{
 			"nombre": "Plus",
-			"img": "../../img/PlusGuillotinaOXO.png",
+			"img": "./img/PlusGuillotinaOXO.png",
 			"ceja": [
-				{ "nombre": "Sin ceja", "img": "../../img/sinCeja.png" },
-				{ "nombre": "Ceja", "img": "../../img/ceja.png" },
-				{ "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+				{ "nombre": "Sin ceja", "img": "./img/sinCeja.png" },
+				{ "nombre": "Ceja", "img": "./img/ceja.png" },
+				{ "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
 			],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio sencillo",
-					"img": "../../img/vidrioSencillo.png",
+					"img": "./img/vidrioSencillo.png",
 					"tipos": [
 						{
 							"nombre": "Claro",
-							"img": "../../img/vidrioSenci.png"
+							"img": "./img/vidrioSenci.png"
 						},
 						{
 							"nombre": "Baño",
-							"img": "../../img/vidrioSenciBano.png"
+							"img": "./img/vidrioSenciBano.png"
 						},
 						{
 							"nombre": "FiltraSol",
-							"img": "../../img/vidrioSenci.png"
+							"img": "./img/vidrioSenci.png"
 						},
 						{
 							"nombre": "ReflecteSol",
-							"img": "../../img/vidrioSenci.png"
+							"img": "./img/vidrioSenci.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_dob.png",
+					"img": "./img/vidrio_dob.png",
 					"tipos": [
 						{
 							"nombre": "Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "Low-E",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "Claro / Baño",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "Low-E / Baño",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol",
-							"img": "../../img/vidrio_dob_lowe.png"
+							"img": "./img/vidrio_dob_lowe.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF",
-							"img": "../../img/vidrio_dob.png"
+							"img": "./img/vidrio_dob.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio doble con marginal",
-					"img": "../../img/vidrio_dob_marginal.png",
+					"img": "./img/vidrio_dob_marginal.png",
 					"tipos": [
 						{
 							"nombre": "Claro con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "Low-E con marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Claro / Baño con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "Low-E / Baño con marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol con marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol con marginal",
-							"img": "../../img/vidrio_dob_lowe_marginal.png"
+							"img": "./img/vidrio_dob_lowe_marginal.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF con marginal",
-							"img": "../../img/vidrio_dob_marginal.png"
+							"img": "./img/vidrio_dob_marginal.png"
 						}
 					]
 				},
 				{
 					"nombre": "Vidrio doble con cuadrícula",
-					"img": "../../img/vidrio_dob_cuadricula.png",
+					"img": "./img/vidrio_dob_cuadricula.png",
 					"tipos": [
 						{
 							"nombre": "Claro con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E con cuadrícula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "Claro / Baño con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E / Baño con cuadrícula",
-							"img": "../../img/vidrio_dob_bano_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_bano_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E / FiltraSol con cuadrícula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "Low-E / ReflecteSol con cuadrícula",
-							"img": "../../img/vidrio_dob_lowe_cuadricula.png"
+							"img": "./img/vidrio_dob_lowe_cuadricula.png"
 						},
 						{
 							"nombre": "FiltraSol / Claro con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "FiltraSol / Baño con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / Claro con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / FiltraSol con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						},
 						{
 							"nombre": "ReflecteSol / Baño UF con cuadrícula",
-							"img": "../../img/vidrio_dob_cuadricula.png"
+							"img": "./img/vidrio_dob_cuadricula.png"
 						}
 					]
 				}
@@ -1058,11 +1058,11 @@
 			"tipo": [
 				{
 					"nombre": "Fijo",
-					"img": "../../img/Fijo.png",
+					"img": "./img/Fijo.png",
 					"subtipo": [
 						{
 							"nombre": "Fijo",
-							"img": "../../img/Fijo.png",
+							"img": "./img/Fijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1070,7 +1070,7 @@
 						},
 						{
 							"nombre": "Doble fijo apilada",
-							"img": "../../img/DobleFijoApilado(Serie40).png",
+							"img": "./img/DobleFijoApilado(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1078,7 +1078,7 @@
 						},
 						{
 							"nombre": "Triple fija apilada",
-							"img": "../../img/TripleFijaApilada(Serie40).png",
+							"img": "./img/TripleFijaApilada(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1086,7 +1086,7 @@
 						},
 						{
 							"nombre": "Doble fija",
-							"img": "../../img/DobleFija(serie40).png",
+							"img": "./img/DobleFija(serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1094,7 +1094,7 @@
 						},
 						{
 							"nombre": "Triple fija apilada",
-							"img": "../../img/TripleFijaApilada(Serie40).png",
+							"img": "./img/TripleFijaApilada(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1104,11 +1104,11 @@
 				},
 				{
 					"nombre": "Corrediza",
-					"img": "../../img/Corrediza.png",
+					"img": "./img/Corrediza.png",
 					"subtipo": [
 						{
 							"nombre": "Corrediza",
-							"img": "../../img/Corrediza.png",
+							"img": "./img/Corrediza.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1116,7 +1116,7 @@
 						},
 						{
 							"nombre": "Corrediza XOX",
-							"img": "../../img/CorredizaXOX(Serie40).png",
+							"img": "./img/CorredizaXOX(Serie40).png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1124,7 +1124,7 @@
 						},
 						{
 							"nombre": "Corrediza O-XO",
-							"img": "../../img/CorredizaO-XO.png",
+							"img": "./img/CorredizaO-XO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1132,7 +1132,7 @@
 						},
 						{
 							"nombre": "Corrediza O-XOX",
-							"img": "../../img/CorredizaO-XOX.png",
+							"img": "./img/CorredizaO-XOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1140,7 +1140,7 @@
 						},
 						{
 							"nombre": "Corrediza con arco",
-							"img": "../../img/CorredizaconArco.png",
+							"img": "./img/CorredizaconArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1148,7 +1148,7 @@
 						},
 						{
 							"nombre": "Arco media luna con corrediza",
-							"img": "../../img/ArcoMediaLunaconCorrediza.png",
+							"img": "./img/ArcoMediaLunaconCorrediza.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1156,7 +1156,7 @@
 						},
 						{
 							"nombre": "Corrediza con Arco AO",
-							"img": "../../img/CorredizaconArcoAO",
+							"img": "./img/CorredizaconArcoAO",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1164,7 +1164,7 @@
 						},
 						{
 							"nombre": "Corrediza con Fijo y Arco A-O-XO",
-							"img": "../../img/CorredizaconFijoyArcoA-O-XO.png",
+							"img": "./img/CorredizaconFijoyArcoA-O-XO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1172,7 +1172,7 @@
 						},
 						{
 							"nombre": "Arco Fijo con Corrediza",
-							"img": "../../img/ArcoyFijoconCorrediza.png",
+							"img": "./img/ArcoyFijoconCorrediza.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1182,11 +1182,11 @@
 				},
 				{
 					"nombre": "Guillotina",
-					"img": "../../img/Guillotina.png",
+					"img": "./img/Guillotina.png",
 					"subtipo": [
 						{
 							"nombre": "Guillotina",
-							"img": "../../img/Guillotina.png",
+							"img": "./img/Guillotina.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1194,7 +1194,7 @@
 						},
 						{
 							"nombre": "Doble",
-							"img": "../../img/DobleGuillotina.png",
+							"img": "./img/DobleGuillotina.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1202,7 +1202,7 @@
 						},
 						{
 							"nombre": "OXO",
-							"img": "../../img/GuillotinaOXO.png",
+							"img": "./img/GuillotinaOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1210,7 +1210,7 @@
 						},
 						{
 							"nombre": "XOX",
-							"img": "../../img/GuillotinaXOX.png",
+							"img": "./img/GuillotinaXOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1218,7 +1218,7 @@
 						},
 						{
 							"nombre": "O-OX",
-							"img": "../../img/GuillotinaO-OX.png",
+							"img": "./img/GuillotinaO-OX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1226,7 +1226,7 @@
 						},
 						{
 							"nombre": "Orio OX",
-							"img": "../../img/GuillotinaOrioOX.png",
+							"img": "./img/GuillotinaOrioOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1234,7 +1234,7 @@
 						},
 						{
 							"nombre": "Doble Orio",
-							"img": "../../img/DobleGuillotinaOrio.png",
+							"img": "./img/DobleGuillotinaOrio.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1242,7 +1242,7 @@
 						},
 						{
 							"nombre": "Con Arco",
-							"img": "../../img/GuillotinaconArco.png",
+							"img": "./img/GuillotinaconArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1250,7 +1250,7 @@
 						},
 						{
 							"nombre": "Con Arco AO",
-							"img": "../../img/GuillotinaconArcoAO.png",
+							"img": "./img/GuillotinaconArcoAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1258,7 +1258,7 @@
 						},
 						{
 							"nombre": "Con Arco Continuo",
-							"img": "../../img/GuillotinaConArcoContinuo.png",
+							"img": "./img/GuillotinaConArcoContinuo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1266,7 +1266,7 @@
 						},
 						{
 							"nombre": "A-OX con Arco Continuo",
-							"img": "../../img/GuillotinaA-OXconArcoContinuo.png",
+							"img": "./img/GuillotinaA-OXconArcoContinuo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1274,7 +1274,7 @@
 						},
 						{
 							"nombre": "OXO con Arco",
-							"img": "../../img/GuillotinaOXOconArco.png",
+							"img": "./img/GuillotinaOXOconArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1282,7 +1282,7 @@
 						},
 						{
 							"nombre": "Doble XOX con Arco",
-							"img": "../../img/DoubleGuillotinaXOXconArco.png",
+							"img": "./img/DoubleGuillotinaXOXconArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1290,7 +1290,7 @@
 						},
 						{
 							"nombre": "Doble Fijo con Arco",
-							"img": "../../img/GuillotinaDobleFijoconArco.png",
+							"img": "./img/GuillotinaDobleFijoconArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1298,7 +1298,7 @@
 						},
 						{
 							"nombre": "Fijo con doble Guillotina y Arco",
-							"img": "../../img/FijoconDobleGuillotinayArco.png",
+							"img": "./img/FijoconDobleGuillotinayArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1308,11 +1308,11 @@
 				},
 				{
 					"nombre": "Arcos y figuras",
-					"img": "../../img/ArcosyFiguras.png",
+					"img": "./img/ArcosyFiguras.png",
 					"subtipo": [
 						{
 							"nombre": "Triángulo isosceles",
-							"img": "../../img/TrianguloIsosceles.png",
+							"img": "./img/TrianguloIsosceles.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1320,7 +1320,7 @@
 						},
 						{
 							"nombre": "Forma AO",
-							"img": "../../img/FormaAO.png",
+							"img": "./img/FormaAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1328,7 +1328,7 @@
 						},
 						{
 							"nombre": "Hexagonal",
-							"img": "../../img/Hexagonal.png",
+							"img": "./img/Hexagonal.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1336,7 +1336,7 @@
 						},
 						{
 							"nombre": "Octagonal",
-							"img": "../../img/Octagonal.png",
+							"img": "./img/Octagonal.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1344,7 +1344,7 @@
 						},
 						{
 							"nombre": "Triángulo rectángulo",
-							"img": "../../img/TrianguloRectangulo.png",
+							"img": "./img/TrianguloRectangulo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1352,7 +1352,7 @@
 						},
 						{
 							"nombre": "Forma AO-O",
-							"img": "../../img/FormaAO-O.png",
+							"img": "./img/FormaAO-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1360,7 +1360,7 @@
 						},
 						{
 							"nombre": "Figura AO",
-							"img": "../../img/FiguraAO.png",
+							"img": "./img/FiguraAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1368,7 +1368,7 @@
 						},
 						{
 							"nombre": "Figura AO-O",
-							"img": "../../img/FiguraAO-O.png",
+							"img": "./img/FiguraAO-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1376,7 +1376,7 @@
 						},
 						{
 							"nombre": "Circular",
-							"img": "../../img/Circular.png",
+							"img": "./img/Circular.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1384,7 +1384,7 @@
 						},
 						{
 							"nombre": "Arco",
-							"img": "../../img/Arco.png",
+							"img": "./img/Arco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1392,7 +1392,7 @@
 						},
 						{
 							"nombre": "Arco media luna fijo",
-							"img": "../../img/ArcoMediaLunaFijo.png",
+							"img": "./img/ArcoMediaLunaFijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1400,7 +1400,7 @@
 						},
 						{
 							"nombre": "Media luna con un fijo",
-							"img": "../../img/MediaLunacon1Fijo.png",
+							"img": "./img/MediaLunacon1Fijo.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1408,7 +1408,7 @@
 						},
 						{
 							"nombre": "Arco A-O-O",
-							"img": "../../img/ArcoA-O-O.png",
+							"img": "./img/ArcoA-O-O.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1416,7 +1416,7 @@
 						},
 						{
 							"nombre": "Arco media luna 3 fijos",
-							"img": "../../img/ArcoMediaLunacon3Fijos.png",
+							"img": "./img/ArcoMediaLunacon3Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1424,7 +1424,7 @@
 						},
 						{
 							"nombre": "Arco AO",
-							"img": "../../img/ArcoAO.png",
+							"img": "./img/ArcoAO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1432,7 +1432,7 @@
 						},
 						{
 							"nombre": "Fijo con arco",
-							"img": "../../img/FijoConArco.png",
+							"img": "./img/FijoConArco.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1440,7 +1440,7 @@
 						},
 						{
 							"nombre": "Arco media luna con 2 fijos",
-							"img": "../../img/ArcoMediaLunacon2Fijos.png",
+							"img": "./img/ArcoMediaLunacon2Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1448,7 +1448,7 @@
 						},
 						{
 							"nombre": "Arco AOOO luna con 3 fijos",
-							"img": "../../img/ArcoAOOOcon3Fijos.png",
+							"img": "./img/ArcoAOOOcon3Fijos.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1456,7 +1456,7 @@
 						},
 						{
 							"nombre": "Catedral",
-							"img": "../../img/Catedral.png",
+							"img": "./img/Catedral.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1468,33 +1468,33 @@
 		},
 		{
 			"nombre": "PD10",
-			"img": "../../img/PD10-PuertaCorrediza.png",
+			"img": "./img/PD10-PuertaCorrediza.png",
 			"ceja": [
-				{ "nombre": "Sin ceja", "img": "../../img/sinCeja.png " },
-				{ "nombre": "Ceja", "img": "../../img/ceja.png" },
-				{ "nombre": "Ceja enfrente", "img": "../../img/ceja_frente.png" }
+				{ "nombre": "Sin ceja", "img": "./img/sinCeja.png " },
+				{ "nombre": "Ceja", "img": "./img/ceja.png" },
+				{ "nombre": "Ceja enfrente", "img": "./img/ceja_frente.png" }
 			],
 			"tipoVidrio": [
 				{
 					"nombre": "Vidrio doble",
-					"img": "../../img/vidrio_dob.png",
+					"img": "./img/vidrio_dob.png",
 					"tipos": [
-						{ "nombre": "templado claro", "img": "../../img/vidrio_dob_templado_ingles.png" },
-						{ "nombre": "templado Low-E", "img": "../../img/vidrio_dob_templado_lowe_ingles.png" },
-						{ "nombre": "templado claro baño", "img": "../../img/vidrio_dob_templado_ingles.png" },
-						{ "nombre": "templado low-E baño", "img": "../../img/vidrio_dob_templado_lowe_ingles.png"  },
-						{ "nombre": "templado low-E Filtrasol", "img": "../../img/vidrio_dob_templado_lowe_ingles.png"  }
+						{ "nombre": "templado claro", "img": "./img/vidrio_dob_templado_ingles.png" },
+						{ "nombre": "templado Low-E", "img": "./img/vidrio_dob_templado_lowe_ingles.png" },
+						{ "nombre": "templado claro baño", "img": "./img/vidrio_dob_templado_ingles.png" },
+						{ "nombre": "templado low-E baño", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  },
+						{ "nombre": "templado low-E Filtrasol", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  }
 					]
 				}
 			],
 			"tipo": [
 				{
 					"nombre": "Puerta Corrediza",
-					"img": "../../img/PD10-PuertaCorrediza.png",
+					"img": "./img/PD10-PuertaCorrediza.png",
 					"subtipo": [
 						{
 							"nombre": "Puerta Corrediza",
-							"img": "../../img/PD10-PuertaCorrediza.png",
+							"img": "./img/PD10-PuertaCorrediza.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1502,7 +1502,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza OXO",
-							"img": "../../img/CorredizaOXO.png",
+							"img": "./img/CorredizaOXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1510,7 +1510,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza OOX",
-							"img": "../../img/PuertaCorredizaOOX.png",
+							"img": "./img/PuertaCorredizaOOX.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1518,7 +1518,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza OXXO",
-							"img": "../../img/PuertaCorredizaOXXO.png",
+							"img": "./img/PuertaCorredizaOXXO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1526,7 +1526,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza OO",
-							"img": "../../img/PuertaCorredizaOO.png",
+							"img": "./img/PuertaCorredizaOO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1534,7 +1534,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza OOOO",
-							"img": "../../img/PuertaCorredizaOOOO.png",
+							"img": "./img/PuertaCorredizaOOOO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }
@@ -1542,7 +1542,7 @@
 						},
 						{
 							"nombre": "Puerta Corrediza O",
-							"img": "../../img/PuertaCorredizaO.png",
+							"img": "./img/PuertaCorredizaO.png",
 							"dimensiones": [
 								{ "nombre": "Máximo", "ancho": "80", "alto": "20" },
 								{ "nombre": "Mínimo", "ancho": "11", "alto": "11" }

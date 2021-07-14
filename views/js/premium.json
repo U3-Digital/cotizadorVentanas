@@ -1,398 +1,398 @@
 {
   "nombre": "Premium",
-  "img": "../../img/PremiumAbatible.png",
+  "img": "./img/PremiumAbatible.png",
   "ceja": [
     {
       "nombre": "Sin ceja",
-      "img": "../../img/sinCeja.png "
+      "img": "./img/sinCeja.png "
     },
     {
       "nombre": "Ceja",
-      "img": "../../img/ceja.png"
+      "img": "./img/ceja.png"
     },
     {
       "nombre": "Ceja enfrente",
-      "img": "../../img/ceja_frente.png"
+      "img": "./img/ceja_frente.png"
     }
   ],
   "tipoVidrio": [
     {
       "nombre": "Vidrio Doble",
-      "img": "../../img/vidrio_dob.png",
+      "img": "./img/vidrio_dob.png",
       "tipos": [
         {
           "nombre": "Claro",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Low-E",
-          "img": "../../img/vidrio_dob_lowe.png"
+          "img": "./img/vidrio_dob_lowe.png"
         },
         {
           "nombre": "Claro / Baño Tapis ",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Claro / Baño Ultra Fino",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Low-E / Baño Tapis",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Low-E / Baño Ultra Fino ",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Templado Claro ",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Templado Low-E ",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Low-E / FiltraSol",
-          "img": "../../img/vidrio_dob_lowe.png"
+          "img": "./img/vidrio_dob_lowe.png"
         },
         {
           "nombre": "Low-E / ReflecteSol",
-          "img": "../../img/vidrio_dob_lowe.png"
+          "img": "./img/vidrio_dob_lowe.png"
         },
         {
           "nombre": "FiltraSol / Claro",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "FiltraSol / Baño Tapis",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "FiltraSol / Baño Ultra Fino",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "ReflecteSol / Claro",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "ReflecteSol / Baño UF",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Templado Claro / Baño ",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Templado Low-E / Baño",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         },
         {
           "nombre": "Templado Low-E / Filtra Sol",
-          "img": "../../img/vidrio_dob.png"
+          "img": "./img/vidrio_dob.png"
         }
       ]
     },
     {
       "nombre": "Vidrio Doble con Marginal",
-      "img": "../../img/vidrio_dob_marginal.png",
+      "img": "./img/vidrio_dob_marginal.png",
       "tipos": [
         {
           "nombre": "Claro con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "Low-E con Marginal",
-          "img": "../../img/vidrio_dob_lowe_marginal.png"
+          "img": "./img/vidrio_dob_lowe_marginal.png"
         },
         {
           "nombre": "Claro / Baño Tapis con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "Claro / Baño Ultra Fino con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "Low-E / Baño Tapis con Marginal",
-          "img": "../../img/vidrio_dob_lowe_marginal.png"
+          "img": "./img/vidrio_dob_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / Baño Ultra Fino con Marginal",
-          "img": "../../img/vidrio_dob_lowe_marginal.png"
+          "img": "./img/vidrio_dob_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / FiltraSol con Marginal",
-          "img": "../../img/vidrio_dob_lowe_marginal.png"
+          "img": "./img/vidrio_dob_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / ReflecteSol con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "FiltraSol / Claro con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "FiltraSol / Baño Tapis con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "FiltraSol / Baño Ultra Fino  con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "ReflecteSol / Claro con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         },
         {
           "nombre": "ReflecteSol / Baño UF con Marginal",
-          "img": "../../img/vidrio_dob_marginal.png"
+          "img": "./img/vidrio_dob_marginal.png"
         }
       ]
     },
     {
       "nombre": "Vidrio Doble con Cuadricula",
-      "img": "../../img/vidrio_dob_marginal.png",
+      "img": "./img/vidrio_dob_marginal.png",
       "tipos": [
         {
           "nombre": "Claro con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "Low-E con Cuadricula",
-          "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+          "img": "./img/vidrio_dob_lowe_cuadricula.png"
         },
         {
           "nombre": "Claro / Baño Tapis con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "Claro / Baño Ultra Fino con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "Low-E / Baño Tapis con Cuadricula",
-          "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+          "img": "./img/vidrio_dob_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / Baño Ultra Fino con Cuadricula",
-          "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+          "img": "./img/vidrio_dob_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / FiltraSol con Cuadricula",
-          "img": "../../img/vidrio_dob_lowe_cuadricula.png"
+          "img": "./img/vidrio_dob_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / ReflecteSol con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "FiltraSol / Claro con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "FiltraSol / Baño Tapis con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "FiltraSol / Baño Ultra Fino  con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / Claro con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / Baño UF con Cuadricula",
-          "img": "../../img/vidrio_dob_cuadricula.png"
+          "img": "./img/vidrio_dob_cuadricula.png"
         }
       ]
     },
     {
       "nombre": "Vidrio Triple ",
-      "img": "../../img/vidrio_tri.png",
+      "img": "./img/vidrio_tri.png",
       "tipos": [
         {
           "nombre": "Low-E / Claro / Baño Tapis",
-          "img": "../../img/vidrio_tri_bano_lowe.png"
+          "img": "./img/vidrio_tri_bano_lowe.png"
         },
         {
           "nombre": "Low-E / Claro / Baño Ultra Fino",
-          "img": "../../img/vidrio_tri_bano_lowe.png"
+          "img": "./img/vidrio_tri_bano_lowe.png"
         },
         {
           "nombre": "Low-E",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / Claro / FiltraSol",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Claro",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / FiltraSol / FiltraSol",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Tapis ",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Ultra Fino ",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "Low-E / Low-E / Claro",
-          "img": "../../img/vidrio_tri_lowe.png"
+          "img": "./img/vidrio_tri_lowe.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Claro",
-          "img": "../../img/vidrio_tri.png"
+          "img": "./img/vidrio_tri.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol / Claro",
-          "img": "../../img/vidrio_tri.png"
+          "img": "./img/vidrio_tri.png"
         },
         {
           "nombre": "ReflecteSol / Claro / FiltraSol",
-          "img": "../../img/vidrio_tri.png"
+          "img": "./img/vidrio_tri.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Baño UF",
-          "img": "../../img/vidrio_tri.png"
+          "img": "./img/vidrio_tri.png"
         }
       ]
     },
     {
       "nombre": "Vidrio Triple con Marginal",
-      "img": "../../img/vidrio_tri_marginal.png",
+      "img": "./img/vidrio_tri_marginal.png",
       "tipos": [
         {
           "nombre": "Low-E / Claro / Baño Tapis con Marginal",
-          "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+          "img": "./img/vidrio_tri_bano_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / Claro / Baño Ultra Fino con Marginal",
-          "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+          "img": "./img/vidrio_tri_bano_lowe_marginal.png"
         },
         {
           "nombre": "Low-E con Marginal",
-          "img": "../../img/vidrio_tri_lowe_marginal.png"
+          "img": "./img/vidrio_tri_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / Claro / FiltraSol con Marginal",
-          "img": "../../img/vidrio_tri_lowe_marginal.png"
+          "img": "./img/vidrio_tri_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Claro con Marginal",
-          "img": "../../img/vidrio_tri_lowe_marginal.png"
+          "img": "./img/vidrio_tri_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / FiltraSol / FiltraSol con Marginal",
-          "img": "../../img/vidrio_tri_lowe_marginal.png"
+          "img": "./img/vidrio_tri_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Tapis con Marginal",
-          "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+          "img": "./img/vidrio_tri_bano_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Marginal",
-          "img": "../../img/vidrio_tri_bano_lowe_marginal.png"
+          "img": "./img/vidrio_tri_bano_lowe_marginal.png"
         },
         {
           "nombre": "Low-E / Low-E / Claro con Marginal",
-          "img": "../../img/vidrio_tri_lowe_marginal.png"
+          "img": "./img/vidrio_tri_lowe_marginal.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Claro con Marginal",
-          "img": "../../img/vidrio_tri_marginal.png"
+          "img": "./img/vidrio_tri_marginal.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol / Claro con Marginal",
-          "img": "../../img/vidrio_tri_marginal.png"
+          "img": "./img/vidrio_tri_marginal.png"
         },
         {
           "nombre": "ReflecteSol / Claro / FiltraSol con Marginal",
-          "img": "../../img/vidrio_tri_marginal.png"
+          "img": "./img/vidrio_tri_marginal.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Baño UF con Marginal",
-          "img": "../../img/vidrio_tri_marginal.png"
+          "img": "./img/vidrio_tri_marginal.png"
         }
       ]
     },
     {
       "nombre": "Vidrio Triple con Cuadricula",
-      "img": "../../img/vidrio_tri_cuadricula.png",
+      "img": "./img/vidrio_tri_cuadricula.png",
       "tipos": [
         {
           "nombre": "Low-E / Claro / Baño Tapis con Cuadricula",
-          "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_bano_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / Claro / Baño Ultra Fino con Cuadricula",
-          "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_bano_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E con Cuadricula",
-          "img": "../../img/vidrio_tri_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / Claro / FiltraSol con Cuadricula",
-          "img": "../../img/vidrio_tri_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Claro con Cuadricula",
-          "img": "../../img/vidrio_tri_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / FiltraSol / FiltraSol con Cuadricula",
-          "img": "../../img/vidrio_tri_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Tapis con Cuadricula",
-          "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_bano_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / FiltraSol / Baño Ultra Fino con Cuadricula",
-          "img": "../../img/vidrio_tri_bano_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_bano_lowe_cuadricula.png"
         },
         {
           "nombre": "Low-E / Low-E / ClaCuadricula",
-          "img": "../../img/vidrio_tri_lowe_cuadricula.png"
+          "img": "./img/vidrio_tri_lowe_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Claro con Cuadricula",
-          "img": "../../img/vidrio_tri_cuadricula.png"
+          "img": "./img/vidrio_tri_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / FiltraSol / Claro con Cuadricula",
-          "img": "../../img/vidrio_tri_cuadricula.png"
+          "img": "./img/vidrio_tri_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / Claro / FiltraSol con Cuadricula",
-          "img": "../../img/vidrio_tri_cuadricula.png"
+          "img": "./img/vidrio_tri_cuadricula.png"
         },
         {
           "nombre": "ReflecteSol / Claro / Baño UF con Cuadricula",
-          "img": "../../img/vidrio_tri_cuadricula.png"
+          "img": "./img/vidrio_tri_cuadricula.png"
         }
       ]
     }
@@ -400,11 +400,11 @@
   "tipo": [
     {
       "nombre": "Fijo",
-      "img": "../../img/Fijo.png",
+      "img": "./img/Fijo.png",
       "subtipo": [
         {
           "nombre": "Abatible Fijo",
-          "img": "../../img/AbatibleFijo.png",
+          "img": "./img/AbatibleFijo.png",
           "formula": "(An + Al) * PV",
           "dimensiones": [
             {
@@ -424,7 +424,7 @@
         },
         {
           "nombre": "Abatibles Fijos Apilados",
-          "img": "../../img/AbatibleFijosApilados.png",
+          "img": "./img/AbatibleFijosApilados.png",
           "formula": "((An + (Al / 2)) * PV) * 2 + calcularTMullion(An)",
           "dimensiones": [
             {
@@ -444,7 +444,7 @@
         },
         {
           "nombre": "Doble Abatible Fijo",
-          "img": "../../img/DobleAbatibleFijo.png",
+          "img": "./img/DobleAbatibleFijo.png",
           "formula": "(((An / 2) + Al) * PV) * 2 + calcularTMullion(Al)",
           "dimensiones": [
             {
@@ -464,7 +464,7 @@
         },
         {
           "nombre": "Fija O-O-O",
-          "img": "../../img/FijaO-O-O.png",
+          "img": "./img/FijaO-O-O.png",
           "formula": "((An + (Al / 3)) * PV) * 3 + calcularTMullion(An * 2)",
           "dimensiones": [
             {
@@ -484,7 +484,7 @@
         },
         {
           "nombre": "Fijo O-O-O",
-          "img": "../../img/FijoO-O-O.png",
+          "img": "./img/FijoO-O-O.png",
           "formula": "(((An / 3) + Al) * PV) * 3 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
@@ -506,11 +506,11 @@
     },
     {
       "nombre": "Abatible",
-      "img": "../../img/Abatible.png",
+      "img": "./img/Abatible.png",
       "subtipo": [
         {
           "nombre": "Abatible",
-          "img": "../../img/Abatible.png",
+          "img": "./img/Abatible.png",
           "formula": "(An + Al) * PV",
           "dimensiones": [
             {
@@ -530,7 +530,7 @@
         },
         {
           "nombre": "Abatible con Abatible Fijo",
-          "img": "../../img/AbatibleconAbatibleFijo.png",
+          "img": "./img/AbatibleconAbatibleFijo.png",
           "formula": "((An - An2) + Al) * PV + (An2 + Al) * PV2 + calcularTMullion(Al)",
           "dimensiones": [
             {
@@ -553,7 +553,7 @@
         },
         {
           "nombre": "Abatible XOX",
-          "img": "../../img/AbatibleXOX.png",
+          "img": "./img/AbatibleXOX.png",
           "formula": "((An2 + Al) * PV) * 2 + (An - (An2 * 2) + Al) * PV2 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
@@ -576,7 +576,7 @@
         },
         {
           "nombre": "Abatible OXO",
-          "img": "../../img/AbatibleOXO.png",
+          "img": "./img/AbatibleOXO.png",
           "formula": "(An2 + Al) * PV + (((An - An2) / 2 + Al) * PV2) * 2 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
@@ -599,7 +599,7 @@
         },
         {
           "nombre": "Abatible O/X",
-          "img": "../../img/AbatibleOXO.png",
+          "img": "./img/AbatibleOXO.png",
           "formula": "(An + Al2) * PV + (An + (Al - Al2)) * PV2 + calcularTMullion(An)",
           "dimensiones": [
             {
@@ -622,7 +622,7 @@
         },
         {
           "nombre": "Abatible XX",
-          "img": "../../img/AbatibleXX.png",
+          "img": "./img/AbatibleXX.png",
           "formula": "((An - An2) + Al) * PV + (An2 + Al) * PV + calcularTMullion(Al)",
           "dimensiones": [
             {
@@ -645,7 +645,7 @@
         },
         {
           "nombre": "Abatible XOO-OOX",
-          "img": "../../img/AbatibleXOO-OOX.png",
+          "img": "./img/AbatibleXOO-OOX.png",
           "formula": "(An2 + Al) * PV + (((An - An2) / 2 + Al) * PV2) * 2 + calcularTMullion(Al * 2)",
           "dimensiones": [
             {
@@ -670,11 +670,11 @@
     },
     {
       "nombre": "Proyectante",
-      "img": "../../img/Proyectante.png",
+      "img": "./img/Proyectante.png",
       "subtipo": [
         {
           "nombre": "Abatiente",
-          "img": "../../img/Abatiente.png",
+          "img": "./img/Abatiente.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -690,7 +690,7 @@
         },
         {
           "nombre": "Abatiente con Abatible Fijo",
-          "img": "../../img/AbatienteconAbatienteFijo.png",
+          "img": "./img/AbatienteconAbatienteFijo.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -706,7 +706,7 @@
         },
         {
           "nombre": "Abatiente con Abatible Fijo Apilado",
-          "img": "../../img/AbatienteconAbatienteFijoAmpliado.png",
+          "img": "./img/AbatienteconAbatienteFijoAmpliado.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -722,7 +722,7 @@
         },
         {
           "nombre": "Abatiente XOX",
-          "img": "../../img/AbatienteXOX.png",
+          "img": "./img/AbatienteXOX.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -738,7 +738,7 @@
         },
         {
           "nombre": "Abatiente OXO",
-          "img": "../../img/AbatienteOXO.png",
+          "img": "./img/AbatienteOXO.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -754,7 +754,7 @@
         },
         {
           "nombre": "Proyectante XXX",
-          "img": "../../img/ProyectanteXXX.png",
+          "img": "./img/ProyectanteXXX.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -770,7 +770,7 @@
         },
         {
           "nombre": "Abatiente XXX",
-          "img": "../../img/AbatienteXXX.png",
+          "img": "./img/AbatienteXXX.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -786,7 +786,7 @@
         },
         {
           "nombre": "Proyectante con 2 Fijos",
-          "img": "../../img/Proyectantecon2Fijos.png",
+          "img": "./img/Proyectantecon2Fijos.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -802,7 +802,7 @@
         },
         {
           "nombre": "Doble Proyectante con Uno Fijo",
-          "img": "../../img/DobleProyectanteconunFijo.png",
+          "img": "./img/DobleProyectanteconunFijo.png",
           "dimensiones": [
             {
               "nombre": "Máximo",
@@ -822,7 +822,7 @@
   "colores": [
     {
       "nombre": "Blanco",
-      "img": "../../img/Blanco.png",
+      "img": "./img/Blanco.png",
       "color": [
         {
           "nombre": "Bronze",
@@ -868,7 +868,7 @@
     },
     {
       "nombre": "Clay",
-      "img": "../../img/Clay.png",
+      "img": "./img/Clay.png",
       "color": [
         {
           "nombre": "Bronze",

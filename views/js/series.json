@@ -2,19 +2,19 @@
     "tipos": [
         {
             "nombre": "Básica",
-			"img": "../../img/Fija(Serie40).png"
+			"img": "./img/Fija(Serie40).png"
         },
         {
             "nombre": "Plus",
-			"img": "../../img/PlusGuillotinaOXO.png"
+			"img": "./img/PlusGuillotinaOXO.png"
         },
         {
             "nombre": "Premium",
-			"img": "../../img/PremiumAbatible.png"
+			"img": "./img/PremiumAbatible.png"
         },
         {
             "nombre": "PD10",
-			"img": "../../img/PD10-PuertaCorrediza.png"
+			"img": "./img/PD10-PuertaCorrediza.png"
         }
     ]
 }

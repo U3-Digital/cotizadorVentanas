@@ -82,7 +82,7 @@
   </div>
 </div>
 
-<script src="../js/stepper.js"></script>
-<script src="../js/generarPantallas.js"></script>
-<script src="../js/script.js"></script>
-<script src="../js/calcularPrecio.js"></script>
+<script src="./views/js/stepper.js"></script>
+<script src="./views/js/generarPantallas.js"></script>
+<script src="./views/js/script.js"></script>
+<script src="./views/js/calcularPrecio.js"></script>
