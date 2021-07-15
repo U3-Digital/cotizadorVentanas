@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-07-2021 a las 19:31:27
+-- Tiempo de generación: 15-07-2021 a las 03:07:57
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.8
 
@@ -42,7 +42,8 @@ INSERT INTO `cotizaciones` (`idCotizacion`, `ventana`, `cliente`, `fecha`) VALUE
 (29, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Corrediza XOX  1/4 2/4 1/4\",\"dimensionAncho\":\"38\",\"dimensionAlto\":\"38\",\"subtipoVidrio\":\"Templado Claro\",\"tipoVidrio\":\"Vidrio doble\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":7441.75,\"total\":7441.75}]', 'Pedic', '2021-07-06'),
 (30, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98}]', 'Pedic', '2021-07-13'),
 (31, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"24\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Rojo Caliente\",\"numeroVentanas\":\"1\",\"precio\":1216.98,\"total\":1216.98},{\"colorSubcolor\":\"Rojo Caliente\",\"total\":1872.5,\"precio\":1872.5}]', 'Pedic', '2021-07-13'),
-(32, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"36\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Azul\",\"numeroVentanas\":\"1\",\"precio\":1521.23,\"total\":1521.23},{\"colorSubcolor\":\"Azul\",\"precio\":1872.5,\"numeroVentanas\":\"1\",\"total\":1872.5}]', 'Pedic', '2021-07-13');
+(32, '[{\"serie\":\"Básica\",\"tipoVentana\":\"Fijo Serie 40\",\"subtipoVentana\":\"Fija\",\"dimensionAncho\":\"24\",\"dimensionAlto\":\"36\",\"tipoVidrio\":\"Vidrio sencillo\",\"subtipoVidrio\":\"Claro\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Azul\",\"numeroVentanas\":\"1\",\"precio\":1521.23,\"total\":1521.23},{\"colorSubcolor\":\"Azul\",\"precio\":1872.5,\"numeroVentanas\":\"1\",\"total\":1872.5}]', 'Pedic', '2021-07-13'),
+(33, '[{\"serie\":\"Plus\",\"tipoVentana\":\"Corrediza\",\"subtipoVentana\":\"Arco media luna con corrediza\",\"dimensionAncho\":\"48\",\"dimensionAlto\":\"48\",\"dimensionAlto2\":\"15\",\"tipoVidrio\":\"Vidrio doble\",\"subtipoVidrio\":\"Claro / Baño Tapis\",\"ceja\":\"Sin ceja\",\"colorPrincipal\":\"Blanco\",\"colorSubcolor\":\"Cranberry\",\"numeroVentanas\":\"2\",\"precio\":14286.15,\"total\":28572.3},{\"colorSubcolor\":\"Cranberry\",\"precio\":1872.5,\"numeroVentanas\":\"2\",\"total\":3745}]', 'Ray Paz', '2021-07-14');
 
 -- --------------------------------------------------------
 
@@ -803,7 +804,43 @@ INSERT INTO `precios` (`id`, `descripcion`, `precio`) VALUES
 (721, 'Guillotina con Arco Continuo-Vidrio Doble FiltraSol/ Baño UF con Marginal', 5.23281),
 (722, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Claro con Marginal', 5.723685),
 (723, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ FiltraSol con Marginal', 5.813445),
-(724, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Baño UF con Marginal', 0);
+(724, 'Guillotina con Arco Continuo-Vidrio Doble ReflecteSol/ Baño UF con Marginal', 0),
+(725, 'Puerta Corrediza-Vidrio Doble Templado Claro', 5.1276855202),
+(726, 'Puerta Corrediza-Vidrio Doble Templado Low-E', 5.53362076446521),
+(727, 'Puerta Corrediza-Vidrio Doble Templado Claro Baño', 7.95020722798888),
+(728, 'Puerta Corrediza-Vidrio Doble Templado Low-E Baño', 9.13843833519743),
+(729, 'Puerta Corrediza-Vidrio Doble Templado Low-E FiltraSol', 9.0468540562834),
+(730, 'Puerta Corrediza O XO-Vidrio Doble Templado Claro', 8.48903939333897),
+(731, 'Puerta Corrediza O XO-Vidrio Doble Templado Low-E', 11.10293423636),
+(732, 'Puerta Corrediza O XO-Vidrio Doble Templado Claro Baño', 9.1764108291154),
+(733, 'Puerta Corrediza O XO-Vidrio Doble Templado Low-E Baño', 10.7175387719077),
+(734, 'Puerta Corrediza O XO-Vidrio Doble Templado Low-E FiltraSol', 10.5988748191244),
+(735, 'Puerta Corrediza OOX-Vidrio Doble Templado Claro', 8.48903939333897);
+INSERT INTO `precios` (`id`, `descripcion`, `precio`) VALUES
+(736, 'Puerta Corrediza OOX-Vidrio Doble Templado Low-E', 11.1029054163589),
+(737, 'Puerta Corrediza OOX-Vidrio Doble Templado Claro Baño', 9.1764108291154),
+(738, 'Puerta Corrediza OOX-Vidrio Doble Templado Low-E FiltraSol', 10.5988748191244),
+(739, 'Puerta Corrediza OOX-Vidrio Doble Templado Low-E Baño', 10.7175387719077),
+(740, 'Puerta Corrediza OXXO-Vidrio Doble Templado Claro', 11.4575990108994),
+(741, 'Puerta Corrediza OXXO-Vidrio Doble Templado Low-E', 14.5992687769533),
+(742, 'Puerta Corrediza OXXO-Vidrio Doble Templado Claro Baño', 11.0222486365336),
+(743, 'Puerta Corrediza OXXO-Vidrio Doble Templado Low-E Baño', 12.7060511653378),
+(744, 'Puerta Corrediza OXXO-Vidrio Doble Templado Low-E FiltraSol', 12.5763964613552),
+(745, 'Puerta Corrediza OO-Vidrio Doble Templado Claro', 5.29710237609937),
+(746, 'Puerta Corrediza OO-Vidrio Doble Templado Low-E', 7.50065235921211),
+(747, 'Puerta Corrediza OO-Vidrio Doble Templado Claro Baño', 6.09193442119334),
+(748, 'Puerta Corrediza OO-Vidrio Doble Templado Low-E Baño', 7.39097437218552),
+(749, 'Puerta Corrediza OO-Vidrio Doble Templado Low-E FiltraSol', 7.29094192808658),
+(750, 'Puerta Corrediza OOOO-Vidrio Doble Templado Claro', 7.77624938038657),
+(751, 'Puerta Corrediza OOOO-Vidrio Doble Templado Low-E', 11.1761809932273),
+(752, 'Puerta Corrediza OOOO-Vidrio Doble Templado Claro Baño', 8.2290408035639),
+(753, 'Puerta Corrediza OOOO-Vidrio Doble Templado Low-E Baño', 10.0513600659963),
+(754, 'Puerta Corrediza OOOO-Vidrio Doble Templado Low-E FiltraSol', 9.91102910847263),
+(755, 'Puerta Corrediza O-Vidrio Doble Templado Claro', 4.26819441038537),
+(756, 'Puerta Corrediza O-Vidrio Doble Templado Low-E', 6.21071306951591),
+(757, 'Puerta Corrediza O-Vidrio Doble Templado Claro Baño', 5.81544363441771),
+(758, 'Puerta Corrediza O-Vidrio Doble Templado Low-E Baño', 7.12114758823726),
+(759, 'Puerta Corrediza O-Vidrio Doble Templado Low-E FiltraSol', 7.02059859463727);
 
 -- --------------------------------------------------------
 
@@ -866,7 +903,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `cotizaciones`
 --
 ALTER TABLE `cotizaciones`
-  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `idCotizacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT de la tabla `generales`
@@ -878,7 +915,7 @@ ALTER TABLE `generales`
 -- AUTO_INCREMENT de la tabla `precios`
 --
 ALTER TABLE `precios`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=725;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=760;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`

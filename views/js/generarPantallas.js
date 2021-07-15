@@ -516,7 +516,11 @@ function cargarColores(serie, ceja, ventana){
         </div>
     </div><br>`;
     i = 0;
-    temporal += '<form><div class="row justify-content-center" id="container-colores">'; 
+    temporal += `<form><div class="row justify-content-center" id="container-colores">
+    <div class="col-12 mb-5 text-center">
+      <input class="form-check-input" type="checkbox" id="pintarInterior" onChange=""/>
+      <label class="form-check-label" for="pintarInterior">Pintar interior</label>
+    </div>`; 
     ventana.colores[0].color.forEach((subcolor) => {
         temporal += `<div class="col-md-2 col-lg-2 col-3 text-center subcolor">
             <img src="./img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">

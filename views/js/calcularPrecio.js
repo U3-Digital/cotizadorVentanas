@@ -1,4 +1,3 @@
-
 const precioUnidadTMullionBasica = 11.77;
 const constanteTMullionBasica = 0.8771929825;
 
