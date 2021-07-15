@@ -260,7 +260,7 @@
                 },
                 {
                     "nombre": "Doble fijo apilada",
-                    "img": "./img/DobleFijoApilado(Serie40).png",
+                    "img": "./img/DobleFijoApilado(serie40).png",
                     "formula": "((An + Al / 2) * PV) * 2 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "72", "alto": "96" },
@@ -296,7 +296,7 @@
                 },
                 {
                     "nombre": "Triple fijo ",
-                    "img": "./img/TripleFija(Serie40).png",
+                    "img": "./img/TripleFija(serie40).png",
                     "formula": "((An / 3 + Al) * PV) * 3 + calcularTMullion(Al)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "34.5", "alto": "11.5" },
@@ -326,7 +326,7 @@
                 },
                 {
                     "nombre": "Corrediza XOX  1/4 2/4 1/4",
-                    "img": "./img/CorredizaXOX(Serie40).png",
+                    "img": "./img/CorredizaXOX(serie40).png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "108", "alto": "60" },
