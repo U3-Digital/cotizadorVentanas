@@ -28,7 +28,17 @@ function calcularPrecio() {
   console.log(stringEjecutable); 
   total = Number.parseFloat(new Function(stringEjecutable)());
   console.log(total);
-  etiquetaTotal.innerHTML = `${total.toFixed(2)}`;
+  total = total.toFixed(2);
+  rutaVentana.total = total;
+
+  const formatter = new Intl.NumberFormat('es-MX', {
+    style: 'currency',
+    currency: 'MXN'
+  });
+
+  const t = formatter.format(total);
+  etiquetaTotal.innerHTML = `${t}`;
+
 }
 
 function obtenerFormulaVentana(serie, ruta) {

@@ -602,7 +602,7 @@ function cargarCeja(serie, subtipo, ventana){
     // obtenerFormulaVentana(rutaVentana);
     // analizadorLexico(obtenerFormulaVentana());
     calcularPrecio();
-    let total = parseFloat(document.getElementById('total').innerHTML);
+    let total = parseFloat(rutaVentana.total);
     if(isNaN(total)){
       Swal.fire({
         title: "Ocurrió un error al calcular el valor de la ventana",
@@ -1026,7 +1026,7 @@ function agregarCotizacion() {
         icon: 'error',
         confirmButtonText: 'Aceptar',
         confirmButtonColor: '#0d6efd'
-      })
+      });
       return;
     }
   
@@ -1038,7 +1038,7 @@ function agregarCotizacion() {
     containerSaveCotizacion.hidden = false;
     console.log(rutaVentana);
     console.log(cotizaciones);
-    if(rutaVentana.colorSubcolor){
+    if (rutaVentana.colorSubcolor) {
 
     }
 

@@ -193,7 +193,12 @@ require_once "./models/modelEnlaces.php";
           totalFinal += cotizacion.total;
           i++;
         });
-        labelTotal.innerHTML = `$${totalFinal}`;
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+        
+        labelTotal.innerHTML = `${formatter.format(totalFinal)}`;
       }
 
       function borrarCotizacion(index) {
