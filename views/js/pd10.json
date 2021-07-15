@@ -8,14 +8,14 @@
     ],
     "tipoVidrio": [
         {
-            "nombre": "Vidrio doble",
+            "nombre": "Vidrio Doble",
             "img": "./img/vidrio_dob.png",
             "tipos": [
-                { "nombre": "templado claro", "img": "./img/vidrio_dob_templado_ingles.png" },
-                { "nombre": "templado Low-E", "img": "./img/vidrio_dob_templado_lowe_ingles.png" },
-                { "nombre": "templado claro baño", "img": "./img/vidrio_dob_templado_ingles.png" },
-                { "nombre": "templado low-E baño", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  },
-                { "nombre": "templado low-E Filtrasol", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  }
+                { "nombre": "Templado Claro", "img": "./img/vidrio_dob_templado_ingles.png" },
+                { "nombre": "Templado Low-E", "img": "./img/vidrio_dob_templado_lowe_ingles.png" },
+                { "nombre": "Templado Claro Baño", "img": "./img/vidrio_dob_templado_ingles.png" },
+                { "nombre": "Templado Low-E Baño", "img": "./img/vidrio_dob_templado_lowe_ingles.png"  },
+                { "nombre": "Templado Low-E Filtrasol", "img": "./img/vidrio_dob_templado_lowe_ingles.png" }
             ]
         }
     ],
@@ -29,20 +29,20 @@
                     "img": "./img/PD10-PuertaCorrediza.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "47.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza"]
                     }
                 },
                 {
-                    "nombre": "Puerta Corrediza OXO",
-                    "img": "./img/CorredizaOXO.png",
+                    "nombre": "Puerta Corrediza O XO",
+                    "img": "./img/PuertaCorredizaO-XO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "144", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza O XO"]
@@ -53,8 +53,8 @@
                     "img": "./img/PuertaCorredizaOOX.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "192", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza OOX"]
@@ -65,8 +65,8 @@
                     "img": "./img/PuertaCorredizaOXXO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "192", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza OXXO"]
@@ -77,8 +77,8 @@
                     "img": "./img/PuertaCorredizaOO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "47.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza OO"]
@@ -89,8 +89,8 @@
                     "img": "./img/PuertaCorredizaOOOO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "192", "alto": "96" },
+                        { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza OOOO"]
@@ -101,8 +101,8 @@
                     "img": "./img/PuertaCorredizaO.png",
                     "formula": "(An + Al) * PV",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "80", "alto": "20" },
-                        { "nombre": "Mínimo", "ancho": "11", "alto": "11" }
+                        { "nombre": "Máximo", "ancho": "96", "alto": "130" },
+                        { "nombre": "Mínimo", "ancho": "47.5", "alto": "23.5" }
                     ],
                     "extra": {
                       "preciosVidrio": ["Puerta Corrediza O"]

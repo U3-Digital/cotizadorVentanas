@@ -7,7 +7,9 @@ let pintura = {
   colorSubcolor: "",
   precio: 0,
   total: 0,
-  numeroVentanas: 0
+  numeroVentanas: 0,
+  precioInterior: 0,
+  precioExterior: 0
 };
 let ruta  = {
     serie: "",
@@ -253,7 +255,7 @@ function cargarDimension(subtipo, serie, ventana){
 }
 
 function tieneExtras(serie, ventana) {
-  let extras = false;
+  let extras;
   switch (serie) {
     case 'Básica': {
       let encontrado = false;
@@ -341,6 +343,95 @@ function tieneExtras(serie, ventana) {
   return extras; 
 }
 
+function tieneExtras2(serie, ventana) {
+  let extras;
+  switch (serie) {
+    case 'Básica': {
+      let encontrado = false;
+      for (let i = 0; i < serieBasica.tipo.length; i++) {
+        const tipo = serieBasica.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo2) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'Plus': {
+      let encontrado = false;
+      for (let i = 0; i < seriePlus.tipo.length; i++) {
+        const tipo = seriePlus.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo2) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'Premium': {
+      let encontrado = false;
+      for (let i = 0; i < seriePremium.tipo.length; i++) {
+        const tipo = seriePremium.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo2) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    case 'PD10': {
+      let encontrado = false;
+      for (let i = 0; i < seriePD10.tipo.length; i++) {
+        const tipo = seriePD10.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.titulo2) {
+              extras = subtipo.extra;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+    default:
+      break;
+  }
+  return extras; 
+}
+
 function miniAnalizadorLexico(formula) {
   let stringFinal = formula;
 
@@ -371,6 +462,7 @@ async function verificarDimensiones(serie, ventana, maxalto, maxancho, minalto, 
         agregarARuta(dimension,"dimension");
 
         const extras = tieneExtras(serie.nombre, rutaVentana.subtipoVentana);
+        const extras2 = tieneExtras2(serie.nombre, rutaVentana.subtipoVentana);
 /* html: `
               <span style="display: inline-block">Mínimo: ${extras.minimo}</span>
               <span style="display: inline-block">Máximo: ${miniAnalizadorLexico(extras.formulaMaximo)}</span>
@@ -412,8 +504,48 @@ async function verificarDimensiones(serie, ventana, maxalto, maxancho, minalto, 
           } else if (extras.titulo.toLowerCase().includes('ancho')) {
             rutaVentana.dimensionAncho2 = dimension;
           }
+          if (extras2) {
+            const { value: dimension2 } = await Swal.fire({
+              title: extras2.titulo2,
+              icon: 'info',
+              inputLabel: `Mínimo: ${extras2.minimo2} | Máximo: ${miniAnalizadorLexico(extras2.formulaMaximo2)}`,
+              input: 'number',
+              inputAttributes: {
+                min: Number.parseFloat(extras2.minimo2),
+                max: Number.parseFloat(miniAnalizadorLexico(extras2.formulaMaximo2))
+              },
+              inputValidator: (value) => {
+                value = Number.parseFloat(value);
+                if (!value) {
+                  return 'Inserte una dimension válida';
+                }
 
-          cargarTipoVidrio(serie, ventana);
+                if (value < Number.parseFloat(extras2.minimo2)) {
+                  return 'Inserte una dimension válida';
+                }
+
+                if (value > Number.parseFloat(miniAnalizadorLexico(extras2.formulaMaximo2))) {
+                  return 'Inserte una dimension válida';
+                }
+              },
+              validationMessage: 'Inserte una dimension válida',
+              showCancelButton: false,
+              confirmButtonText: 'Aceptar',
+              confirmButtonColor: '#007BFF',
+              reverseButtons: true,
+              allowOutsideClick: false
+            });
+
+            if (extras2.titulo2.toLowerCase().includes('alto')) {
+              rutaVentana.dimensionAlto3 = dimension2;
+            } else if (extras2.titulo2.toLowerCase().includes('ancho')) {
+              rutaVentana.dimensionAncho3 = dimension2;
+            }
+
+            cargarTipoVidrio(serie, ventana);
+          } else {
+            cargarTipoVidrio(serie, ventana);
+          }
 
         } else {
           cargarTipoVidrio(serie,ventana);
@@ -470,22 +602,61 @@ function cargarCeja(serie, subtipo, ventana){
     // obtenerFormulaVentana(rutaVentana);
     // analizadorLexico(obtenerFormulaVentana());
     calcularPrecio();
-    let temporal = '';
-    let i = 0;
-    temporal = '<div class="row justify-content-center">';
-    serie.ceja.forEach((ceja) => {
-        temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" onclick='cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
-        <img src="${ceja.img}" alt="placeholder">
-        <div class="my-2">
-            <label class="form-check-label">${ceja.nombre}</label>
-        </div>
-      </div>`;
-      i++;    
-    });
-    temporal += '</div>';
-    arreglo[6] = temporal;
-    setLayouts(arreglo);
-    generateStepper(6);
+    let total = parseFloat(document.getElementById('total').innerHTML);
+    if(isNaN(total)){
+      Swal.fire({
+        title: "Ocurrió un error al calcular el valor de la ventana",
+        icon: 'error',
+        confirmButtonText: 'Aceptar',
+        confirmButtonColor: '#0d6efd'
+      })
+      delete rutaVentana.serie;
+      delete rutaVentana.tipoVentana;
+      delete rutaVentana.subtipoVentana;
+      delete rutaVentana.dimensionAlto;
+      delete rutaVentana.dimensionAncho;
+      delete rutaVentana.tipoVidrio;
+      delete rutaVentana.subtipoVdrio;
+      delete rutaVentana.ceja;
+      delete rutaVentana.colorPrincipal;
+      delete rutaVentana.colorSecundario;
+      containerAddNumeroVentana.hidden = true
+
+      detailsContainerSerie.innerHTML = ``;
+      detailsContainerTipoVentana.innerHTML = ``;
+      detailsContainerSubtipoVentana.innerHTML = ``;
+      detailsContainerDimensiones.innerHTML = ``;
+      detailsContainerTipoVidrio.innerHTML = ``;
+      detailsContainerSubtipoVidrio.innerHTML = ``;
+      detailsContainerCejas.innerHTML = ``;
+      detailsContainerColor.innerHTML = ``;
+      detailContainerSubColor.innerHTML = ``;
+
+      for (let i = 1; i < 8; i++) {
+          arreglo[i] = `<p>Para mostrar este paso es necesario que completes lo pasos anteriores</p>`;
+      }
+      document.getElementById('total').innerHTML = "$0";
+      setLayouts(arreglo);
+      generateStepper(0);
+    }else{
+      let temporal = '';
+      let i = 0;
+      temporal = '<div class="row justify-content-center">';
+      serie.ceja.forEach((ceja) => {
+          temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" onclick='cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
+          <img src="${ceja.img}" alt="placeholder">
+          <div class="my-2">
+              <label class="form-check-label">${ceja.nombre}</label>
+          </div>
+        </div>`;
+        i++;    
+      });
+      temporal += '</div>';
+      arreglo[6] = temporal;
+      setLayouts(arreglo);
+      generateStepper(6);
+    }
+    
 }
 
 
@@ -512,7 +683,7 @@ function cargarColores(serie, ceja, ventana){
     `<div class="row">
         <div class="col-12 text-center">
             <input class="form-check-input" type="checkbox"  id="agregarColores" checked onChange='cargarSubcolores(${JSON.stringify(ventana.colores[0])});'>
-            <label class="form-check-label" for="agregarColores">Pintar</label>
+            <label class="form-check-label" id="pintarInteriorCheck" for="agregarColores">Pintar</label>
         </div>
     </div><br>`;
     i = 0;
@@ -542,9 +713,13 @@ function cargarColores(serie, ceja, ventana){
 
 }
 
-function agregarColorTotal(subcolor){
+
+
+function agregarColorTotal(subcolor) {
   rutaPintura.colorSubcolor = subcolor.nombre;
-  rutaPintura.precio = subcolor.precioExterior;
+  rutaPintura.precioInterior = subcolor.precioInterior;
+  rutaPintura.precioExterior = subcolor.precioExterior;
+  
 }
 
 function cargarSubcolores(color) {
@@ -633,6 +808,7 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
       // console.log(info.precio);
       total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03 * 1.1; 
       console.log(total);
+      
     },
     error: (error) => {
       console.log(error);
@@ -844,6 +1020,15 @@ function insertarCotizacion() {
 }
 
 function agregarCotizacion() {
+    if (document.getElementById('agregarColores').checked && !rutaVentana.colorSubcolor) {
+      Swal.fire({
+        title: "Favor de elegir un color para pintar la ventana",
+        icon: 'error',
+        confirmButtonText: 'Aceptar',
+        confirmButtonColor: '#0d6efd'
+      })
+      return;
+    }
   
     const containerSaveCotizacion = document.getElementById('container-save-cotizacion');
     rutaVentana.numeroVentanas = inputNumeroDeVentanas.value
@@ -858,7 +1043,13 @@ function agregarCotizacion() {
     }
 
     cotizaciones.push(rutaVentana);
-    if(rutaPintura.precio !== 0){
+    if (rutaPintura.precioInterior !== 0) {
+      if (document.getElementById('pintarInterior').checked) {
+        rutaPintura.precio = rutaPintura.precioInterior;
+      } else {
+        rutaPintura.precio = rutaPintura.precioExterior;
+      }
+
       rutaPintura.numeroVentanas = rutaVentana.numeroVentanas;
       rutaPintura.total = rutaPintura.precio * rutaPintura.numeroVentanas;
       cotizaciones.push(rutaPintura);
@@ -1137,11 +1328,11 @@ requestPD10.addEventListener("load",requestListenerPD10);
 requestPD10.open("GET","./views/js/pd10.json");
 requestPD10.send();
 
-// setTimeout(() => {
+setTimeout(() => {
 
   const requestSeries = new XMLHttpRequest();
   requestSeries.addEventListener("load",requestListenerSeries);
   requestSeries.open("GET","./views/js/series.json");
   requestSeries.send();
     
-// }, 500);
+}, 100);
