@@ -135,7 +135,7 @@ require_once "./models/modelEnlaces.php";
             formData.set('cotizaciones', JSON.stringify(cotizaciones));
             formData.set('nombre',document.getElementById("cajaNombreCliente").value);
             $.ajax({
-              url: '../../controllers/enviarCorreo.php',
+              url: './controllers/enviarCorreo.php',
               type: 'POST',
               data: formData,
               success: (data) => {
@@ -201,10 +201,7 @@ require_once "./models/modelEnlaces.php";
         labelTotal.innerHTML = `${formatter.format(totalFinal)}`;
       }
 
-      function borrarCotizacion(index) {
-        cotizaciones.splice(index, 1);
-        cargarTabla();
-      }
+      
     </script>
 </body>
 

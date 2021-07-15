@@ -15,7 +15,7 @@ class CotizacionesController {
           confirmButtonText: 'Aceptar',
           confirmButtonColor: '#0d6efd'
         }).then((value) => {
-          window.location.href = 'lstCotizaciones.php';
+          window.location.href = 'inicio.php?action=lstCotizaciones';
         });
         </script>";
       } else {
@@ -26,7 +26,7 @@ class CotizacionesController {
           confirmButtonText: 'Aceptar',
           confirmButtonColor: '#0d6efd'
         }).then((value) => {
-          window.location.href = 'lstCotizaciones.php';
+          window.location.href = 'inicio.php?action=lstCotizaciones';
         });
         </script>";
       }

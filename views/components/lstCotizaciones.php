@@ -93,7 +93,7 @@ require_once "./models/modelCotizaciones.php";
         confirmButtonColor: '#dc3545'
       }).then((value) => {
         if (value.isConfirmed) {
-          window.location.href = `lstCotizaciones.php?idBorrar=${idCotizacion}`;
+          window.location.href = `inicio.php?action=lstCotizaciones&idBorrar=${idCotizacion}`;
         }
       });
     }

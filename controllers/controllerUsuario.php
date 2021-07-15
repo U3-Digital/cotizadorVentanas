@@ -23,7 +23,7 @@
                         confirmButtonText: 'Aceptar',
                         confirmButtonColor: '#F73164'
                       }).then((value) => {
-                        window.location.href = 'inicio.php';
+                        window.location.href = 'inicio.php?action=lstUsuarios';
                       });
                     </script>
                     ";
@@ -77,7 +77,7 @@
                         confirmButtonText: 'Aceptar',
                         confirmButtonColor: '#F73164'
                       }).then((value) => {
-                        window.location.href = 'lstUsuarios.php';
+                        window.location.href = 'inicio.php?action=lstUsuarios';
                       });
                     </script>
                   ";
@@ -121,7 +121,7 @@
                       confirmButtonText: 'Aceptar',
                       confirmButtonColor: '#F73164'
                     }).then((value) => {
-                      window.location.href = 'lstUsuarios.php';
+                      window.location.href = 'inicio.php?action=lstUsuarios';
                     });
                   </script>
                   ";
