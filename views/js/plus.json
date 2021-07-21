@@ -429,7 +429,7 @@
                     "formula": "(An + (Al - Al2 - Al3)) * PV + (An + Al2) * PV2 + (An + Al3) * PV3 + calcularTMullion(An)",
                     "dimensiones": [
                         { "nombre": "Máximo", "ancho": "23.5", "alto": "34.5" },
-                        { "nombre": "Mínimo", "ancho": "68", "alto": "96" }
+                        { "nombre": "Mínimo", "ancho": "72", "alto": "96" }
                     ],
                     "extra": {
                       "titulo": "Alto del arco",
@@ -446,7 +446,7 @@
                     "img": "./img/ArcoyFijoconCorrediza.png",
                     "formula": "(An + (Al - Al2 - Al3)) * PV + (An + Al2) * PV2 + (An + Al3) * PV3 + calcularTMullion(An)",
                     "dimensiones": [
-                        { "nombre": "Máximo", "ancho": "72", "alto": "96" },
+                        { "nombre": "Máximo", "ancho": "68", "alto": "96" },
                         { "nombre": "Mínimo", "ancho": "23.5", "alto": "34.5" }
                     ],
                     "extra": {
