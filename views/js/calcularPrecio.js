@@ -25,9 +25,9 @@ function calcularPrecio() {
 
   let formulaInicial = obtenerFormulaVentana(rutaVentana.serie, rutaVentana);
   const stringEjecutable = analizadorLexico(formulaInicial);
-  console.log(stringEjecutable); 
+  //console.log(stringEjecutable); 
   total = Number.parseFloat(new Function(stringEjecutable)());
-  console.log(total);
+  //console.log(total);
   total = total.toFixed(2);
   rutaVentana.total = total;
 

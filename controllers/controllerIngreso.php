@@ -10,7 +10,7 @@ class ControllerIngreso {
         
 
             $respuesta = ModelIngreso::mdlIngresar($datosController);
-            if ($_POST["nombreUsuario"] === $respuesta["usuario"] && password_verify($_POST["passwordUsuario"], $respuesta["password"]) && $respuesta["activo"] === "S") {
+            if ($_POST["nombreUsuario"] === $respuesta["email"] && password_verify($_POST["passwordUsuario"], $respuesta["password"]) && $respuesta["activo"] === "S") {
                 session_start();
 
                 $_SESSION["validar"] = true;

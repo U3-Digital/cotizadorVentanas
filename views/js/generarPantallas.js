@@ -61,28 +61,28 @@ function requestListenerBasica() {
     const t0 = performance.now();
     serieBasica = JSON.parse(this.responseText);
     const t1 = performance.now();
-    console.log(t1 - t0);
+    //console.log(t1 - t0);
 }
 
 function requestListenerPremium() {
     const t0 = performance.now();
     seriePremium = JSON.parse(this.responseText);
     const t1 = performance.now();
-    console.log(t1 - t0);
+    //console.log(t1 - t0);
 }
 
 function requestListenerPlus() {
   const t0 = performance.now();
   seriePlus = JSON.parse(this.responseText);
   const t1 = performance.now();
-  console.log(t1 - t0);
+  //console.log(t1 - t0);
 }
 
 function requestListenerPD10() {
   const t0 = performance.now();
   seriePD10 = JSON.parse(this.responseText);
   const t1 = performance.now();
-  console.log(t1 - t0);
+  //console.log(t1 - t0);
 }
 
 function cargarSeries(ventana) {
@@ -666,7 +666,7 @@ function cargarColores(serie, ceja, ventana){
     let temporal2 = '';
     let i = 0;
     window.addEventListener('resize', () => {
-      console.log('jaa');
+      //console.log('jaa');
     });
     
     temporal = '<div class="row justify-content-center">';
@@ -803,11 +803,13 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     async: false,
     data: formData,
     success: (data) => {
+      
       let info = JSON.parse(data);
+      const incremento = info.incremento/100;
       // console.log(multiplicador);
       // console.log(info.precio);
-      total = parseFloat(info.precio) * multiplicador * parseFloat(info.precio_dolar) * 1.03 * 1.1; 
-      console.log(total);
+      total = parseFloat(info.precio) * multiplicador * incremento *parseFloat(info.precio_dolar) * 1.03 * 1.1; 
+      //console.log(total);
       
     },
     error: (error) => {
@@ -1036,8 +1038,8 @@ function agregarCotizacion() {
     rutaVentana.total = rutaVentana.numeroVentanas * total;
     rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
     containerSaveCotizacion.hidden = false;
-    console.log(rutaVentana);
-    console.log(cotizaciones);
+    //console.log(rutaVentana);
+    //console.log(cotizaciones);
     if (rutaVentana.colorSubcolor) {
 
     }

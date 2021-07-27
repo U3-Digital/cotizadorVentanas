@@ -111,7 +111,7 @@
                     "activo" => $_POST["selectActivo"],
                     "id" => $id
                 );
-                $respuesta =ModelUsuario::mdlActualizarUsuario($datosController);
+                $respuesta = ModelUsuario::mdlActualizarUsuario($datosController);
                 if ($respuesta === "success") {
                   echo "
                   <script>

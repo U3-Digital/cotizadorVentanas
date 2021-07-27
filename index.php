@@ -46,8 +46,8 @@ if(isset($_SESSION["nombre"])){
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
-                    <label for="nombreUsuario">Nombre de usuario</label>
-                    <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control" required>
+                    <label for="nombreUsuario">Correo</label>
+                    <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control" required>
                   </div>
                 </div>
               </div>

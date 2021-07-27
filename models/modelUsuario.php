@@ -60,16 +60,15 @@
                 $statement -> bindParam(":rol", $datosModel["rol"], PDO::PARAM_INT);
                 $statement -> bindParam(":activo", $datosModel["activo"], PDO::PARAM_STR);
                 $statement -> bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
-
                 if($statement -> execute()){
                     return "success";
                 }else{
                     return "error";
                 }
 
-            }else{
+            } else {
 
-                $statement =  Conexion::conectar() -> prepare ("UPDATE `usuarios` SET `nombre`= :nombre,`email`= :email,`rol`= :rol,`activo`= :activo WHERE id= :id");
+                $statement =  Conexion::conectar() -> prepare ("UPDATE `usuarios` SET `nombre`= :nombre, `password` = :password, `email`= :email,`rol`= :rol,`activo`= :activo WHERE id= :id");
 
                 $statement -> bindParam(":password", $datosModel["password"], PDO::PARAM_STR);
                 $statement -> bindParam(":nombre", $datosModel["nombreUsuario"], PDO::PARAM_STR);
@@ -78,9 +77,9 @@
                 $statement -> bindParam(":activo", $datosModel["activo"], PDO::PARAM_STR);
                 $statement -> bindParam(":id", $datosModel["id"], PDO::PARAM_INT);
 
-                if($statement -> execute()){
+                if ($statement -> execute()) {
                     return "success";
-                }else{
+                } else {
                     return "error";
                 }
 

@@ -50,7 +50,7 @@ require_once "./models/modelUsuario.php";
                         </div>
                       </div>
                       <div class="col-md-2">
-                        <img class="img-profile" src="../../img/user.png" alt="Seleccionar foto de perfil">
+                        <img class="img-profile" src="./img/user.png" alt="Foto del usuario">
                         <input name="inputFile" type="file" hidden>
                       </div>
                     </div>

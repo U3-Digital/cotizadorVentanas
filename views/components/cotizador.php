@@ -29,7 +29,9 @@ include "./views/components/stepper.php";
             <div class="mr-4"><h5>Total: <b id="totalCotizaciones">$0</b></h5></div>
         </div>
         <div class="row" id="container-save-cotizacion" hidden>
-          <div class="col-4"></div>
+          <div class="col-md-4 col-lg-4 col-xl-4 col-4">
+            <button class="btn btn-block btn-primary" onclick="generaPdf()"> <i class="fas fa-print"></i>&nbsp;Generar PDF</button>
+          </div>
           <div class="col-md-4 col-lg-4 col-xl-4 col-4">
             <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
           </div>

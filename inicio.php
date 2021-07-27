@@ -171,13 +171,81 @@ require_once "./models/modelEnlaces.php";
         })
       }
 
+      function generaPdf(){
+        let html = `
+        <img alt="" style="display:block;max-width:100%;margin-right:auto;width:122px;height:37px" height="37" src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png" class="CToWUd">
+          <p>Cliente: <span><b>${document.getElementById("cajaNombreCliente").value}</b></span></p>
+          <p>Adjuntamos su cotización</p>
+          <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
+            <thead>
+                <tr>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Tipo ventana</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Tipo vidrio</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Dimensión</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Color</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Precio</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Cantidad</th>
+                    <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+        `;
+        let total=0;
+        cotizaciones.map(cotizacion => {
+          total += cotizacion.total;
+          if(!cotizacion.subTipoVentana && cotizacion.colorSubcolor){
+            html += `
+              <tr>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"> </td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.colorSubcolor}</td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.precio}</td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.numeroVentanas}</td>
+                <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.total}</td>
+              </tr>
+            `;
+          }else{
+            html += `
+              <tr>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.tipoVentana} </td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.tipoVidrio}</td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.dimensionAlto} x ${cotizacion.dimensionAncho}</td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.colorPrincipal}</td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.precio}</td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.numeroVentanas}</td>
+                  <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.total}</td>
+              </tr>
+            `;
+          }
+        })
+        html += `
+        </tbody>
+        </table><hr>
+        <div style= "text-align: justify; -moz-text-align-last: right; text-align-last: right;">
+        <p><b>Total: </b>${total}</p>
+        </div>`
+
+        const ventana = window.open('', 'impresion',`width=${window.innerWidth - 50}, height=${window.innerHeight - 10}`);
+        ventana.document.write(html);
+        ventana.document.close();
+        ventana.onload = function () {
+          setTimeout(() => {
+            ventana.print();
+          }, 300);
+        };
+        ventana.addEventListener("afterprint", () => {
+          ventana.close();
+        });
+      }
+
       function cargarTabla() {
         cuerpoTabla.innerHTML = '';
         let i = 0;
         let totalFinal = 0;
         let labelTotal = document.getElementById('totalCotizaciones');
         cotizaciones.forEach((cotizacion) => {
-          console.log(cotizacion);
+          //console.log(cotizacion);
 
           cuerpoTabla.innerHTML +=
             `<tr>
