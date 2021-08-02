@@ -1,5 +1,24 @@
 <?php
-  require "./controllerCotizaciones.php";
+require '../vendor/autoload.php';
+
+require '../vendor/spipu/html2pdf/src/Html2Pdf.php';
+use Spipu\Html2Pdf\Html2Pdf;
+
+if (isset($_POST["correo"])) {
+
+  $cuerpoCorreo = $_POST["cuerpoCorreo"];
+
+  $PDF = new Html2Pdf('P', 'A4', 'es');
+  $PDF -> writeHTML($cuerpoCorreo);
+  $PDF -> output(__DIR__ . "cotizacion.pdf", "F");
+
+
+  print_r("{}");
+} else {
+  print_r("{\"success\": false}");
+}
+
+/*   require "./controllerCotizaciones.php";
   require "../models/modelCotizaciones.php";
 
   $id = $_POST["id"];
@@ -72,5 +91,4 @@
       print_r("success");
   }else{
       print_r("error");
-  }
-?>
+  } */

@@ -127,10 +127,37 @@ require_once "./models/modelCotizaciones.php";
           confirmButtonText: 'Enviar',
           showLoaderOnConfirm: true,
           preConfirm: (correo) => {
-            const formData = new FormData();
+            /* const formData = new FormData();
             formData.set('id', idCotizacion);
-            formData.set('correo',correo);
-            $.ajax({
+            formData.set('correo', correo);
+            formData.set('cuerpoCorreo', ) */
+            const formData = new FormData();
+            formData.append('idCotizacion', idCotizacion);
+
+            fetch('/cotizadorVentanas/controllers/consultarCotizacion.php', {
+              method: 'POST',
+              body: formData
+            }).then((response) => response.json()).then((data) => {
+              const cuerpoCorreo = generarCorreo(data);
+              console.log(cuerpoCorreo);
+            
+              const formCorreo = new FormData();
+              formCorreo.append('correo', correo);
+              formCorreo.append('cuerpoCorreo', cuerpoCorreo);
+
+              fetch('/cotizadorVentanas/controllers/solicitarEnvioDeCorreo.php', {
+                method: 'POST',
+                body: formCorreo
+              }).then((response) => response.json()).then((data) => {
+                console.log(data);
+              })
+
+
+            }).catch((error) => {
+              console.log(error);
+            });
+
+            /* $.ajax({
               url: './controllers/solicitarEnvioDeCorreo.php',
               type: 'POST',
               data: formData,
@@ -159,7 +186,7 @@ require_once "./models/modelCotizaciones.php";
               cache: false,
               contentType: false,
               processData: false
-            });
+            }); */
           },
           allowOutsideClick: () => !Swal.isLoading()
         })
@@ -193,7 +220,6 @@ require_once "./models/modelCotizaciones.php";
         data: formData,
         success: (data) => {
           const ventanas = JSON.parse(JSON.parse(data).ventana);
-          console.log(ventanas);
           /*
             <div class=\"row mt-4\">
               <div class=\"col\">
@@ -220,7 +246,6 @@ require_once "./models/modelCotizaciones.php";
                 <h3>Cotizacion</h3>
           `;
           ventanas.map(ventana => {
-            console.log(ventana);
             total += ventana.total;
             if(!ventana.subtipoVentana && ventana.colorSubcolor){
               html += `

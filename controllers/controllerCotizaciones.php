@@ -73,4 +73,9 @@ class CotizacionesController {
       </tr>';
     }
   }
+
+  public function ctrBuscarCotizacionPorId($idCotizacion) {
+    $resultado = CotizacionesModel::mdlBuscarCotizacionPorId($idCotizacion);
+    return $resultado;
+  }
 }

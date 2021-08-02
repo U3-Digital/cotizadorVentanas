@@ -1,5 +1,7 @@
 <?php
-    $correo = $_POST["correo"];
+
+
+/*     $correo = $_POST["correo"];
     $cotizaciones = json_decode($_POST["cotizaciones"],true);
     $nombreCliente = $_POST["nombre"];
 
@@ -71,5 +73,4 @@
         print_r("success");
     }else{
         print_r("error");
-    }
-?>
+    } */

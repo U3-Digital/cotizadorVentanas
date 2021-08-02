@@ -45,4 +45,16 @@ class CotizacionesModel {
       return "error";
     }
   }
+
+  public static function mdlBuscarCotizacionPorId($idCotizacion) {
+    $statement = Conexion::conectar() -> prepare("SELECT * FROM `cotizaciones` WHERE `idCotizacion` = :idCotizacion");
+
+    $statement -> bindParam(":idCotizacion", $idCotizacion, PDO::PARAM_INT);
+
+    if ($statement -> execute()) {
+      return $statement -> fetch();
+    } else {
+      return "error";
+    }
+  }
 }
