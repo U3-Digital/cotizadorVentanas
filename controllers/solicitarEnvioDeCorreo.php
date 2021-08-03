@@ -4,6 +4,12 @@ require '../vendor/autoload.php';
 require '../vendor/spipu/html2pdf/src/Html2Pdf.php';
 use Spipu\Html2Pdf\Html2Pdf;
 
+require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '../vendor/phpmailer/phpmailer/src/Exception.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 if (isset($_POST["correo"])) {
 
   $cuerpoCorreo = $_POST["cuerpoCorreo"];
@@ -12,8 +18,29 @@ if (isset($_POST["correo"])) {
   $PDF -> writeHTML($cuerpoCorreo);
   $PDF -> output(__DIR__ . "cotizacion.pdf", "F");
 
+  $recipient = $_POST["correo"];
+  $subject = "Cotización de Sky View Fenster";
 
-  print_r("{}");
+  $mail = new PHPMailer();
+
+  $mail -> setFrom('info@skyviewfenster.com', 'Sky View Fenster');
+  $mail -> addAddress($recipient);
+  
+  $mail -> isHTML(true);
+  $mail -> CharSet = 'UTF-8';
+
+  $mail -> Subject = $subject;
+  $mail -> addAttachment(__DIR__ . "cotizacion.pdf", 'cotizacion.pdf');
+
+  $mail -> Body = 'Le hacemos llegar la cotización que solicitó con nosotros. Quedamos a sus órdenaes para las dudas o correcciones necesarias. <br> Atte. Sky View Fenster <a href="https://skyviewfenster.com.mx/">/skyviewfenster.com.mx</a>. Este es un mensaje automático. Favor de no responder a este correo';
+  $mail -> AltBody = 'Le hacemos llegar la cotización que solicitó con nosotros. Quedamos a sus órdenaes para las dudas o correcciones necesarias. Atte. Sky View Fenster. Este es un mensaje automático. Favor de no responder a este correo';
+
+  if ($mail -> send()) {
+    print_r("{ \"ok\": true }");
+  } else {
+    print_r("{\"ok\": false }");
+  }
+
 } else {
   print_r("{\"success\": false}");
 }

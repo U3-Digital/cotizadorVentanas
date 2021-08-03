@@ -194,7 +194,7 @@ require_once "./models/modelEnlaces.php";
         let total=0;
         cotizaciones.map(cotizacion => {
           total += cotizacion.total;
-          if(!cotizacion.subTipoVentana && cotizacion.colorSubcolor){
+          if(!cotizacion.subtipoVentana && cotizacion.colorSubcolor){
             html += `
               <tr>
                 <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>

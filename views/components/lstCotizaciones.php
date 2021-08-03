@@ -62,7 +62,7 @@ require_once "./models/modelCotizaciones.php";
                 let total=0;
                 ventanas.map(cotizacion => {
                   total += cotizacion.total;
-                  if(!cotizacion.subTipoVentana && cotizacion.colorSubcolor){
+                  if(!cotizacion.subtipoVentana && cotizacion.colorSubcolor){
                     html += `
                       <tr>
                         <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
@@ -134,7 +134,7 @@ require_once "./models/modelCotizaciones.php";
             const formData = new FormData();
             formData.append('idCotizacion', idCotizacion);
 
-            fetch('/cotizadorVentanas/controllers/consultarCotizacion.php', {
+            fetch('./controllers/consultarCotizacion.php', {
               method: 'POST',
               body: formData
             }).then((response) => response.json()).then((data) => {
@@ -145,16 +145,30 @@ require_once "./models/modelCotizaciones.php";
               formCorreo.append('correo', correo);
               formCorreo.append('cuerpoCorreo', cuerpoCorreo);
 
-              fetch('/cotizadorVentanas/controllers/solicitarEnvioDeCorreo.php', {
+
+              fetch('./controllers/solicitarEnvioDeCorreo.php', {
                 method: 'POST',
-                body: formCorreo
-              }).then((response) => response.json()).then((data) => {
-                console.log(data);
-              })
-
-
-            }).catch((error) => {
-              console.log(error);
+                body: formCorreo,
+              }).then((response) => {
+                console.log(response);
+                return response.json();
+              }).then((data) => {
+                if (data.ok) {
+                  Swal.fire({
+                    title: 'Correo enviado exitosamente',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                } else {
+                  Swal.fire({
+                    title: 'Error al enviar el correo',
+                    icon: 'error',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#0d6efd'
+                  });
+                }
+              });
             });
 
             /* $.ajax({
