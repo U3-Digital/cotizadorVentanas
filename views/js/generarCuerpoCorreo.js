@@ -1,5 +1,5 @@
 const rutaImagen = 'https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png';
-let total = 0;
+let totalCorreo = 0;
 function generarCorreo(cotizacion) {
   console.log(cotizacion);
   let cuerpo = '';
@@ -93,7 +93,7 @@ function generarCuerpo(cotizacion) {
               <td>
                 <hr>
                 <div style="margin-left: 165mm">
-                  <span>Total: <b>$${total.toFixed(2)}</b></span>
+                  <span>Total: <b>$${totalCorreo.toFixed(2)}</b></span>
                 </div>
               </td>
             </tr>
@@ -107,7 +107,7 @@ function generarCuerpo(cotizacion) {
 function generarVentanas(ventanas) {
   let resultado = '';
   ventanas.forEach((ventana) => {
-    total += ventana.total;
+    totalCorreo += ventana.total;
     if (ventana.serie) {
       resultado += `
         <tr>

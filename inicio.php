@@ -108,12 +108,23 @@ require_once "./models/modelEnlaces.php";
 
     <script>
       const cuerpoTabla = document.getElementById('cuerpo-tabla');
+      const cajaNombreCliente = document.getElementById('cajaNombreCliente');
 
-      function enviarCorreo(){
+      function enviarCorreo() {
         console.log(cotizaciones.length);
-        if(cotizaciones.length == 0){
+        if(cotizaciones.length === 0) {
           Swal.fire({
             title: 'No hay ninguna cotizacion para enviar',
+            icon: 'error',
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#0d6efd'
+          });
+          return;
+        }
+        console.log(!cajaNombreCliente.value);
+        if (!cajaNombreCliente.value) {
+          Swal.fire({
+            title: 'No hay ningún nombre para el cliente',
             icon: 'error',
             confirmButtonText: 'Aceptar',
             confirmButtonColor: '#0d6efd'
@@ -131,48 +142,82 @@ require_once "./models/modelEnlaces.php";
           confirmButtonText: 'Enviar',
           showLoaderOnConfirm: true,
           preConfirm: (correo) => {
-            const formData = new FormData();
-            formData.set('correo', correo);
-            formData.set('cotizaciones', JSON.stringify(cotizaciones));
-            formData.set('nombre',document.getElementById("cajaNombreCliente").value);
-            $.ajax({
-              url: './controllers/enviarCorreo.php',
-              type: 'POST',
-              data: formData,
-              success: (data) => {
-                console.log(data);
-                if (data == 'success') {
-                  Swal.fire({
-                    title: 'Correo enviado exitosamente',
+            const cotizacion = {
+              cliente: cajaNombreCliente.value,
+              fecha: generarFecha(),
+              ventana: cotizaciones
+            };
+            
+            const cuerpoCorreo = generarCorreo(cotizacion);
+
+            const formCorreo = new FormData();
+            formCorreo.append('correo', correo);
+            formCorreo.append('cuerpoCorreo', cuerpoCorreo)
+
+
+            fetch('./controllers/solicitarEnvioDeCorreo.php', {
+              method: 'POST',
+              body: formCorreo
+            }).then((response) => response.json()).then((data) => {
+              if (data.ok) {
+                Swal.fire({
+                  title: 'Correo enviado exitosamente',
                     icon: 'success',
                     confirmButtonText: 'Aceptar',
                     confirmButtonColor: '#0d6efd'
-                  });
-                } else {
-                  Swal.fire({
-                    title: 'Error al enviar la cotización',
+                });
+              } else {
+                Swal.fire({
+                    title: 'Error al enviar el correo',
                     icon: 'error',
                     confirmButtonText: 'Aceptar',
                     confirmButtonColor: '#0d6efd'
                   });
-                }
-              },
-              error: (error) => {
-                console.log(error);
-              },
-              complete: () => {
-                console.log('Completado');
-              },
-              cache: false,
-              contentType: false,
-              processData: false
-            });
+              }
+            })
+
+            // const formData = new FormData();
+            // formData.set('correo', correo);
+            // formData.set('cotizaciones', JSON.stringify(cotizaciones));
+            // formData.set('nombre',document.getElementById("cajaNombreCliente").value);
+            // $.ajax({
+            //   url: './controllers/enviarCorreo.php',
+            //   type: 'POST',
+            //   data: formData,
+            //   success: (data) => {
+            //     console.log(data);
+            //     if (data == 'success') {
+            //       Swal.fire({
+            //         title: 'Correo enviado exitosamente',
+            //         icon: 'success',
+            //         confirmButtonText: 'Aceptar',
+            //         confirmButtonColor: '#0d6efd'
+            //       });
+            //     } else {
+            //       Swal.fire({
+            //         title: 'Error al enviar la cotización',
+            //         icon: 'error',
+            //         confirmButtonText: 'Aceptar',
+            //         confirmButtonColor: '#0d6efd'
+            //       });
+            //     }
+            //   },
+            //   error: (error) => {
+            //     console.log(error);
+            //   },
+            //   complete: () => {
+            //     console.log('Completado');
+            //   },
+            //   cache: false,
+            //   contentType: false,
+            //   processData: false
+            // });
           },
           allowOutsideClick: () => !Swal.isLoading()
         })
       }
 
-      function generaPdf(){
+      function generaPdf () {
         let html = `
         <img alt="" style="display:block;max-width:100%;margin-right:auto;width:122px;height:37px" height="37" src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png" class="CToWUd">
           <p>Cliente: <span><b>${document.getElementById("cajaNombreCliente").value}</b></span></p>
@@ -271,6 +316,17 @@ require_once "./models/modelEnlaces.php";
       }
 
       
+      function generarFecha() {
+        const fecha = new Date(Date.now());
+
+        let fechaFormateada = `${fecha.getFullYear()}-${fecha.getMonth() + 1 < 10 ? '0' : ''}${fecha.getMonth() + 1}-${fecha.getDate() < 10 ? '0': '' }${fecha.getDate()}`;
+        
+        return fechaFormateada;
+        
+      }
+
+      generarFecha();
+
     </script>
 </body>
 
