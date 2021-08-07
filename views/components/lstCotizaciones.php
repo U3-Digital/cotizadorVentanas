@@ -40,9 +40,8 @@ require_once "./models/modelCotizaciones.php";
               data: formData,
               success: (data) => {
                 const cotizacion = JSON.parse(data);
-                const ventanas = JSON.parse(cotizacion.ventana);
 
-               
+                let totalCotizacion = 0;
 
                 function generarPDF(cotizacion) {
                   let pdf = '';
@@ -63,6 +62,10 @@ require_once "./models/modelCotizaciones.php";
 
                     .flex-col {
                       flex-direction: column;
+                    }
+
+                    .flex-row-reverse {
+                      flex-direction: row-reverse;
                     }
 
                     .justify-center {
@@ -98,6 +101,13 @@ require_once "./models/modelCotizaciones.php";
                       * {
                         -webkit-print-color-adjust: exact;
                       }
+
+                      .footer {
+                        position: static;
+                        bottom: 20px;
+                        left: 0px;
+                        width: 100%;
+                      }
                     }
 
                   </style>
@@ -105,9 +115,9 @@ require_once "./models/modelCotizaciones.php";
 
                   return `
                     ${estilo}
-                    <body>
-                      <div class="border">
-                        <table style="width: 100%">
+                    <body style="position: relative; margin: 0;" class="border">
+                      <div>
+                        <table style="width: 100%; margin-bottom: 20px">
                           <thead>
                             <tr>
                               <td>
@@ -115,32 +125,214 @@ require_once "./models/modelCotizaciones.php";
                                   <span style="font-size: 16px">Sky View Fenster</span>
                                   <span><small>REKD820121H39</small></span>
                                 </div>
-                                <div class="flex">
-                                  <div class="borde flex flex-col" style="width: 50%">
-                                    <span style="font-size: 22px; font-weight: bolder; color: #2171FF">Cotización</span>
-                                    <table>
-                                      <thead>
-                                        <tr>
-                                          <th>
-                                            <div style="background-color: red">Cliente</div>
-                                          </th>
-                                        </tr>
-                                      </thead>
-                                      <tbody></tbody>
-                                    </table>
-                                  </div>
-                                  <div class="borde" style="width: 50%">
-                                  </div>
-                                </div>
                               </td>
                             </tr>
                           </thead>
-                          <tbody></tbody>
-                          <tfoot></tfoot>
+                          <tbody>
+                            <tr>
+                              <td>
+                                <div class="flex">
+                                  <div class="flex flex-col" style="width: 50%">
+                                    <span style="font-size: 22px; font-weight: bolder; color: #2171FF; margin-bottom: 1em">Cotización</span>
+                                    <table class="border">
+                                      <thead style="background-color: #2171FF;">
+                                        <tr>
+                                          <th>
+                                            <div style="color: white; padding-top: 2px; padding-bottom: 2px">Cliente</div>
+                                          </th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>${cotizacion.cliente}</td>
+                                        </tr>
+                                        <tr>
+                                          <td>${cotizacion.cliente}</td>
+                                        </tr>
+                                        <tr>
+                                          <td>${cotizacion.cliente}</td>
+                                        </tr>
+                                        <tr>
+                                          <td>${cotizacion.cliente}</td>
+                                        </tr>
+                                        <tr>
+                                          <td>${cotizacion.cliente}</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="flex flex-col" style="width: 50%">
+                                    <div class="flex flex-row-reverse">
+                                      <table style="width: 66%">
+                                        <thead>
+                                          <tr style="background-color: #2171FF;">
+                                            <th style="color: white; padding-top: 2px; padding: 4px">Fecha</th>
+                                            <th style="color: white; padding-top: 2px; padding: 4px">Folio</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td class="text-center">${cotizacion.fecha}</td>
+                                            <td class="text-center">${cotizacion.idCotizacion}</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="margin-bottom: auto; padding: 1em;">
+                                      <img src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big.png" style="width: 100%;">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style="margin-top: 1em">
+                                  <table style="width: 100%">
+                                    <thead>
+                                      <tr>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Vigencia
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Condiciones
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Vendedor
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td></td>
+                                        <td class="text-center">Contado</td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <br>
+                                  <table style="width: 100%">
+                                    <thead>
+                                      <tr>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Tipo de ventana
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Tipo de vidrio
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Dimensiones
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Color
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Precio
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Cantidad
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Descuento
+                                        </th>
+                                        <th style="background-color: #2171FF; color: white; padding: 4px">
+                                          Importe
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      ${generarVentanas(cotizacion.ventana)}
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
                         </table>
+                      </div>
+                      <div class="footer flex flex-col">
+                        <div class="flex">
+                          <div class="border" style="width: 60%; font-size: 14px; padding: 1em; word-wrap: break-word;">${NumeroALetras(totalCotizacion * 1.16)[0].toUpperCase()}${NumeroALetras(totalCotizacion * 1.16).substr(1)}</div>
+                          <div class="border flex flex-col" style="width: 20%; padding: 1em;">
+                            <span>Subtotal</span>
+                            <span>IVA</span>
+                            <br>
+                            <span>Total</span>
+                          </div>
+                          <div class="border flex flex-col" style="width: 20%; padding: 1em; align-items: end">
+                            <span style="margin-left: auto">$${(totalCotizacion).toFixed(2)}</span>
+                            <span style="margin-left: auto">$${(totalCotizacion * 0.16).toFixed(2)}</span>
+                            <br>
+                            <span style="margin-left: auto"><b>$${(totalCotizacion * 1.16).toFixed(2)}</b></span>
+                          </div>
+                        </div>
+                        <div class="border" style="font-size: 12px; word-wrap: break-word; padding: 1em">
+                          Debo(emos) y pagare(emos) incondicionalmente por este pagaré a la orden de DAVID REMPEL KLASSEN Y MAYRA LETICIA ARAGÓN VÁZQUEZ en esta ciudad o en cualquier otro luger que se me(nos) requiera el pago a elección del acreedor la cantidad de: ${(totalCotizacion * 1.16).toFixed(2)}, valor recibido a mí(nuestra) entera satisfacción, este pagaré está sujeto a la condición de que que, al no pagarse a su vencimiento hastsa el día de su liquidación, causará intereses moratorios al tipo de 3% mensual pagadero en esta ciudad juntamente con el principal.
+                        </div>
                       </div>
                     </body>
                   `;
+                }
+
+                function generarVentanas(ventana) {
+                  let resultado = '';
+                  ventanas.forEach((ventana) => {
+                    totalCotizacion += ventana.total;
+
+                    if (ventana.serie) {
+                      resultado += `
+                        <tr style="font-size: 14px">
+                          <td class="text-center">
+                            ${ventana.serie} - ${ventana.subtipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}
+                          </td>
+                          <td class="text-center">
+                            ${ventana.tipoVidrio} - ${ventana.subtipoVidrio}
+                          </td>
+                          <td class="text-center">
+                            ${ventana.dimensionAncho}" x ${ventana.dimensionAlto}"
+                          </td>
+                          <td class="text-center">
+                            ${ventana.colorPrincipal}
+                          </td>
+                          <td class="text-center">
+                            $${ventana.precio}
+                          </td>
+                          <td class="text-center">
+                            ${ventana.numeroVentanas}
+                          </td>
+                          <td class="text-center">
+                            ${ventana.descuento}
+                          </td>
+                          <td class="text-center">
+                            $${ventana.total}
+                          </td>
+                        </tr>
+                      `;
+                    } else {
+                      resultado += `
+                        <tr style="font-size: 14px">
+                          <td class="text-center">
+                          </td>
+                          <td class="text-center">
+                          </td>
+                          <td class="text-center">
+                          </td>
+                          <td class="text-center">
+                            Pintura 
+                            ${ventana.colorSubcolor}
+                          </td>
+                          <td class="text-center">
+                            $${ventana.precio}
+                          </td>
+                          <td class="text-center">
+                            ${ventana.numeroVentanas}
+                          </td>
+                          <td class="text-center">
+                          </td>
+                          <td class="text-center">
+                           $${ventana.total}
+                          </td>
+                        </tr>`;
+                    }
+                  });
+
+                  return resultado;
                 }
 
                 const html = generarPDF(cotizacion);
@@ -205,12 +397,12 @@ require_once "./models/modelCotizaciones.php";
                 ventana.document.close();
                 ventana.onload = function () {
                   setTimeout(() => {
-                    // ventana.print();
+                    ventana.print();
                   }, 300);
                 };
                 ventana.addEventListener("afterprint", () => {
-                ventana.close();
-        });
+                  ventana.close();
+                });
               },
               error: (error) => {
                 console.log(error);

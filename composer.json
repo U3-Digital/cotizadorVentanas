@@ -1,10 +1,8 @@
 {
-    "name": "u3digital/cotizador-ventanas",
-    "type": "project",
-    "license": "ISC",
-    "require": {
-        "phpmailer/phpmailer": "^6.5",
-        "dompdf/dompdf": "^1.0",
-        "spipu/html2pdf": "^5.2"
-    }
+  "name": "u3digital/cotizador-ventanas",
+  "type": "project",
+  "license": "ISC",
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  }
 }

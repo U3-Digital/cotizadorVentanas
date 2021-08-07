@@ -9,7 +9,18 @@ include "./views/components/stepper.php";
         <h4>Cotización</h4>
       </div>
       <div class="row mx-4 mt-4">
-        <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
+        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-sm-1">
+          <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-sm-1">
+          <input type="text" name="cajaDireccionCliente" id="cajaDireccionCliente" class="form-control" placeholder="Dirección del cliente">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-sm-1">
+          <input type="text" name="cajaCodigoPostalCliente" id="cajaCodigoPostalCliente" class="form-control" placeholder="Código postal del cliente">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-sm-1">
+          <input type="text" name="cajaRFCCliente" id="cajaRFCCliente" class="form-control" placeholder="RFC del cliente">
+        </div>
       </div>
       <div class="card-body">
         <table class="table bg-white table-bordered table-hover">
@@ -20,6 +31,7 @@ include "./views/components/stepper.php";
             <th scope="col">Pintura</th>
             <th scope="col">Cantidad</th>
             <th scope="col">Precio</th>
+            <th scope="col">Descuento</th>
             <th scope="col">Total</th>
           </thead>
           <tbody id="cuerpo-tabla">

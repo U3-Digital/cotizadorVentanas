@@ -16,7 +16,7 @@ if(isset($_SESSION["nombre"])){
 
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="author" content="U3Digital" />
-  <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+  <link rel="shortcut icon" href="favicon.ico" />
 
   <!-- Stylesheets
 	============================================= -->
