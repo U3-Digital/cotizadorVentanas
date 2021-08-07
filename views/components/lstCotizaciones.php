@@ -41,7 +41,111 @@ require_once "./models/modelCotizaciones.php";
               success: (data) => {
                 const cotizacion = JSON.parse(data);
                 const ventanas = JSON.parse(cotizacion.ventana);
-                let html = `
+
+               
+
+                function generarPDF(cotizacion) {
+                  let pdf = '';
+                  pdf += generarCuerpo(cotizacion);
+                  return pdf;
+                }
+
+                function generarCuerpo(cotizacion) {
+                  const estilo = `
+                  <style>
+                    * {
+                      font-family: Arial;
+                    }
+
+                    .flex {
+                      display: flex;
+                    }
+
+                    .flex-col {
+                      flex-direction: column;
+                    }
+
+                    .justify-center {
+                      justify-content: center;
+                    }
+
+                    .items-center {
+                      align-items: center;
+                    }
+
+                    .text-center {
+                      text-align: center;
+                    }
+
+                    .block {
+                      display: block;
+                    }
+
+                    .border {
+                      border: 1px solid gray;
+                    }
+
+                    .borde {
+                      border: 1px solid red;
+                    }
+
+                    @page {
+                      size: auto;
+                      margin: 5mm;
+                    }
+
+                    @media print {
+                      * {
+                        -webkit-print-color-adjust: exact;
+                      }
+                    }
+
+                  </style>
+                `;
+
+                  return `
+                    ${estilo}
+                    <body>
+                      <div class="border">
+                        <table style="width: 100%">
+                          <thead>
+                            <tr>
+                              <td>
+                                <div class="flex justify-center flex-col items-center">
+                                  <span style="font-size: 16px">Sky View Fenster</span>
+                                  <span><small>REKD820121H39</small></span>
+                                </div>
+                                <div class="flex">
+                                  <div class="borde flex flex-col" style="width: 50%">
+                                    <span style="font-size: 22px; font-weight: bolder; color: #2171FF">Cotización</span>
+                                    <table>
+                                      <thead>
+                                        <tr>
+                                          <th>
+                                            <div style="background-color: red">Cliente</div>
+                                          </th>
+                                        </tr>
+                                      </thead>
+                                      <tbody></tbody>
+                                    </table>
+                                  </div>
+                                  <div class="borde" style="width: 50%">
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                          <tfoot></tfoot>
+                        </table>
+                      </div>
+                    </body>
+                  `;
+                }
+
+                const html = generarPDF(cotizacion);
+
+               /*  let html = `
                   <img alt="" style="display:block;max-width:100%;margin-right:auto;width:122px;height:37px" height="37" src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png" class="CToWUd">
                   <p>Cliente: <span><b>${cotizacion.cliente}</b></span></p>
                   <p>Adjuntamos su cotización</p>
@@ -93,13 +197,15 @@ require_once "./models/modelCotizaciones.php";
                 </table><hr>
                 <div style= "text-align: justify; -moz-text-align-last: right; text-align-last: right;">
                 <p><b>Total: </b>${total}</p>
-                </div>`;
+                </div>`; */
+
+
                 const ventana = window.open('', 'impresion',`width=${window.innerWidth - 50}, height=${window.innerHeight - 10}`);
                 ventana.document.write(html);
                 ventana.document.close();
                 ventana.onload = function () {
                   setTimeout(() => {
-                    ventana.print();
+                    // ventana.print();
                   }, 300);
                 };
                 ventana.addEventListener("afterprint", () => {
