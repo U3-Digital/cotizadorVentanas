@@ -975,6 +975,10 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
 
 function insertarCotizacion() {
   const cajaNombreCliente = document.getElementById('cajaNombreCliente');
+  const cajaDireccionCliente = document.getElementById('cajaDireccionCliente');
+  const cajaCodigoPostalCliente = document.getElementById('cajaCodigoPostalCliente');
+  const cajaRFCCliente = document.getElementById('cajaRFCCliente');
+
   if(cajaNombreCliente.value == ""){
     Swal.fire({
       title: "Favor de introducir el nombre del cliente",
@@ -987,12 +991,15 @@ function insertarCotizacion() {
   const formData = new FormData();
   formData.set('cliente', cajaNombreCliente.value);
   formData.set('ventanas', JSON.stringify(cotizaciones));
+  formData.set('direccion', cajaDireccionCliente.value);
+  formData.set('codigoPostal', cajaCodigoPostalCliente.value),
+  formData.set('RFC', cajaRFCCliente.value);
   $.ajax({
     url: './controllers/agregarCotizacion.php',
     type: 'POST',
     data: formData,
     success: (data) => {
-      
+      console.log(data);
       if (data == 'success') {
         Swal.fire({
           title: 'Cotización agregada exitosamente',
@@ -1013,7 +1020,6 @@ function insertarCotizacion() {
       console.log(error);
     },
     complete: () => {
-      console.log('Completado');
     },
     cache: false,
     contentType: false,
@@ -1037,6 +1043,7 @@ function agregarCotizacion() {
     rutaVentana.precio = total;
     rutaVentana.total = rutaVentana.numeroVentanas * total;
     rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
+    rutaVentana.descuento = 0;
     containerSaveCotizacion.hidden = false;
     //console.log(rutaVentana);
     //console.log(cotizaciones);
@@ -1051,7 +1058,7 @@ function agregarCotizacion() {
       } else {
         rutaPintura.precio = rutaPintura.precioExterior;
       }
-
+      rutaPintura.descuento = 0;
       rutaPintura.numeroVentanas = rutaVentana.numeroVentanas;
       rutaPintura.total = rutaPintura.precio * rutaPintura.numeroVentanas;
       cotizaciones.push(rutaPintura);

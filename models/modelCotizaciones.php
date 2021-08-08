@@ -14,10 +14,13 @@ class CotizacionesModel {
   }
 
   public static function mdlAgregarCotizacion($datosModel) {
-    $statement = Conexion::conectar() -> prepare("INSERT INTO `cotizaciones` VALUES (NULL, :ventana, :cliente, now());");
+    $statement = Conexion::conectar() -> prepare("INSERT INTO `cotizaciones` VALUES (NULL, :ventana, :cliente, :direccion, :codigoPostal, :RFC, now());");
 
     $statement -> bindParam(":ventana", $datosModel["ventanas"], PDO::PARAM_STR);
     $statement -> bindParam(":cliente", $datosModel["cliente"], PDO::PARAM_STR);
+    $statement -> bindParam(":direccion", $datosModel["direccion"], PDO::PARAM_STR);
+    $statement -> bindParam(":codigoPostal", $datosModel["codigoPostal"], PDO::PARAM_STR);
+    $statement -> bindParam(":RFC", $datosModel["RFC"], PDO::PARAM_STR);
 
     if ($statement -> execute()) {
       return "success";
@@ -56,5 +59,12 @@ class CotizacionesModel {
     } else {
       return "error";
     }
+  }
+
+  public static function mdlBuscarUltimaCotizacion() {
+    $statement = Conexion::conectar() -> prepare("SELECT MAX(`idCotizacion`) as id FROM `cotizaciones`;");
+    
+    $statement -> execute();
+    return $statement -> fetch();
   }
 }

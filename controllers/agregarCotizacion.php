@@ -4,7 +4,10 @@
 
 $datosController = array(
   "ventanas" => $_POST["ventanas"],
-  "cliente" => $_POST["cliente"]
+  "cliente" => $_POST["cliente"],
+  "direccion" => $_POST["direccion"],
+  "codigoPostal" => $_POST["codigoPostal"],
+  "RFC" => $_POST["RFC"]
 );
 $controller = new CotizacionesController();
 $respuesta = $controller -> ctrAgregarCotizacion($datosController);

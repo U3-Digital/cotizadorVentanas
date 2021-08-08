@@ -31,7 +31,7 @@ require_once "./models/modelCotizaciones.php";
         </div>
       </div>
   <script>
-    function generaPDF(cotizacion){
+    function generaaPDF(cotizacion){
       const formData = new FormData();
       formData.set('id',cotizacion);
       $.ajax({
@@ -41,7 +41,13 @@ require_once "./models/modelCotizaciones.php";
               success: (data) => {
                 const cotizacion = JSON.parse(data);
 
+                cotizacion.ventana = JSON.parse(cotizacion.ventana);
                 let totalCotizacion = 0;
+
+                const formatter = new Intl.NumberFormat('es-MX', {
+                  style: 'currency',
+                  currency: 'MXN'
+                });
 
                 function generarPDF(cotizacion) {
                   let pdf = '';
@@ -147,16 +153,13 @@ require_once "./models/modelCotizaciones.php";
                                           <td>${cotizacion.cliente}</td>
                                         </tr>
                                         <tr>
-                                          <td>${cotizacion.cliente}</td>
+                                          <td>${cotizacion.direccion}</td>
                                         </tr>
                                         <tr>
-                                          <td>${cotizacion.cliente}</td>
+                                          <td>${cotizacion.codigoPostal}</td>
                                         </tr>
                                         <tr>
-                                          <td>${cotizacion.cliente}</td>
-                                        </tr>
-                                        <tr>
-                                          <td>${cotizacion.cliente}</td>
+                                          <td>${cotizacion.RFC}</td>
                                         </tr>
                                       </tbody>
                                     </table>
@@ -237,7 +240,7 @@ require_once "./models/modelCotizaciones.php";
                                       </tr>
                                     </thead>
                                     <tbody>
-                                      ${generarVentanas(cotizacion.ventana)}
+                                      ${generarVentanas2(cotizacion.ventana)}
                                     </tbody>
                                   </table>
                                 </div>
@@ -256,10 +259,10 @@ require_once "./models/modelCotizaciones.php";
                             <span>Total</span>
                           </div>
                           <div class="border flex flex-col" style="width: 20%; padding: 1em; align-items: end">
-                            <span style="margin-left: auto">$${(totalCotizacion).toFixed(2)}</span>
-                            <span style="margin-left: auto">$${(totalCotizacion * 0.16).toFixed(2)}</span>
+                            <span style="margin-left: auto">${formatter.format((totalCotizacion).toFixed(2))}</span>
+                            <span style="margin-left: auto">${formatter.format((totalCotizacion * 0.16).toFixed(2))}</span>
                             <br>
-                            <span style="margin-left: auto"><b>$${(totalCotizacion * 1.16).toFixed(2)}</b></span>
+                            <span style="margin-left: auto"><b>${formatter.format((totalCotizacion * 1.16).toFixed(2))}</b></span>
                           </div>
                         </div>
                         <div class="border" style="font-size: 12px; word-wrap: break-word; padding: 1em">
@@ -270,8 +273,12 @@ require_once "./models/modelCotizaciones.php";
                   `;
                 }
 
-                function generarVentanas(ventana) {
+                function generarVentanas2(ventanas) {
                   let resultado = '';
+                  const formatter = new Intl.NumberFormat('es-MX', {
+                    style: 'currency',
+                    currency: 'MXN'
+                  });
                   ventanas.forEach((ventana) => {
                     totalCotizacion += ventana.total;
 
@@ -279,7 +286,7 @@ require_once "./models/modelCotizaciones.php";
                       resultado += `
                         <tr style="font-size: 14px">
                           <td class="text-center">
-                            ${ventana.serie} - ${ventana.subtipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}
+                            ${ventana.serie} - ${ventana.tipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}
                           </td>
                           <td class="text-center">
                             ${ventana.tipoVidrio} - ${ventana.subtipoVidrio}
@@ -291,16 +298,16 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.colorPrincipal}
                           </td>
                           <td class="text-center">
-                            $${ventana.precio}
+                            ${formatter.format(ventana.precio)}
                           </td>
                           <td class="text-center">
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
-                            ${ventana.descuento}
+                            ${formatter.format(ventana.descuento)}
                           </td>
                           <td class="text-center">
-                            $${ventana.total}
+                            ${formatter.format(ventana.total)}
                           </td>
                         </tr>
                       `;
@@ -318,15 +325,16 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.colorSubcolor}
                           </td>
                           <td class="text-center">
-                            $${ventana.precio}
+                            ${formatter.format(ventana.precio)}
                           </td>
                           <td class="text-center">
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
+                            ${formatter.format(ventana.descuento)}
                           </td>
                           <td class="text-center">
-                           $${ventana.total}
+                           ${formatter.format(ventana.total)}
                           </td>
                         </tr>`;
                     }
@@ -336,61 +344,6 @@ require_once "./models/modelCotizaciones.php";
                 }
 
                 const html = generarPDF(cotizacion);
-
-               /*  let html = `
-                  <img alt="" style="display:block;max-width:100%;margin-right:auto;width:122px;height:37px" height="37" src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big-176x55.png" class="CToWUd">
-                  <p>Cliente: <span><b>${cotizacion.cliente}</b></span></p>
-                  <p>Adjuntamos su cotización</p>
-                  <table width="100%" cellpadding="0" cellspacing="0" style="min-width:100%;">
-                    <thead>
-                        <tr>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Tipo ventana</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Tipo vidrio</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Dimensión</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Color</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Precio</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Cantidad</th>
-                            <th scope="col" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;line-height:30px">Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                `;
-                let total=0;
-                ventanas.map(cotizacion => {
-                  total += cotizacion.total;
-                  if(!cotizacion.subtipoVentana && cotizacion.colorSubcolor){
-                    html += `
-                      <tr>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"></td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;"> </td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.colorSubcolor}</td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.precio}</td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.numeroVentanas}</td>
-                        <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.total}</td>
-                      </tr>
-                    `;
-                  }else{
-                    html += `
-                      <tr>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.tipoVentana} </td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.tipoVidrio}</td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.dimensionAlto} x ${cotizacion.dimensionAncho}</td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.colorPrincipal}</td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.precio}</td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.numeroVentanas}</td>
-                          <td valign="top" style="padding:5px; font-family: Arial,sans-serif; font-size: 16px; line-height:20px;">${cotizacion.total}</td>
-                      </tr>
-                    `;
-                  }
-                })
-                html += `
-                </tbody>
-                </table><hr>
-                <div style= "text-align: justify; -moz-text-align-last: right; text-align-last: right;">
-                <p><b>Total: </b>${total}</p>
-                </div>`; */
-
 
                 const ventana = window.open('', 'impresion',`width=${window.innerWidth - 50}, height=${window.innerHeight - 10}`);
                 ventana.document.write(html);
@@ -468,37 +421,6 @@ require_once "./models/modelCotizaciones.php";
                 }
               });
             });
-
-            /* $.ajax({
-              url: './controllers/solicitarEnvioDeCorreo.php',
-              type: 'POST',
-              data: formData,
-              success: (data) => {
-                if (data == 'success') {
-                  Swal.fire({
-                    title: 'Correo enviado exitosamente',
-                    icon: 'success',
-                    confirmButtonText: 'Aceptar',
-                    confirmButtonColor: '#0d6efd'
-                  });
-                } else {
-                  Swal.fire({
-                    title: 'Error al enviar la cotización',
-                    icon: 'error',
-                    confirmButtonText: 'Aceptar',
-                    confirmButtonColor: '#0d6efd'
-                  });
-                }
-              },
-              error: (error) => {
-                console.log(error);
-              },
-              complete: () => {
-              },
-              cache: false,
-              contentType: false,
-              processData: false
-            }); */
           },
           allowOutsideClick: () => !Swal.isLoading()
         })
@@ -531,63 +453,99 @@ require_once "./models/modelCotizaciones.php";
         type: 'POST',
         data: formData,
         success: (data) => {
-          const ventanas = JSON.parse(JSON.parse(data).ventana);
-          /*
-            <div class=\"row mt-4\">
-              <div class=\"col\">
-                <h3>Cotizacion</h3>
-                <p>Favor de guardar la siguiente información tomando una captura de pantalla</p>
-                <p>Nombre: <span style=\"color: #7E9680\"><b>" . $datosController["nombre"] . "</b></span></p>
-                <p>Número de boleto: <span style=\"color: #7E9680\"><b>" . $this -> generarNumeroReal(str_split(strval($noBoleto))) . "</b></span></p>
-                <p>Oportunidades:</p>
-                " . $this -> generarOportunidades($noBoleto) . "
-                <p>Costo del boleto: <b>$<span>" . $sorteo["costoBoleto"] . "</span></b></p>
-                <hr>
-                <p>Debes realizar tu pago y enviar tu comprobante por WhatsApp</p>
-                <p>Efrén Olivas Miranda</p>
-                <p><img style=\"height: 14px\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBVA_2019.svg/1920px-BBVA_2019.svg.pn\g\">&nbsp;Tarjeta: 4152 3138 0752 3639</p>
-                <p>Zayra Yvonne García Loya</p>
-                <p><img style=\"height: 14px\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBVA_2019.svg/1920px-BBVA_2019.svg.pn\g\">&nbsp;Tarjeta: 4152 3137 0599 6150</p>
-              </div> 
-            </div>
-          */
-          let total = 0;
-          let html = `
-            <div class=\"row mt-4\">
-              <div class=\"col\">
-                <h3>Cotizacion</h3>
-          `;
-          ventanas.map(ventana => {
-            total += ventana.total;
-            if(!ventana.subtipoVentana && ventana.colorSubcolor){
-              html += `
-                <p>Pintura: <span><b>${ventana.colorSubcolor}</b></span></p>
-                <p>Total: <span><b>${ventana.total}</b></span></p>
-                <hr>
-              `
-            }else{  
-              html += `
-                <p>Tipo de ventana: <span><b>${ventana.subtipoVentana}</b></span></p>
-                <p>Tipo de vidrio: <span><b>${ventana.tipoVidrio} ${ventana.subtipoVidrio}</b></span></p>
-                <p>dimensión: <span><b>${ventana.dimensionAlto} x ${ventana.dimensionAncho}</b></span></p>
-                <p>Color: <span><b>${ventana.colorPrincipal}</b></span> ${ventana.colorSubcolor ? (` Subcolor: <span><b>${ventana.colorSubcolor}</b></span>`) :("")}</p>
-                <p>Total: <span><b>${ventana.total}</b></span></p>
-                <hr>
-              `;
-            }
-            
-          });
+          let totalCotizacion = 0;
 
-          html += `
-            <p>Total cotización: <span ><b>${total}</b></span></p>
-            </div> 
-          </div>
+          const cotizacion = JSON.parse(data);
+          cotizacion.ventana = JSON.parse(cotizacion.ventana);
+          console.log(cotizacion);
+
+          const formatter = new Intl.NumberFormat('es-MX', {
+            style: 'currency',
+            currency: 'MXN'
+          });
+              
+          let html = `
+            <div class="d-flex justify-content-between" style="padding-right: 2em; padding-left: 2em;">
+              <div>
+                ${cotizacion.cliente}
+              </div>
+              <div>
+                ${cotizacion.direccion}
+              </div>
+              <div>
+                ${cotizacion.codigoPostal}
+              </div>
+              <div>
+                ${cotizacion.RFC}
+              </div>
+            </div>
+            <br>
+            <div>
+              <table style="width: 100%" class="border">
+                <thead>
+                  <tr>
+                    <th>Tamaño</th>
+                    <th>Vidrio</th>
+                    <th>Tipo</th>
+                    <th>Pintura</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Descuento</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${generarVentanas(cotizacion.ventana)}
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <div style="display: flex; flex-direction: row-reverse; items-center">
+              <span style="margin-right: 1em;"><b>Total</b>: ${formatter.format(totalCotizacion)}</span>
+            </div>
           `;
+
+          function generarVentanas(ventanas) {
+            let resultado = ``;
+            ventanas.forEach((ventana) => {
+              totalCotizacion += ventana.total - ventana.descuento;
+              if (ventana.tipoVidrio) {
+                resultado += `
+                  <tr>
+                    <td>${ventana.dimensionAncho}"x${ventana.dimensionAlto}</td>
+                    <td>${ventana.tipoVidrio} - ${ventana.subtipoVidrio}</td>
+                    <td>${ventana.tipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}</td>
+                    <td>${ventana.colorPrincipal}</td>
+                    <td>${ventana.numeroVentanas}</td>
+                    <td>${formatter.format(ventana.precio)}</td>
+                    <td>${formatter.format(ventana.descuento)}</td>
+                    <td>${formatter.format(ventana.total - ventana.descuento)}</td>
+                  </tr>
+                `;
+              } else {
+                resultado += `
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>${ventana.colorSubcolor}</td>
+                    <td>${ventana.numeroVentanas}</td>
+                    <td>${formatter.format(ventana.precio)}</td>
+                    <td>${formatter.format(ventana.descuento)}</td>
+                    <td>${formatter.format(ventana.total - ventana.descuento)}</td>
+                  </tr>
+                `;
+              }
+            });
+            return resultado;
+          }
 
           Swal.fire({
-            html: html,
+            title: 'Detalles de la cotización',
+            width: '100%',
+            html,
             confirmButtonText: 'Aceptar',
-            confirmButtonColor: '#007BFF'
+            confirmButtonColor: '#007bff'
           });
         },
         error: (error) => {

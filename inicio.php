@@ -57,52 +57,9 @@ require_once "./models/modelEnlaces.php";
           $enlacesController -> ctrEnlaces();
         #include "./stepper.php"; 
         ?>
-        <!-- <br>
-        <div class="row justify-content-center">
-          <div class="col">
-            <div class="card">
-              <div class="card-header border-0">
-                <h4>Cotización</h4>
-              </div>
-              <div class="row mx-4 mt-4">
-                <input type="text" name="cajaNombreCliente" id="cajaNombreCliente" class="form-control" placeholder="Nombre del cliente">
-              </div>
-              <div class="card-body">
-                <table class="table bg-white table-bordered table-hover">
-                  <thead>
-                    <th scope="col">Tamaño</th>
-                    <th scope="col">Vidrio</th>
-                    <th scope="col">Tipo</th>
-                    <th scope="col">Pintura</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Total</th>
-                  </thead>
-                  <tbody id="cuerpo-tabla">
-                  </tbody>
-                </table>
-                <div class="row" id="container-save-cotizacion" hidden>
-                  <div class="col-4"></div>
-                  <div class="col-md-4 col-lg-4 col-xl-4 col-4">
-                    <button class="btn btn-block btn-primary" onclick="enviarCorreo()"> <i class="fas fa-paper-plane"></i>&nbsp;Enviar cotizacion por correo</button>
-                  </div>
-                  <div class="col-4">
-                    <button class="btn btn-block btn-primary" onclick="insertarCotizacion()">Guardar Cotizacion</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
         
       </div>
     </div>
-
-    <!-- <div class="container-fluid borde"></div> -->
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="./views/js/generarCuerpoCorreo.js"></script>
     <script src="./views/js/letras.js"></script>
@@ -176,57 +133,46 @@ require_once "./models/modelEnlaces.php";
                   });
               }
             })
-
-            // const formData = new FormData();
-            // formData.set('correo', correo);
-            // formData.set('cotizaciones', JSON.stringify(cotizaciones));
-            // formData.set('nombre',document.getElementById("cajaNombreCliente").value);
-            // $.ajax({
-            //   url: './controllers/enviarCorreo.php',
-            //   type: 'POST',
-            //   data: formData,
-            //   success: (data) => {
-            //     console.log(data);
-            //     if (data == 'success') {
-            //       Swal.fire({
-            //         title: 'Correo enviado exitosamente',
-            //         icon: 'success',
-            //         confirmButtonText: 'Aceptar',
-            //         confirmButtonColor: '#0d6efd'
-            //       });
-            //     } else {
-            //       Swal.fire({
-            //         title: 'Error al enviar la cotización',
-            //         icon: 'error',
-            //         confirmButtonText: 'Aceptar',
-            //         confirmButtonColor: '#0d6efd'
-            //       });
-            //     }
-            //   },
-            //   error: (error) => {
-            //     console.log(error);
-            //   },
-            //   complete: () => {
-            //     console.log('Completado');
-            //   },
-            //   cache: false,
-            //   contentType: false,
-            //   processData: false
-            // });
           },
           allowOutsideClick: () => !Swal.isLoading()
         })
       }
 
-      function generaPdf () {
-       
+      async function generaPdf () {
+        
+        if (!cajaNombreCliente.value) {
+          Swal.fire({
+            title: 'Rellene los datos faltantes',
+            icon: 'error',
+            confirmButtonText: 'Aceptar',
+            confirmButtonColor: '#0d6efd'
+          });
+          return;
+        }
+
+        const direccion = document.getElementById('cajaDireccionCliente').value;
+        const codigoPostal = document.getElementById('cajaCodigoPostalCliente').value;
+        const RFC = document.getElementById('cajaRFCCliente').value;
+
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
 
         let totalCotizacion = 0;
+
+        const folio = await ( await fetch('./controllers/consultarUltimaCotizacion.php', {
+          method: 'GET'
+        })).json();
 
         const cotizacion = {
           fecha: generarFecha(),
           ventanas: cotizaciones,
-          cliente: cajaNombreCliente.value
+          cliente: cajaNombreCliente.value,
+          direccion,
+          codigoPostal,
+          RFC,
+          idCotizacion: folio.id + 1
         };
 
         function generarPDF(cotizacion) {
@@ -333,16 +279,13 @@ require_once "./models/modelEnlaces.php";
                                   <td>${cotizacion.cliente}</td>
                                 </tr>
                                 <tr>
-                                  <td>${cotizacion.cliente}</td>
+                                  <td>${cotizacion.direccion}</td>
                                 </tr>
                                 <tr>
-                                  <td>${cotizacion.cliente}</td>
+                                  <td>${cotizacion.codigoPostal}</td>
                                 </tr>
                                 <tr>
-                                  <td>${cotizacion.cliente}</td>
-                                </tr>
-                                <tr>
-                                  <td>${cotizacion.cliente}</td>
+                                  <td>${cotizacion.RFC}</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -442,10 +385,10 @@ require_once "./models/modelEnlaces.php";
                     <span>Total</span>
                   </div>
                   <div class="border flex flex-col" style="width: 20%; padding: 1em; align-items: end">
-                    <span style="margin-left: auto">$${(totalCotizacion).toFixed(2)}</span>
-                    <span style="margin-left: auto">$${(totalCotizacion * 0.16).toFixed(2)}</span>
+                    <span style="margin-left: auto">${formatter.format((totalCotizacion).toFixed(2))}</span>
+                    <span style="margin-left: auto">${formatter.format((totalCotizacion * 0.16).toFixed(2))}</span>
                     <br>
-                    <span style="margin-left: auto"><b>$${(totalCotizacion * 1.16).toFixed(2)}</b></span>
+                    <span style="margin-left: auto"><b>${formatter.format((totalCotizacion * 1.16).toFixed(2))}</b></span>
                   </div>
                 </div>
                 <div class="border" style="font-size: 12px; word-wrap: break-word; padding: 1em">
@@ -458,6 +401,10 @@ require_once "./models/modelEnlaces.php";
 
         function generarVentanas(ventanas) {
           let resultado = '';
+          const formatter = new Intl.NumberFormat('es-MX', {
+            style: 'currency',
+            currency: 'MXN'
+          });
           ventanas.forEach((ventana) => {
             totalCotizacion += ventana.total;
 
@@ -465,7 +412,7 @@ require_once "./models/modelEnlaces.php";
               resultado += `
                 <tr style="font-size: 14px">
                   <td class="text-center">
-                    ${ventana.serie} - ${ventana.subtipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}
+                    ${ventana.serie} - ${ventana.tipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}
                   </td>
                   <td class="text-center">
                     ${ventana.tipoVidrio} - ${ventana.subtipoVidrio}
@@ -477,16 +424,16 @@ require_once "./models/modelEnlaces.php";
                     ${ventana.colorPrincipal}
                   </td>
                   <td class="text-center">
-                    $${ventana.precio}
+                    ${formatter.format(ventana.precio)}
                   </td>
                   <td class="text-center">
                     ${ventana.numeroVentanas}
                   </td>
                   <td class="text-center">
-                    ${ventana.descuento}
+                    ${formatter.format(ventana.descuento)}
                   </td>
                   <td class="text-center">
-                    $${ventana.total}
+                    ${formatter.format(ventana.total)}
                   </td>
                 </tr>
               `;
@@ -504,15 +451,16 @@ require_once "./models/modelEnlaces.php";
                     ${ventana.colorSubcolor}
                   </td>
                   <td class="text-center">
-                    $${ventana.precio}
+                    ${formatter.format(ventana.precio)}
                   </td>
                   <td class="text-center">
                     ${ventana.numeroVentanas}
                   </td>
                   <td class="text-center">
+                    ${formatter.format(ventana.descuento)}
                   </td>
                   <td class="text-center">
-                  $${ventana.total}
+                    ${formatter.format(ventana.total)}
                   </td>
                 </tr>`;
             }
@@ -596,31 +544,31 @@ require_once "./models/modelEnlaces.php";
         let i = 0;
         let totalFinal = 0;
         let labelTotal = document.getElementById('totalCotizaciones');
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+
         cotizaciones.forEach((cotizacion) => {
           //console.log(cotizacion);
-
           cuerpoTabla.innerHTML +=
             `<tr>
             <td>${cotizacion.dimensionAlto ? (`${cotizacion.dimensionAlto}" x ${cotizacion.dimensionAncho}"`) :('')} </td>
             <td>${cotizacion.tipoVidrio ? (`${cotizacion.tipoVidrio} ${cotizacion.subTipoVidrio}`) : ('') }</td>
-            <td>${cotizacion.tipoVentana ? (`${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}`) : ('')} </td>
+            <td>${cotizacion.tipoVentana ? (`${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}`) : ('')} ${cotizacion.ceja ? ('-' + cotizacion.ceja) : ''}</td>
             <td>${cotizacion.colorPrincipal ? (`${cotizacion.colorPrincipal}`) : ('')} ${cotizacion.colorSubcolor ? cotizacion.colorSubcolor : ''}</td>
             <td>
-              <input type="number" value="${cotizacion.numeroVentanas ? (`${cotizacion.numeroVentanas}`) : ('1')}">
+              <input id="cantidad-${i}" type="number" value="${cotizacion.numeroVentanas ? (`${cotizacion.numeroVentanas}`) : ('1')}" onkeyup="cambiarCantidadDeIndex(event)">
             </td>
-            <td>${cotizacion.precio}</td>
+            <td>${formatter.format(cotizacion.precio)}</td>
             <td>
-              <input type="number" value="0" >
+              <input id="descuento-${i}" type="number" value="0" onkeyup="cambiarDescuentoDeIndex(event)">
             </td>
-            <td>${cotizacion.total}</td>
+            <td id="total-${i}">${formatter.format(cotizacion.total)}</td>
         </tr>
         `;
           totalFinal += cotizacion.total;
           i++;
-        });
-        const formatter = new Intl.NumberFormat('es-MX', {
-          style: 'currency',
-          currency: 'MXN'
         });
         
         labelTotal.innerHTML = `${formatter.format(totalFinal)}`;
@@ -636,7 +584,42 @@ require_once "./models/modelEnlaces.php";
         
       }
 
-      generarFecha();
+      function cambiarDescuentoDeIndex(event) {
+        const index = event.target.id.split('-')[1];
+        const value = event.target.value;
+
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+
+        if (value) {
+          cotizaciones[index].descuento = value;
+          cotizaciones[index].totalDescuento = cotizaciones[index].total - value;
+          document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].totalDescuento);
+        }
+      }
+
+      function cambiarCantidadDeIndex(event) {
+        const index = event.target.id.split('-')[1];
+        const value = event.target.value;
+
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+
+        if (value) {
+          if (value > 0) {
+            cotizaciones[index].numeroVentanas = value;
+          } else {
+            cotizaciones[index].numeroVentanas = 1;
+          }
+
+          cotizaciones[index].total = cotizaciones[index].precio * cotizaciones[index].numeroVentanas;
+          document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].total - cotizaciones[index].descuento);
+        }
+      }
 
     </script>
 </body>

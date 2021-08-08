@@ -61,7 +61,7 @@ class CotizacionesController {
             <button class="btn btn-success" onclick="mirarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-eye"></i></button>
             <button class="btn btn-danger" onclick="borrarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-trash"></i></button>
             <button class="btn btn-info" onclick="enviarCotizacion(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-paper-plane"></i></button>
-            <button class="btn btn-secondary" onclick="generaPDF(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-print"></i></button>
+            <button class="btn btn-secondary" onclick="generaaPDF(' . $cotizacion["idCotizacion"] . ')"><i class="fas fa-print"></i></button>
           </td>
         </tr>
       ';
@@ -77,5 +77,10 @@ class CotizacionesController {
   public function ctrBuscarCotizacionPorId($idCotizacion) {
     $resultado = CotizacionesModel::mdlBuscarCotizacionPorId($idCotizacion);
     return $resultado;
+  }
+
+  public function ctrBuscarUltimaCotizacion() {
+    $resultado = CotizacionesModel::mdlBuscarUltimaCotizacion();
+    return $resultado["id"];
   }
 }
