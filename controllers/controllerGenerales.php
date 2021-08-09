@@ -52,7 +52,7 @@ class GeneralesController {
           <div class="col-md-4 col-lg-4 col-xl-4 col-12">
             <div class="form-group">
               <label>Precio del dólar</label>
-              <input type="number" id="cajaPrecioDolar" name="cajaPrecioDolar" class="form-control" value="' . $general["precio_dolar"] . '">
+              <input type="number" id="cajaPrecioDolar" name="cajaPrecioDolar" class="form-control" value="' . $general["precio_dolar"] . '" step="0.01">
             </div>
           </div>
           <div class="col-md-4 col-lg-4 col-xl-4 col-12">

@@ -1,8 +1,10 @@
 <?php
 require '../vendor/autoload.php';
 
-require '../vendor/spipu/html2pdf/src/Html2Pdf.php';
-use Spipu\Html2Pdf\Html2Pdf;
+// require '../vendor/spipu/html2pdf/src/Html2Pdf.php';
+// use Spipu\Html2Pdf\Html2Pdf;
+
+require_once '../vendor/tecnickcom/tcpdf/tcpdf.php';
 
 require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
 require '../vendor/phpmailer/phpmailer/src/Exception.php';
@@ -13,10 +15,54 @@ use PHPMailer\PHPMailer\Exception;
 if (isset($_POST["correo"])) {
 
   $cuerpoCorreo = $_POST["cuerpoCorreo"];
+  // $PDF = new Html2Pdf('P', 'A4', 'es');
+  // $PDF -> writeHTML($cuerpoCorreo);
+  // $PDF -> output(__DIR__ . "cotizacion.pdf", "F");
 
-  $PDF = new Html2Pdf('P', 'A4', 'es');
-  $PDF -> writeHTML($cuerpoCorreo);
-  $PDF -> output(__DIR__ . "cotizacion.pdf", "F");
+  $PDF = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+  $PDF -> SetCreator(PDF_CREATOR);
+  $PDF -> SetAuthor('Sky View Fenster');
+  $PDF -> SetTitle('holi');
+  $PDF -> SetSubject('Subject');
+  $PDF -> SetKeywords('HOLA');
+
+  $PDF -> setPrintHeader(false);
+  $PDF -> setPrintFooter(false);
+
+  $PDF -> SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+  $PDF -> SetMargins(10, 10, 10);
+  $PDF -> SetAutoPageBreak(true, 10);
+  $tagvs = array(
+    'p' => array(
+      0 => array(
+        'h' => 0, 
+        'n' => 0), 
+      1 => array(
+        'h' => 0, 
+        'n' => 0)
+      ),
+    'div' => array(
+      0 => array(
+        'h' => 0,
+        'n' => 0),
+      1 => array(
+        'h' => 0,
+        'n' => 0)
+      )
+    ); 
+  $PDF -> setHtmlVSpace($tagvs);
+
+  $PDF -> setImageScale(PDF_IMAGE_SCALE_RATIO);
+
+  $PDF -> SetFont('helvetica', '', 12);
+
+  $PDF -> AddPage();
+
+
+  $PDF -> writeHTML($cuerpoCorreo, true, false, true, false, '');
+  $PDF -> Output(__DIR__ . 'hey.pdf', 'F');
+
 
   $recipient = $_POST["correo"];
   $subject = "Cotización de Sky View Fenster";

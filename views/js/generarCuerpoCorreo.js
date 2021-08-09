@@ -4,7 +4,7 @@ function generarCorreo(cotizacion) {
   console.log(cotizacion);
   let cuerpo = '';
 
-  cuerpo += estiloCorreo;
+  // cuerpo += estiloCorreo;
 
   cuerpo += generarCuerpo(cotizacion);
 
@@ -44,118 +44,114 @@ const estiloCorreo = `
 
 function generarCuerpo(cotizacion) {
   // return `
-  //   <body>
-  //     <div>
-  //       <table>
-  //         <thead>
-  //           <tr>
-  //             <td style="width: 100%">
-  //               <div>
-  //                 <img src="${rutaImagen}" alt="SkyView logo" style="height: 10mm; width: 32mm;">
-  //                 <span style="margin-left: 130mm;">${cotizacion.fecha}</span>
-  //                 <h2>Sky View Fenster</h2>
-  //                 <span>Cotización para: <b>${cotizacion.cliente}</b></span>
-  //                 <hr>
-  //               </div>
-  //             </td>
-  //           </tr>
-  //         </thead>
-  //         <tbody>
-  //           <tr>
-  //             <td>
-  //               <div style="width: 30mm; display: inline">
-  //                 <span><b>Tipo de ventana</b></span>
-  //               </div>
-  //               <div style="width: 50mm; display: inline">
-  //                 <span><b>Tipo de vidrio</b></span>
-  //               </div>
-  //               <div style="width: 30mm; display: inline">
-  //                 <span><b>Dimensiones</b></span>
-  //               </div>
-  //               <div style="width: 20mm; display: inline">
-  //                 <span><b>Color</b></span>
-  //               </div>
-  //               <div style="width: 30mm; display: inline">
-  //                 <span><b>Precio</b></span>
-  //               </div>
-  //               <div style="width: 20mm; display: inline">
-  //                 <span><b>Cantidad</b></span>
-  //               </div>
-  //               <div style="width: 20mm; display: inline">
-  //                 <span><b>Total</b></span>
-  //               </div>
-  //             </td>
-  //           </tr>
-  //           ${generarVentanas(cotizacion.ventana)}
-  //         </tbody>
-  //         <tfoot>
-  //           <tr>
-  //             <td>
+  //   <div>
+  //     <table>
+  //       <thead>
+  //         <tr>
+  //           <td style="width: 100%">
+  //             <div>
+  //               <img src="${rutaImagen}" alt="SkyView logo" style="height: 10mm; width: 32mm;">
+  //               <span style="margin-left: 130mm;">${cotizacion.fecha}</span>
+  //               <h2>Sky View Fenster</h2>
+  //               <span>Cotización para: <b>${cotizacion.cliente}</b></span>
   //               <hr>
-  //               <div style="margin-left: 165mm">
-  //                 <span>Total: <b>$${totalCorreo.toFixed(2)}</b></span>
-  //               </div>
-  //             </td>
-  //           </tr>
-  //         </tfoot>
-  //       </table>
-  //     </div>
-  //   </body>
+  //             </div>
+  //           </td>
+  //         </tr>
+  //       </thead>
+  //       <tbody>
+  //         <tr>
+  //           <td>
+  //             <div style="width: 30mm; display: inline">
+  //               <span><b>Tipo de ventana</b></span>
+  //             </div>
+  //             <div style="width: 50mm; display: inline">
+  //               <span><b>Tipo de vidrio</b></span>
+  //             </div>
+  //             <div style="width: 30mm; display: inline">
+  //               <span><b>Dimensiones</b></span>
+  //             </div>
+  //             <div style="width: 20mm; display: inline">
+  //               <span><b>Color</b></span>
+  //             </div>
+  //             <div style="width: 30mm; display: inline">
+  //               <span><b>Precio</b></span>
+  //             </div>
+  //             <div style="width: 20mm; display: inline">
+  //               <span><b>Cantidad</b></span>
+  //             </div>
+  //             <div style="width: 20mm; display: inline">
+  //               <span><b>Total</b></span>
+  //             </div>
+  //           </td>
+  //         </tr>
+  //         ${generarVentanas(cotizacion.ventana)}
+  //       </tbody>
+  //       <tfoot>
+  //         <tr>
+  //           <td>
+  //             <hr>
+  //             <div style="margin-left: 165mm">
+  //               <span>Total: <b>$${totalCorreo.toFixed(2)}</b></span>
+  //             </div>
+  //           </td>
+  //         </tr>
+  //       </tfoot>
+  //     </table>
+  //   </div>
   // `;
 
-  return `
-    <body>
-      <div style="border: 1px solid gray;">
-        <table>
-          <thead>
-            <tr>
-              <td style="width: 100%">
-                <div style="text-align: center">
-                  <span>Sky View Fenster</span>
-                  <br>
-                  <span><small>REKD820121H39</small></span>
-                </div>
-                <br>
-                <div>
-                  <div style="display: inline; width: 98mm; border: 1px solid red;">
-                    <span style="font-size: 20px; color: blue;">Cotización</span>
-                    <br>
-                    <br>
-                    <div style="display: block; border: 1px solid gray;">
-                      <div style="background-color: blue; text-align: center; padding-top: 1mm; padding-bottom: 1mm">
-                        <span style="color: white;">Cliente</span>
-                      </div>
-                      <div>
-                        <div style="margin: 1mm">${cotizacion.cliente}</div>
-                        <div style="margin: 1mm">${cotizacion.cliente}</div>
-                        <div style="margin: 1mm">${cotizacion.cliente}</div>
-                        <div style="margin: 1mm">${cotizacion.cliente}</div>
-                        <div style="margin: 1mm">${cotizacion.cliente}</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div style="display: inline; width: 98mm;">
-                    <div style="border: 1px solid red; width: 96mm; display: block;">
-                      <div style="background-color: blue; text-align: center; padding-top: 1mm; padding-bottom: 1mm; width: 30mm; display: inline; margin-left: 33mm">
-                        <span style="color: white; display: block; width: 30mm">Fecha</span>
-                      </div>
-                      <div style="width: 30mm; display: inline; text-align: center; padding-top: 1mm; padding-bottom: 1mm; background-color: blue">
-                        <span style="color: white">Folio</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </thead>
-          <tbody></tbody>
-          <tfoot>
-            <tr></tr>
-          </tfoot>
-        </table>
-      </div>
-    </body>
-  `
+ return `
+  <div style="border: 1px solid gray; text-align: center; font-family: helvetica">
+    <span>Sky View Fenster</span>
+    <br>
+    <span>REKD820121H39</span>
+    <div class="borde">
+      <table style="width: 100%" style="padding-top: 10px">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="width: 50%; text-align: start;">
+              <span style="font-family: helvetica; color: #2171FF; font-size: 24px; font-weight: bold">Cotización</span>
+            </td>
+            <td style="width: 50%">
+              holi
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table style="width: 100%" style="padding-top: 2px; padding-bottom: 2px; font-size: 12px; border: 1px solid gray;">
+                <thead>
+                  <tr>
+                    <th style="background-color: #2171FF; width: 100%; text-align: center; color: white">Cliente</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="text-align: left;">${cotizacion.cliente}</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">${cotizacion.direccion}</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">${cotizacion.codigoPostal}</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">${cotizacion.RFC}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>`;
 }
 
 function generarVentanas(ventanas) {
