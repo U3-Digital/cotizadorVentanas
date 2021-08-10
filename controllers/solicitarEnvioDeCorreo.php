@@ -87,7 +87,6 @@ if (isset($_POST["correo"])) {
     print_r("{\"ok\": false }");
   }
 
-  print_r("{ \"ok\": true }");
 
 } else {
   print_r("{\"success\": false}");
