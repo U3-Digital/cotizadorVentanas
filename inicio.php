@@ -68,7 +68,7 @@ require_once "./models/modelEnlaces.php";
       const cuerpoTabla = document.getElementById('cuerpo-tabla');
       const cajaNombreCliente = document.getElementById('cajaNombreCliente');
 
-      function enviarCorreo() {
+      async function enviarCorreo() {
         console.log(cotizaciones.length);
         if(cotizaciones.length === 0) {
           Swal.fire({
@@ -94,6 +94,10 @@ require_once "./models/modelEnlaces.php";
         const codigoPostal = document.getElementById('cajaCodigoPostalCliente').value;
         const RFC = document.getElementById('cajaRFCCliente').value;
 
+        const folio = await ( await fetch('./controllers/consultarUltimaCotizacion.php', {
+          method: 'GET'
+        })).json();
+
         Swal.fire({
           title: 'Correo del cliente',
           input: 'text',
@@ -110,7 +114,8 @@ require_once "./models/modelEnlaces.php";
               codigoPostal,
               RFC,
               fecha: generarFecha(),
-              ventana: cotizaciones
+              ventana: cotizaciones,
+              idCotizacion: folio.id + 1
             };
             
             const cuerpoCorreo = generarCorreo(cotizacion);
@@ -565,11 +570,11 @@ require_once "./models/modelEnlaces.php";
             <td>${cotizacion.tipoVentana ? (`${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}`) : ('')} ${cotizacion.ceja ? ('-' + cotizacion.ceja) : ''}</td>
             <td>${cotizacion.colorPrincipal ? (`${cotizacion.colorPrincipal}`) : ('')} ${cotizacion.colorSubcolor ? cotizacion.colorSubcolor : ''}</td>
             <td>
-              <input id="cantidad-${i}" type="number" value="${cotizacion.numeroVentanas ? (`${cotizacion.numeroVentanas}`) : ('1')}" onkeyup="cambiarCantidadDeIndex(event)">
+              <input class="form-control" id="cantidad-${i}" type="number" value="${cotizacion.numeroVentanas ? (`${cotizacion.numeroVentanas}`) : ('1')}"  onchange="cambiarCantidadDeIndex(event)" onkeyup="cambiarCantidadDeIndex(event)">
             </td>
             <td>${formatter.format(cotizacion.precio)}</td>
             <td>
-              <input id="descuento-${i}" type="number" value="0" onkeyup="cambiarDescuentoDeIndex(event)">
+              <input class="form-control" id="descuento-${i}" type="number" value="0" onchange="cambiarDescuentoDeIndex(event)" onkeyup="cambiarDescuentoDeIndex(event)" step="0.01">
             </td>
             <td id="total-${i}">${formatter.format(cotizacion.total)}</td>
         </tr>
@@ -610,6 +615,11 @@ require_once "./models/modelEnlaces.php";
       function cambiarCantidadDeIndex(event) {
         const index = event.target.id.split('-')[1];
         const value = event.target.value;
+
+        console.log(value.includes('.'));
+        if (value.includes('.')) {
+          event.target.value = value.split('.')[0];
+        }
 
         const formatter = new Intl.NumberFormat('es-MX', {
           style: 'currency',

@@ -390,7 +390,6 @@ require_once "./models/modelCotizaciones.php";
               body: formData
             }).then((response) => response.json()).then((data) => {
               const cuerpoCorreo = generarCorreo(data);
-              console.log(cuerpoCorreo);
             
               const formCorreo = new FormData();
               formCorreo.append('correo', correo);
@@ -401,7 +400,6 @@ require_once "./models/modelCotizaciones.php";
                 method: 'POST',
                 body: formCorreo,
               }).then((response) => {
-                console.log(response);
                 return response.json();
               }).then((data) => {
                 if (data.ok) {
@@ -457,7 +455,6 @@ require_once "./models/modelCotizaciones.php";
 
           const cotizacion = JSON.parse(data);
           cotizacion.ventana = JSON.parse(cotizacion.ventana);
-          console.log(cotizacion);
 
           const formatter = new Intl.NumberFormat('es-MX', {
             style: 'currency',

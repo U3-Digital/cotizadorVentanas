@@ -789,6 +789,10 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
     ventana = ventana.replace(" Tapis", "");
   }
 
+  if(ventana.includes("Baño")){
+    ventana = ventana.replace("Baño", "Bano");
+  }
+
   strdescripcion += "-";
   strdescripcion += ventana;
   
