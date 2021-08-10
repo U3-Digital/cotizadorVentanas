@@ -15,7 +15,7 @@ $preciosController = new PreciosController();
           <thead>
             <tr>
               <th>Descripción</th>
-              <th>Precio</th>
+              <th>Precio por pulgada (dlls)</th>
             </tr>
           </thead>
           <tbody>

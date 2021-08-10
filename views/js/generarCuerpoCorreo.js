@@ -7,7 +7,7 @@ function generarCorreo(cotizacion) {
   // cuerpo += estiloCorreo;
 
   cuerpo += generarCuerpo(cotizacion);
-
+  totalCorreo = 0;
   return cuerpo;
 }
 
@@ -43,70 +43,18 @@ const estiloCorreo = `
 `;
 
 function generarCuerpo(cotizacion) {
-  // return `
-  //   <div>
-  //     <table>
-  //       <thead>
-  //         <tr>
-  //           <td style="width: 100%">
-  //             <div>
-  //               <img src="${rutaImagen}" alt="SkyView logo" style="height: 10mm; width: 32mm;">
-  //               <span style="margin-left: 130mm;">${cotizacion.fecha}</span>
-  //               <h2>Sky View Fenster</h2>
-  //               <span>Cotización para: <b>${cotizacion.cliente}</b></span>
-  //               <hr>
-  //             </div>
-  //           </td>
-  //         </tr>
-  //       </thead>
-  //       <tbody>
-  //         <tr>
-  //           <td>
-  //             <div style="width: 30mm; display: inline">
-  //               <span><b>Tipo de ventana</b></span>
-  //             </div>
-  //             <div style="width: 50mm; display: inline">
-  //               <span><b>Tipo de vidrio</b></span>
-  //             </div>
-  //             <div style="width: 30mm; display: inline">
-  //               <span><b>Dimensiones</b></span>
-  //             </div>
-  //             <div style="width: 20mm; display: inline">
-  //               <span><b>Color</b></span>
-  //             </div>
-  //             <div style="width: 30mm; display: inline">
-  //               <span><b>Precio</b></span>
-  //             </div>
-  //             <div style="width: 20mm; display: inline">
-  //               <span><b>Cantidad</b></span>
-  //             </div>
-  //             <div style="width: 20mm; display: inline">
-  //               <span><b>Total</b></span>
-  //             </div>
-  //           </td>
-  //         </tr>
-  //         ${generarVentanas(cotizacion.ventana)}
-  //       </tbody>
-  //       <tfoot>
-  //         <tr>
-  //           <td>
-  //             <hr>
-  //             <div style="margin-left: 165mm">
-  //               <span>Total: <b>$${totalCorreo.toFixed(2)}</b></span>
-  //             </div>
-  //           </td>
-  //         </tr>
-  //       </tfoot>
-  //     </table>
-  //   </div>
-  // `;
+
+  const formatter = new Intl.NumberFormat('es-MX', {
+    style: 'currency',
+    currency: 'MXN'
+  });
 
  return `
   <div style="border: 1px solid gray; text-align: center; font-family: helvetica">
     <span>Sky View Fenster</span>
     <br>
     <span>REKD820121H39</span>
-    <div class="borde">
+    <div>
       <table style="width: 100%" style="padding-top: 10px">
         <thead>
           <tr>
@@ -117,15 +65,30 @@ function generarCuerpo(cotizacion) {
         <tbody>
           <tr>
             <td style="width: 50%; text-align: start;">
-              <span style="font-family: helvetica; color: #2171FF; font-size: 24px; font-weight: bold">Cotización</span>
+              <span style="font-family: helvetica; color: #2171FF; font-size: 22px; font-weight: bold">Cotización</span>
             </td>
-            <td style="width: 50%">
-              holi
+            <td style="width: 50%;">
+              <table style="width: 100%;">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th style="background-color: #2171FF; width: 30%; text-align: center; color: white; font-weight: bold; font-size: 13px">Fecha</th>
+                    <th style="background-color: #2171FF; width: 30%; text-align: center; color: white; font-weight: bold; font-size: 13px">Folio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td>${cotizacion.fecha}</td>
+                    <td>${cotizacion.idCotizacion}</td>
+                  </tr>
+                </tbody>
+              </table>
             </td>
           </tr>
           <tr>
             <td>
-              <table style="width: 100%" style="padding-top: 2px; padding-bottom: 2px; font-size: 12px; border: 1px solid gray;">
+              <table style="width: 100%" style="padding-top: 2px; padding-bottom: 2px; font-size: 13px; border: 1px solid gray; font-weight: bold;">
                 <thead>
                   <tr>
                     <th style="background-color: #2171FF; width: 100%; text-align: center; color: white">Cliente</th>
@@ -133,17 +96,63 @@ function generarCuerpo(cotizacion) {
                 </thead>
                 <tbody>
                   <tr>
-                    <td style="text-align: left;">${cotizacion.cliente}</td>
+                    <td style="text-align: left; font-weight: normal">${cotizacion.cliente}</td>
                   </tr>
                   <tr>
-                    <td style="text-align: left;">${cotizacion.direccion}</td>
+                    <td style="text-align: left; font-weight: normal">${cotizacion.direccion}</td>
                   </tr>
                   <tr>
-                    <td style="text-align: left;">${cotizacion.codigoPostal}</td>
+                    <td style="text-align: left; font-weight: normal">${cotizacion.codigoPostal}</td>
                   </tr>
                   <tr>
-                    <td style="text-align: left;">${cotizacion.RFC}</td>
+                    <td style="text-align: left; font-weight: normal">${cotizacion.RFC}</td>
                   </tr>
+                </tbody>
+              </table>
+            </td>
+            <td>
+              <img src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big.png">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <br>
+              <table style="width: 100%">
+                <thead>
+                  <tr>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px">Vigencia</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px">Condiciones</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px">Contado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td style="font-size: 13px">Contado</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <br>
+              <table style="width: 100%">
+                <thead>
+                  <tr>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Tipo de ventana</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Tipo de vidrio</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Dimensiones</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Color</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Precio</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Cantidad</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Descuento</th>
+                    <th style="background-color: #2171FF; text-align: center; color: white; font-weight: bold; font-size: 13px;">Importe</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${generarVentanas(cotizacion.ventana)}
                 </tbody>
               </table>
             </td>
@@ -151,65 +160,79 @@ function generarCuerpo(cotizacion) {
         </tbody>
       </table>
     </div>
+    <div style="border: 1px solid gray;">
+      <table style="width: 100%;">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: start; font-size: 13px; width: 50%; height: 80px; padding: 4px">
+              <div>
+                ${NumeroALetras(totalCorreo * 1.16)[0].toUpperCase()}${NumeroALetras(totalCorreo * 1.16).substr(1)}
+              </div>
+            </td>
+            <td style="text-align: start; font-size: 13px; width: 25%">
+              <p>Subtotal</p>
+              <p>IVA</p>
+              <br/>
+              <p>Total</p>
+            </td>
+            <td style="text-align: right; font-size: 13px; width: 25%">
+              <p>${formatter.format((totalCorreo).toFixed(2))}</p>
+              <p>${formatter.format((totalCorreo * 0.16).toFixed(2))}</p>
+              <br/>
+              <p>${formatter.format((totalCorreo * 1.16).toFixed(2))}</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" style="font-size: 10px; text-align: left;">Debo(emos) y pagare(emos) incondicionalmente por este pagaré a la orden de DAVID REMPEL KLASSEN Y MAYRA LETICIA ARAGÓN VÁZQUEZ en esta ciudad o en cualquier otro luger que se me(nos) requiera el pago a elección del acreedor la cantidad de: ${formatter.format((totalCorreo * 1.16).toFixed(2))}, valor recibido a mí(nuestra) entera satisfacción, este pagaré está sujeto a la condición de que que, al no pagarse a su vencimiento hasta el día de su liquidación, causará intereses moratorios al tipo de 3% mensual pagadero en esta ciudad juntamente con el principal.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>`;
+
 }
 
 function generarVentanas(ventanas) {
   let resultado = '';
-  ventanas.forEach((ventana) => {
-    totalCorreo += ventana.total;
+  const formatter = new Intl.NumberFormat('es-MX', {
+    style: 'currency',
+    currency: 'MXN'
+  });
+  ventanas.forEach((ventana, index) => {
+    totalCorreo += ventana.total - ventana.descuento;
     if (ventana.serie) {
       resultado += `
-        <tr>
-          <td>
-            <div style="width: 30mm; display: inline;" class="cell-border">
-              <span>${ventana.subtipoVentana}</span>
-            </div>
-            <div style="width: 50mm; display: inline;" class="cell-border">
-              <span>${ventana.tipoVidrio} - ${ventana.subtipoVidrio}</span>
-            </div>
-            <div style="width: 30mm; display: inline;" class="cell-border">
-              <span>${ventana.dimensionAncho}" x ${ventana.dimensionAlto}"</span>
-            </div>
-            <div style="width: 20mm; display: inline;" class="cell-border">
-              <span>${ventana.colorPrincipal}</span>
-            </div>
-            <div style="width: 30mm; display: inline;" class="cell-border">
-              <span>$${ventana.precio}</span>
-            </div>
-            <div style="width: 20mm; display: inline;" class="cell-border">
-              <span>${ventana.numeroVentanas}</span>
-            </div>
-            <div style="width: 20mm; display: inline;" class="cell-border">
-              <span>$${ventana.total}</span>
-            </div>
-          </td>
+        <tr style="${index % 2 === 0 ? 'background-color: #DDDDDD;' : ''}">
+          <td style="font-size: 13px">${ventana.serie} - ${ventana.tipoVentana} - ${ventana.subtipoVentana} - ${ventana.ceja}</td>
+          <td style="font-size: 13px">${ventana.tipoVidrio} - ${ventana.subtipoVidrio}</td>
+          <td style="font-size: 13px">${ventana.dimensionAncho}" x ${ventana.dimensionAlto}"</td>
+          <td style="font-size: 13px">${ventana.colorPrincipal}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.precio)}</td>
+          <td style="font-size: 13px">${ventana.numeroVentanas}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.descuento)}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.total)}</td>
         </tr>
       `;
     } else {
       resultado += `
-      <tr>
-        <td>
-          <div style="width: 30mm; display: inline;">
-          </div>
-          <div style="width: 50mm; display: inline;">
-          </div>
-          <div style="width: 30mm; display: inline;">
-          </div>
-          <div style="width: 20mm; display: inline;" class="cell-border">
-            <span>${ventana.colorSubcolor}</span>
-          </div>
-          <div style="width: 30mm; display: inline;" class="cell-border">
-            <span>$${ventana.precio}</span>
-          </div>
-          <div style="width: 20mm; display: inline;" class="cell-border">
-            <span>${ventana.numeroVentanas}</span>
-          </div>
-          <div style="width: 20mm; display: inline;" class="cell-border">
-            <span>$${ventana.total}</span>
-          </div>
-        </td>
-      </tr>`;
+        <tr>
+          <td style="font-size: 13px"></td>
+          <td style="font-size: 13px"></td>
+          <td style="font-size: 13px"></td>
+          <td style="font-size: 13px">${ventana.colorSubcolor}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.precio)}</td>
+          <td style="font-size: 13px">${ventana.numeroVentanas}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.descuento)}</td>
+          <td style="font-size: 13px">${formatter.format(ventana.total)}</td>
+        </tr>
+      `;
     }
   });
   return resultado;

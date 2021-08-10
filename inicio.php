@@ -90,6 +90,10 @@ require_once "./models/modelEnlaces.php";
           return;
         }
 
+        const direccion = document.getElementById('cajaDireccionCliente').value;
+        const codigoPostal = document.getElementById('cajaCodigoPostalCliente').value;
+        const RFC = document.getElementById('cajaRFCCliente').value;
+
         Swal.fire({
           title: 'Correo del cliente',
           input: 'text',
@@ -102,6 +106,9 @@ require_once "./models/modelEnlaces.php";
           preConfirm: (correo) => {
             const cotizacion = {
               cliente: cajaNombreCliente.value,
+              direccion,
+              codigoPostal,
+              RFC,
               fecha: generarFecha(),
               ventana: cotizaciones
             };

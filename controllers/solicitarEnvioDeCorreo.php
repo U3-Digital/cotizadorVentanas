@@ -61,7 +61,7 @@ if (isset($_POST["correo"])) {
 
 
   $PDF -> writeHTML($cuerpoCorreo, true, false, true, false, '');
-  $PDF -> Output(__DIR__ . 'hey.pdf', 'F');
+  $PDF -> Output(__DIR__ . 'cotizacion.pdf', 'F');
 
 
   $recipient = $_POST["correo"];
@@ -81,11 +81,11 @@ if (isset($_POST["correo"])) {
   $mail -> Body = 'Le hacemos llegar la cotización que solicitó con nosotros. Quedamos a sus órdenaes para las dudas o correcciones necesarias. <br> Atte. Sky View Fenster <a href="https://skyviewfenster.com.mx/">/skyviewfenster.com.mx</a>. Este es un mensaje automático. Favor de no responder a este correo';
   $mail -> AltBody = 'Le hacemos llegar la cotización que solicitó con nosotros. Quedamos a sus órdenaes para las dudas o correcciones necesarias. Atte. Sky View Fenster. Este es un mensaje automático. Favor de no responder a este correo';
 
-  // if ($mail -> send()) {
-  //   print_r("{ \"ok\": true }");
-  // } else {
-  //   print_r("{\"ok\": false }");
-  // }
+  if ($mail -> send()) {
+    print_r("{ \"ok\": true }");
+  } else {
+    print_r("{\"ok\": false }");
+  }
 
   print_r("{ \"ok\": true }");
 

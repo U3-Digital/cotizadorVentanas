@@ -36,7 +36,8 @@ if(isset($_SESSION["nombre"])){
   <div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; background-image: url('Assets/fondo.jpg'); background-size: cover;"></div>
   <div class="container h-100">
     <div class="row h-100 justify-content-center">
-      <div class="col-md-6 col-lg-6 col-xl-6 col-10 my-auto">
+      <div class="col-md-6 col-lg-6 col-xl-6 col-10 my-auto d-flex flex-column">
+        <img src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big.png" class="m-4">
         <div class="card p-3">
           <div class="card-header text-center border-0">
             <h4><b>Ingreso al sistema</b></h4>
