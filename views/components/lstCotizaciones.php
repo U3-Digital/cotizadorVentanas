@@ -280,7 +280,7 @@ require_once "./models/modelCotizaciones.php";
                     currency: 'MXN'
                   });
                   ventanas.forEach((ventana) => {
-                    totalCotizacion += ventana.total - ventana.descuento;
+                    totalCotizacion += ventana.totalDescuento;
 
                     if (ventana.serie) {
                       resultado += `
@@ -304,10 +304,10 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.descuento)}
+                            ${ventana.descuento}%
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.total)}
+                            ${formatter.format(ventana.totalDescuento)}
                           </td>
                         </tr>
                       `;
@@ -331,10 +331,10 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.descuento)}
+                            ${ventana.descuento}%
                           </td>
                           <td class="text-center">
-                           ${formatter.format(ventana.total)}
+                           ${formatter.format(ventana.totalDescuento)}
                           </td>
                         </tr>`;
                     }
@@ -692,7 +692,8 @@ require_once "./models/modelCotizaciones.php";
                     currency: 'MXN'
                   });
                   ventanas.forEach((ventana) => {
-                    totalCotizacion += ventana.total - ventana.descuento;
+                    console.log(ventana.totalDescuento);
+                    totalCotizacion += ventana.totalDescuento;
 
                     if (ventana.serie) {
                       resultado += `
@@ -716,10 +717,10 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.descuento)}
+                            ${ventana.descuento}%
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.total)}
+                            ${formatter.format(ventana.totalDescuento)}
                           </td>
                         </tr>
                       `;
@@ -743,10 +744,10 @@ require_once "./models/modelCotizaciones.php";
                             ${ventana.numeroVentanas}
                           </td>
                           <td class="text-center">
-                            ${formatter.format(ventana.descuento)}
+                            ${ventana.descuento}%
                           </td>
                           <td class="text-center">
-                           ${formatter.format(ventana.total)}
+                           ${formatter.format(ventana.totalDescuento)}
                           </td>
                         </tr>`;
                     }

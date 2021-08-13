@@ -31,7 +31,7 @@ include "./views/components/stepper.php";
             <th scope="col">Pintura</th>
             <th scope="col">Cantidad</th>
             <th scope="col">Precio</th>
-            <th scope="col">Descuento</th>
+            <th scope="col">Descuento (%)</th>
             <th scope="col">Total</th>
           </thead>
           <tbody id="cuerpo-tabla">

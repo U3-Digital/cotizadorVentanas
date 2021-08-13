@@ -152,7 +152,7 @@ function generarCuerpo(cotizacion) {
                   </tr>
                 </thead>
                 <tbody>
-                  ${generarVentanas(cotizacion.ventana)}
+                  ${generarVentanasCorreo(cotizacion.ventana)}
                 </tbody>
               </table>
             </td>
@@ -199,14 +199,14 @@ function generarCuerpo(cotizacion) {
 
 }
 
-function generarVentanas(ventanas) {
+function generarVentanasCorreo(ventanas) {
   let resultado = '';
   const formatter = new Intl.NumberFormat('es-MX', {
     style: 'currency',
     currency: 'MXN'
   });
   ventanas.forEach((ventana, index) => {
-    totalCorreo += ventana.total - ventana.descuento;
+    totalCorreo += ventana.totalDescuento;
     if (ventana.serie) {
       resultado += `
         <tr style="${index % 2 === 0 ? 'background-color: #DDDDDD;' : ''}">
@@ -216,8 +216,8 @@ function generarVentanas(ventanas) {
           <td style="font-size: 13px">${ventana.colorPrincipal}</td>
           <td style="font-size: 13px">${formatter.format(ventana.precio)}</td>
           <td style="font-size: 13px">${ventana.numeroVentanas}</td>
-          <td style="font-size: 13px">${formatter.format(ventana.descuento)}</td>
-          <td style="font-size: 13px">${formatter.format(ventana.total)}</td>
+          <td style="font-size: 13px">${ventana.descuento}%</td>
+          <td style="font-size: 13px">${formatter.format(ventana.totalDescuento)}</td>
         </tr>
       `;
     } else {
@@ -229,8 +229,8 @@ function generarVentanas(ventanas) {
           <td style="font-size: 13px">${ventana.colorSubcolor}</td>
           <td style="font-size: 13px">${formatter.format(ventana.precio)}</td>
           <td style="font-size: 13px">${ventana.numeroVentanas}</td>
-          <td style="font-size: 13px">${formatter.format(ventana.descuento)}</td>
-          <td style="font-size: 13px">${formatter.format(ventana.total)}</td>
+          <td style="font-size: 13px">${ventana.descuento}%</td>
+          <td style="font-size: 13px">${formatter.format(ventana.totalDescuento)}</td>
         </tr>
       `;
     }

@@ -418,7 +418,7 @@ require_once "./models/modelEnlaces.php";
             currency: 'MXN'
           });
           ventanas.forEach((ventana) => {
-            totalCotizacion += ventana.total;
+            totalCotizacion += ventana.totalDescuento;
 
             if (ventana.serie) {
               resultado += `
@@ -442,10 +442,10 @@ require_once "./models/modelEnlaces.php";
                     ${ventana.numeroVentanas}
                   </td>
                   <td class="text-center">
-                    ${formatter.format(ventana.descuento)}
+                    ${ventana.descuento}%
                   </td>
                   <td class="text-center">
-                    ${formatter.format(ventana.total)}
+                    ${formatter.format(ventana.totalDescuento)}
                   </td>
                 </tr>
               `;
@@ -469,10 +469,10 @@ require_once "./models/modelEnlaces.php";
                     ${ventana.numeroVentanas}
                   </td>
                   <td class="text-center">
-                    ${formatter.format(ventana.descuento)}
+                    ${ventana.descuento}%
                   </td>
                   <td class="text-center">
-                    ${formatter.format(ventana.total)}
+                    ${formatter.format(ventana.totalDescuento)}
                   </td>
                 </tr>`;
             }
@@ -562,6 +562,7 @@ require_once "./models/modelEnlaces.php";
         });
 
         cotizaciones.forEach((cotizacion) => {
+          console.log(cotizacion);
           //console.log(cotizacion);
           cuerpoTabla.innerHTML +=
             `<tr>
@@ -586,6 +587,20 @@ require_once "./models/modelEnlaces.php";
         labelTotal.innerHTML = `${formatter.format(totalFinal)}`;
       }
 
+      function recalcularTotal() {
+        let t = 0;
+        cotizaciones.forEach((cotizacion) => {
+          t += cotizacion.totalDescuento;
+        });
+
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+
+        document.getElementById('totalCotizaciones').innerHTML = `${formatter.format(t)}`;
+      }
+
       
       function generarFecha() {
         const fecha = new Date(Date.now());
@@ -600,6 +615,14 @@ require_once "./models/modelEnlaces.php";
         const index = event.target.id.split('-')[1];
         const value = event.target.value;
 
+        if (!value) {
+          event.target.value = 0;
+        } if (value > 100) {
+          event.target.value = 100;
+        } else if (value < 0) {
+          event.target.value = 0;
+        }
+
         const formatter = new Intl.NumberFormat('es-MX', {
           style: 'currency',
           currency: 'MXN'
@@ -607,8 +630,9 @@ require_once "./models/modelEnlaces.php";
 
         if (value) {
           cotizaciones[index].descuento = value;
-          cotizaciones[index].totalDescuento = cotizaciones[index].total - value;
-          document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].totalDescuento);
+          // cotizaciones[index].totalDescuento = cotizaciones[index].total - (cotizaciones[index].total * value) / 100;
+          calcularTotalDeCotizacion(index);
+
         }
       }
 
@@ -616,7 +640,6 @@ require_once "./models/modelEnlaces.php";
         const index = event.target.id.split('-')[1];
         const value = event.target.value;
 
-        console.log(value.includes('.'));
         if (value.includes('.')) {
           event.target.value = value.split('.')[0];
         }
@@ -631,11 +654,24 @@ require_once "./models/modelEnlaces.php";
             cotizaciones[index].numeroVentanas = value;
           } else {
             cotizaciones[index].numeroVentanas = 1;
+            event.target.value = 1;
           }
-
-          cotizaciones[index].total = cotizaciones[index].precio * cotizaciones[index].numeroVentanas;
-          document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].total - cotizaciones[index].descuento);
+          calcularTotalDeCotizacion(index);
         }
+      }
+
+      function calcularTotalDeCotizacion(index) {
+
+        const formatter = new Intl.NumberFormat('es-MX', {
+          style: 'currency',
+          currency: 'MXN'
+        });
+
+        cotizaciones[index].totalDescuento = (cotizaciones[index].numeroVentanas * cotizaciones[index].precio);
+        cotizaciones[index].totalDescuento = cotizaciones[index].totalDescuento - (cotizaciones[index].totalDescuento * cotizaciones[index].descuento) / 100;
+
+        document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].totalDescuento);
+        recalcularTotal();
       }
 
     </script>

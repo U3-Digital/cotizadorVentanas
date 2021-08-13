@@ -670,8 +670,8 @@ function cargarColores(serie, ceja, ventana){
     });
     
     temporal = '<div class="row justify-content-center">';
-    ventana.colores.forEach((color) => {
-        temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" onclick='agregarARuta("${color.nombre}", "colorPrincipal");'>
+    ventana.colores.forEach((color, index) => {
+        temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" id="color-${index}" onclick='agregarARuta("${color.nombre}", "colorPrincipal"); markAsActive(${index})'>
         <img src="${color.img}" alt="placeholder">
         <div class="my-2">
             <label class="form-check-label">${color.nombre}</label>
@@ -742,6 +742,15 @@ function cargarSubcolores(color) {
 //   calcularTotal();
 // }, 1000);
 
+function markAsActive(index) {
+  if (index === 0) {
+    document.getElementById('color-0').classList.add('c-active');
+    document.getElementById('color-1').classList.remove('c-active');    
+  } else {
+    document.getElementById('color-0').classList.remove('c-active');
+    document.getElementById('color-1').classList.add('c-active');    
+  }
+}
 
 function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
   // console.log(rutaVentana);
@@ -1048,6 +1057,7 @@ function agregarCotizacion() {
     rutaVentana.total = rutaVentana.numeroVentanas * total;
     rutaVentana.total = Number.parseFloat(rutaVentana.total.toFixed(2));
     rutaVentana.descuento = 0;
+    rutaVentana.totalDescuento = rutaVentana.total;
     containerSaveCotizacion.hidden = false;
     //console.log(rutaVentana);
     //console.log(cotizaciones);
@@ -1063,6 +1073,7 @@ function agregarCotizacion() {
         rutaPintura.precio = rutaPintura.precioExterior;
       }
       rutaPintura.descuento = 0;
+      rutaPintura.totalDescuento = rutaPintura.precio;
       rutaPintura.numeroVentanas = rutaVentana.numeroVentanas;
       rutaPintura.total = rutaPintura.precio * rutaPintura.numeroVentanas;
       cotizaciones.push(rutaPintura);
