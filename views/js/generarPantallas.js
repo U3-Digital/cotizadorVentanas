@@ -643,7 +643,7 @@ function cargarCeja(serie, subtipo, ventana){
       let i = 0;
       temporal = '<div class="row justify-content-center">';
       serie.ceja.forEach((ceja) => {
-          temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" onclick='cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
+          temporal += `<div class="col-md-3 col-lg-3 col-6 text-center selectable" onclick='mostrarOrientacionOContinuar(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)});'>
           <img src="${ceja.img}" alt="placeholder">
           <div class="my-2">
               <label class="form-check-label">${ceja.nombre}</label>
@@ -657,6 +657,95 @@ function cargarCeja(serie, subtipo, ventana){
       generateStepper(6);
     }
     
+}
+
+async function mostrarOrientacionOContinuar(serie, ceja, ventana) {
+  // console.log(serie, ceja, ventana);
+  console.log(ventana);
+  console.log(rutaVentana);
+
+  const orientacion = tieneOrientacion(serie.nombre, rutaVentana.subtipoVentana);
+
+  if (orientacion) {
+
+    let htmlOrientacion = `
+      <div class="d-flex justify-content-center">
+    `;
+
+    orientacion.forEach((o) => {
+      htmlOrientacion += `
+        <div class="col-3 text-center selectable" onclick="rutaVentana.direccion = '${o.valor}'; document.getElementById('aceptar-direccion').disabled = false; ">
+          <img src="${o.img}" alt="placeholder">
+          <div class="my-2">
+            <label class="form-check-label">${o.nombre}</label>
+          </div>
+        </div>
+      `;
+    });
+
+    htmlOrientacion += `</div>
+    <br>
+    <div class="d-flex justify-content-center">
+      <button class="btn btn-block mx-5 btn-primary" disabled id="aceptar-direccion" onclick='Swal.close(); cargarColores(${JSON.stringify(serie)}, ${JSON.stringify(ceja)}, ${JSON.stringify(ventana)})'>Aceptar</button>
+    </div><br>`;
+
+    Swal.fire({
+      title: 'Seleccione la orientación de la ventana (Viéndola desde dentro de la casa)',
+      icon: 'info',
+      width: 700,
+      html: htmlOrientacion,
+      showCancelButton: false,
+      showConfirmButton: false,
+      allowOutsideClick: false
+    });
+  } else {
+    cargarColores(serie, ceja, ventana);
+  }
+
+}
+
+function tieneOrientacion(serie, ventana) {
+  let orientacion;
+  switch(serie) {
+    case 'Básica': {
+      let encontrado = false;
+      for (let i = 0; i < serieBasica.tipo.length; i++) {
+        const tipo = serieBasica.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.direcciones) {
+              orientacion = subtipo.extra.direcciones;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
+    }
+      break;
+
+    case 'Plus': {
+
+    }
+      break;
+    
+    case 'Premium': {
+
+    }
+      break;
+
+    case 'PDO10': {
+
+    }
+      break;
+    default:
+      break;
+  }
+  return orientacion;
 }
 
 
