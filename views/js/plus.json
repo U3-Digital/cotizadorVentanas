@@ -321,7 +321,19 @@
                         { "nombre": "Mínimo", "ancho": "17.5", "alto": "11.5" }
                     ],
                     "extra": {
-                      "preciosVidrio": ["Corrediza"]
+                      "preciosVidrio": ["Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Izquierda a derecha (XO)",
+                            "img": "./img/direccion_corrediza_izquierda.png",
+                            "valor": "izquierda"
+                          },
+                          {
+                            "nombre": "Derecha a izquierda (OX)",
+                            "img": "./img/direccion_corrediza_derecha.png",
+                            "valor": "derecha"
+                          }
+                      ]
                     }
                 },
                 {
@@ -360,7 +372,19 @@
                       "titulo": "Alto de la ventana corrediza",
                       "minimo": "11.5",
                       "formulaMaximo": "Al - 11.5",
-                      "preciosVidrio": ["Fija", "Corrediza"]
+                      "preciosVidrio": ["Fija", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Izquierda",
+                            "img": "./img/direccion_corredizao-ox_izquierda.png",
+                            "valor": "izquierda"
+                          },
+                          {
+                            "nombre": "Derecha",
+                            "img": "./img/direccion_corredizao-xo_derecha.png",
+                            "valor": "derecha"
+                          }
+                        ]
                     }
                 },
                 {
@@ -375,7 +399,19 @@
                       "titulo": "Alto de la ventana corrediza",
                       "minimo": "11.5",
                       "formulaMaximo": "Al - 11.5",
-                      "preciosVidrio": ["Fija", "Corrediza XOX"]
+                      "preciosVidrio": ["Fija", "Corrediza XOX"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza O-XOX",
+                            "img": "./img/direccion_corrediza_o-xox.png",
+                            "valor": "abajo"
+                          },
+                          {
+                            "nombre": "Corrediza XOX-O",
+                            "img": "./img/direccion_corrediza_xox-o.png",
+                            "valor": "arriba"
+                          }
+                        ]
                     }
                 },
                 {
@@ -390,7 +426,19 @@
                       "titulo": "Alto del arco",
                       "minimo": "11.5",
                       "formulaMaximo": "Al - 11.5",
-                      "preciosVidrio": ["Arco", "Corrediza"]
+                      "preciosVidrio": ["Arco", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_corredizaarco_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_corredizaarco_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 },
                 {
@@ -405,7 +453,19 @@
                       "titulo": "Alto de la ventana corrediza",
                       "minimo": "11.5",
                       "formulaMaximo": "Al - 12",
-                      "preciosVidrio": ["Arco", "Corrediza"]
+                      "preciosVidrio": ["Arco", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Arco con corrediza a la izquierda",
+                            "img": "./img/direccion_arcomedialunaconcorrediza_izquierda.png",
+                            "valor": "izquierda"
+                          },
+                          {
+                            "nombre": "Arco con corrediza a la derecha",
+                            "img": "./img/direccion_arcomedialunaconcorrediza_derecha.png",
+                            "valor": "derecha"
+                          }
+                      ]
                     }
                 },
                 {
@@ -420,7 +480,19 @@
                       "titulo": "Alto del arco",
                       "minimo": "11.5",
                       "formulaMaximo": "Al - 11.5",
-                      "preciosVidrio": ["Arco", "Corrediza"]
+                      "preciosVidrio": ["Arco", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Arco AO con corrediza a la izquierda",
+                            "img": "./img/direccion_arcoaoconcorrediza_izquierda.png",
+                            "valor": "izquierda"
+                          },
+                          {
+                            "nombre": "Arco AO con corrediza a la izquierda",
+                            "img": "./img/direccion_arcoaoconcorrediza_derecha.png",
+                            "valor": "derecha"
+                          }
+                      ]
                     }
                 },
                 {
@@ -438,7 +510,19 @@
                       "titulo2": "Alto de la ventana corrediza",
                       "minimo2": "11.5",
                       "formulaMaximo2": "Al - 23.5",
-                      "preciosVidrio": ["Fija", "Arco", "Corrediza"]
+                      "preciosVidrio": ["Fija", "Arco", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_corredizaconfijoyarcoa-o-xo_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_corredizaconfijoyarcoa-o-xo_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 },
                 {
@@ -456,7 +540,19 @@
                       "titulo2": "Alto de la ventana corrediza",
                       "minimo2": "11.5",
                       "formulaMaximo2": "Al - 23",
-                      "preciosVidrio": ["Fija", "Arco", "Corrediza"]
+                      "preciosVidrio": ["Fija", "Arco", "Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_arcoyfijoconcorrediza_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_arcoyfijoconcorrediza_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 }
             ]
@@ -531,7 +627,19 @@
                       "titulo": "Ancho de la guillotina",
                       "minimo": "11.5",
                       "formulaMaximo": "An - 11.5",
-                      "preciosVidrio": ["Fija", "Guillotina"]
+                      "preciosVidrio": ["Fija", "Guillotina"],
+                      "direcciones": [
+                          {
+                            "nombre": "Guillotina a la derecha O-OX",
+                            "img": "./img/direccion_guillotina_o-ox_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Guillotina a la izquierda OX-O",
+                            "img": "./img/direccion_guillotina_o-ox_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 },
                 {

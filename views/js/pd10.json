@@ -33,7 +33,19 @@
                         { "nombre": "Mínimo", "ancho": "47.5", "alto": "23.5" }
                     ],
                     "extra": {
-                      "preciosVidrio": ["Puerta Corrediza"]
+                      "preciosVidrio": ["Puerta Corrediza"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_puertacorrediza_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_puertacorrediza_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 },
                 {
@@ -45,7 +57,19 @@
                         { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
-                      "preciosVidrio": ["Puerta Corrediza O XO"]
+                      "preciosVidrio": ["Puerta Corrediza O XO"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_puertacorrediza_oxo_derecha.png",
+                            "valor": "derecha"
+                          },
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_puertacorrediza_oxo_izquierda.png",
+                            "valor": "izquierda"
+                          }
+                      ]
                     }
                 },
                 {
@@ -57,7 +81,19 @@
                         { "nombre": "Mínimo", "ancho": "71.5", "alto": "23.5" }
                     ],
                     "extra": {
-                      "preciosVidrio": ["Puerta Corrediza OOX"]
+                      "preciosVidrio": ["Puerta Corrediza OOX"],
+                      "direcciones": [
+                          {
+                            "nombre": "Corrediza a la izquierda",
+                            "img": "./img/direccion_puertacorrediza_oox_izquierda.png",
+                            "valor": "izquierda"
+                          },
+                          {
+                            "nombre": "Corrediza a la derecha",
+                            "img": "./img/direccion_puertacorrediza_oox_derecha.png",
+                            "valor": "derecha"
+                          }
+                      ]
                     }
                 },
                 {

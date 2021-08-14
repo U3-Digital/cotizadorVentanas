@@ -692,11 +692,10 @@ async function mostrarOrientacionOContinuar(serie, ceja, ventana) {
     Swal.fire({
       title: 'Seleccione la orientación de la ventana (Viéndola desde dentro de la casa)',
       icon: 'info',
-      width: 700,
+      width: 800,
       html: htmlOrientacion,
       showCancelButton: false,
       showConfirmButton: false,
-      allowOutsideClick: false
     });
   } else {
     cargarColores(serie, ceja, ventana);
@@ -729,17 +728,65 @@ function tieneOrientacion(serie, ventana) {
       break;
 
     case 'Plus': {
-
+      let encontrado = false;
+      for (let i = 0; i < seriePlus.tipo.length; i++) {
+        const tipo  = seriePlus.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo  = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.direcciones) {
+              orientacion = subtipo.extra.direcciones;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
     }
       break;
     
     case 'Premium': {
-
+      let encontrado = false;
+      for (let i = 0; i < seriePremium.tipo.length; i++) {
+        const tipo = seriePremium.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.direcciones) {
+              orientacion = subtipo.extra.direcciones;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
     }
       break;
 
-    case 'PDO10': {
-
+    case 'PD10': {
+      let encontrado = false;
+      for (let i = 0; i < seriePD10.tipo.length; i++) {
+        const tipo = seriePD10.tipo[i];
+        for (let j = 0; j < tipo.subtipo.length; j++) {
+          const subtipo = tipo.subtipo[j];
+          if (subtipo.nombre === ventana) {
+            if (subtipo.extra.direcciones) {
+              orientacion = subtipo.extra.direcciones;
+            }
+            encontrado = true;
+            break;
+          }
+        }
+        if (encontrado) {
+          break;
+        }
+      }
     }
       break;
     default:

@@ -265,12 +265,12 @@
                       {
                         "nombre": "Izquierda a derecha (XO)",
                         "img": "./img/direccion_corrediza_izquierda.png",
-                        "valor": "XO"
+                        "valor": "izquierda"
                       },
                       {
                         "nombre": "Derecha a izquierda (OX)",
                         "img": "./img/direccion_corrediza_derecha.png",
-                        "valor": "OX"
+                        "valor": "derecha"
                       }
                     ]
                   }
@@ -302,14 +302,14 @@
                     "preciosVidrio": ["Fija", "Corrediza"],
                     "direcciones": [
                       {
-                        "nombre": "Izquierdo",
+                        "nombre": "Izquierda",
                         "img": "./img/direccion_corredizaox-o_izquierda.png",
-                        "valor": "izquierdo"
+                        "valor": "izquierda"
                       },
                       {
-                        "nombre": "Derecho",
+                        "nombre": "Derecha",
                         "img": "./img/direccion_corredizaox-o_derecha.png",
-                        "valor": "derecho"
+                        "valor": "derecha"
                       }
                     ]
                   }
@@ -330,14 +330,14 @@
                     "preciosVidrio": ["Fija", "Corrediza"],
                     "direcciones": [
                       {
-                        "nombre": "Izquierdo",
+                        "nombre": "Izquierda",
                         "img": "./img/direccion_corredizao-ox_izquierda.png",
-                        "valor": "izquierdo"
+                        "valor": "izquierda"
                       },
                       {
-                        "nombre": "Derecho",
+                        "nombre": "Derecha",
                         "img": "./img/direccion_corredizao-xo_derecha.png",
-                        "valor": "derecho"
+                        "valor": "derecha"
                       }
                     ]
                   }
@@ -359,12 +359,12 @@
                       {
                         "nombre": "Corrediza O-XOX",
                         "img": "./img/direccion_corrediza_o-xox.png",
-                        "valor": "o-xox"
+                        "valor": "abajo"
                       },
                       {
                         "nombre": "Corrediza XOX-O",
                         "img": "./img/direccion_corrediza_xox-o.png",
-                        "valor": "xox-o"
+                        "valor": "arriba"
                       }
                     ]
                   }

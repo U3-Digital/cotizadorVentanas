@@ -525,7 +525,19 @@
             }
           ],
           "extra": {
-            "preciosVidrio": ["Abatible"]
+            "preciosVidrio": ["Abatible"],
+            "direcciones": [
+              {
+                "nombre": "Derecha",
+                "img": "./img/direccion_abatible_derecha.png",
+                "valor": "derecha"
+              },
+              {
+                "nombre": "Izquierda",
+                "img": "./img/direccion_abatible_izquierda.png",
+                "valor": "izquierda"
+              }
+            ]
           }
         },
         {
@@ -548,7 +560,29 @@
             "titulo": "Ancho de la ventana abatible",
             "minimo": "15.5",
             "formulaMaximo": "An - 12",
-            "preciosVidrio": ["Abatible Fijo", "Abatible"]
+            "preciosVidrio": ["Abatible Fijo", "Abatible"],
+            "direcciones": [
+              {
+                "nombre": "Derecha",
+                "img": "./img/direccion_abatiblefijo_derecha1.png",
+                "valor": "derecha1"
+              },
+              {
+                "nombre": "Izquierda",
+                "img": "./img/direccion_abatiblefijo_izquierda1.png",
+                "valor": "izquierda1"
+              },
+              {
+                "nombre": "Derecha",
+                "img": "./img/direccion_abatiblefijo_derecha2.png",
+                "valor": "derecha2"
+              },
+              {
+                "nombre": "Izquierda",
+                "img": "./img/direccion_abatiblefijo_izquierda2.png",
+                "valor": "izquierda2"
+              }
+            ]
           }
         },
         {
@@ -571,7 +605,19 @@
             "titulo": "Ancho de las ventanas abatibles",
             "minimo": "15.5",
             "formulaMaximo": "(An - 12) / 2",
-            "preciosVidrio": ["Abatible", "Abatible Fijo"]
+            "preciosVidrio": ["Abatible", "Abatible Fijo"],
+            "direcciones": [
+              {
+                "nombre": "Izquierda derecha",
+                "img": "./img/direccion_abatiblexox_izquierda.png",
+                "valor": "izquierda"
+              },
+              {
+                "nombre": "Derecha izquierda",
+                "img": "./img/direccion_abatiblexox_derecha.png",
+                "valor": "derecha"
+              }
+            ]
           }
         },
         {
@@ -594,7 +640,19 @@
             "titulo": "Ancho de la ventana abatible",
             "minimo": "15.5",
             "formulaMaximo": "An - 24",
-            "preciosVidrio": ["Abatible", "Abatible Fijo"]
+            "preciosVidrio": ["Abatible", "Abatible Fijo"],
+            "direcciones": [
+              {
+                "nombre": "Derecha",
+                "img": "./img/direccion_abatibleoxo_derecha.png",
+                "valor": "derecha"
+              },
+              {
+                "nombre": "Izquierda",
+                "img": "./img/direccion_abatibleoxo_izquierda.png",
+                "valor": "izquierda"
+              }
+            ]
           }
         },
         {
@@ -617,7 +675,29 @@
             "titulo": "Alto de la ventana abatible",
             "minimo": "20",
             "formulaMaximo": "Al - 12",
-            "preciosVidrio": ["Abatible", "Abatible Fijo"]
+            "preciosVidrio": ["Abatible", "Abatible Fijo"],
+            "direcciones": [
+              {
+                "nombre": "Izquierda abajo",
+                "img": "./img/direccion_abatibleodx_izquierda_abajo.png",
+                "valor": "izquierda-abajo"
+              },
+              {
+                "nombre": "Derecha abajo",
+                "img": "./img/direccion_abatibleodx_derecha_abajo.png",
+                "valor": "derecho-abajo"
+              },
+              {
+                "nombre": "Izquierda arriba",
+                "img": "./img/direccion_abatibleodx_izquierda_arriba.png",
+                "valor": "izquierda-arriba"
+              },
+              {
+                "nombre": "Derecha arriba",
+                "img": "./img/direccion_abatibleodx_derecha_arriba.png",
+                "valor": "derecha-arriba"
+              }
+            ]
           }
         },
         {
@@ -640,7 +720,19 @@
             "titulo": "Ancho de la ventana abatible",
             "minimo": "15.5",
             "formulaMaximo": "An - 15.5",
-            "preciosVidrio": ["Abatible"]
+            "preciosVidrio": ["Abatible"],
+            "direcciones": [
+              {
+                "nombre": "Doble abatible (XLXR)",
+                "img": "./img/direccion_abatiblexx_xlxr.png",
+                "valor": "dobleabatiblexlxr"
+              },
+              {
+                "nombre": "Doble abatible (XRXL)",
+                "img": "./img/direccion_abatiblexx_xrxl.png",
+                "valor": "dobleabatiblexrxl"
+              }
+            ]
           }
         },
         {
@@ -663,7 +755,29 @@
             "titulo": "Ancho de la ventana abatible",
             "minimo": "15.5",
             "formulaMaximo": "An - 12",
-            "preciosVidrio": ["Abatible", "Abatible Fijo"]
+            "preciosVidrio": ["Abatible", "Abatible Fijo"],
+            "direcciones": [
+              {
+                "nombre": "Abatible derecho (OOXL)",
+                "img": "./img/direccion_abatible_derechoooxl.png",
+                "valor": "abatiblederechoooxl"
+              },
+              {
+                "nombre": "Abatible derecho (OOXR)",
+                "img": "./img/direccion_abatible_derechoooxr.png",
+                "valor": "abatiblederechoooxr"
+              },
+              {
+                "nombre": "Abatible izquierdo (XLOO)",
+                "img": "./img/direccion_abatible_izquierdoxloo.png",
+                "valor": "abatibleizquierdoxloo"
+              },
+              {
+                "nombre": "Abatible izquierdo (XROO)",
+                "img": "./img/direccion_abatible_izquierdoxroo.png",
+                "valor": "abatibleizquierdoxroo"
+              }
+            ]
           }
         }
       ]
@@ -712,7 +826,24 @@
             "titulo": "Ancho de la ventana abatible",
             "minimo": "22",
             "formulaMaximo": "An - 12",
-            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"],
+            "direcciones": [
+              {
+                "nombre": "Izquierda",
+                "img": "./img/direccion_abatienteabatiblefijo_izquierda.png",
+                "valor": "izquierda"
+              },
+              {
+                "nombre": "Derecha",
+                "img": "./img/direccion_abatienteabatiblefijo_derecha.png",
+                "valor": "derecha"
+              },
+              {
+                "nombre": "Doble",
+                "img": "./img/direccion_abatienteabatiblefijo_doble.png",
+                "valor": "doble"
+              }
+            ]
           }
         },
         {
@@ -735,7 +866,19 @@
             "titulo": "Alto de la ventana avatible",
             "minimo": "18",
             "formulaMaximo": "Al - 10",
-            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"],
+            "direcciones": [
+              {
+                "nombre": "Proyectante abajo (O/X)",
+                "img": "./img/direccion_proyectante_abajo.png",
+                "valor": "abajo"
+              },
+              {
+                "nombre": "Proyectante arriba (X/O)",
+                "img": "./img/direccion_proyectante_arriba.png",
+                "valor": "arriba"
+              }
+            ]
           }
         },
         {
@@ -844,7 +987,24 @@
             "titulo": "Alto de la ventana abatible",
             "minimo": "18",
             "formulaMaximo": "Al - 20",
-            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"],
+            "direcciones": [
+              {
+                "nombre": "Proyectante (X/O/O)",
+                "img": "./img/direccion_proyectante_xoo.png",
+                "valor": "xoo"
+              },
+              {
+                "nombre": "Proyectante (O/X/O)",
+                "img": "./img/direccion_proyectante_oxo.png",
+                "valor": "oxo"
+              },
+              {
+                "nombre": "Proyectante (O/O/X)",
+                "img": "./img/direccion_proyectante_oox.png",
+                "valor": "oox"
+              }
+            ]
           }
         },
         {
@@ -867,7 +1027,24 @@
             "titulo": "Alto de las ventanas abatibles",
             "minimo": "18",
             "formulaMaximo": "Al - 18",
-            "preciosVidrio": ["Abatible Fijo", "Abatiente"]
+            "preciosVidrio": ["Abatible Fijo", "Abatiente"],
+            "direcciones": [
+              {
+                "nombre": "Proyectante (O/X/X)",
+                "img": "./img/direccion_proyectante_oxx.png",
+                "valor": "oxx"
+              },
+              {
+                "nombre": "Proyectante (X/O/X)",
+                "img": "./img/direccion_proyectante_xox.png",
+                "valor": "xox"
+              },
+              {
+                "nombre": "Proyectante (X/X/O)",
+                "img": "./img/direccion_proyectante_xxo.png",
+                "valor": "xxo"
+              }
+            ]
           }
         }
       ]

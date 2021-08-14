@@ -37,7 +37,7 @@ if(isset($_SESSION["nombre"])){
   <div class="container h-100">
     <div class="row h-100 justify-content-center">
       <div class="col-md-6 col-lg-6 col-xl-6 col-10 my-auto d-flex flex-column">
-        <img src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big.png" class="m-4">
+        <img src="https://skyviewfenster.com.mx/wp-content/uploads/2021/04/cropped-sky-view-big.png" placeholder="Logo de SkyView" class="m-4">
         <div class="card p-3">
           <div class="card-header text-center border-0">
             <h4><b>Ingreso al sistema</b></h4>
