@@ -674,7 +674,7 @@ async function mostrarOrientacionOContinuar(serie, ceja, ventana) {
 
     orientacion.forEach((o) => {
       htmlOrientacion += `
-        <div class="col-3 text-center selectable" onclick="rutaVentana.direccion = '${o.valor}'; document.getElementById('aceptar-direccion').disabled = false; ">
+        <div class="col-3 text-center selectable" onclick='rutaVentana.direccion = ${JSON.stringify(o)}; document.getElementById("aceptar-direccion").disabled = false;'>
           <img src="${o.img}" alt="placeholder">
           <div class="my-2">
             <label class="form-check-label">${o.nombre}</label>
