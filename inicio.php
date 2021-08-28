@@ -567,8 +567,8 @@ require_once "./models/modelEnlaces.php";
           cuerpoTabla.innerHTML +=
             `<tr>
             <td>${cotizacion.dimensionAlto ? (`${cotizacion.dimensionAlto}" x ${cotizacion.dimensionAncho}"`) :('')} </td>
-            <td>${cotizacion.tipoVidrio ? (`${cotizacion.tipoVidrio} ${cotizacion.subTipoVidrio}`) : ('') }</td>
-            <td>${cotizacion.tipoVentana ? (`${cotizacion.tipoVentana} ${cotizacion.subTipoVentana}`) : ('')} ${cotizacion.ceja ? ('-' + cotizacion.ceja) : ''}</td>
+            <td>${cotizacion.tipoVidrio ? (`${cotizacion.tipoVidrio} ${cotizacion.subtipoVidrio}`) : ('') }</td>
+            <td>${cotizacion.tipoVentana ? (`${cotizacion.tipoVentana} - ${cotizacion.subtipoVentana}`) : ('')} ${cotizacion.ceja ? ('-' + cotizacion.ceja) : ''}</td>
             <td>${cotizacion.colorPrincipal ? (`${cotizacion.colorPrincipal}`) : ('')} ${cotizacion.colorSubcolor ? cotizacion.colorSubcolor : ''}</td>
             <td>
               <input class="form-control" id="cantidad-${i}" type="number" value="${cotizacion.numeroVentanas ? (`${cotizacion.numeroVentanas}`) : ('1')}"  onchange="cambiarCantidadDeIndex(event)" onkeyup="cambiarCantidadDeIndex(event)">
