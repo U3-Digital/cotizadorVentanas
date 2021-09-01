@@ -33,6 +33,7 @@ include "./views/components/stepper.php";
             <th scope="col">Precio</th>
             <th scope="col">Descuento (%)</th>
             <th scope="col">Total</th>
+            <th scope="col" class="text-center">Borrar</th>
           </thead>
           <tbody id="cuerpo-tabla">
           </tbody>

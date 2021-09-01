@@ -578,6 +578,9 @@ require_once "./models/modelEnlaces.php";
               <input class="form-control" id="descuento-${i}" type="number" value="0" onchange="cambiarDescuentoDeIndex(event)" onkeyup="cambiarDescuentoDeIndex(event)" step="0.01">
             </td>
             <td id="total-${i}">${formatter.format(cotizacion.total)}</td>
+            <td class="text-center">
+              ${ cotizacion.tipoVentana ? `<button index="${i}" onclick="borrarCotizacion(event)" class="btn btn-danger fas fa-trash"></button>` : '' }
+            </td>
         </tr>
         `;
           totalFinal += cotizacion.total;
@@ -672,6 +675,18 @@ require_once "./models/modelEnlaces.php";
 
         document.getElementById(`total-${index}`).innerHTML = formatter.format(cotizaciones[index].totalDescuento);
         recalcularTotal();
+      }
+
+      function borrarCotizacion(event) {
+        const index = event.target.getAttribute('index');
+        const cotizacion = cotizaciones[index];
+        if (cotizacion.colorSubcolor) {
+          cotizaciones.splice(index, 2);
+        } else {
+          cotizaciones.splice(index, 1);
+        }
+        // console.log(cotizaciones[index]);
+        cargarTabla();
       }
 
     </script>

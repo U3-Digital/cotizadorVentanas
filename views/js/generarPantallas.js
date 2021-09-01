@@ -829,10 +829,9 @@ function cargarColores(serie, ceja, ventana){
       <label class="form-check-label" for="pintarInterior">Pintar interior</label>
     </div>`; 
     ventana.colores[0].color.forEach((subcolor) => {
-        temporal += `<div class="col-md-2 col-lg-2 col-3 text-center subcolor">
+        temporal += `<div class="col-md-2 col-lg-2 col-3 text-center subcolor subcolor" onclick='agregarColorTotal(${JSON.stringify(subcolor)}),agregarARuta("${subcolor.nombre}", "subcolor")'>
             <img src="./img/${subcolor.nombre}.png" alt="placeholder"  style="width: 100%;">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="subcolor" value="${subcolor.nombre}" onChange='agregarColorTotal(${JSON.stringify(subcolor)}),agregarARuta("${subcolor.nombre}", "subcolor")'>
+            <div class="my-2">
                 <label class="form-check-label" for="cosa${i}">${subcolor.nombre}</label>
             </div>
         </div>`;
@@ -958,7 +957,7 @@ function determinarPrecioVidrio(serie, tipoVidrio, ventana) {
       // console.log(multiplicador);
       // console.log(info.precio);
       total = parseFloat(info.precio) * multiplicador * incremento *parseFloat(info.precio_dolar) * 1.03 * 1.1; 
-      //console.log(total);
+      console.log(total);
       
     },
     error: (error) => {
