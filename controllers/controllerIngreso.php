@@ -18,7 +18,7 @@ class ControllerIngreso {
                 $_SESSION["nombre"] = $respuesta["nombre"];
                 $_SESSION["rol"] = $respuesta["rol"];
 
-                header("location:inicio.php?action=");
+                //header("location:inicio.php?action=");
             }
         }
     }

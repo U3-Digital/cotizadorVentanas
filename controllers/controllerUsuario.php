@@ -143,7 +143,8 @@
         public static function ctrBuscarUsuario($id){
             
             $respuesta = ModelUsuario::mdlBuscarUsuario($id);
-            $rol = $respuesta["rol"] == 0 ? ("selected") : (""); 
+            $rolAdmin = $respuesta["rol"] == 0 ? ("selected") : (""); 
+            $rolUsuario = $respuesta["rol"] == 1 ? ("selected") : (""); 
             $estado = $respuesta["activo"] == "S" ? ("selected") : ("");
 
             echo'
@@ -185,9 +186,9 @@
                     <div class="form-group">
                         <label for="selectRol">Rol:</label>
                         <select required class="form-control" id="selectRol" name="selectRol" >
-                            <option value="" selected>Rol</option>
-                            <option value="0" '.$rol.'>Administrador</option>
-                            <option value="1">Usuario</option>
+                            <option value="">Rol</option>
+                            <option value="0" '.$rolAdmin.'>Administrador</option>
+                            <option value="1" '.$rolUsuario.'>Usuario</option>
                         </select>
                     </div>
                 </div>
